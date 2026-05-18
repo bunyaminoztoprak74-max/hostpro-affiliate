@@ -88,7 +88,7 @@ export default async function PostPage({ params }: Props) {
               <div className="text-2xl font-extrabold mb-1">$2.99<span className="text-sm font-normal text-indigo-300">/mo</span></div>
               <p className="text-xs text-indigo-300 mb-4">75% off — limited time</p>
               <a
-                href="https://www.hostinger.com/web-hosting?REFERRALCODE=YOURCODE"
+                href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
                 className="block w-full text-center bg-white text-indigo-700 font-bold py-3 rounded-xl hover:bg-yellow-50 transition-colors"
