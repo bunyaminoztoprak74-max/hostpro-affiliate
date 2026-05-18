@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts()
-  const baseUrl = 'https://hostpro-reviews.com'
+  const baseUrl = 'https://hostproreviews.com'
 
   const postUrls = posts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,

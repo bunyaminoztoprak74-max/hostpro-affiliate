@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://hostpro-reviews.com',
+    url: 'https://hostproreviews.com',
     siteName: 'HostPro Reviews',
   },
   twitter: {
