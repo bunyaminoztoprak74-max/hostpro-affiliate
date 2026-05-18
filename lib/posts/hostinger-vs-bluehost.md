@@ -79,7 +79,7 @@ We contacted both support teams 10 times each with a mix of simple and technical
 - Users who prefer a more guided WordPress setup
 - Those who plan to use WordPress exclusively
 
-[Get Bluehost — Free domain included](https://www.bluehost.com/track/OFMBZTOPRZSU)
+[Get Bluehost — Free domain included](https://www.bluehost.com)
 
 ## Final Verdict
 

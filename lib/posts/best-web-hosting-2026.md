@@ -56,7 +56,7 @@ Bluehost is officially recommended by WordPress.org, and for good reason. It's b
 - Price jumps significantly at renewal
 - Support can be slow during peak hours
 
-[Get Bluehost — Free domain included](https://www.bluehost.com/track/OFMBZTOPRZSU)
+[Get Bluehost — Free domain included](https://www.bluehost.com)
 
 ---
 
@@ -76,7 +76,7 @@ SiteGround consistently wins on support. Every test we ran, they responded withi
 - Storage is limited on basic plans
 - More expensive than Hostinger
 
-[Get SiteGround — Start today](https://www.siteground.com/go/OFMBZTOPRZSU)
+[Get SiteGround — Start today](https://www.siteground.com)
 
 ---
 
@@ -96,7 +96,7 @@ WP Engine is premium, but you get what you pay for. If you're running a serious 
 - Expensive compared to shared hosting
 - No email hosting included
 
-[Get WP Engine — 3 months free](https://wpengine.com/?OFMBZTOPRZSU)
+[Get WP Engine — 3 months free](https://wpengine.com)
 
 ---
 

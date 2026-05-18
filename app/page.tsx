@@ -37,7 +37,7 @@ const hostingPlans = [
       'Unmetered bandwidth',
       'Money-back guarantee',
     ],
-    affiliateUrl: 'https://www.bluehost.com/track/OFMBZTOPRZSU',
+    affiliateUrl: 'https://www.bluehost.com',
   },
   {
     name: 'WP Engine',
@@ -55,7 +55,7 @@ const hostingPlans = [
       'Staging environment',
       'Expert 24/7 support',
     ],
-    affiliateUrl: 'https://wpengine.com/?OFMBZTOPRZSU',
+    affiliateUrl: 'https://wpengine.com',
   },
   {
     name: 'SiteGround',
@@ -73,7 +73,7 @@ const hostingPlans = [
       'WordPress auto-updates',
       'Top-rated support',
     ],
-    affiliateUrl: 'https://www.siteground.com/go/OFMBZTOPRZSU',
+    affiliateUrl: 'https://www.siteground.com',
   },
 ]
 
