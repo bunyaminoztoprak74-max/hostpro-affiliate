@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-all duration-200 shadow-lg hover:shadow-indigo-200 hover:-translate-y-0.5;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-white text-indigo-600 font-semibold rounded-xl border-2 border-indigo-200 hover:border-indigo-400 transition-all duration-200 hover:-translate-y-0.5;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-200;
+  }
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+  .prose-custom h2 {
+    @apply text-2xl font-bold text-gray-900 mt-10 mb-4;
+  }
+  .prose-custom h3 {
+    @apply text-xl font-semibold text-gray-800 mt-8 mb-3;
+  }
+  .prose-custom p {
+    @apply text-gray-600 leading-relaxed mb-5;
+  }
+  .prose-custom ul {
+    @apply list-disc list-inside space-y-2 mb-5 text-gray-600;
+  }
+  .prose-custom a {
+    @apply text-indigo-600 hover:text-indigo-800 font-medium underline decoration-indigo-200 underline-offset-2;
+  }
+  .prose-custom strong {
+    @apply text-gray-900 font-semibold;
+  }
+  .prose-custom table {
+    @apply w-full border-collapse mb-6;
+  }
+  .prose-custom th {
+    @apply bg-indigo-50 text-indigo-700 font-semibold px-4 py-3 text-left border border-indigo-100;
+  }
+  .prose-custom td {
+    @apply px-4 py-3 border border-gray-100 text-gray-700;
+  }
+  .prose-custom tr:nth-child(even) td {
+    @apply bg-gray-50;
+  }
+}
