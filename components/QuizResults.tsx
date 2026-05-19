@@ -1,4 +1,5 @@
 import type { QuizResult } from '@/lib/quiz-engine'
+import EmailCapture from '@/components/EmailCapture'
 
 interface Props {
   results: QuizResult[]
@@ -161,6 +162,9 @@ export default function QuizResults({ results, onRetake }: Props) {
           Change your answers to see different recommendations.
         </p>
       </div>
+
+      {/* Newsletter */}
+      <EmailCapture variant="inline" />
     </div>
   )
 }

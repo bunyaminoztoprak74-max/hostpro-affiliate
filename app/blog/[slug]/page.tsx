@@ -15,6 +15,15 @@ import TableOfContents from '@/components/TableOfContents'
 import FAQSection from '@/components/FAQSection'
 import RelatedPosts from '@/components/RelatedPosts'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
+import EmailCapture from '@/components/EmailCapture'
+import BenchmarkTable from '@/components/BenchmarkTable'
+
+const BENCHMARK_MAP: Record<string, string | 'all'> = {
+  'hostinger-review-2026': 'hostinger',
+  'cloudways-review-2026': 'cloudways',
+  'wp-engine-review-2026': 'wpengine',
+  'best-web-hosting-2026': 'all',
+}
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -165,8 +174,19 @@ export default async function PostPage({ params }: Props) {
               dangerouslySetInnerHTML={{ __html: post.contentHtml }}
             />
 
+            {/* Benchmark table for review/roundup posts */}
+            {BENCHMARK_MAP[post.slug] && (
+              <BenchmarkTable
+                hostSlug={BENCHMARK_MAP[post.slug] !== 'all' ? (BENCHMARK_MAP[post.slug] as string) : undefined}
+                showAll={BENCHMARK_MAP[post.slug] === 'all'}
+              />
+            )}
+
             {/* FAQ */}
             <FAQSection faqs={faqs} />
+
+            {/* Email capture */}
+            <EmailCapture variant="inline" />
 
             {/* Related Posts */}
             <RelatedPosts posts={relatedPosts} />
@@ -199,6 +219,9 @@ export default async function PostPage({ params }: Props) {
 
               {/* Table of Contents */}
               {post.toc.length > 0 && <TableOfContents items={post.toc} />}
+
+              {/* Email capture */}
+              <EmailCapture variant="compact" />
 
               {/* Quick Links */}
               <div className="card p-5">

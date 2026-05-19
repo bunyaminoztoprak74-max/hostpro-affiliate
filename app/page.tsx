@@ -1,6 +1,7 @@
 import HostingCard from '@/components/HostingCard'
 import BlogCard from '@/components/BlogCard'
 import Link from 'next/link'
+import EmailCapture from '@/components/EmailCapture'
 
 const hostingPlans = [
   {
@@ -235,6 +236,13 @@ export default function HomePage() {
           <div className="text-center mt-8 sm:hidden">
             <Link href="/blog" className="btn-secondary">View all articles →</Link>
           </div>
+        </div>
+      </section>
+
+      {/* Newsletter capture */}
+      <section className="py-16 bg-white border-t border-gray-100">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6">
+          <EmailCapture />
         </div>
       </section>
 

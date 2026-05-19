@@ -30,6 +30,7 @@ export interface PostMeta {
   lastModified?: string
   faq?: FAQItem[]
   relatedSlugs?: string[]
+  author?: string
 }
 
 export interface Post extends PostMeta {
