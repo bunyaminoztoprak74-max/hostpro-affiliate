@@ -36,7 +36,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Top Picks</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://www.hostinger.com" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">
+                <a href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">
                   Hostinger →
                 </a>
               </li>
@@ -51,8 +51,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.siteground.com" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">
-                  SiteGround →
+                <a href="https://www.cloudways.com/en/?id=2170350" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">
+                  Cloudways →
                 </a>
               </li>
             </ul>
