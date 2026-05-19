@@ -73,7 +73,7 @@ const hostingPlans = [
       '24/7 expert support',
       'Scale resources instantly',
     ],
-    affiliateUrl: 'https://www.cloudways.com/en/?id=YOUR_ID',
+    affiliateUrl: 'https://www.cloudways.com/en/?id=2170350',
   },
 ]
 
@@ -261,7 +261,4 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </div>
-  )
-}
-
+    </div>

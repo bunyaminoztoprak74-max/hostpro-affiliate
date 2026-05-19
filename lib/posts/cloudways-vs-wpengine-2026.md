@@ -122,4 +122,4 @@ Both platforms are excellent. The choice comes down to your specific situation:
 For a personal blog or small business site: **Cloudways**.
 For a WooCommerce store doing real revenue: **WP Engine**.
 
-[Try Cloudways Free for 3 Days](https://www.cloudways.com/en/?id=YOUR_ID) | [Get WP Engine](https://wpengine.com)
+[Try Cloudways Free for 3 Days](https://www.cloudways.com/en/?id=2170350) | [Get WP Engine](https://wpengine.com)

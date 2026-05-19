@@ -112,4 +112,4 @@ For anyone who has outgrown shared hosting or is building a site they expect to 
 
 The $11/month DigitalOcean entry plan is the best starting point for most users. You can try it free for 3 days before paying anything.
 
-[Try Cloudways Free for 3 Days](https://www.cloudways.com/en/?id=YOUR_ID)
+[Try Cloudways Free for 3 Days](https://www.cloudways.com/en/?id=2170350)
