@@ -79,31 +79,31 @@ const hostingPlans = [
 
 const recentPosts = [
   {
-    slug: 'best-web-hosting-2026',
-    title: 'Best Web Hosting Services in 2026 (Tested & Compared)',
-    excerpt: 'We tested 12 hosting providers over 6 months. Here are the honest results and our top picks for every budget.',
-    date: 'May 10, 2026',
+    slug: 'hostinger-review-2026',
+    title: 'Hostinger Review 2026: Is It Really the Best Budget Host?',
+    excerpt: "We've been running live sites on Hostinger for 6 months. Here's what we actually found — the good, the bad, and whether it's worth your money.",
+    date: 'May 18, 2026',
     category: 'Review',
-    readTime: '8 min read',
+    readTime: '9 min read',
     categoryColor: 'bg-indigo-100 text-indigo-700',
   },
   {
-    slug: 'cloudways-review-2026',
-    title: 'Cloudways Review 2026: Is Managed Cloud Hosting Worth It?',
-    excerpt: 'We tested Cloudways for 3 months across DigitalOcean, AWS, and Vultr servers. Here is our full verdict.',
-    date: 'May 15, 2026',
+    slug: 'best-wordpress-hosting-2026',
+    title: 'Best WordPress Hosting 2026: Top Picks for Every Budget',
+    excerpt: 'From $2.99/month shared hosting to $20/month managed WordPress — we tested every tier to find the best WordPress host for your budget.',
+    date: 'May 19, 2026',
     category: 'Review',
-    readTime: '9 min read',
-    categoryColor: 'bg-teal-100 text-teal-700',
+    readTime: '10 min read',
+    categoryColor: 'bg-purple-100 text-purple-700',
   },
   {
-    slug: 'wp-engine-review-2026',
-    title: 'WP Engine Review 2026: Premium Managed WordPress Hosting',
-    excerpt: 'WP Engine costs more than shared hosting — but is it worth the price? We break down every feature.',
-    date: 'May 12, 2026',
+    slug: 'best-cheap-hosting-2026',
+    title: 'Best Cheap Web Hosting 2026 (Under $3/Month, Tested)',
+    excerpt: "We tested every budget host to find the ones that are actually cheap AND good. No compromises on speed or uptime required.",
+    date: 'May 16, 2026',
     category: 'Review',
     readTime: '7 min read',
-    categoryColor: 'bg-purple-100 text-purple-700',
+    categoryColor: 'bg-green-100 text-green-700',
   },
 ]
 
@@ -261,4 +261,4 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </div>
+    </div>

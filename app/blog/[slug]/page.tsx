@@ -137,47 +137,4 @@ export default async function PostPage({ params }: Props) {
                   href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  className="block w-full text-center bg-white text-indigo-700 font-bold py-3 rounded-xl hover:bg-yellow-50 transition-colors"
-                >
-                  Get This Deal →
-                </a>
-              </div>
-
-              {/* Quick Links */}
-              <div className="card p-5">
-                <h4 className="font-semibold text-gray-900 mb-4">More Reviews</h4>
-                <ul className="space-y-3">
-                  <li>
-                    <Link href="/blog/best-web-hosting-2026" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium flex items-center gap-1">
-                      → Best Hosting 2026
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/cloudways-review-2026" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium flex items-center gap-1">
-                      → Cloudways Review
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/wp-engine-review-2026" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium flex items-center gap-1">
-                      → WP Engine Review
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/cloudways-vs-wpengine-2026" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium flex items-center gap-1">
-                      → Cloudways vs WP Engine
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/hostinger-vs-bluehost" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium flex items-center gap-1">
-                      → Hostinger vs Bluehost
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </>
-  )
-}
+                  className="block w-full text-center bg-white te
