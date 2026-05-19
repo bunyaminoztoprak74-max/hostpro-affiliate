@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { getAllPosts, getAllCategories } from '@/lib/posts'
+import { getAllComparisonSlugs } from '@/lib/comparisons'
 
 const BASE_URL = 'https://hostproreviews.com'
 
@@ -28,5 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...postRoutes, ...categoryRoutes]
+  const comparisonRoutes: MetadataRoute.Sitemap = getAllComparisonSlugs().map((slug) => ({
+    url: `${BASE_URL}/compare/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }))
+
+  return [...staticRoutes, ...postRoutes, ...categoryRoutes, ...comparisonRoutes]
 }
