@@ -17,12 +17,13 @@ import RelatedPosts from '@/components/RelatedPosts'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 
 interface Props {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
-    const post = await getPostBySlug(params.slug)
+    const { slug } = await params
+    const post = await getPostBySlug(slug)
     return {
       title: post.title,
       description: post.excerpt,
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         type: 'article',
         publishedTime: post.date,
         modifiedTime: post.lastModified ?? post.date,
-        url: `${SITE_URL}/blog/${params.slug}`,
+        url: `${SITE_URL}/blog/${slug}`,
         siteName: SITE_NAME,
       },
       twitter: {
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: post.excerpt,
       },
       alternates: {
-        canonical: `${SITE_URL}/blog/${params.slug}`,
+        canonical: `${SITE_URL}/blog/${slug}`,
       },
     }
   } catch {
@@ -55,9 +56,10 @@ export async function generateStaticParams() {
 }
 
 export default async function PostPage({ params }: Props) {
+  const { slug } = await params
   let post
   try {
-    post = await getPostBySlug(params.slug)
+    post = await getPostBySlug(slug)
   } catch {
     notFound()
   }
@@ -76,7 +78,7 @@ export default async function PostPage({ params }: Props) {
     { name: post.title, url: `${SITE_URL}/blog/${post.slug}` },
   ])
 
-  const schemas = [mainSchema, breadcrumbSchema]
+  const schemas: object[] = [mainSchema, breadcrumbSchema]
   if (faqs.length > 0) schemas.push(generateFAQSchema(faqs))
 
   return (

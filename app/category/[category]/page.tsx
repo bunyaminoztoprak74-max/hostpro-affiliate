@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { SITE_URL } from '@/lib/seo'
 
 interface Props {
-  params: { category: string }
+  params: Promise<{ category: string }>
 }
 
 export async function generateStaticParams() {
@@ -15,16 +15,18 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const cap = params.category.charAt(0).toUpperCase() + params.category.slice(1)
+  const { category } = await params
+  const cap = category.charAt(0).toUpperCase() + category.slice(1)
   return {
     title: `${cap} — Web Hosting Articles | HostPro Reviews`,
-    description: `Browse all ${cap} articles. Independent, tested hosting ${params.category.toLowerCase()}s from HostPro Reviews.`,
-    alternates: { canonical: `${SITE_URL}/category/${params.category}` },
+    description: `Browse all ${cap} articles. Independent, tested hosting ${category.toLowerCase()}s from HostPro Reviews.`,
+    alternates: { canonical: `${SITE_URL}/category/${category}` },
   }
 }
 
-export default function CategoryPage({ params }: Props) {
-  const cap = params.category.charAt(0).toUpperCase() + params.category.slice(1)
+export default async function CategoryPage({ params }: Props) {
+  const { category } = await params
+  const cap = category.charAt(0).toUpperCase() + category.slice(1)
   const posts = getPostsByCategory(cap)
 
   if (posts.length === 0) notFound()
