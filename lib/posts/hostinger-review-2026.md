@@ -3,9 +3,20 @@ title: "Hostinger Review 2026: Is It Really the Best Budget Host?"
 excerpt: "We've been running live sites on Hostinger for 6 months. Real speed tests, uptime data, and an honest verdict on whether it's worth your money in 2026."
 tags: ["hostinger", "hostinger review 2026", "budget web hosting", "cheap shared hosting"]
 date: "2026-05-18"
+lastModified: "2026-05-20"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
+rating: 4.8
+faq:
+  - question: "Is Hostinger reliable in 2026?"
+    answer: "Yes. In our 6-month test, Hostinger achieved 99.97% uptime with only ~2.6 hours of total downtime, monitored every 5 minutes via UptimeRobot."
+  - question: "What is Hostinger's renewal price?"
+    answer: "Hostinger's promotional intro price starts at $2.99/month on the Single plan, but renewal prices are higher — typically around $6.99–$8.99/month depending on the plan. Always factor in the renewal cost when comparing."
+  - question: "Does Hostinger offer a money-back guarantee?"
+    answer: "Yes. Hostinger offers a 30-day money-back guarantee on all shared hosting plans. If you're not satisfied, you can request a full refund within 30 days of purchase."
+  - question: "Is Hostinger good for WordPress?"
+    answer: "Yes. Hostinger uses LiteSpeed web servers and NVMe SSD storage, which deliver fast WordPress performance. Their hPanel includes a one-click WordPress installer, free SSL, and automatic weekly backups."
 ---
 
 Hostinger is everywhere in 2026. With prices starting at $2.99/month and aggressive marketing, it's easy to be skeptical. Is it actually good, or just cheap? We've been running real sites on Hostinger for 6 months — here's what we found.
