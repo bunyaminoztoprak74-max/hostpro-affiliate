@@ -53,4 +53,28 @@
   .prose-custom tr:nth-child(even) td {
     @apply bg-gray-50;
   }
+  .prose-custom ol {
+    @apply list-decimal list-inside space-y-2 mb-5 text-gray-600;
+  }
+  .prose-custom blockquote {
+    @apply border-l-4 border-indigo-300 pl-5 py-1 my-6 text-gray-500 italic bg-indigo-50 rounded-r-xl;
+  }
+  .prose-custom code {
+    @apply bg-gray-100 text-indigo-700 rounded px-1.5 py-0.5 text-sm font-mono;
+  }
+  .prose-custom pre {
+    @apply bg-gray-900 text-gray-100 rounded-xl p-5 overflow-x-auto mb-6 text-sm;
+  }
+  .prose-custom pre code {
+    @apply bg-transparent text-gray-100 p-0;
+  }
+  .prose-custom hr {
+    @apply border-gray-200 my-10;
+  }
+  .prose-custom h1 {
+    @apply text-3xl font-extrabold text-gray-900 mt-10 mb-5;
+  }
+  .prose-custom img {
+    @apply rounded-xl w-full my-6;
+  }
 }
