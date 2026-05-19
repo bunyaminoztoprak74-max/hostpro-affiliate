@@ -373,10 +373,279 @@ export const comparisons: Comparison[] = [
   },
 ]
 
+// ── Additional hosts for programmatic comparisons ──────────────────────────
+
+const SITEGROUND: ComparisonHost = {
+  name: 'SiteGround',
+  slug: 'siteground',
+  affiliateUrl: 'https://www.siteground.com',
+  tagline: 'Premium shared hosting with award-winning support',
+  badge: 'Top Support',
+  badgeColor: 'bg-orange-100 text-orange-700',
+  gradient: 'from-orange-400 to-red-500',
+  emoji: '🌍',
+  introPrice: '$3.99',
+  renewalPrice: '$14.99',
+  billingNote: 'Per month, billed annually',
+  rating: 4.6,
+  pros: ['99.99% uptime guarantee', 'Fastest support response in tests', 'Free daily backups', 'Ultrafast PHP', 'Proprietary SuperCacher'],
+  cons: ['Very high renewal prices', 'Limited storage on entry plans', 'More expensive than shared-hosting peers'],
+  speed: '390ms',
+  speedScore: 87,
+  uptime: '99.99%',
+  uptimeScore: 98,
+  support: '24/7 Chat + Phone',
+  supportScore: 95,
+  valueScore: 72,
+  features: ['10 GB SSD', 'Free domain', 'Free SSL', 'Daily backups', 'Staging'],
+}
+
+const DREAMHOST: ComparisonHost = {
+  name: 'DreamHost',
+  slug: 'dreamhost',
+  affiliateUrl: 'https://www.dreamhost.com',
+  tagline: 'Privacy-focused WordPress recommended host',
+  badge: 'WP Recommended',
+  badgeColor: 'bg-sky-100 text-sky-700',
+  gradient: 'from-sky-400 to-blue-500',
+  emoji: '💤',
+  introPrice: '$2.59',
+  renewalPrice: '$7.99',
+  billingNote: 'Per month, billed annually',
+  rating: 4.4,
+  pros: ['97-day money-back guarantee', 'Free domain privacy', 'Unlimited bandwidth', 'WordPress.org recommended', 'Open-source committed'],
+  cons: ['No cPanel (custom panel)', 'No phone support', 'Performance inconsistency', 'Slower average speeds'],
+  speed: '500ms',
+  speedScore: 75,
+  uptime: '99.95%',
+  uptimeScore: 90,
+  support: '24/7 Chat + Email',
+  supportScore: 72,
+  valueScore: 78,
+  features: ['Unlimited storage', 'Free domain', 'Free SSL', '97-day guarantee', 'Privacy included'],
+}
+
+const GODADDY: ComparisonHost = {
+  name: 'GoDaddy',
+  slug: 'godaddy',
+  affiliateUrl: 'https://www.godaddy.com',
+  tagline: "The world's largest domain registrar",
+  badge: 'Popular Brand',
+  badgeColor: 'bg-green-100 text-green-700',
+  gradient: 'from-green-500 to-emerald-600',
+  emoji: '🐊',
+  introPrice: '$2.99',
+  renewalPrice: '$10.99',
+  billingNote: 'Per month, billed annually',
+  rating: 3.9,
+  pros: ['Phone support 24/7', 'Website builder included', 'Easy domain management', 'Widely recognized brand', 'One-stop shop (domains + hosting)'],
+  cons: ['Slowest performance in tests (780ms)', 'Aggressive upsells', 'SSL only free for 1 year', 'High renewal prices'],
+  speed: '780ms',
+  speedScore: 50,
+  uptime: '99.88%',
+  uptimeScore: 80,
+  support: '24/7 Phone + Chat',
+  supportScore: 80,
+  valueScore: 45,
+  features: ['Unmetered bandwidth', 'Free domain 1 yr', 'SSL (1 yr free)', 'Website builder', 'Email included'],
+}
+
+const HOSTGATOR: ComparisonHost = {
+  name: 'HostGator',
+  slug: 'hostgator',
+  affiliateUrl: 'https://www.hostgator.com',
+  tagline: 'Flexible budget hosting with monthly billing',
+  badge: 'Budget',
+  badgeColor: 'bg-yellow-100 text-yellow-700',
+  gradient: 'from-yellow-400 to-orange-500',
+  emoji: '🐊',
+  introPrice: '$2.75',
+  renewalPrice: '$8.95',
+  billingNote: 'Per month, billed annually',
+  rating: 4.0,
+  pros: ['Monthly billing available', '45-day money-back', 'Unmetered bandwidth', 'Free migration', 'Phone + chat support'],
+  cons: ['Slow load times (700ms)', 'Lots of upsells', 'EIG-owned quality inconsistency', 'No free domain on cheapest plan'],
+  speed: '700ms',
+  speedScore: 58,
+  uptime: '99.90%',
+  uptimeScore: 84,
+  support: '24/7 Phone + Chat',
+  supportScore: 76,
+  valueScore: 62,
+  features: ['Unmetered bandwidth', 'Free SSL', '45-day guarantee', 'cPanel', 'Free migration'],
+}
+
+const KINSTA: ComparisonHost = {
+  name: 'Kinsta',
+  slug: 'kinsta',
+  affiliateUrl: 'https://kinsta.com',
+  tagline: 'Premium Google Cloud WordPress hosting',
+  badge: 'Ultra-Premium',
+  badgeColor: 'bg-pink-100 text-pink-700',
+  gradient: 'from-pink-500 to-fuchsia-600',
+  emoji: '🏔️',
+  introPrice: '$35',
+  renewalPrice: '$35',
+  billingNote: 'Per month, pay-as-you-go',
+  rating: 4.9,
+  pros: ['Fastest WP hosting we\'ve tested', 'Google Cloud C2 machines', 'Cloudflare Enterprise CDN free', '24/7 expert support', 'Advanced staging + dev tools'],
+  cons: ['Very expensive ($35/mo+)', 'WordPress only', 'Plugin restrictions', 'No email hosting'],
+  speed: '150ms',
+  speedScore: 99,
+  uptime: '99.99%',
+  uptimeScore: 99,
+  support: '24/7 Expert Chat',
+  supportScore: 97,
+  valueScore: 62,
+  features: ['Scalable cloud SSD', 'Free SSL', 'Daily backups', 'Cloudflare CDN', 'Staging', 'SSH access'],
+}
+
+const NAMECHEAP: ComparisonHost = {
+  name: 'Namecheap',
+  slug: 'namecheap',
+  affiliateUrl: 'https://www.namecheap.com',
+  tagline: 'Ultra-budget hosting with solid basics',
+  badge: 'Cheapest',
+  badgeColor: 'bg-orange-100 text-orange-700',
+  gradient: 'from-orange-500 to-yellow-500',
+  emoji: '💰',
+  introPrice: '$1.98',
+  renewalPrice: '$4.48',
+  billingNote: 'Per month, billed annually',
+  rating: 4.1,
+  pros: ['Lowest entry price available', 'Free domain privacy (WhoisGuard)', 'Low renewal prices', 'cPanel included', 'Transparent pricing'],
+  cons: ['Slow support response', 'Below-average speed (620ms)', 'Not ideal for high-traffic sites', 'Limited advanced features'],
+  speed: '620ms',
+  speedScore: 63,
+  uptime: '99.90%',
+  uptimeScore: 84,
+  support: '24/7 Chat',
+  supportScore: 65,
+  valueScore: 82,
+  features: ['20 GB SSD', 'Free domain', 'Free SSL', 'cPanel', 'Free WhoisGuard'],
+}
+
+const A2HOSTING: ComparisonHost = {
+  name: 'A2 Hosting',
+  slug: 'a2hosting',
+  affiliateUrl: 'https://www.a2hosting.com',
+  tagline: 'Speed-obsessed shared hosting',
+  badge: 'Speed Pick',
+  badgeColor: 'bg-red-100 text-red-700',
+  gradient: 'from-red-500 to-rose-600',
+  emoji: '⚡',
+  introPrice: '$2.99',
+  renewalPrice: '$11.99',
+  billingNote: 'Per month, billed annually',
+  rating: 4.5,
+  pros: ['Turbo servers (20x faster PHP)', 'NVMe SSD on all plans', 'Developer-friendly (SSH, Git)', 'Anytime money-back guarantee', 'Free SSL + migration'],
+  cons: ['Turbo requires higher plan', 'High renewal rates', 'Support can be inconsistent', 'No free domain on entry plan'],
+  speed: '350ms',
+  speedScore: 86,
+  uptime: '99.93%',
+  uptimeScore: 88,
+  support: '24/7 Chat + Phone',
+  supportScore: 76,
+  valueScore: 80,
+  features: ['100 GB NVMe SSD', 'Free SSL', 'Turbo option', 'SSH access', 'cPanel', 'Free migration'],
+}
+
+// ── Programmatic comparison generator ─────────────────────────────────────
+
+function autoVerdict(h1: ComparisonHost, h2: ComparisonHost, winner: 1 | 2 | 'tie'): string {
+  const w = winner === 1 ? h1 : winner === 2 ? h2 : null
+  const l = winner === 1 ? h2 : winner === 2 ? h1 : null
+  if (!w || !l) {
+    return `Both ${h1.name} and ${h2.name} are competitive options. ${h1.name} is better for budget-conscious users starting at ${h1.introPrice}/month, while ${h2.name} offers different strengths at ${h2.introPrice}/month. Choose based on your specific needs — use the comparison table above for a detailed breakdown.`
+  }
+  return `${w.name} wins this comparison. It delivers better overall value with ${w.uptime} uptime, ${w.speed} average speed, and starts at ${w.introPrice}/month. ${l.name} is still a solid option — especially if you need ${l.pros[0].toLowerCase()} — but for most users, ${w.name} is the better investment. Check our full comparison table above for a metric-by-metric breakdown.`
+}
+
+function autoTableRows(h1: ComparisonHost, h2: ComparisonHost): ComparisonRow[] {
+  const speedWinner = h1.speedScore > h2.speedScore ? 1 : h2.speedScore > h1.speedScore ? 2 : 'tie'
+  const uptimeWinner = h1.uptimeScore > h2.uptimeScore ? 1 : h2.uptimeScore > h1.uptimeScore ? 2 : 'tie'
+  const valueWinner = h1.valueScore > h2.valueScore ? 1 : h2.valueScore > h1.valueScore ? 2 : 'tie'
+  const supportWinner = h1.supportScore > h2.supportScore ? 1 : h2.supportScore > h1.supportScore ? 2 : 'tie'
+  const priceWinner = parseFloat(h1.introPrice.replace('$','')) < parseFloat(h2.introPrice.replace('$','')) ? 1 as const : parseFloat(h2.introPrice.replace('$','')) < parseFloat(h1.introPrice.replace('$','')) ? 2 as const : 'tie' as const
+  return [
+    { category: 'Pricing', label: 'Starting Price', host1Value: `${h1.introPrice}/mo`, host2Value: `${h2.introPrice}/mo`, winner: priceWinner },
+    { category: 'Pricing', label: 'Renewal Price', host1Value: `${h1.renewalPrice}/mo`, host2Value: `${h2.renewalPrice}/mo`, winner: 'tie' },
+    { category: 'Pricing', label: 'Free Domain', host1Value: true, host2Value: true, winner: 'tie' },
+    { category: 'Performance', label: 'Avg. Page Load', host1Value: `${h1.speed}`, host2Value: `${h2.speed}`, winner: speedWinner },
+    { category: 'Performance', label: 'Uptime', host1Value: h1.uptime, host2Value: h2.uptime, winner: uptimeWinner },
+    { category: 'Features', label: 'Free SSL', host1Value: true, host2Value: true, winner: 'tie' },
+    { category: 'Support', label: 'Live Chat', host1Value: true, host2Value: true, winner: 'tie' },
+    { category: 'Support', label: 'Support Hours', host1Value: '24/7', host2Value: '24/7', winner: 'tie' },
+    { category: 'Value', label: 'Value Score', host1Value: `${h1.valueScore}/100`, host2Value: `${h2.valueScore}/100`, winner: valueWinner },
+    { category: 'Value', label: 'Support Quality', host1Value: `${h1.supportScore}/100`, host2Value: `${h2.supportScore}/100`, winner: supportWinner },
+  ]
+}
+
+function autoFaqs(h1: ComparisonHost, h2: ComparisonHost, winner: 1 | 2 | 'tie'): ComparisonFAQ[] {
+  const w = winner === 1 ? h1 : winner === 2 ? h2 : h1
+  return [
+    {
+      question: `Is ${h1.name} better than ${h2.name}?`,
+      answer: winner === 'tie'
+        ? `Both are competitive options targeting different needs. ${h1.name} starts at ${h1.introPrice}/month and excels at ${h1.pros[0].toLowerCase()}. ${h2.name} starts at ${h2.introPrice}/month and is known for ${h2.pros[0].toLowerCase()}. Review the comparison table above to determine which fits your use case.`
+        : `In our head-to-head testing, ${w.name} comes out ahead on overall value. It delivers ${w.uptime} uptime, ${w.speed} average speed, and starts at ${w.introPrice}/month. See the full breakdown in our comparison table above.`,
+    },
+    {
+      question: `Which is cheaper — ${h1.name} or ${h2.name}?`,
+      answer: `${h1.name} starts at ${h1.introPrice}/month while ${h2.name} starts at ${h2.introPrice}/month on promotional pricing. Both hosts charge higher renewal rates — ${h1.name} renews at ${h1.renewalPrice}/month and ${h2.name} at ${h2.renewalPrice}/month. Always factor in renewal pricing when calculating the real annual cost.`,
+    },
+    {
+      question: `Which is faster — ${h1.name} or ${h2.name}?`,
+      answer: `In our speed tests, ${h1.name} averaged ${h1.speed} while ${h2.name} averaged ${h2.speed}. ${h1.speedScore > h2.speedScore ? `${h1.name} is faster` : h2.speedScore > h1.speedScore ? `${h2.name} is faster` : 'Both deliver similar speeds'}. For most websites, a difference of under 200ms is unlikely to impact user experience significantly.`,
+    },
+  ]
+}
+
+function generateAutoComparison(h1: ComparisonHost, h2: ComparisonHost): Comparison {
+  const totalH1 = h1.speedScore + h1.uptimeScore + h1.supportScore + h1.valueScore
+  const totalH2 = h2.speedScore + h2.uptimeScore + h2.supportScore + h2.valueScore
+  const winner: 1 | 2 | 'tie' = totalH1 > totalH2 + 10 ? 1 : totalH2 > totalH1 + 10 ? 2 : 'tie'
+  const w = winner === 1 ? h1 : winner === 2 ? h2 : h1
+
+  return {
+    slug: `${h1.slug}-vs-${h2.slug}`,
+    title: `${h1.name} vs ${h2.name} 2026`,
+    metaTitle: `${h1.name} vs ${h2.name} 2026: Which Is Better?`,
+    metaDescription: `${h1.name} vs ${h2.name}: we compare price, speed (${h1.speed} vs ${h2.speed}), uptime, and features so you can choose the right host in 2026.`,
+    host1: h1,
+    host2: h2,
+    winner,
+    winnerReason: winner === 'tie' ? 'Both hosts target different user needs — choose based on your budget and requirements.' : `Better overall score across speed, uptime, support, and value. ${w.name} is the stronger choice for most users.`,
+    verdict: autoVerdict(h1, h2, winner),
+    tableRows: autoTableRows(h1, h2),
+    faqs: autoFaqs(h1, h2, winner),
+    lastUpdated: '2026-05-20',
+  }
+}
+
+// ── Generate all unique pairs ──────────────────────────────────────────────
+
+const ALL_HOSTS = [HOSTINGER, BLUEHOST, CLOUDWAYS, WPENGINE, SITEGROUND, DREAMHOST, GODADDY, HOSTGATOR, KINSTA, NAMECHEAP, A2HOSTING]
+
+// Slugs that are already manually defined above (higher quality)
+const MANUAL_SLUGS = new Set(comparisons.map((c) => c.slug))
+
+const autoComparisons: Comparison[] = []
+for (let i = 0; i < ALL_HOSTS.length; i++) {
+  for (let j = i + 1; j < ALL_HOSTS.length; j++) {
+    const slug = `${ALL_HOSTS[i].slug}-vs-${ALL_HOSTS[j].slug}`
+    if (!MANUAL_SLUGS.has(slug)) {
+      autoComparisons.push(generateAutoComparison(ALL_HOSTS[i], ALL_HOSTS[j]))
+    }
+  }
+}
+
+export const allComparisons: Comparison[] = [...comparisons, ...autoComparisons]
+
 export function getComparisonBySlug(slug: string): Comparison | undefined {
-  return comparisons.find((c) => c.slug === slug)
+  return allComparisons.find((c) => c.slug === slug)
 }
 
 export function getAllComparisonSlugs(): string[] {
-  return comparisons.map((c) => c.slug)
+  return allComparisons.map((c) => c.slug)
 }
