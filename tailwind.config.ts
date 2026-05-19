@@ -25,7 +25,16 @@ const config: Config = {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
-      backgroundImage: {
+      animation: {
+      'quiz-in': 'quizIn 0.25s ease-out',
+    },
+    keyframes: {
+      quizIn: {
+        '0%': { opacity: '0', transform: 'translateY(14px)' },
+        '100%': { opacity: '1', transform: 'translateY(0)' },
+      },
+    },
+    backgroundImage: {
         'hero-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
         'card-gradient': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
         'blue-gradient': 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
