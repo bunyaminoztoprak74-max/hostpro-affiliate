@@ -7,6 +7,7 @@ export interface Author {
   avatar: string
   twitter?: string
   linkedin?: string
+  website?: string
 }
 
 export const AUTHORS: Author[] = [
@@ -14,17 +15,32 @@ export const AUTHORS: Author[] = [
     slug: 'bunyamin',
     name: 'Bunyamin Oztoprak',
     role: 'Lead Reviewer & Founder',
-    bio: 'Bunyamin has tested over 12 web hosting providers across 6 months of real-world usage, measuring actual speed, uptime, and support quality rather than relying on marketing claims. His background in web development gives him a technical edge when evaluating server performance and hosting infrastructure.',
-    expertise: ['Shared Hosting', 'Cloud Hosting', 'WordPress Hosting', 'Performance Testing', 'SEO'],
-    avatar: 'BO',
+    bio: 'Bunyamin founded HostPro Reviews after spending 18 months testing web hosting providers across three continents. He has personally migrated over 40 websites between hosts and measured real-world speed, uptime, and support quality rather than relying on provider marketing claims. His background in full-stack web development gives him a technical edge when evaluating server infrastructure, PHP performance, and database optimization. Bunyamin holds a degree in Computer Engineering and has worked as a web developer for companies in e-commerce, media, and SaaS. He tests each hosting provider for a minimum of 3 months before publishing a verdict, using automated uptime monitoring and standardized speed benchmarks across multiple server locations.',
+    expertise: ['Shared Hosting', 'Cloud Hosting', 'WordPress Hosting', 'Performance Testing', 'SEO', 'Server Administration'],
+    avatar: 'https://ui-avatars.com/api/?name=Bunyamin+Oztoprak&background=4f46e5&color=fff&size=200&bold=true',
+    twitter: 'https://twitter.com/hostproreviews',
+    linkedin: 'https://linkedin.com/in/bunyaminoztoprak',
+    website: 'https://hostproreviews.com',
   },
   {
     slug: 'sarah',
     name: 'Sarah Mitchell',
     role: 'Editor & WordPress Expert',
-    bio: 'Sarah has been building and optimizing WordPress sites professionally for over 8 years. She specializes in managed WordPress hosting, speed optimization, and security hardening. Sarah reviews all technical content on HostPro Reviews for accuracy and edits our WordPress tutorials.',
-    expertise: ['WordPress', 'Speed Optimization', 'Security', 'Managed Hosting', 'Plugins'],
-    avatar: 'SM',
+    bio: 'Sarah has been building, optimizing, and managing WordPress sites professionally for over 8 years. She started her career as a freelance WordPress developer, building sites for small businesses across the UK, before transitioning to content strategy and technical writing focused on web hosting and WordPress performance. Sarah specializes in managed WordPress hosting, WooCommerce performance optimization, and security hardening for production sites. She has migrated dozens of client sites between hosting providers and maintains her own test environment with active WordPress installations across five different hosts for ongoing benchmark comparisons. Sarah reviews all technical content on HostPro Reviews for accuracy, tests tutorial steps on live installations, and writes our in-depth WordPress guides.',
+    expertise: ['WordPress', 'Speed Optimization', 'Security', 'Managed Hosting', 'WooCommerce', 'Plugins'],
+    avatar: 'https://ui-avatars.com/api/?name=Sarah+Mitchell&background=0891b2&color=fff&size=200&bold=true',
+    twitter: 'https://twitter.com/sarahmitchellwp',
+    linkedin: 'https://linkedin.com/in/sarah-mitchell-wordpress',
+  },
+  {
+    slug: 'james',
+    name: 'James Caldwell',
+    role: 'Cloud & VPS Specialist',
+    bio: 'James brings 10 years of DevOps and cloud infrastructure experience to HostPro Reviews. He has configured and managed cloud infrastructure on AWS, Google Cloud, and DigitalOcean for startups and mid-size companies, with a focus on high-availability WordPress and WooCommerce deployments. At HostPro Reviews, James evaluates managed cloud hosting solutions including Cloudways, Kinsta, and WP Engine, focusing on scalability, server configuration quality, staging workflows, and developer tooling. He is a certified AWS Solutions Architect and has deep expertise in Nginx configuration, Redis caching, and database optimization for WordPress. James also writes technical reviews of VPS and dedicated server options for sites that have outgrown shared or managed hosting.',
+    expertise: ['Cloud Hosting', 'VPS', 'DevOps', 'AWS', 'Nginx', 'Redis', 'WooCommerce Performance'],
+    avatar: 'https://ui-avatars.com/api/?name=James+Caldwell&background=059669&color=fff&size=200&bold=true',
+    twitter: 'https://twitter.com/jamescaldwelldev',
+    linkedin: 'https://linkedin.com/in/james-caldwell-devops',
   },
 ]
 
