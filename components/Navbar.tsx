@@ -23,6 +23,7 @@ export default function Navbar() {
             <Link href="/blog" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Reviews</Link>
             <Link href="/compare" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Compare</Link>
             <Link href="/tutorials" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Tutorials</Link>
+            <Link href="/benchmarks" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Benchmarks</Link>
             <Link href="/quiz" className="inline-flex items-center gap-1.5 text-indigo-600 hover:text-indigo-800 font-semibold transition-colors">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
               Find My Host
@@ -58,6 +59,7 @@ export default function Navbar() {
             <Link href="/blog" className="block px-3 py-2 text-gray-600 hover:text-indigo-600 font-medium">Reviews</Link>
             <Link href="/compare" className="block px-3 py-2 text-gray-600 hover:text-indigo-600 font-medium">Compare</Link>
             <Link href="/tutorials" className="block px-3 py-2 text-gray-600 hover:text-indigo-600 font-medium">Tutorials</Link>
+            <Link href="/benchmarks" className="block px-3 py-2 text-gray-600 hover:text-indigo-600 font-medium">Benchmarks</Link>
             <a
               href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
               target="_blank"
