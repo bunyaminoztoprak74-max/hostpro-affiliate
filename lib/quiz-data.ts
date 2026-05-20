@@ -22,6 +22,10 @@ export interface HostProfile {
   badge: string
   badgeColor: string
   gradient: string
+  rating: number
+  uptime: string
+  speed: string
+  support: string
   scores: {
     websiteType: Record<WebsiteType, number>
     budget: Record<BudgetRange, number>
@@ -49,6 +53,10 @@ export const hostProfiles: HostProfile[] = [
     badge: '#1 Budget Pick',
     badgeColor: 'bg-yellow-400 text-yellow-900',
     gradient: 'from-indigo-500 to-purple-600',
+    rating: 4.8,
+    uptime: '99.93%',
+    speed: '400ms avg',
+    support: '24/7 Live Chat',
     scores: {
       websiteType: { blog: 9, business: 7, ecommerce: 6, portfolio: 9, agency: 5 },
       budget: { budget: 10, low: 9, mid: 5, premium: 2 },
@@ -99,6 +107,10 @@ export const hostProfiles: HostProfile[] = [
     badge: 'WP Recommended',
     badgeColor: 'bg-blue-100 text-blue-700',
     gradient: 'from-blue-500 to-cyan-500',
+    rating: 4.5,
+    uptime: '99.88%',
+    speed: '650ms avg',
+    support: '24/7 Live Chat + Phone',
     scores: {
       websiteType: { blog: 8, business: 7, ecommerce: 6, portfolio: 7, agency: 5 },
       budget: { budget: 7, low: 8, mid: 5, premium: 2 },
@@ -149,6 +161,10 @@ export const hostProfiles: HostProfile[] = [
     badge: 'Cloud Pick',
     badgeColor: 'bg-teal-100 text-teal-700',
     gradient: 'from-teal-500 to-cyan-600',
+    rating: 4.7,
+    uptime: '99.97%',
+    speed: '300ms avg',
+    support: '24/7 Live Chat + Phone',
     scores: {
       websiteType: { blog: 6, business: 8, ecommerce: 9, portfolio: 5, agency: 10 },
       budget: { budget: 1, low: 4, mid: 9, premium: 9 },
@@ -199,6 +215,10 @@ export const hostProfiles: HostProfile[] = [
     badge: 'Premium WP',
     badgeColor: 'bg-purple-100 text-purple-700',
     gradient: 'from-pink-500 to-rose-500',
+    rating: 4.7,
+    uptime: '99.99%',
+    speed: '250ms avg',
+    support: '24/7 Live Chat + Phone',
     scores: {
       websiteType: { blog: 7, business: 8, ecommerce: 9, portfolio: 5, agency: 9 },
       budget: { budget: 0, low: 1, mid: 6, premium: 10 },
