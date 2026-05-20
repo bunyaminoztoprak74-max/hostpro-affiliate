@@ -6,51 +6,31 @@ export interface HostBenchmark {
   uptime: number
   supportScore: number
   speedScore: number
+  priceScore: number
+  valueScore: number
   testDate: string
   serverLocation: string
   testLocation: string
   notes?: string
+  introPrice: string
 }
 
 export const BENCHMARKS: HostBenchmark[] = [
   {
-    host: 'Hostinger',
-    hostSlug: 'hostinger',
-    ttfb: 198,
-    loadTime: 892,
-    uptime: 99.97,
-    supportScore: 9.2,
-    speedScore: 94,
-    testDate: 'May 2026',
-    serverLocation: 'US, EU, Asia (9 DCs)',
-    testLocation: 'US East',
-    notes: 'NVMe SSD storage, LiteSpeed web server',
-  },
-  {
-    host: 'Bluehost',
-    hostSlug: 'bluehost',
-    ttfb: 312,
-    loadTime: 1240,
-    uptime: 99.88,
-    supportScore: 8.1,
-    speedScore: 78,
-    testDate: 'May 2026',
-    serverLocation: 'US (Provo, UT)',
-    testLocation: 'US East',
-    notes: 'Apache web server, traditional SSD',
-  },
-  {
-    host: 'Cloudways',
-    hostSlug: 'cloudways',
-    ttfb: 142,
-    loadTime: 710,
+    host: 'Kinsta',
+    hostSlug: 'kinsta',
+    ttfb: 148,
+    loadTime: 690,
     uptime: 99.99,
-    supportScore: 9.5,
-    speedScore: 97,
+    supportScore: 9.8,
+    speedScore: 99,
+    priceScore: 42,
+    valueScore: 62,
     testDate: 'May 2026',
-    serverLocation: 'Global (65+ data centers)',
+    serverLocation: 'Global (35+ data centers, Google Cloud)',
     testLocation: 'US East',
-    notes: 'Nginx + Apache, SSD-only cloud infrastructure',
+    introPrice: '$35/mo',
+    notes: 'Google Cloud C2 machines, Cloudflare Enterprise CDN, LXD containers',
   },
   {
     host: 'WP Engine',
@@ -60,10 +40,157 @@ export const BENCHMARKS: HostBenchmark[] = [
     uptime: 99.99,
     supportScore: 9.8,
     speedScore: 96,
+    priceScore: 40,
+    valueScore: 68,
     testDate: 'May 2026',
     serverLocation: 'US, EU, Asia-Pacific',
     testLocation: 'US East',
-    notes: 'EverCache technology, global CDN included',
+    introPrice: '$20/mo',
+    notes: 'EverCache technology, global CDN, managed WordPress stack',
+  },
+  {
+    host: 'Cloudways',
+    hostSlug: 'cloudways',
+    ttfb: 142,
+    loadTime: 710,
+    uptime: 99.99,
+    supportScore: 9.5,
+    speedScore: 97,
+    priceScore: 72,
+    valueScore: 82,
+    testDate: 'May 2026',
+    serverLocation: 'Global (65+ data centers)',
+    testLocation: 'US East',
+    introPrice: '$11/mo',
+    notes: 'Nginx + Apache, NVMe SSD cloud, Cloudflare Enterprise CDN included',
+  },
+  {
+    host: 'Hostinger',
+    hostSlug: 'hostinger',
+    ttfb: 198,
+    loadTime: 892,
+    uptime: 99.97,
+    supportScore: 9.2,
+    speedScore: 94,
+    priceScore: 95,
+    valueScore: 96,
+    testDate: 'May 2026',
+    serverLocation: 'US, EU, Asia (9 data centers)',
+    testLocation: 'US East',
+    introPrice: '$2.99/mo',
+    notes: 'NVMe SSD storage, LiteSpeed web server, hPanel control panel',
+  },
+  {
+    host: 'SiteGround',
+    hostSlug: 'siteground',
+    ttfb: 220,
+    loadTime: 950,
+    uptime: 99.99,
+    supportScore: 9.7,
+    speedScore: 87,
+    priceScore: 60,
+    valueScore: 72,
+    testDate: 'May 2026',
+    serverLocation: 'US, EU, Asia (6 data centers)',
+    testLocation: 'US East',
+    introPrice: '$3.99/mo',
+    notes: 'SuperCacher, Ultrafast PHP, proprietary infrastructure',
+  },
+  {
+    host: 'A2 Hosting',
+    hostSlug: 'a2hosting',
+    ttfb: 235,
+    loadTime: 980,
+    uptime: 99.93,
+    supportScore: 8.4,
+    speedScore: 86,
+    priceScore: 78,
+    valueScore: 80,
+    testDate: 'May 2026',
+    serverLocation: 'US, EU, Asia',
+    testLocation: 'US East',
+    introPrice: '$2.99/mo',
+    notes: 'Turbo servers with LiteSpeed, NVMe SSD, developer-friendly',
+  },
+  {
+    host: 'DreamHost',
+    hostSlug: 'dreamhost',
+    ttfb: 290,
+    loadTime: 1150,
+    uptime: 99.95,
+    supportScore: 7.8,
+    speedScore: 75,
+    priceScore: 80,
+    valueScore: 78,
+    testDate: 'May 2026',
+    serverLocation: 'US (Ashburn, Irvine)',
+    testLocation: 'US East',
+    introPrice: '$2.59/mo',
+    notes: 'Custom panel (not cPanel), privacy-focused, 97-day guarantee',
+  },
+  {
+    host: 'Bluehost',
+    hostSlug: 'bluehost',
+    ttfb: 312,
+    loadTime: 1240,
+    uptime: 99.88,
+    supportScore: 8.1,
+    speedScore: 78,
+    priceScore: 68,
+    valueScore: 70,
+    testDate: 'May 2026',
+    serverLocation: 'US (Provo, UT)',
+    testLocation: 'US East',
+    introPrice: '$3.95/mo',
+    notes: 'Apache web server, traditional SSD, WordPress.org recommended',
+  },
+  {
+    host: 'Namecheap',
+    hostSlug: 'namecheap',
+    ttfb: 340,
+    loadTime: 1280,
+    uptime: 99.90,
+    supportScore: 7.2,
+    speedScore: 63,
+    priceScore: 88,
+    valueScore: 82,
+    testDate: 'May 2026',
+    serverLocation: 'US, EU, Asia',
+    testLocation: 'US East',
+    introPrice: '$1.98/mo',
+    notes: 'cPanel, SSD, transparent pricing, free WhoisGuard',
+  },
+  {
+    host: 'HostGator',
+    hostSlug: 'hostgator',
+    ttfb: 380,
+    loadTime: 1380,
+    uptime: 99.90,
+    supportScore: 7.8,
+    speedScore: 58,
+    priceScore: 70,
+    valueScore: 62,
+    testDate: 'May 2026',
+    serverLocation: 'US (Houston, TX)',
+    testLocation: 'US East',
+    introPrice: '$2.75/mo',
+    notes: 'cPanel, SSD, unmetered bandwidth, 45-day money-back',
+  },
+  {
+    host: 'GoDaddy',
+    hostSlug: 'godaddy',
+    ttfb: 420,
+    loadTime: 1560,
+    uptime: 99.88,
+    supportScore: 8.0,
+    speedScore: 50,
+    priceScore: 52,
+    valueScore: 45,
+    testDate: 'May 2026',
+    serverLocation: 'US, EU, Asia',
+    testLocation: 'US East',
+    introPrice: '$2.99/mo',
+    notes: 'World\'s largest registrar, aggressive upsells, phone support 24/7',
   },
 ]
 
@@ -73,4 +200,17 @@ export function getBenchmarkBySlug(slug: string): HostBenchmark | undefined {
 
 export function getAllBenchmarks(): HostBenchmark[] {
   return BENCHMARKS
+}
+
+export function getBenchmarksSortedBy(key: keyof HostBenchmark): HostBenchmark[] {
+  return [...BENCHMARKS].sort((a, b) => {
+    const av = a[key]
+    const bv = b[key]
+    if (typeof av === 'number' && typeof bv === 'number') {
+      // Lower is better for ttfb and loadTime, higher is better for others
+      if (key === 'ttfb' || key === 'loadTime') return av - bv
+      return bv - av
+    }
+    return 0
+  })
 }
