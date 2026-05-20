@@ -130,8 +130,6 @@ export const hosts: HostProvider[] = [
     uptime: '99.97%',
     support: '24/7 Live Chat + Phone',
   },
-]
-
   {
     slug: 'siteground',
     name: 'SiteGround',
