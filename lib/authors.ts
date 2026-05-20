@@ -12,14 +12,12 @@ export interface Author {
 
 export const AUTHORS: Author[] = [
   {
-    slug: 'bunyamin',
-    name: 'Bunyamin Oztoprak',
+    slug: 'marcus',
+    name: 'Marcus Webb',
     role: 'Lead Reviewer & Founder',
-    bio: 'Bunyamin founded HostPro Reviews after spending 18 months testing web hosting providers across three continents. He has personally migrated over 40 websites between hosts and measured real-world speed, uptime, and support quality rather than relying on provider marketing claims. His background in full-stack web development gives him a technical edge when evaluating server infrastructure, PHP performance, and database optimization. Bunyamin holds a degree in Computer Engineering and has worked as a web developer for companies in e-commerce, media, and SaaS. He tests each hosting provider for a minimum of 3 months before publishing a verdict, using automated uptime monitoring and standardized speed benchmarks across multiple server locations.',
+    bio: 'Marcus founded HostPro Reviews after spending 18 months testing web hosting providers across three continents. He has personally migrated over 40 websites between hosts and measured real-world speed, uptime, and support quality — rather than relying on provider marketing claims. His background in full-stack web development gives him a technical edge when evaluating server infrastructure, PHP performance, and database optimization. Marcus holds a degree in Computer Engineering and has worked as a web developer for companies in e-commerce, media, and SaaS. He tests each hosting provider for a minimum of 3 months before publishing a verdict, using automated uptime monitoring and standardized speed benchmarks across multiple server locations.',
     expertise: ['Shared Hosting', 'Cloud Hosting', 'WordPress Hosting', 'Performance Testing', 'SEO', 'Server Administration'],
-    avatar: 'https://ui-avatars.com/api/?name=Bunyamin+Oztoprak&background=4f46e5&color=fff&size=200&bold=true',
-    twitter: 'https://twitter.com/hostproreviews',
-    linkedin: 'https://linkedin.com/in/bunyaminoztoprak',
+    avatar: 'https://ui-avatars.com/api/?name=Marcus+Webb&background=4f46e5&color=fff&size=200&bold=true',
     website: 'https://hostproreviews.com',
   },
   {
