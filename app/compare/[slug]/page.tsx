@@ -103,8 +103,8 @@ export default async function ComparisonPage({ params }: Props) {
         />
       ))}
 
-      {/* Breadcrumb */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+      {/* Breadcrumb + Disclosure */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 space-y-3">
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-gray-400 flex-wrap">
           <Link href="/" className="hover:text-indigo-600 transition-colors">Home</Link>
           <span>/</span>
@@ -112,6 +112,10 @@ export default async function ComparisonPage({ params }: Props) {
           <span>/</span>
           <span className="text-gray-600 truncate">{comparison.title}</span>
         </nav>
+        <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 text-xs text-amber-800">
+          <strong>Affiliate Disclosure:</strong> This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Our comparisons are based on real test data and are not influenced by commissions.{' '}
+          <Link href="/disclosure" className="underline hover:text-amber-900">Learn more →</Link>
+        </div>
       </div>
 
       <ComparisonHero comparison={comparison} />

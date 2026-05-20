@@ -17,6 +17,8 @@ import RelatedPosts from '@/components/RelatedPosts'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 import EmailCapture from '@/components/EmailCapture'
 import BenchmarkTable from '@/components/BenchmarkTable'
+import AuthorBox from '@/components/AuthorBox'
+import ReviewMethodology from '@/components/ReviewMethodology'
 
 const BENCHMARK_MAP: Record<string, string | 'all'> = {
   'hostinger-review-2026': 'hostinger',
@@ -168,6 +170,9 @@ export default async function PostPage({ params }: Props) {
               </div>
             )}
 
+            {/* Review methodology for Review category */}
+            {isReview && <ReviewMethodology />}
+
             {/* Content */}
             <div
               className="prose-custom"
@@ -184,6 +189,13 @@ export default async function PostPage({ params }: Props) {
 
             {/* FAQ */}
             <FAQSection faqs={faqs} />
+
+            {/* Author box */}
+            <AuthorBox
+              name={post.author ?? 'HostPro Editorial Team'}
+              slug={post.author ? post.author.toLowerCase().replace(/\s+/g, '-') : undefined}
+              role={isReview ? 'Hosting Analyst' : 'Content Writer'}
+            />
 
             {/* Email capture */}
             <EmailCapture variant="inline" />
