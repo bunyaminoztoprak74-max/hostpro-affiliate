@@ -1,10 +1,10 @@
 ---
-title: "How to Migrate Your Website to a New Host (Zero Downtime Guide)"
-excerpt: "Move your WordPress site to a new hosting provider without any downtime or data loss. Step-by-step guide covering plugin migration, manual migration, and DNS cutover timing."
+title: "How to Migrate Any Website to a New Host: WordPress, HTML, PHP & cPanel Transfer (2026)"
+excerpt: "Not just WordPress — migrate HTML sites, PHP apps, or entire cPanel accounts to a new host without downtime. Covers all platforms, cPanel Transfer Tool, and the DNS timing strategy that eliminates downtime."
 date: "2026-05-20"
-readTime: "9 min read"
+readTime: "10 min read"
 difficulty: "intermediate"
-tags: ["migration", "wordpress", "hosting", "dns", "cloudways", "hostinger"]
+tags: ["website migration", "cpanel transfer", "html site migration", "migrate hosting", "dns migration", "hostinger", "cloudways"]
 lastModified: "2026-05-20"
 steps:
   - name: "Back up your current site"
@@ -219,5 +219,59 @@ Install SSL on the new host (usually via cPanel → SSL/TLS or your host's dashb
 If your email was hosted with your old provider, configure email separately. Cloudways and cloud hosts don't include email — use Google Workspace, Zoho Mail, or your registrar's email hosting.
 
 ---
+
+## Migrating Non-WordPress Sites
+
+### HTML / Static Sites
+
+The simplest migration: no database, no URLs to update.
+
+1. Download all files from old host via FTP (FileZilla, Cyberduck)
+2. Upload to new host's `public_html/` via FTP
+3. Test on new host's temporary URL
+4. Update DNS
+
+**Common gotcha:** Check for absolute URLs in your HTML that reference your old domain (e.g., `<a href="http://olddomain.com/about">`) — these need manual updating.
+
+### PHP Sites (Non-WordPress: Laravel, CodeIgniter, Custom PHP)
+
+1. Download all PHP files via FTP
+2. Export any MySQL databases via phpMyAdmin
+3. Import databases on new host
+4. Upload PHP files to new host
+5. Update `.env` file or config file with new database credentials
+6. Test on temporary URL
+7. Update DNS
+
+**Key difference from WordPress:** PHP frameworks store database credentials in their own config files (`.env` for Laravel, `config/database.php`, etc.) — not `wp-config.php`. Find the correct config file for your framework.
+
+### cPanel Transfer Tool (Fastest Full Account Migration)
+
+If both old and new host use cPanel, you can transfer everything at once:
+
+**On new host (cPanel → Transfers):**
+1. Log in to new host's cPanel
+2. Go to **Transfer Tool** (or "Transfer Websites" in some versions)
+3. Enter old host's cPanel login URL, username, and password
+4. Select which domains/databases/email accounts to transfer
+5. Click **Copy**
+
+The tool copies all files, databases, email accounts, and DNS zones automatically. Best option for migrating multiple sites at once.
+
+**Hosts that support cPanel Transfer Tool:** SiteGround, Hostinger (with cPanel add-on), A2 Hosting, DreamHost, Bluehost.
+
+**Hosts that DON'T use cPanel:** Kinsta, WP Engine, Cloudways — require manual migration or their own migration tools.
+
+### Free Migration Services by Host
+
+| Host | Free Migration? | Method | Turnaround |
+|------|----------------|--------|-----------|
+| **Hostinger** | ✓ 1 free migration | Support team | 24–48 hours |
+| **SiteGround** | ✓ 1 free migration | Migration plugin | 24 hours |
+| **Cloudways** | ✓ Unlimited | Support team | 2–4 hours |
+| **WP Engine** | ✓ Unlimited | Migration plugin + team | 1–24 hours |
+| **Kinsta** | ✓ Limited free | Support team | 24 hours |
+| **DreamHost** | ✗ | Self-service | DIY |
+| **Bluehost** | ✗ (paid service) | $149 service | 1–3 days |
 
 **Thinking about migrating to Cloudways?** [Cloudways](https://www.cloudways.com/en/?id=2170350) offers a free migration service — their support team will move your site for you when you sign up.

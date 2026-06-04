@@ -1,10 +1,10 @@
 ---
-title: "How to Enable HTTPS on WordPress (Force SSL Redirect Guide)"
-excerpt: "Switch your WordPress site from HTTP to HTTPS without breaking anything. Covers installing SSL, updating WordPress URLs, fixing mixed content, and setting up permanent redirects."
+title: "How to Enable HTTPS on WordPress: Mixed Content Fix, HSTS Headers & Really Simple SSL Guide (2026)"
+excerpt: "The HTTPS switch breaks more WordPress sites than people expect. This guide covers the full fix: SSL install, mixed content repair, Really Simple SSL plugin config, HSTS headers, and the wp-config.php override for stubborn redirect loops."
 date: "2026-05-20"
-readTime: "6 min read"
+readTime: "8 min read"
 difficulty: "beginner"
-tags: ["https", "ssl", "wordpress", "security", "redirect"]
+tags: ["https wordpress 2026", "wordpress ssl mixed content", "really simple ssl", "wordpress hsts", "force https wordpress", "wordpress redirect loop fix"]
 lastModified: "2026-05-20"
 steps:
   - name: "Install an SSL certificate"
@@ -185,5 +185,76 @@ Update `WP_HOME` and `WP_SITEURL` in `wp-config.php` to use `https://`. Clear co
 Check WooCommerce email settings and other plugins that generate URLs. Update their base URL settings to use HTTPS.
 
 ---
+
+## WordPress HSTS: The Next Level of HTTPS Security
+
+HSTS (HTTP Strict Transport Security) tells browsers to ONLY connect via HTTPS — even if someone types `http://` manually. Once set, visitors can never access the HTTP version (until HSTS expires).
+
+**Add HSTS headers in .htaccess:**
+```apache
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+```
+
+**Or via PHP in WordPress (functions.php or plugin):**
+```php
+add_action( 'send_headers', function() {
+    if ( ! headers_sent() && is_ssl() ) {
+        header( 'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload' );
+    }
+});
+```
+
+**Really Simple SSL Pro** adds HSTS headers via its security headers module — no code required.
+
+**Important:** Before enabling HSTS, make sure all subdomains have valid SSL (`includeSubDomains`). If any subdomain lacks SSL, HSTS will break it. Test with `max-age=300` (5 minutes) first, then increase to `31536000` (1 year).
+
+## WordPress-Specific SSL Issues Diagnostic Table
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| Padlock shows warning | Mixed content (HTTP resources on HTTPS page) | Really Simple SSL + Better Search Replace |
+| Infinite redirect loop | Cloudflare Flexible SSL + WordPress forcing HTTPS | Set Cloudflare to Full (Strict) mode |
+| Admin redirects to login repeatedly | WP_HOME/WP_SITEURL mismatch | Update both in wp-config.php |
+| Images broken after SSL switch | Hardcoded HTTP image URLs in database | Better Search Replace for `http://yourdomain.com` |
+| SSL error on wp-login.php only | Cookie settings using wrong domain | Check `COOKIE_DOMAIN` in wp-config.php |
+| Third-party plugin loading HTTP script | Plugin has hardcoded HTTP URL | Contact plugin developer or add filter to rewrite |
+| SSL works but search results show HTTP | Old sitemap cached | Regenerate sitemap, resubmit to Search Console |
+| Let's Encrypt not auto-renewing | Cron job not running | Install WP Crontrol, check wp_cron is functional |
+
+## Really Simple SSL Plugin: Full Configuration Guide
+
+Really Simple SSL is the most popular WordPress HTTPS plugin with 5M+ active installs. Here's the complete setup:
+
+### Free Version Setup
+
+1. Install & activate **Really Simple SSL**
+2. Backup your site first (REQUIRED — this is a significant change)
+3. Click **Go ahead, activate SSL!**
+4. The plugin will:
+   - Update `WP_HOME` and `WP_SITEURL`
+   - Add HTTPS redirect to `.htaccess`
+   - Fix mixed content in real-time via output buffering
+5. Test every page type (home, post, page, contact, WooCommerce)
+
+### Really Simple SSL Configuration Options
+
+| Setting | Default | When to Change |
+|---------|---------|----------------|
+| Force HTTPS | On | Never off for production sites |
+| Mixed content fixer | On | Can turn off if it causes layout issues |
+| HTTP Strict Transport Security | Off | Enable once all pages test clean |
+| Site Health | On | Keep on — alerts to SSL issues |
+| Cache headers | Off | Enable for performance (adds cache-control headers) |
+
+### Known Really Simple SSL Conflicts
+
+| Plugin | Conflict | Solution |
+|--------|---------|---------|
+| WP Rocket | Output buffer conflict | Disable mixed content fixer in Really Simple SSL (WP Rocket handles it) |
+| Cloudflare plugin | Duplicate redirects | Ensure only one forces HTTPS — disable in one |
+| Elementor | Occasionally breaks | Regenerate CSS after SSL switch in Elementor settings |
+| Divi Builder | Cached HTTP styles | Purge Divi static CSS after switching |
 
 **Choosing a host with automatic SSL?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU), [Cloudways](https://www.cloudways.com/en/?id=2170350), and [Kinsta](https://kinsta.com) all auto-provision and auto-renew SSL certificates for every domain you add.

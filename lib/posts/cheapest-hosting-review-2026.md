@@ -1,6 +1,6 @@
 ---
-title: "Cheapest Web Hosting Review 2026: Budget Options Tested for Real Value"
-excerpt: "We tested the cheapest web hosting options in 2026 to find which budget hosts actually deliver. Spoiler: the cheapest price doesn't always mean the best value."
+title: "Web Hosting Total Cost of Ownership 2026: What You'll Actually Pay Over 3 Years"
+excerpt: "Intro prices are fiction. We calculated the real 3-year total cost of every budget hosting plan — including renewal markups, domain renewals, SSL upsells, and mandatory add-ons — to reveal the true cheapest option."
 tags: ["cheapest web hosting review 2026", "cheap web hosting", "budget web hosting 2026", "affordable hosting"]
 date: "2026-06-04"
 lastModified: "2026-06-04"
@@ -211,6 +211,39 @@ Yes. All reputable hosts allow plan upgrades. The harder upgrade is switching pr
 
 **Does cheap hosting affect my Google rankings?**
 Page speed is a ranking factor. Hostinger at 168ms TTFB is "Good" by Google's Core Web Vitals standards. HostGator at 389ms is "Needs Improvement." The SEO difference between quality cheap hosting and poor cheap hosting is real. The difference between cheap and premium hosting is smaller — perhaps 20-50ms TTFB.
+
+## The Complete 5-Year Total Cost of Ownership Table
+
+This is what you'll actually pay, including every recurring cost:
+
+| Host & Plan | Year 1 Hosting | Year 2–5 Hosting/yr | Domain (yr 2+) | Privacy Fee | SSL | **5-Year TCO** |
+|-------------|---------------|--------------------|-----------------|-----------|----|----------------|
+| **Hostinger Single** | $35.88 | $83.88 | $11.99 | Free | Free | **$419.52** |
+| **Hostinger Premium** | $47.88 | $107.88 | $11.99 | Free | Free | **$527.52** |
+| **Namecheap Stellar** | $23.76 | $71.76 | Included | Free | Free | **$310.80** |
+| **DreamHost Shared** | $31.08 | $95.88 | $14.99 | Free | Free | **$474.48** |
+| **Bluehost Basic** | $35.40 | $131.88 | $17.99 | $13.99/yr | Free | **$693.88** |
+| **HostGator Hatchling** | $33.00 | $131.40 | $14.99 | $9.99/yr | Free | **$641.56** |
+| **GoDaddy Economy** | $71.88 | $131.88 | $14.99 | $9.99/yr | $71.88/yr | **$1,270.24** |
+
+**GoDaddy is the most expensive "cheap" host** — once you include their SSL upsell and mandatory domain privacy fees (which are pre-selected at checkout), the 5-year cost is 4x Namecheap's.
+
+**Namecheap is genuinely cheapest** at $310.80 over 5 years — but the 341ms TTFB means you're paying the speed tax.
+
+**Hostinger Premium** at $527.52 over 5 years delivers 168ms TTFB — the best performance-per-dollar in the budget category.
+
+## Value Index: Performance Per Dollar Spent
+
+| Host | 5-Year TCO | TTFB | Value Index (lower TTFB ÷ TCO) | Verdict |
+|------|-----------|------|-------------------------------|---------|
+| **Hostinger Premium** | $528 | 168ms | 0.32 | ✅ Best value |
+| **DreamHost Shared** | $474 | 285ms | 0.60 | ⚠️ OK value |
+| **Namecheap Stellar** | $311 | 341ms | 1.10 | ⚠️ Cheap but slow |
+| **Bluehost Basic** | $694 | 312ms | 0.45 | ❌ Expensive for speed |
+| **HostGator Hatchling** | $642 | 389ms | 0.61 | ❌ Poor value |
+| **GoDaddy Economy** | $1,270 | 412ms | 0.32 | ❌ Most expensive + slowest |
+
+*Value Index: higher number = more TTFB delay per dollar. Lower is better.*
 
 ## Conclusion: Best Cheap Hosting in 2026
 

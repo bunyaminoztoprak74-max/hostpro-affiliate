@@ -200,6 +200,80 @@ Not at all. WordPress with page builders (Elementor, Kadence Blocks) lets you bu
 **Is free hosting ever acceptable for a beginner?**
 Only for learning without any real purpose. WordPress.com free (with .wordpress.com subdomain) is fine for experimenting. For any real website — personal blog, portfolio, business — paid hosting from $2.59-3.99/month is worth the investment from day one.
 
+## Your First 7 Days: Exactly What to Do After Signing Up
+
+This exact sequence gets your website live in one week, regardless of which host you choose:
+
+### Day 1: Account Setup (20 minutes)
+- [ ] Complete signup and verify your email
+- [ ] Log in to hosting dashboard (hPanel, cPanel, or SiteGround's Site Tools)
+- [ ] If domain not registered: buy domain through your host OR at Namecheap, then connect it
+- [ ] Install WordPress via 1-click installer
+
+### Day 2: WordPress First Configuration (30 minutes)
+- [ ] Log in to WordPress at `yourdomain.com/wp-admin`
+- [ ] Change admin password (Settings → Users → Your Profile → Change Password)
+- [ ] Set site title and tagline (Settings → General)
+- [ ] Set Permalinks to "Post name" (Settings → Permalinks — this is important for SEO)
+- [ ] Delete "Hello World" sample post and "Sample Page"
+
+### Day 3: Choose a Theme (1 hour)
+- [ ] Go to Appearance → Themes → Add New
+- [ ] Install **Astra** or **Kadence** (both free, fast, beginner-friendly)
+- [ ] Activate the theme
+- [ ] Install the theme's starter template if available (pre-built page layouts)
+
+### Day 4: Install Essential Plugins (30 minutes)
+Install only these 5 to start:
+- [ ] **Yoast SEO** — helps Google find your pages
+- [ ] **UpdraftPlus** — automatic backups
+- [ ] **Contact Form 7** — contact form
+- [ ] **Smush** — automatic image compression
+- [ ] **Google Site Kit** — connects Google Analytics
+
+Don't install more. Every plugin adds load time.
+
+### Day 5: Create Core Pages (2 hours)
+- [ ] **Home page** — your site's first impression
+- [ ] **About page** — who you are
+- [ ] **Contact page** — add Contact Form 7 here
+- [ ] Set Home page in Settings → Reading → "A static page"
+
+### Day 6: SSL & Basic Security (15 minutes)
+- [ ] Verify SSL is active (padlock icon in browser address bar)
+- [ ] If not: install SSL via your hosting dashboard → SSL section
+- [ ] Enable two-factor authentication on your WordPress admin account
+
+### Day 7: Test Everything
+- [ ] Open your site in incognito mode (tests as a visitor, not logged-in user)
+- [ ] Check home page, about, contact pages all load
+- [ ] Submit the contact form (check email receives it)
+- [ ] Check site on mobile (Developer Tools → Toggle device toolbar in Chrome)
+- [ ] Run your URL through GTmetrix — aim for under 2 second load time
+
+## Beginner's Glossary: What All This Jargon Means
+
+| Term | What It Actually Means |
+|------|------------------------|
+| **Hosting** | Renting space on a computer (server) that stores your website files |
+| **Domain** | Your website address (yoursite.com) — separate from hosting |
+| **cPanel/hPanel** | The control panel where you manage your hosting account |
+| **WordPress** | The most popular website-building software — free to use |
+| **SSL/HTTPS** | The padlock in the browser bar — encrypts data between your site and visitors |
+| **TTFB** | "Time to First Byte" — how fast the server starts responding. Under 200ms is fast |
+| **Uptime** | The percentage of time your website is accessible. 99.9% = ~8 hours downtime/year |
+| **CDN** | "Content Delivery Network" — copies your files to servers around the world for faster access |
+| **Shared hosting** | Multiple websites on one server — cheap, fast enough for most sites |
+| **Managed hosting** | A host that handles WordPress updates, backups, and security for you |
+| **Plugin** | An app you add to WordPress to add features (like a contact form or SEO tool) |
+| **Theme** | Controls how your website looks |
+| **NVMe SSD** | A type of fast storage. Better than regular SSD (NVMe = 5x faster disk reads) |
+| **LiteSpeed** | A web server software — faster than Apache for WordPress |
+| **PHP** | The programming language WordPress runs on. PHP 8.x is fastest |
+| **MySQL/MariaDB** | The database type WordPress uses to store posts, pages, and settings |
+| **Nameservers** | Settings that tell the internet which hosting account your domain points to |
+| **DNS Propagation** | The delay (1-24 hours) after changing nameservers while the internet updates |
+
 ## Conclusion: Best Beginner Hosting 2026
 
 **Our top pick:** Hostinger Premium ($3.99/month) — the simplest hosting dashboard, fastest beginner setup, and excellent support that explains things without assuming technical knowledge.
