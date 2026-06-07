@@ -259,3 +259,13 @@ Not necessarily — it depends which category. A C in speed might be acceptable 
 **Avoid:** HostGator (C GPA), GoDaddy (D GPA) — consistent underperformance across multiple categories.
 
 [**Get A-Rated Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get A-Rated SiteGround →**](https://www.siteground.com) | [**Get A-Rated WP Engine →**](https://wpengine.com)
+
+<!-- related-reading -->
+
+## Related Reading: Full Scoring Methodology
+
+- [web hosting ratings 2026: full score breakdown](/blog/web-hosting-rating-2026)
+- [Trustpilot and third-party ratings for all hosts](/blog/hosting-provider-ratings)
+- [rating trends 2026: which hosts improved?](/blog/web-hosting-rating-trends-2026)
+- [our testing methodology explained](/blog/how-to-test-web-hosting-2026)
+- [hosting support comparison: one of our scored criteria](/blog/hosting-support-comparison-2026)
