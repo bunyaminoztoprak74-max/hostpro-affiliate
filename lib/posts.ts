@@ -31,6 +31,7 @@ export interface PostMeta {
   faq?: FAQItem[]
   relatedSlugs?: string[]
   author?: string
+  noindex?: boolean
 }
 
 export interface Post extends PostMeta {
@@ -78,6 +79,7 @@ export function getAllPosts(): PostMeta[] {
       const { data } = matter(fileContents)
       return { slug, ...data } as PostMeta
     })
+    .filter((post) => !post.noindex)
     .sort((a, b) => (a.date < b.date ? 1 : -1))
 }
 

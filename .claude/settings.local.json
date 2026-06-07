@@ -5,7 +5,11 @@
       "PowerShell(Set-Content *)",
       "Bash(npx tsc *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Masaüstü\\\\hostpro-affiliate\\\\lib\\\\posts\" -Filter \"*.md\")",
+      "Bash(Measure-Object)",
+      "Bash(Select-Object -ExpandProperty Count)",
+      "Bash(node -e \"const {getAllComparisonSlugs} = require\\('./.next/server/chunks/ssr/lib_comparisons_ts_lib_hosts_ts.js'\\); console.log\\(getAllComparisonSlugs\\(\\)\\)\")"
     ]
   }
 }
