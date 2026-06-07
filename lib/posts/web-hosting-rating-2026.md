@@ -19,6 +19,7 @@ faq:
     answer: "8.0/10 or above indicates a quality hosting provider. 9.0+ indicates excellent hosting. Below 7.0 indicates significant issues worth considering before purchasing. Our bottom performers (HostGator, GoDaddy) score 5.5-6.0 based on real test data."
   - question: "How often are hosting ratings updated?"
     answer: "Our ratings are updated twice yearly with fresh test data. Hosting performance changes over time — providers upgrade infrastructure, change pricing, and shift support quality. Ratings older than 12 months may not reflect current performance."
+author: marcus
 ---
 
 Web hosting ratings help you compare providers at a glance — but only when they're based on real test data rather than sponsored relationships. Our rating system is built on 12 months of monitoring, speed tests, support tickets, and price analysis.

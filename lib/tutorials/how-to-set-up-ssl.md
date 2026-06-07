@@ -18,6 +18,7 @@ steps:
     text: "If some pages still show a lock with a warning, you have mixed content: HTTP images or scripts on an HTTPS page. Use the 'Better Search Replace' plugin to update all http:// URLs to https:// in your database."
   - name: "Test your SSL installation"
     text: "Visit ssllabs.com/ssltest and enter your domain. A grade of A or A+ means your SSL is correctly installed. Also check that all pages show the green padlock in Chrome."
+author: marcus
 ---
 
 SSL certificates encrypt the connection between your site and your visitors. Google requires HTTPS for SEO, browsers show "Not Secure" warnings on HTTP sites, and SSL is now free with virtually every reputable hosting provider.

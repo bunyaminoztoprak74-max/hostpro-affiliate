@@ -19,6 +19,7 @@ faq:
     answer: "Hostinger outperforms Bluehost (faster, cheaper, better support), competes well with SiteGround (slightly slower but significantly cheaper over 3 years), and is dramatically cheaper than WP Engine/Kinsta for sites that don't need managed hosting."
   - question: "Does Hostinger have hidden fees?"
     answer: "Minimal. The renewal price increase is clearly disclosed. Daily backups require Business plan upgrade. Domain renewal after the first free year costs ~$12/year. No surprise add-ons automatically selected at checkout — more transparent than Bluehost or HostGator."
+author: marcus
 ---
 
 Balanced assessment of Hostinger requires looking at both what they do well and where they fall short. After 6 months of testing Hostinger's Premium plan on a real WordPress site, here is the complete pros and cons analysis.

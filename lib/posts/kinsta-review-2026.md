@@ -19,6 +19,7 @@ faq:
     answer: "Main downsides: expensive ($35/month minimum), no email hosting, pricing escalates significantly at higher traffic tiers, no phone support (chat only), and the 30-day money-back guarantee is short for high-commitment pricing."
   - question: "What traffic levels is Kinsta designed for?"
     answer: "Kinsta Starter handles 25,000 monthly visits. Pro: 50,000. Business 1: 100,000. For sites under 25,000 monthly visits, Kinsta's premium pricing is often harder to justify vs SiteGround or Hostinger which perform well at similar traffic levels."
+author: marcus
 ---
 
 Kinsta is the premium benchmark for managed WordPress hosting. At $35/month for a single site, they're 9x more expensive than Hostinger and 75% more than WP Engine's entry plan. Is the price justified?

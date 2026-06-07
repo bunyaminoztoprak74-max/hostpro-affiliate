@@ -19,6 +19,7 @@ faq:
     answer: "SiteGround dramatically improved after rebuilding on custom cloud infrastructure in 2020. Hostinger has improved with NVMe SSD rollout and LiteSpeed adoption. HostGator and GoDaddy have declined relative to competitors."
   - question: "Should I choose the highest-rated hosting provider?"
     answer: "Choose the highest-rated host for your specific use case. The top-rated shared host may not be the best choice if you need managed WordPress features. Match the host's strengths to your specific requirements."
+author: marcus
 ---
 
 Comparing hosting providers requires consistent evaluation criteria applied to real test data. This comparison rates all major hosting providers using the same methodology and the same test conditions.

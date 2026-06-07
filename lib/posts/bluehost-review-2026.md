@@ -19,6 +19,7 @@ faq:
     answer: "If your site's SEO or conversion rate matters, yes. Hostinger at $3.99/month is significantly faster (168ms vs 312ms TTFB) at a similar price. SiteGround at $3.99/month is faster (148ms TTFB) with daily backups. Both are better hosting choices for performance-conscious WordPress users."
   - question: "Is Bluehost's WordPress-specific setup actually better?"
     answer: "The guided WordPress setup is better than most hosts for total beginners. But the simplified admin dashboard can actually limit your WordPress learning and make advanced customization harder. It's a beginner benefit with long-term limitations."
+author: marcus
 ---
 
 Bluehost is the most-advertised web hosting brand in the WordPress ecosystem. They're WordPress.org's featured partner, appear in countless tutorials, and have one of the highest brand recognition rates among hosting providers. But brand recognition isn't the same as quality.

@@ -20,6 +20,7 @@ steps:
     text: "In your domain registrar, update the nameservers or A record to point to your new host. DNS propagation takes 24–48 hours. During this time, both sites run simultaneously with no downtime."
   - name: "Verify and finalize"
     text: "Once DNS propagates, test everything: pages, images, contact forms, checkout if applicable. Update your SSL certificate on the new host, then cancel your old hosting plan."
+author: marcus
 ---
 
 Migrating WordPress to a new hosting provider sounds intimidating, but with the right approach, it takes under an hour and causes zero downtime for your visitors.

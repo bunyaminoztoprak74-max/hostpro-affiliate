@@ -19,6 +19,7 @@ faq:
     answer: "Key factors: storage type (NVMe SSD > SSD > HDD), web server software (LiteSpeed > Nginx > Apache), server-side caching configuration, PHP version (8.x is significantly faster than 7.x), and server-to-visitor proximity."
   - question: "Is LiteSpeed hosting faster than Apache?"
     answer: "Yes, measurably so. LiteSpeed handles PHP requests more efficiently and includes built-in LSCache that dramatically reduces database queries. Hosts using LiteSpeed (Hostinger, A2 Turbo) consistently outperform Apache-based alternatives."
+author: marcus
 ---
 
 Speed is the single most measurable quality difference between web hosting providers. While uptime data requires months of monitoring, speed can be tested and verified in minutes — making it one of the most reliable comparison points.

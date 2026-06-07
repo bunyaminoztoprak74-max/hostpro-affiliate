@@ -19,6 +19,7 @@ steps:
     text: "In hPanel, go to Emails > Email Accounts and create a professional email address (you@yourdomain.com). Access it via webmail or configure in Outlook/Gmail."
   - name: "Verify SSL is active"
     text: "In hPanel, go to Websites > Manage > SSL. Ensure the SSL certificate is installed and active. Visit your domain to confirm the padlock shows."
+author: marcus
 ---
 
 Hostinger is our top pick for value hosting in 2026. At $2.99/month, it offers NVMe SSD storage, a free domain, free SSL, and an intuitive custom control panel (hPanel) that's easier to navigate than cPanel.

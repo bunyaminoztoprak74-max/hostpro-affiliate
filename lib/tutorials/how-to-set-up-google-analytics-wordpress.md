@@ -17,6 +17,7 @@ steps:
     text: "Go to Site Kit in your WordPress menu and click Set up. Follow the Google account authorization steps and select your GA4 property."
   - name: "Verify tracking is working"
     text: "Visit your website in a separate browser tab, then check Google Analytics Realtime report to confirm your visit is being tracked."
+author: marcus
 ---
 
 Google Analytics 4 (GA4) is the standard analytics platform for tracking website traffic, user behavior, and conversions. Setting it up on WordPress takes under 10 minutes with the right method.

@@ -19,6 +19,7 @@ steps:
     text: "Enable Cloudflare Free CDN or use your host's built-in CDN to serve static assets globally. WooCommerce product images benefit significantly from CDN delivery."
   - name: "Consider a hosting upgrade"
     text: "Shared hosting hits a ceiling with WooCommerce. If TTFB is above 500ms, migrate to Cloudways managed cloud hosting. The performance difference is dramatic."
+author: marcus
 ---
 
 WooCommerce is resource-intensive — it runs hundreds of database queries per page and generates dynamic content that can't be fully cached. A slow WooCommerce store directly costs sales: a 1-second delay in checkout reduces conversions by 7%.

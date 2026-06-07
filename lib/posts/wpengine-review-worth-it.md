@@ -19,6 +19,7 @@ faq:
     answer: "Main disadvantages: expensive ($20/month minimum for 1 site), no email hosting included, plugin restrictions (certain plugins banned), per-site pricing (hosting 5 sites costs $59/month minimum), and overage fees if you exceed visit limits."
   - question: "When should I choose WP Engine over shared hosting?"
     answer: "Choose WP Engine when: your WordPress site generates enough revenue that downtime costs real money, you've experienced plugin updates breaking your site, you can't afford to debug WordPress issues yourself, or your traffic is unpredictable and needs auto-scaling."
+author: marcus
 ---
 
 WP Engine starts at $20/month — 5x more than quality shared hosting. Is the premium justified? After 12 months of running WordPress sites on WP Engine's Startup plan, here is the comprehensive assessment.

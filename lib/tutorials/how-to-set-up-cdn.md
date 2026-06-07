@@ -19,6 +19,7 @@ steps:
     text: "In WordPress, install the Cloudflare plugin from the official repo. Connect it to your account. This lets you purge the cache and manage settings directly from WordPress."
   - name: "Test your CDN setup"
     text: "Use GTmetrix or WebPageTest to run a speed test before and after CDN setup. Check that your site loads from the CDN by looking for CF-Cache-Status headers in browser DevTools."
+author: marcus
 ---
 
 A CDN (Content Delivery Network) stores cached copies of your website's files on servers worldwide. When a visitor loads your site, they receive files from the nearest server — not your origin server in a single location. This reduces load times, especially for international visitors.

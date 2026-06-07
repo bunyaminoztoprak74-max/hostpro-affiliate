@@ -16,6 +16,7 @@ faq:
     answer: "Shared hosting puts your site on a server with hundreds of other websites, sharing resources. It's affordable but has performance limits. Managed hosting gives you dedicated resources, automated backups, staging environments, and expert support — at a higher price."
   - question: "Is cheap web hosting safe and reliable?"
     answer: "Yes, if you choose a reputable provider. Hostinger offers $2.99/month hosting with NVMe SSD storage, LiteSpeed servers, and 99.97% uptime in our tests — proving budget hosting can be both safe and fast. Avoid no-name hosts with no verifiable uptime data."
+author: marcus
 ---
 
 Finding the best web hosting in 2026 is harder than ever. There are hundreds of options, most reviews are biased, and pricing tricks make comparisons difficult. We spent 6 months testing 12 different providers to give you real answers.

@@ -19,6 +19,7 @@ faq:
     answer: "Quality nonprofit hosting is available for $3-7/month. DreamHost's nonprofit plan can be significantly discounted. Hostinger at $3.99/month provides excellent value without special programs. Total annual hosting cost should be under $100 for most nonprofits."
   - question: "Can nonprofits get free web hosting?"
     answer: "Some options: WordPress.com nonprofit program (free but limited). Google for Nonprofits (provides G Suite, not hosting). DreamHost donates hosting to qualifying nonprofits. Bluehost.com for nonprofits has special pricing. Free hosting typically comes with significant limitations."
+author: marcus
 ---
 
 Nonprofit organizations often operate with tight budgets, volunteer staff, and limited technical expertise. Web hosting decisions require balancing cost efficiency with the reliability needed to support donor relationships and community trust.

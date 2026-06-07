@@ -19,6 +19,7 @@ faq:
     answer: "Managed WordPress cloud: $20-35/month entry (WP Engine, Kinsta). Unmanaged cloud (Cloudways): $14/month entry. Raw cloud VM (DigitalOcean, Linode): $6/month but requires server management. Quality managed cloud for WordPress typically starts at $14-20/month."
   - question: "Is Cloudways good for WordPress?"
     answer: "Yes. Cloudways provides excellent WordPress cloud hosting by managing cloud server infrastructure while letting you deploy WordPress through a simplified interface. The Breeze caching plugin and choice of cloud providers (AWS, GCP, DigitalOcean) make it a strong choice for technical WordPress users."
+author: marcus
 ---
 
 Cloud hosting has transformed from a luxury into a standard option for serious WordPress sites. The combination of scalability, reliability, and performance that cloud infrastructure provides makes it attractive for growing WordPress sites that have outgrown shared hosting.

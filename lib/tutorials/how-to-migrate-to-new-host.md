@@ -19,6 +19,7 @@ steps:
     text: "Once the site is verified on the new host, update your domain's nameservers or A Record to point to the new server. Propagation takes 1-48 hours."
   - name: "Verify live and cancel old hosting"
     text: "After DNS propagates and your site is live on the new host, wait 48 hours then cancel your old hosting. Download a final backup from the old host first."
+author: marcus
 ---
 
 Migrating a website to a new host sounds intimidating but it's a straightforward process when done in the right order. The key is to set up everything on the new host before changing DNS — so you can test thoroughly before going live.

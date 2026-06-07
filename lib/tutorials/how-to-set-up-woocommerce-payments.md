@@ -19,6 +19,7 @@ steps:
     text: "Enable test/sandbox mode in your gateway settings. Use test card numbers to complete a test purchase and verify everything works before going live."
   - name: "Go live"
     text: "Switch from test mode to live mode in your payment gateway settings. Run a real small test transaction to confirm payments process correctly."
+author: marcus
 ---
 
 Setting up payments is the critical step that transforms a WooCommerce store from a product catalog into a revenue-generating business. This guide covers the three most popular payment gateways: Stripe, PayPal, and WooCommerce Payments.

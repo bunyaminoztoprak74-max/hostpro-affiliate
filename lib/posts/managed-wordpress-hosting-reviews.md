@@ -19,6 +19,7 @@ faq:
     answer: "Most managed hosts have plugin restrictions. WP Engine bans certain plugins (mostly security, caching, and backup plugins they replace with their own). Kinsta restricts fewer plugins. Always check the plugin blacklist before migrating."
   - question: "What happens if my site gets hacked on managed WordPress hosting?"
     answer: "All premium managed WordPress hosts (WP Engine, Kinsta, Cloudways) offer free hack remediation. This is one of the key value propositions — if a security issue occurs, the host's experts fix it."
+author: marcus
 ---
 
 Managed WordPress hosting costs 5-20x more than shared hosting. Is the premium justified? For the right users, absolutely. For others, it's an expensive solution to problems they don't have.

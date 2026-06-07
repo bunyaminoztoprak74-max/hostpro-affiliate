@@ -19,6 +19,7 @@ faq:
     answer: "Yes. WordPress with portfolio/photography themes (Divi, Astra + Elementor, Showit) provides professional galleries. Photocrati, NextGEN Gallery, and FooGallery are popular photography gallery plugins. Client proofing systems like ShootProof integrate with WordPress."
   - question: "Do photographers need special hosting features?"
     answer: "Key features for photographers: high storage allocation (images are large), fast image delivery (NVMe SSD + CDN), reliable uptime (clients view galleries anytime), and SSL (professional and secure for client galleries)."
+author: marcus
 ---
 
 Photographers have specific hosting needs that differ from typical websites: large image files, galleries with dozens or hundreds of high-resolution images, and clients who need reliable access to proof galleries at any hour.

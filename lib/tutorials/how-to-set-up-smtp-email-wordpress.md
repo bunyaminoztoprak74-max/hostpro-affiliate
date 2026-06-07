@@ -17,6 +17,7 @@ steps:
     text: "In WordPress, go to WP Mail SMTP > Settings. Enter your From Email, From Name, choose your mailer, and enter the credentials from step 3."
   - name: "Send a test email"
     text: "In WP Mail SMTP, go to the Email Test tab. Enter a test recipient email and click Send Test. Verify the email arrives in your inbox."
+author: marcus
 ---
 
 By default, WordPress uses PHP's `mail()` function to send emails. Most shared hosting servers block or restrict this function because spammers abuse it, which means contact form submissions, order confirmations, and password reset emails never arrive.

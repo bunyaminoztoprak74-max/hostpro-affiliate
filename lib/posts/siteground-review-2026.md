@@ -19,6 +19,7 @@ faq:
     answer: "SiteGround: faster TTFB (148ms vs 168ms), better uptime (99.99% vs 99.97%), daily backups included. Hostinger: cheaper ($8.99/mo renewal vs $14.99/mo), 100 sites vs SiteGround's unlimited (but 10GB storage limit), faster support (2m vs 4m)."
   - question: "What are SiteGround's main weaknesses?"
     answer: "Main weaknesses: high renewal price (greatest jump in category at $3.99 → $14.99/month), low storage (10GB on StartUp, 20GB on GrowBig), no free domain on StartUp plan, and higher cost per gigabyte of storage than competitors."
+author: marcus
 ---
 
 SiteGround was rebuilt from the ground up in 2020 on custom cloud infrastructure. Three years later, does the new platform deliver on its promise? After 12 months of real monitoring, here's the honest 2026 assessment.

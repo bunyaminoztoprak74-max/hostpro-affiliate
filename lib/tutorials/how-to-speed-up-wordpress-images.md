@@ -17,6 +17,7 @@ steps:
     text: "Upload images at the exact dimensions WordPress will display them. Uploading a 4000px wide photo for a 800px column wastes bandwidth. Resize in Photoshop or Squoosh before uploading."
   - name: "Run a bulk optimization"
     text: "After configuring your plugin, run a bulk optimization on all existing images in your media library. Most plugins have a one-click bulk optimizer."
+author: marcus
 ---
 
 Images are typically the largest files on a webpage — often 60–80% of a page's total weight. Optimizing images is the single highest-impact action you can take to improve WordPress page speed.

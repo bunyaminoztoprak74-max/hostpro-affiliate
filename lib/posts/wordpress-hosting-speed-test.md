@@ -19,6 +19,7 @@ faq:
     answer: "Yes significantly. A heavy theme with many scripts adds to load time regardless of host speed. For fair hosting comparisons, use a lightweight test theme (like Twenty Twenty-Three) with identical content on each host."
   - question: "Is 200ms TTFB fast enough for WordPress?"
     answer: "200ms TTFB is Google's threshold for 'Good' Core Web Vitals server response time. Hostinger (168ms) and SiteGround (148ms) both qualify as 'Good.' Bluehost (312ms) and HostGator (389ms) fall in 'Needs Improvement' — creating an SEO disadvantage."
+author: marcus
 ---
 
 Speed test data is the most objective way to compare web hosting providers. Unlike uptime (which requires months of monitoring) or support quality (which is subjective), speed can be measured precisely with free tools.

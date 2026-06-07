@@ -17,6 +17,7 @@ steps:
     text: "Check all pages, forms, checkout flows (if WooCommerce), and critical functionality on staging. Test with multiple browsers."
   - name: "Push staging to live"
     text: "Once satisfied, use your host's push-to-live feature (or manually migrate the staging changes) to apply everything to the production site. Back up your live site first."
+author: marcus
 ---
 
 A staging site is an exact clone of your live website running in a private environment. It lets you safely test WordPress updates, plugin changes, and redesigns without risking your live site. Every serious WordPress site should have one.

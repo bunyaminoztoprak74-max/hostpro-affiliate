@@ -16,6 +16,7 @@ faq:
     answer: "Bluehost was previously recommended by WordPress.org, but WordPress.org updated its recommended hosts list. Bluehost remains a solid choice for beginners, but Hostinger now outperforms it on speed and price in independent tests."
   - question: "Can I migrate from Bluehost to Hostinger?"
     answer: "Yes. Hostinger offers free website migration for new customers. Their support team can handle the transfer of your files, databases, and email accounts, typically within 24–48 hours."
+author: marcus
 ---
 
 Hostinger and Bluehost are two of the most popular web hosting choices in 2026 — but they serve very different needs. We ran both through our full testing suite to give you a clear answer.

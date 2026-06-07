@@ -19,6 +19,7 @@ steps:
     text: "DNS changes take 24–48 hours to fully propagate worldwide, though most users see the change within 1–4 hours. Use dnschecker.org to monitor propagation."
   - name: "Verify the connection"
     text: "Once propagation is complete, visit your domain in a browser. You should see your hosting account's default page or your website. Set up SSL next."
+author: marcus
 ---
 
 Connecting a domain to hosting is one of the first steps every website owner must complete. The process is the same regardless of which registrar or host you use — you're simply telling the internet's DNS system where your domain's files live.

@@ -19,6 +19,7 @@ steps:
     text: "In SSL Certificate settings, enter your domain and click Install Certificate. Cloudways installs a free Let's Encrypt SSL in about 30 seconds."
   - name: "Complete WordPress setup"
     text: "Visit your domain/wp-admin to complete WordPress setup. Install your theme and plugins. Your site is now live on Cloudways managed cloud hosting."
+author: marcus
 ---
 
 Cloudways is a managed cloud hosting platform that gives you the power of cloud providers like DigitalOcean, AWS, and Google Cloud with a simplified interface that doesn't require server administration knowledge.

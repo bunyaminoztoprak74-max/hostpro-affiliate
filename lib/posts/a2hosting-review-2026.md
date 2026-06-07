@@ -19,6 +19,7 @@ faq:
     answer: "Hostinger delivers better performance (168ms vs 198ms TTFB) at lower cost ($3.99/mo vs $5.99/mo Turbo). Both use LiteSpeed and NVMe. Hostinger's renewal price is also lower ($8.99/mo vs $10.99/mo). Hostinger is the better choice for most users."
   - question: "What does A2 Hosting's 'Anytime Money Back Guarantee' mean?"
     answer: "A2 Hosting's 'Anytime' guarantee allows pro-rated refunds even after the initial guarantee period. If you cancel after 6 months, you receive a partial refund for unused hosting time. This is genuinely more flexible than standard 30-day guarantees."
+author: marcus
 ---
 
 A2 Hosting markets themselves around speed — their Turbo servers, NVMe SSD, and "20x faster" claims dominate their marketing. After 6 months of testing both their standard and Turbo plans, here's what the data actually shows.

@@ -7,6 +7,7 @@ import {
   SITE_URL,
   SITE_NAME,
 } from '@/lib/seo'
+import { getAuthorBySlug } from '@/lib/authors'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -78,6 +79,10 @@ export default async function PostPage({ params }: Props) {
   const isReview = post.category === 'Review'
   const faqs = post.faq ?? []
   const relatedPosts = getRelatedPosts(post.slug, post.tags ?? [])
+
+  // Resolve full author data from slug stored in frontmatter
+  const authorSlug = post.author ?? 'marcus'
+  const authorData = getAuthorBySlug(authorSlug)
 
   const mainSchema = isReview
     ? generateReviewSchema({ ...post, rating: post.rating })
@@ -190,11 +195,12 @@ export default async function PostPage({ params }: Props) {
             {/* FAQ */}
             <FAQSection faqs={faqs} />
 
-            {/* Author box */}
+            {/* Author box — resolved from authors.ts by slug */}
             <AuthorBox
-              name={post.author ?? 'HostPro Editorial Team'}
-              slug={post.author ? post.author.toLowerCase().replace(/\s+/g, '-') : undefined}
-              role={isReview ? 'Hosting Analyst' : 'Content Writer'}
+              name={authorData?.name ?? 'Marcus Webb'}
+              slug={authorSlug}
+              bio={authorData?.bio}
+              role={authorData?.role ?? (isReview ? 'Hosting Analyst' : 'Content Writer')}
             />
 
             {/* Email capture */}

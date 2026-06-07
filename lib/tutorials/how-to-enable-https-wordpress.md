@@ -17,6 +17,7 @@ steps:
     text: "After enabling HTTPS, fix any mixed content (HTTP resources on an HTTPS page). Use the Really Simple SSL plugin or manually update URLs in your database."
   - name: "Verify SSL is working"
     text: "Check that your site shows a padlock icon in the browser, all pages redirect to HTTPS, and Google Search Console shows no SSL errors."
+author: marcus
 ---
 
 Switching from HTTP to HTTPS is mandatory in 2026. HTTPS encrypts data between your visitor's browser and your server, protects user privacy, and is a ranking factor in Google Search. Chrome marks HTTP sites as "Not Secure" — a trust killer.

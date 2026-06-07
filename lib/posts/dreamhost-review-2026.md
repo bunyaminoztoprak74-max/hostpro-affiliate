@@ -19,6 +19,7 @@ faq:
     answer: "DreamPress is DreamHost's managed WordPress product at $16.95/month. It includes unlimited storage, Jetpack Premium, CDN, staging, and automatic WordPress updates. Performance is below WP Engine/Kinsta but includes features comparable to lower-tier managed hosts."
   - question: "Is DreamHost's 97-day guarantee legitimate?"
     answer: "Yes. DreamHost genuinely provides 97-day money-back on shared hosting. This is the longest guarantee in the industry — nearly triple the standard 30 days. The guarantee applies to new accounts on shared hosting plans."
+author: marcus
 ---
 
 DreamHost has operated since 1997 — one of the oldest US-based hosting companies still independent. They haven't been acquired by Newfold Digital (like Bluehost and HostGator) or another hosting conglomerate, which means their service reflects a consistent philosophy rather than cost-cutting consolidation.

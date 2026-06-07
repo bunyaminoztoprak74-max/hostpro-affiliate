@@ -19,6 +19,7 @@ faq:
     answer: "Namecheap hosting is best for: hobby sites where performance doesn't matter, the absolute lowest-cost option when budget is the only criterion, and users who want to manage domain + hosting in one account without caring about hosting quality."
   - question: "Is Namecheap's EasyWP good?"
     answer: "EasyWP is Namecheap's managed WordPress product starting at $3.88/month. Performance is similar to their shared hosting. It's simpler to set up than shared hosting but doesn't offer the performance improvements of actual managed WordPress (WP Engine, Kinsta)."
+author: marcus
 ---
 
 Namecheap built their reputation on domain registration — transparent pricing, no unnecessary upselling, and reliable domain management. Their hosting is a logical extension of that business, but is it as good as their domain service?

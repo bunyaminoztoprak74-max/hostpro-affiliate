@@ -19,6 +19,7 @@ faq:
     answer: "Yes significantly. Hosts with global CDN (Kinsta, WP Engine, SiteGround) serve content faster to international visitors. Our primary TTFB tests are measured at the server (no CDN) to isolate hosting performance, with separate CDN-inclusive tests provided."
   - question: "What is a good hosting speed in 2026?"
     answer: "Under 200ms TTFB is 'Good' by Google's Core Web Vitals standards. Under 150ms is excellent. Over 300ms is poor and creates an SEO disadvantage. Our top 5 hosts all achieve under 200ms without additional optimization."
+author: marcus
 ---
 
 Speed is the most objectively measurable hosting quality. Unlike support (subjective) or reliability (requires months of data), speed can be tested right now with free tools. This comparison provides 6 months of consistent measurement data across 10 providers.

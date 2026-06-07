@@ -18,6 +18,7 @@ steps:
     text: "Go to UpdraftPlus > Backup Now. Check both 'Database' and 'Files'. Click 'Backup Now'. Your first backup will run immediately. Verify it appears in your remote storage (Google Drive, etc.)."
   - name: "Test your backup by restoring"
     text: "A backup you've never tested is not a backup. Set up a staging site (or use Hostinger's test environment) and restore your backup to confirm it works before you ever need it in an emergency."
+author: marcus
 ---
 
 The only thing worse than losing your website is realizing you have no backup when it happens. Backups take 5 minutes to set up and can save you weeks of lost work.

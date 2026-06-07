@@ -19,6 +19,7 @@ faq:
     answer: "Cloudways is cheaper for hosting multiple sites (one server hosts many sites vs WP Engine's per-site pricing). WP Engine has better WordPress-specific management (Smart Plugin Manager) and a stronger uptime SLA. Choose Cloudways for cost-effective multi-site; WP Engine for premium WordPress management."
   - question: "Which cloud provider should I choose on Cloudways?"
     answer: "DigitalOcean is the best value for most users ($14/month 1GB). Google Cloud (GCP) offers premium performance. AWS provides enterprise reliability and global presence. Vultr and Linode are budget alternatives. Start with DigitalOcean and upgrade as needed."
+author: marcus
 ---
 
 Cloudways occupies a unique position in the hosting market: managed cloud hosting that lets you choose your cloud provider (AWS, Google Cloud, DigitalOcean, Vultr, Linode) without managing servers directly. It's not shared hosting, not traditional managed hosting — it's something in between.

@@ -19,6 +19,7 @@ faq:
     answer: "WordPress.org recommends Bluehost, SiteGround, DreamHost, and Hostinger as hosting partners. However, these partnerships have financial components — WP Engine, Kinsta, and Cloudways are not listed but often outperform the recommended partners."
   - question: "What is the renewal price trap in WordPress hosting?"
     answer: "Most WordPress hosts advertise promotional intro prices that expire at renewal. Bluehost at $2.95/month becomes $10.99/month in year 2. SiteGround at $3.99/month becomes $14.99/month. Always calculate the 2-3 year total cost, not just year 1."
+author: marcus
 ---
 
 Choosing between WordPress hosting providers is difficult because every host claims to be "the best." Real comparisons require consistent testing methodology, actual data, and honest reporting of both strengths and weaknesses.

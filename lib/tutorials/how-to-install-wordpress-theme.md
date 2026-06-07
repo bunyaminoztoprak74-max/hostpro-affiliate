@@ -17,6 +17,7 @@ steps:
     text: "After installing, click Activate. Your site will immediately switch to the new theme. You can preview before activating by clicking Live Preview."
   - name: "Configure theme settings"
     text: "Go to Appearance > Customize to access the WordPress Customizer and configure your theme's colors, typography, layout, and other options."
+author: marcus
 ---
 
 Installing a WordPress theme is one of the first customization steps for any new site. WordPress makes this straightforward with a built-in theme installer, but there are also manual methods for premium themes that come as ZIP files.

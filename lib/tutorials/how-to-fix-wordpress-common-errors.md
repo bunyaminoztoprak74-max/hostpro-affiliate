@@ -17,6 +17,7 @@ steps:
     text: "Your hosting control panel's error logs (cPanel > Metrics > Errors) show PHP errors with file names and line numbers — much faster than guessing."
   - name: "Increase PHP memory limit"
     text: "Many errors are caused by insufficient PHP memory. Add define('WP_MEMORY_LIMIT', '256M') to wp-config.php to increase the limit."
+author: marcus
 ---
 
 WordPress is reliable, but errors happen — usually after a plugin update, theme change, or hosting migration. Most errors have straightforward fixes once you know where to look.

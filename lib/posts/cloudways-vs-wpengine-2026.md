@@ -16,6 +16,7 @@ faq:
     answer: "Neither Cloudways nor WP Engine includes email hosting. Both require a third-party email provider such as Google Workspace ($6/user/month) or Zoho Mail for professional email addresses."
   - question: "Which has better customer support: Cloudways or WP Engine?"
     answer: "Both offer excellent 24/7 support. WP Engine averages 2-minute chat response with WordPress-specialist agents. Cloudways averages 3 minutes with strong server-level expertise. WP Engine has an edge for purely WordPress issues; Cloudways is better for server-level and multi-app questions."
+author: marcus
 ---
 
 Cloudways and WP Engine are two of the best managed hosting platforms available in 2026. Both deliver exceptional performance and support — but they're built for different users. This comparison will tell you exactly which one is right for your situation.

@@ -1,5 +1,6 @@
 import { getTutorialBySlug, getAllTutorialSlugs } from '@/lib/tutorials'
-import { SITE_URL, SITE_NAME } from '@/lib/seo'
+import { SITE_URL, SITE_NAME, LEAD_AUTHOR } from '@/lib/seo'
+import { getAuthorBySlug } from '@/lib/authors'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -7,6 +8,7 @@ import Script from 'next/script'
 import TableOfContents from '@/components/TableOfContents'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 import EmailCapture from '@/components/EmailCapture'
+import AuthorBox from '@/components/AuthorBox'
 
 export const revalidate = false
 
@@ -82,7 +84,27 @@ export default async function TutorialPage({ params }: Props) {
         }
       : null
 
-  const schemas: object[] = [breadcrumbSchema, ...(howToSchema ? [howToSchema] : [])]
+  // Article schema with Person author for E-E-A-T
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: tutorial.title,
+    description: tutorial.excerpt,
+    datePublished: tutorial.date,
+    dateModified: tutorial.lastModified ?? tutorial.date,
+    author: LEAD_AUTHOR,
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/tutorials/${slug}` },
+  }
+
+  const authorData = getAuthorBySlug('marcus')
+
+  const schemas: object[] = [breadcrumbSchema, articleSchema, ...(howToSchema ? [howToSchema] : [])]
 
   return (
     <>
@@ -153,6 +175,14 @@ export default async function TutorialPage({ params }: Props) {
             <div
               className="prose-custom"
               dangerouslySetInnerHTML={{ __html: tutorial.contentHtml }}
+            />
+
+            {/* Author box */}
+            <AuthorBox
+              name={authorData?.name ?? 'Marcus Webb'}
+              slug="marcus"
+              bio={authorData?.bio}
+              role={authorData?.role ?? 'Lead Reviewer & Founder'}
             />
 
             {/* Email capture */}

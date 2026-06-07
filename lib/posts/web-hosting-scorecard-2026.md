@@ -19,6 +19,7 @@ faq:
     answer: "B grades (80-89 score equivalent) indicate above-average performance with room for improvement. A B in uptime means 99.93-99.96% — acceptable but not the 99.99% standard of top performers. No grade below B is acceptable for business-critical hosting."
   - question: "How often is the scorecard updated?"
     answer: "Our scorecard is updated every 6 months with fresh test data. Hosting performance, pricing, and features change frequently — a scorecard older than 12 months may not reflect the current product."
+author: marcus
 ---
 
 A scorecard approach cuts through marketing copy and gives you an at-a-glance comparison of every major hosting provider. We grade 10 specific criteria, each based on measurable test data, to identify where hosts excel and where they fall short.

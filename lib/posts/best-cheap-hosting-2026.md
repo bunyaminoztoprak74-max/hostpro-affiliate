@@ -16,6 +16,7 @@ faq:
     answer: "Slow or unreliable cheap hosting can hurt SEO because Google considers page speed and uptime as ranking factors. However, quality budget hosts like Hostinger deliver speeds comparable to mid-tier hosts, so the impact is minimal if you choose the right provider."
   - question: "What is the catch with cheap web hosting?"
     answer: "The most common catches are: significantly higher renewal prices after the first term, limited storage or bandwidth on entry plans, no monthly billing (annual commitment required), and slower support response times compared to premium hosts. Always read the renewal pricing before signing up."
+author: marcus
 ---
 
 "Cheap hosting" has a bad reputation — for good reason. Most budget hosts sacrifice speed, uptime, and support to hit a low price point. But a few providers have figured out how to deliver real quality at a fraction of the cost. We tested them all to find the ones worth your money.

@@ -19,6 +19,7 @@ faq:
     answer: "When your website generates enough revenue that downtime or performance degradation costs real money, and when that cost exceeds the price of managed hosting ($20-35/month). For most sites, this threshold is 50,000+ monthly visitors or $5,000+/month in website-driven revenue."
   - question: "What is the difference between shared and VPS hosting for WordPress?"
     answer: "Shared hosting: multiple sites share one server's resources. VPS: you get a virtual machine with dedicated resources. VPS is more powerful but requires more technical management. Modern quality shared hosting (Hostinger, SiteGround) often performs comparably to basic VPS for typical WordPress sites."
+author: marcus
 ---
 
 "You'll outgrow shared hosting quickly." This common advice has become outdated. Modern shared hosting has improved so dramatically that the majority of WordPress sites — even established ones with significant traffic — can run entirely on shared hosting in 2026.

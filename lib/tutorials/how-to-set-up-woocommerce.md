@@ -20,6 +20,7 @@ steps:
     text: "Go to Products > Add New. Add a title, description, product image, price, and stock quantity. Choose 'Simple product' for a physical item, 'Variable product' for items with sizes/colors. Click Publish."
   - name: "Install a WooCommerce-compatible theme"
     text: "Use Storefront (free, official WooCommerce theme) or Astra (free, highly optimized). Go to Appearance > Themes > Add New and search for either. Storefront requires zero configuration."
+author: marcus
 ---
 
 WooCommerce powers 28% of all online stores. It's free, flexible, and runs on WordPress. Setting up your first store takes a few hours — here's exactly how to do it.

@@ -19,6 +19,7 @@ faq:
     answer: "We use UptimeRobot (5-minute checks) and Freshping (1-minute checks) to monitor HTTP responses. A site is considered down when it returns anything other than a 200 OK status code, or times out. We monitor from multiple locations."
   - question: "What causes hosting downtime?"
     answer: "Server hardware failure, network issues, DDoS attacks, database crashes, software updates gone wrong, and resource exhaustion from oversold shared servers. Quality hosts have redundancy for all of these failure modes."
+author: marcus
 ---
 
 Uptime is the most critical hosting metric for business websites. Your perfectly optimized, lightning-fast website is worthless when it's down. But uptime claims require verification — nearly every host advertises "99.9% uptime," and the reality varies significantly.

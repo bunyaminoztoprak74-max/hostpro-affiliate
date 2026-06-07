@@ -40,7 +40,7 @@ export default async function AuthorPage({ params }: Props) {
   const author = getAuthorBySlug(slug)
   if (!author) notFound()
 
-  const posts = getAllPosts().filter((p) => (p.author ?? 'bunyamin') === slug)
+  const posts = getAllPosts().filter((p) => (p.author ?? 'marcus') === slug)
 
   const personSchema = {
     '@context': 'https://schema.org',

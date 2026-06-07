@@ -17,6 +17,7 @@ faq:
     answer: "Yes. Cloudways offers a 3-day free trial with no credit card required. You can test the full platform, create servers, and deploy applications before committing to a paid plan."
   - question: "Does Cloudways include email hosting?"
     answer: "No. Cloudways does not include email hosting. You'll need a separate service such as Google Workspace ($6/user/month) or Zoho Mail (free for up to 5 users) for professional email addresses."
+author: marcus
 ---
 
 Cloudways has built a reputation as the go-to managed cloud hosting platform for developers and growing businesses. But is it worth the premium over regular shared hosting? We spent 3 months testing it across multiple cloud providers to find out.

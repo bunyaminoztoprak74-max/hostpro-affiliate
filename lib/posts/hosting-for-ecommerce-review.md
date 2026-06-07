@@ -19,6 +19,7 @@ faq:
     answer: "SSL certificate (required for PCI compliance), WAF (Web Application Firewall), DDoS protection, daily backups with restore capability, and malware scanning. WP Engine and Kinsta include all of these. Hostinger Business includes SSL and basic security."
   - question: "Can WooCommerce handle large product catalogs?"
     answer: "Yes. WooCommerce handles 100,000+ products on adequate hosting. The key is database performance — NVMe SSD (Kinsta, Hostinger) dramatically outperforms standard SSD for large catalog queries. With proper indexing and caching, even large catalogs load quickly."
+author: marcus
 ---
 
 Ecommerce hosting failures cost real money. A 500 error during checkout, a 5-minute outage during a sale, or a 3-second product page load time — all translate directly to lost revenue. 

@@ -19,6 +19,7 @@ faq:
     answer: "PHP 8.1+ is 30-40% faster than PHP 7.4 for WordPress workloads due to JIT compilation. All top-tier hosts support PHP 8.1-8.3 with easy version switching. If a host only offers PHP 7.x or doesn't let you choose PHP version, it's running outdated infrastructure."
   - question: "What is a server stress test and why does it matter?"
     answer: "A stress test sends multiple simultaneous requests to measure how a server performs under load. We use Loader.io to simulate 50-100 concurrent users and measure response time degradation. Good shared hosting stays under 500ms at 50 concurrent users. Poor hosts spike to 2000ms+ or return errors, which is what happens to real visitors during traffic spikes."
+author: marcus
 ---
 
 Choosing the right web host in 2026 is harder than ever. There are hundreds of providers, each promising blazing speed and perfect uptime. After running real WordPress sites on 10+ hosts for 6+ months each, measuring actual performance data, and contacting support dozens of times, we've built the most thorough hosting review you'll find.

@@ -17,6 +17,7 @@ steps:
     text: "In WP-Optimize, go to the Tables tab and click Optimize all tables. This defragments MySQL tables and reclaims unused space."
   - name: "Set up scheduled optimization"
     text: "Configure WP-Optimize to run automatically on a weekly schedule so the database stays clean without manual intervention."
+author: marcus
 ---
 
 Over time, WordPress databases accumulate thousands of unnecessary records: post revisions, auto-drafts, spam comments, orphaned metadata, and expired transients. These inflate database size, slow queries, and degrade admin dashboard performance.

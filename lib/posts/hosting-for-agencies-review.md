@@ -19,6 +19,7 @@ faq:
     answer: "Best-practice agency workflow: develop on local environment → push to staging server → client review and approval → push to production. Cloudways, WP Engine, and Kinsta all support this workflow with staging environments and one-click promote."
   - question: "What white-label hosting options exist for agencies?"
     answer: "WP Engine offers white-label option on agency plans. Cloudways allows custom branding of the client portal. Both allow agencies to present hosting as their own service without revealing the underlying provider."
+author: marcus
 ---
 
 Web agencies face a unique hosting challenge: managing dozens of client websites efficiently, maintaining quality across all of them, and building a profitable hosting-as-a-service offering. Generic shared hosting doesn't scale for agencies.

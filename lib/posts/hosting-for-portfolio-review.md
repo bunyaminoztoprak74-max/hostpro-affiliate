@@ -19,6 +19,7 @@ faq:
     answer: "WordPress with a portfolio theme (Astra, Divi, Elementor) gives the most flexibility and control. Website builders (Squarespace, Wix) are simpler but limit customization. For complex portfolios with custom gallery layouts, WordPress is preferred."
   - question: "What is the most affordable professional portfolio hosting?"
     answer: "Hostinger Single at $2.99/month provides professional hosting with fast NVMe SSD, free SSL, and a free domain — everything a portfolio needs for under $3/month. DreamHost at $2.59/month is slightly cheaper with unlimited storage."
+author: marcus
 ---
 
 Your portfolio is your business card, resume, and pitch all in one. When a potential client visits your portfolio site, they judge your professionalism and attention to quality within seconds. A slow-loading or unreliable portfolio undermines the work you're trying to showcase.

@@ -21,6 +21,7 @@ faq:
     answer: "Essential: 1-click WordPress install, free SSL, automated backups, and server-side caching. Important: staging environment, PHP 8.x support, WP-CLI access. Advanced: Smart Plugin Manager (WP Engine), APM tool (Kinsta), Redis caching (Cloudways, Kinsta)."
   - question: "Which WordPress host has the best support?"
     answer: "WP Engine has the deepest WordPress-specific support knowledge. Hostinger has the fastest response times (2m 18s average). SiteGround balances speed and WordPress expertise well. All three can diagnose WordPress-specific issues accurately."
+author: marcus
 ---
 
 WordPress powers 43% of all websites globally. With hundreds of hosting options claiming to be "optimized for WordPress," it's difficult to separate genuine WordPress hosting from generic hosts that simply offer a 1-click installer.

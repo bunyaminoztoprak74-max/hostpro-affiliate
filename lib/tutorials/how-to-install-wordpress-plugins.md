@@ -15,6 +15,7 @@ steps:
     text: "After installing, click Activate. The plugin is now active on your site. Most plugins add a settings page under the WordPress admin menu."
   - name: "Configure plugin settings"
     text: "Go to the plugin's settings page (usually under Settings or a new menu item) to configure it for your site. Run any setup wizards."
+author: marcus
 ---
 
 WordPress plugins are add-ons that extend your site's functionality. There are 59,000+ free plugins in the WordPress.org directory, plus thousands of premium plugins. Installing one takes less than 2 minutes.

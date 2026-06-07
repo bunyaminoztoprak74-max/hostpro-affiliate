@@ -17,6 +17,7 @@ steps:
     text: "In Search Console, use the URL Inspection tool to submit your homepage and key pages for indexing. This tells Google to crawl them immediately."
   - name: "Monitor for errors"
     text: "Check Coverage report weekly for indexing errors, Core Web Vitals for performance issues, and Search Results for your ranking keywords and click-through rates."
+author: marcus
 ---
 
 Google Search Console is a free tool that shows you how Google sees your site — which pages are indexed, what keywords they rank for, and any technical errors preventing proper indexing. Every WordPress site needs it.

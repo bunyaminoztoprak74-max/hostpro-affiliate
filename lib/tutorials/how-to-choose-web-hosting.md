@@ -18,6 +18,7 @@ steps:
     text: "Test the host's live chat before buying. Ask a technical question and measure response time and quality. Good hosts respond in under 5 minutes with accurate answers. Bad ones take 20+ minutes and give generic replies."
   - name: "Start small, scale later"
     text: "Begin with shared hosting (Hostinger at $2.99/mo) and move to managed cloud (Cloudways at $11/mo) when you hit 20,000+ monthly visitors. Most sites never need to upgrade beyond shared hosting."
+author: marcus
 ---
 
 Choosing web hosting doesn't need to be complicated. Most beginners spend hours comparing dozens of hosts and end up paralyzed by choice. This guide gives you a clear framework.

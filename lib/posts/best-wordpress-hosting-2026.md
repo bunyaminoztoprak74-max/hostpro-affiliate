@@ -16,6 +16,7 @@ faq:
     answer: "WordPress hosting costs range from $2.99/month (shared, like Hostinger) to $20–$200/month (managed, like WP Engine). Most bloggers and small business owners are well-served by the $3–$12/month range."
   - question: "Is WordPress hosting different from regular web hosting?"
     answer: "WordPress hosting is regular hosting optimized for WordPress — typically with one-click installation, WordPress-specific caching, automatic updates, and WordPress support expertise. Managed WordPress hosting goes further with dedicated environments, staging, and advanced security."
+author: marcus
 ---
 
 WordPress powers 43% of all websites on the internet — but not all WordPress hosting is equal. The right host depends on your budget, your traffic, and how much technical control you want. We tested every major option to give you clear picks for every situation.

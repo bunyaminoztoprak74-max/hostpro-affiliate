@@ -18,6 +18,7 @@ steps:
     text: "If you're on Cloudways or WP Engine: go to workspace.google.com, sign up, verify domain ownership, create users. Google Workspace gives you Gmail interface, 30 GB storage, Google Meet, and Calendar — at $6/user/month."
   - name: "Configure email in your WordPress contact form"
     text: "Install WPForms or Contact Form 7. In settings, use your professional email (hello@yourdomain.com) as the 'From' address. Install the WP Mail SMTP plugin and configure it with your hosting's SMTP settings to ensure form submissions deliver reliably."
+author: marcus
 ---
 
 A professional email address (you@yourdomain.com) builds trust with clients and looks far more credible than a Gmail or Yahoo address. The good news: most hosting plans include it for free.

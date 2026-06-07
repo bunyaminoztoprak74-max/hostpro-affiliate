@@ -16,6 +16,7 @@ faq:
     answer: "Most bloggers take 6–18 months to earn their first income. The timeline depends on your niche, how consistently you publish, and your SEO strategy. Affiliate marketing and display ads are the most common early income sources. Some bloggers reach $1,000/month within their first year."
   - question: "What is the best hosting for a new blog?"
     answer: "Hostinger is the best hosting for new bloggers. At $2.99/month, it includes a free domain, free SSL, one-click WordPress installation, and LiteSpeed servers that keep your blog fast from day one. Their hPanel control panel is beginner-friendly and well-documented."
+author: marcus
 ---
 
 Starting a blog in 2026 is still one of the best ways to build passive income online. Thousands of bloggers earn $1,000–$10,000+ per month. This guide walks you through every step, from choosing your niche to publishing your first post.

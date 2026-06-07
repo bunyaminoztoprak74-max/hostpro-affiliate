@@ -19,6 +19,7 @@ faq:
     answer: "Yes directly. Google's Core Web Vitals (which include TTFB and LCP) are confirmed ranking factors. Bloggers on slow hosts (Bluehost, HostGator) have a built-in SEO disadvantage compared to those on fast hosts (Hostinger, SiteGround)."
   - question: "What hosting do top bloggers use?"
     answer: "Established bloggers typically use Kinsta or WP Engine for high-traffic blogs, Cloudways for developer-friendly cloud, or SiteGround for managed-like shared hosting. Most starting bloggers use Hostinger or Bluehost and upgrade as their blog grows."
+author: marcus
 ---
 
 Bloggers have different hosting needs than e-commerce stores or SaaS companies. You need fast content delivery, easy WordPress management, storage for images and media, and an affordable price that makes sense before your blog earns significant revenue.

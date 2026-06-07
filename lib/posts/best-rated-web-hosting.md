@@ -19,6 +19,7 @@ faq:
     answer: "SiteGround dramatically improved after their 2020 infrastructure rebuild. Hostinger improved with NVMe SSD and LiteSpeed adoption. Cloudways improved with better Breeze caching and expanded cloud provider options."
   - question: "What makes a web host deserve a 5-star rating?"
     answer: "Near-perfect uptime (99.99%), fast TTFB under 150ms, comprehensive WordPress features including staging and daily backups, responsive expert support, and transparent pricing without aggressive upsells. WP Engine and Kinsta meet all these criteria."
+author: marcus
 ---
 
 The best-rated web hosting providers in 2026 have earned their ratings through consistent performance across every measurable dimension. This isn't a popularity contest — it's a data-driven ranking based on 12 months of real testing.

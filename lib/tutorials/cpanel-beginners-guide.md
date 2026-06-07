@@ -17,6 +17,7 @@ steps:
     text: "Go to MySQL Databases, create a new database, then create a user and assign all privileges to that user on the database. You'll need these credentials for WordPress manual installs."
   - name: "Manage files with File Manager"
     text: "Click File Manager in the Files section. Navigate to public_html to see and manage your website files. You can upload, edit, rename, and delete files directly here."
+author: marcus
 ---
 
 cPanel is the world's most popular web hosting control panel, used by Bluehost, HostGator, A2 Hosting, Namecheap, and hundreds of other hosts. Once you understand its layout, managing your hosting becomes much faster and easier.

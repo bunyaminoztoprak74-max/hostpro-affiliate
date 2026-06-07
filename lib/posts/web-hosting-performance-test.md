@@ -19,6 +19,7 @@ faq:
     answer: "WP Engine and Kinsta maintain the best performance under concurrent user load — they auto-scale to handle traffic spikes. SiteGround and Hostinger show manageable degradation. Bluehost and HostGator show significant degradation under concurrent users."
   - question: "What is a good TTFB for web hosting performance?"
     answer: "Google's threshold for 'Good' TTFB is under 200ms. Our top 5 hosts (Kinsta, Cloudways, WP Engine, SiteGround, Hostinger) all achieve this with caching enabled. Bluehost (312ms) and HostGator (389ms) fall in the 'Needs Improvement' range."
+author: marcus
 ---
 
 Performance benchmarks cut through marketing claims with objective data. Rather than accepting vendor-supplied benchmarks, we ran identical tests across all providers under controlled conditions.

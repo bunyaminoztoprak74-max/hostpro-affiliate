@@ -19,6 +19,7 @@ steps:
     text: "Install the Cloudflare plugin for WordPress. Set up the correct IP restoration (Cloudflare's IPs replace visitor IPs by default). Configure page rules for the WordPress admin."
   - name: "Test and verify"
     text: "Check that your site loads over HTTPS, the padlock shows, and performance improves. Use browser DevTools to confirm CF-Cache-Status: HIT on cached resources."
+author: marcus
 ---
 
 Cloudflare is a reverse proxy and CDN that sits between your visitors and your hosting server. The free plan includes DDoS protection, global CDN, SSL, and basic security rules — significant value at no cost.

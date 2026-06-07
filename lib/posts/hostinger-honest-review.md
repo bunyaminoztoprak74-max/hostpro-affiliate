@@ -19,6 +19,7 @@ faq:
     answer: "Yes — the best response times in our test group at 2 minutes 18 seconds average. Support quality is good for common issues. Complex server-level problems occasionally require escalation but are typically resolved."
   - question: "What are the main negatives of Hostinger?"
     answer: "Main negatives: only weekly backups on Single and Premium plans (daily requires Business), renewal price jump from intro rate, no phone support (chat only), and the AI website builder is limited compared to dedicated website builders."
+author: marcus
 ---
 
 Hostinger is everywhere in 2026. With prices starting at $2.99/month and marketing that emphasizes "AI-powered hosting" and "blazing-fast NVMe storage," it's easy to be skeptical. Is the performance real? Is the value genuine?

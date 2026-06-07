@@ -19,6 +19,7 @@ faq:
     answer: "Kinsta on Google Cloud C2 machines achieved 128ms TTFB in our tests. For shared WordPress hosting, SiteGround at 148ms is fastest. Hostinger at 168ms is the fastest budget option."
   - question: "Is WordPress.com different from WordPress.org hosting?"
     answer: "Yes. WordPress.com is a hosted service with limited customization. WordPress.org is self-hosted software you install on your own hosting — full control, unlimited plugins/themes, but you manage the hosting. All hosts in this review support WordPress.org (self-hosted)."
+author: marcus
 ---
 
 WordPress powers 43% of all websites on the internet in 2026. Choosing the right host for your WordPress site directly impacts your search rankings, user experience, and ultimately your success.

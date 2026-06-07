@@ -19,6 +19,7 @@ faq:
     answer: "Professional email (yourname@yourbusiness.com), SSL certificates, reliable uptime (99.95%+), daily backups, phone/priority support, e-commerce capability, and ideally a staging environment to test changes before they go live."
   - question: "Is shared hosting reliable enough for a small business website?"
     answer: "Yes, for most small businesses. Premium shared hosting from SiteGround or Hostinger achieves 99.97-99.99% uptime — translating to under 3 hours of downtime per year. This is sufficient for most small business use cases."
+author: marcus
 ---
 
 A slow website doesn't just frustrate visitors — it costs sales. Research shows 40% of users abandon websites that take more than 3 seconds to load, and every 1-second delay in page load time reduces conversions by 7%.

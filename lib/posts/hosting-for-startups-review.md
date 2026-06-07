@@ -19,6 +19,7 @@ faq:
     answer: "Hostinger Business at $5.99/month provides sufficient infrastructure for an MVP: fast NVMe SSD, daily backups, WordPress support, email, and SSL. Upgrade as your startup generates user traffic and revenue."
   - question: "When should a startup upgrade from shared to cloud hosting?"
     answer: "When your site consistently receives 25,000+ monthly visits, generates revenue that makes downtime expensive, or needs technical infrastructure that shared hosting can't provide (custom server config, Docker, specific dependencies)."
+author: marcus
 ---
 
 Startups live and die by traction. Your website is often the first touchpoint for investors, customers, and press. Slow loading times, downtime during a ProductHunt launch, or a crashed server during a press mention — any of these can derail momentum at critical moments.

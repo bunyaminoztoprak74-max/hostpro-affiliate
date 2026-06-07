@@ -20,6 +20,7 @@ steps:
     text: "Link from new posts to older related posts. Internal links help Google understand your site structure and pass authority between pages. Aim for 2–3 internal links per post minimum."
   - name: "Get your first backlinks"
     text: "Answer questions on Reddit, Quora, and forums relevant to your niche. Link to your content when it's genuinely helpful. Guest posting on related sites earns editorial backlinks. These two strategies build authority faster than any technical SEO trick."
+author: marcus
 ---
 
 SEO gets WordPress sites free, sustainable traffic from Google. Unlike paid ads, organic traffic keeps coming even when you're not working. Here's the exact setup process.

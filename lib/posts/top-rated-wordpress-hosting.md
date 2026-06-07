@@ -19,6 +19,7 @@ faq:
     answer: "WP Engine and Kinsta both auto-scale for traffic spikes. SiteGround handles moderate spikes via their custom cloud. For unpredictable high-traffic events, managed hosting with auto-scaling (WP Engine, Kinsta, Cloudways) is the reliable choice."
   - question: "What WordPress hosting rating criteria matters most?"
     answer: "For most WordPress sites: uptime first (missed uptime = missed visitors), then WordPress-specific caching quality (affects speed and SEO), then support WordPress knowledge (critical when something breaks)."
+author: marcus
 ---
 
 WordPress powers nearly half the web. The hosting decision for a WordPress site is therefore one of the most consequential technical choices you'll make for your online presence. This ranking evaluates WordPress hosting specifically — including WP-centric criteria that general hosting comparisons miss.

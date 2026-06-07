@@ -19,6 +19,7 @@ faq:
     answer: "WooCommerce adds PHP processing and database queries compared to a basic WordPress site. Without proper hosting and caching, this causes slowdown. With a WooCommerce-optimized host (WP Engine, Kinsta, SiteGround), the performance impact is minimal."
   - question: "What security features does WooCommerce hosting need?"
     answer: "For WooCommerce: SSL certificate (required for payment processing), PCI compliance awareness, DDoS protection, daily backups with point-in-time restore, malware scanning, and brute-force login protection. All our top recommendations include these features."
+author: marcus
 ---
 
 WooCommerce powers over 30% of all online stores globally. It's powerful, flexible, and completely free — but it requires capable hosting to perform well. The wrong host turns a WooCommerce store into a slow, unreliable experience that costs you sales.

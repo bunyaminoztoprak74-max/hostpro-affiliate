@@ -19,6 +19,7 @@ faq:
     answer: "Some UK-focused hosts offer GBP pricing. International providers (Hostinger, SiteGround, WP Engine) typically charge in USD or EUR but accept UK payment methods (Visa, Mastercard, PayPal)."
   - question: "What hosting is best for a UK ecommerce store?"
     answer: "WP Engine and Kinsta offer the best UK performance for WooCommerce stores with their UK/EU server locations and global CDN. For budget ecommerce, SiteGround's London server delivers excellent value."
+author: marcus
 ---
 
 UK website owners face a specific set of hosting considerations: GDPR compliance requirements, the need for fast loading times for UK visitors, and increasingly, the preference for data to remain within UK or EU borders post-Brexit.

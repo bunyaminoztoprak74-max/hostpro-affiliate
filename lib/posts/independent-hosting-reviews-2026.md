@@ -19,6 +19,7 @@ faq:
     answer: "Day 1: Install WordPress and measure TTFB with GTmetrix from 2 locations. Day 3: Submit a support ticket with a real question. Day 7: Set up UptimeRobot monitoring and check uptime. Day 14: Review your GTmetrix results — look for consistency. Day 25: Make your decision before the 30-day window closes."
   - question: "How do I know if hosting performance is actually bad vs. my website being poorly optimized?"
     answer: "Test with a fresh WordPress install using only the Twenty Twenty-Four theme (no plugins except Hello Dolly). If TTFB exceeds 300ms with this minimal setup, the problem is the host. If TTFB is under 200ms but your actual site is slow, the issue is plugin bloat, unoptimized images, or theme code."
+author: marcus
 ---
 
 Independent hosting reviews are rare. The financial incentives in the hosting affiliate industry — commissions ranging from $65 to $200+ per referral — create enormous pressure to inflate ratings and minimize negatives.

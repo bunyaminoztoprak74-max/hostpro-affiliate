@@ -21,6 +21,7 @@ faq:
     answer: "Most hosts offer 30-day money-back guarantees. Switching hosting later is possible but takes some technical effort. Choosing a reputable host from the start saves you the hassle of migration."
   - question: "Is shared hosting safe for beginners?"
     answer: "Yes. Reputable shared hosting providers implement security at the server level. You should still use strong passwords, keep WordPress updated, and install a security plugin — but shared hosting from quality providers is safe for the vast majority of websites."
+author: marcus
 ---
 
 Starting your first website feels overwhelming. Shared hosting, VPS, managed WordPress, cPanel, NVMe SSD — the jargon alone is enough to make most beginners quit before they start.

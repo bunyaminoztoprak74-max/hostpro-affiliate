@@ -17,6 +17,7 @@ faq:
     answer: "Yes. Hostinger offers a 30-day money-back guarantee on all shared hosting plans. If you're not satisfied, you can request a full refund within 30 days of purchase."
   - question: "Is Hostinger good for WordPress?"
     answer: "Yes. Hostinger uses LiteSpeed web servers and NVMe SSD storage, which deliver fast WordPress performance. Their hPanel includes a one-click WordPress installer, free SSL, and automatic weekly backups."
+author: marcus
 ---
 
 Hostinger is everywhere in 2026. With prices starting at $2.99/month and aggressive marketing, it's easy to be skeptical. Is it actually good, or just cheap? We've been running real sites on Hostinger for 6 months — here's what we found.

@@ -19,6 +19,7 @@ faq:
     answer: "Take Year 1 cost (intro price × 12 or promo period) + Year 2 cost (renewal monthly rate × 12) + Year 3 cost. Don't forget domain renewal, SSL if not free, and any paid add-ons. Hostinger is cheapest over 3 years for shared hosting; DreamHost is cheapest for managed WordPress (DreamPress)."
   - question: "What is the hosting renewal price trap and how do I avoid it?"
     answer: "The renewal trap is when hosts advertise 80%+ discounts for year 1 that expire at renewal — locking you in with 'migration hassle' psychology. To avoid it: always read renewal pricing before purchase, set a calendar reminder before renewal date, and negotiate renewal rate by contacting billing support (many hosts will discount 20-30% if you threaten to leave)."
+author: marcus
 ---
 
 The web hosting review industry has a credibility problem. Most review sites earn commissions from every host they recommend — creating an obvious incentive to praise everyone and bury the negatives. We've been in this industry long enough to know which corners get cut.

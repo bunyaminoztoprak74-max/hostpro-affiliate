@@ -17,6 +17,7 @@ steps:
     text: "In WordPress admin, go to Appearance > Themes. Your child theme appears as a separate theme. Click Activate."
   - name: "Add your customizations"
     text: "Override parent theme templates by copying template files to your child theme folder. Add custom CSS in style.css. Add PHP customizations in functions.php."
+author: marcus
 ---
 
 A child theme inherits all of its parent theme's styling, templates, and functionality — but your customizations in the child theme always take precedence. When the parent theme updates, your changes survive because they live in a separate folder.

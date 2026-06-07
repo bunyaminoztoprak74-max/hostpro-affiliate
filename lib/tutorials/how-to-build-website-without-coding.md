@@ -19,6 +19,7 @@ steps:
     text: "Edit pages with Elementor's visual editor. Drag elements (text, images, buttons, forms) onto your page layout, customize colors and fonts, and save. No code required."
   - name: "Add content and launch"
     text: "Fill in your content, set your homepage in Settings > Reading, add your logo, configure menus, and launch by removing any coming soon page."
+author: marcus
 ---
 
 Building a website used to require hiring a developer or spending months learning code. In 2026, anyone can create a professional website in a weekend using WordPress with a page builder — or even in an hour with an AI builder.

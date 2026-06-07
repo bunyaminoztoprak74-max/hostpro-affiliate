@@ -19,6 +19,7 @@ faq:
     answer: "Beginners need: simple control panel, 1-click WordPress install, free domain name, free SSL certificate, email hosting, and 24/7 support that explains things clearly. Everything else (staging, Redis, Git) is unnecessary complexity."
   - question: "Is there a risk of choosing the wrong hosting as a beginner?"
     answer: "Low risk — most hosts offer 30-day money-back guarantees. DreamHost offers 97 days. Choosing a reliable beginner host (Hostinger, Bluehost) and learning WordPress is more important than choosing the 'perfect' host. You can always migrate later."
+author: marcus
 ---
 
 Every expert was once a beginner. When you're launching your first website, the priority isn't finding the most technically sophisticated hosting — it's finding hosting that gets your site online without a steep learning curve.

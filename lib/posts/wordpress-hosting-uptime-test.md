@@ -19,6 +19,7 @@ faq:
     answer: "Most hosts offer SLA credits for downtime exceeding their guarantee. WP Engine and Kinsta have explicit 99.99% SLAs with defined compensation. Shared hosting SLA credits are often minimal — one month of hosting credit rarely compensates for business impact."
   - question: "What causes WordPress hosting downtime?"
     answer: "Common causes: server hardware failure, network issues, DDoS attacks, software updates gone wrong, resource exhaustion from other sites on shared servers, and data center power failures. Quality hosts have redundancy systems that minimize each type of failure."
+author: marcus
 ---
 
 Uptime is the most fundamental hosting requirement. Your fastest, best-optimized WordPress site is worth nothing when it's down. In 12 months of monitoring, we discovered significant differences between the best and worst performers — differences that translate to hours of inaccessibility and lost revenue.

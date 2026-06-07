@@ -19,6 +19,7 @@ faq:
     answer: "Yes. Namecheap's Stellar plan starts at $1.98/month. Hostinger's Single plan is $2.99/month. DreamHost starts at $2.59/month. These are all reputable providers, not fly-by-night services."
   - question: "Why does cheap hosting sometimes perform better than expensive hosting?"
     answer: "Technology investment matters more than pricing strategy. Hostinger at $2.99/month uses NVMe SSD and LiteSpeed — faster technologies than what Bluehost uses at $2.95/month (Apache + standard SSD). Performance is about infrastructure choices, not just price."
+author: marcus
 ---
 
 Not everyone needs premium managed hosting at $20-50/month. If you're launching a personal blog, testing a side project, or running a small informational website, quality budget hosting is entirely sufficient — and significantly cheaper.

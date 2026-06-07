@@ -19,6 +19,7 @@ faq:
     answer: "Yes. Cloudways provides full SSH access, WP-CLI, Git integration, staging environments, PHP version control, and the ability to run multiple WordPress sites on one server. The Breeze caching plugin and Redis support make it a capable WordPress developer platform."
   - question: "Can developers use Docker or custom server configurations on shared hosting?"
     answer: "No — shared hosting doesn't allow Docker or low-level server configuration. For Docker or custom server configs, use Cloudways (with direct server access) or a raw cloud VPS (DigitalOcean, Linode, AWS EC2)."
+author: marcus
 ---
 
 Developers have fundamentally different hosting requirements from typical website owners. You need SSH access for server management, Git for version control, staging environments for safe deployments, WP-CLI for WordPress automation, and the freedom to configure PHP, Nginx, and database settings.

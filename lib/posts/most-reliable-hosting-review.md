@@ -19,6 +19,7 @@ faq:
     answer: "Common causes include server hardware failures, network issues, DDoS attacks, software/OS updates, resource exhaustion on shared servers, and data center power failures. Quality hosts have redundancy and failover systems to minimize impact."
   - question: "How do I check my hosting provider's uptime?"
     answer: "Use free services like UptimeRobot (monitors every 5 minutes) or Freshping (1-minute monitoring). Set up monitoring immediately after signing up, and check it monthly. Don't rely on the hosting company's own status page."
+author: marcus
 ---
 
 Uptime is the most fundamental requirement for any website. Every minute your site is down is a minute potential customers can't find you, can't buy from you, and can't trust you. It's also a minute Google's crawler finds your server unavailable.

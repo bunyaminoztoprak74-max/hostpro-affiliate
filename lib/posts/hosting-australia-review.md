@@ -19,6 +19,7 @@ faq:
     answer: "Yes. Crucial Web Hosting, VentraIP, and Digital Pacific are reputable Australian hosts. They offer good local support and performance but may have less advanced infrastructure than international providers like Kinsta or Cloudways with Sydney servers."
   - question: "Does Australian web hosting affect Google.com.au rankings?"
     answer: "Server location is a minor Google ranking factor. Google Search Console lets you specify geographic target regardless of server location. With a CDN delivering fast content globally, server location has minimal SEO impact compared to other factors."
+author: marcus
 ---
 
 Australian websites face a geographic challenge: most major hosting providers are US-headquartered. Without CDN or local data centers, this creates latency for Australian visitors who are 14,000km from US servers.

@@ -2,6 +2,15 @@ export const SITE_URL = 'https://hostproreviews.com'
 export const SITE_NAME = 'HostPro Reviews'
 export const SITE_DESCRIPTION = 'Unbiased web hosting reviews, comparisons, and tutorials.'
 
+// Lead author entity — used in Article and Review schema for E-E-A-T
+export const LEAD_AUTHOR = {
+  '@type': 'Person',
+  name: 'Marcus Webb',
+  url: `https://hostproreviews.com/author/marcus`,
+  jobTitle: 'Lead Reviewer & Founder',
+  worksFor: { '@type': 'Organization', name: 'HostPro Reviews', url: 'https://hostproreviews.com' },
+}
+
 export interface FAQItem {
   question: string
   answer: string
@@ -26,7 +35,7 @@ export function generateArticleSchema(post: {
     description: post.excerpt,
     datePublished: post.date,
     dateModified: post.lastModified ?? post.date,
-    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    author: LEAD_AUTHOR,
     publisher: {
       '@type': 'Organization',
       name: SITE_NAME,
@@ -54,7 +63,7 @@ export function generateReviewSchema(post: {
     name: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    author: LEAD_AUTHOR,
     publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
     itemReviewed: { '@type': 'Product', name: itemName },
     ...(post.rating != null && {

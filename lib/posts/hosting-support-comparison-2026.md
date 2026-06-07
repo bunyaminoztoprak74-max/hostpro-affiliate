@@ -19,6 +19,7 @@ faq:
     answer: "Live chat is usually faster and creates a written record. Phone support is better for complex issues requiring real-time troubleshooting. Our testing found that hosts offering both (WP Engine, SiteGround, Bluehost) benefit from the choice, though response time varies."
   - question: "What should I ask support to test a host's quality?"
     answer: "Ask a specific technical question: 'My WordPress site shows a 500 error after installing [plugin name] — what's causing it?' A quality agent diagnoses and resolves. A poor agent restarts the server and asks you to try again."
+author: marcus
 ---
 
 Support quality is the difference between a 30-minute problem and a 5-minute problem. When your WordPress site is down at 11pm before a product launch, the quality of your host's support team determines how quickly you recover.

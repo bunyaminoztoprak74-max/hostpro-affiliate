@@ -19,6 +19,7 @@ faq:
     answer: "For starter WooCommerce stores (under 100 products, under 500 orders/month), Hostinger Business at $5.99/month works well. For growing stores, upgrade to WP Engine or Kinsta when you start losing sales to slow loading times."
   - question: "Why is Hostinger faster than Bluehost despite similar pricing?"
     answer: "Hostinger uses NVMe SSD storage and LiteSpeed web server — fundamentally faster technologies than Bluehost's standard SSD and Apache server. Performance is about infrastructure investment, not just price."
+author: marcus
 ---
 
 Running WordPress doesn't have to be expensive. In 2026, quality cheap WordPress hosting that passes Core Web Vitals and maintains 99.9%+ uptime is genuinely available for under $5/month — if you know which providers to choose.

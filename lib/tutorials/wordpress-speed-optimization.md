@@ -18,6 +18,7 @@ steps:
     text: "PHP 8.x is 3x faster than PHP 7.x for WordPress. Change your PHP version in your hosting control panel — it takes under 30 seconds."
   - name: "Use a lightweight theme"
     text: "Switch to Astra, GeneratePress, or Kadence. Avoid heavy page builders like Divi if speed is your priority — they add 200-400ms to every page load."
+author: marcus
 ---
 
 A slow WordPress site costs you traffic, search rankings, and revenue. Studies consistently show a 1-second delay reduces conversions by 7% and increases bounce rate by 32%.

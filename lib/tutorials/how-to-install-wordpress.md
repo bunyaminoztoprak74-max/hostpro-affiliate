@@ -18,6 +18,7 @@ steps:
     text: "Go to Appearance > Themes > Add New. Browse or search for a theme (Astra is a great free choice), click Install then Activate."
   - name: "Install essential plugins"
     text: "Install Yoast SEO for search visibility, WP Super Cache for speed, and Wordfence for security. These three cover the basics for any new site."
+author: marcus
 ---
 
 Starting your WordPress journey doesn't require any technical knowledge. With a reliable host and the right steps, you can have a fully functional WordPress site running in under 10 minutes.

@@ -18,6 +18,7 @@ steps:
     text: "Install UpdraftPlus and configure daily backups to Google Drive or Dropbox. Test restoring a backup at least once to confirm it actually works before you need it in an emergency."
   - name: "Harden your login page"
     text: "Change your admin username from 'admin' to something unique. Install Limit Login Attempts Reloaded to block brute force bots that try thousands of password combinations."
+author: marcus
 ---
 
 WordPress powers 43% of all websites on the internet — which makes it the #1 target for automated hacking bots. These bots aren't targeting you personally; they're scanning millions of sites simultaneously looking for known weaknesses.

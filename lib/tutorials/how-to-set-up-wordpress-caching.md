@@ -19,6 +19,7 @@ steps:
     text: "Enable GZIP/Brotli compression to compress text files before sending. Most caching plugins include this. Reduces HTML/CSS/JS transfer size by 60-80%."
   - name: "Test your speed improvement"
     text: "Run a GTmetrix or PageSpeed test before and after enabling caching. You should see significant improvement in Time to First Byte (TTFB) and load time."
+author: marcus
 ---
 
 Caching is the single most impactful WordPress performance optimization. Without caching, WordPress rebuilds every page from the database on each visit. With caching, it serves pre-built HTML — dramatically faster.

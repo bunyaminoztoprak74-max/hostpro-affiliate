@@ -19,6 +19,7 @@ faq:
     answer: "Annual is almost always better — 30-50% cheaper than monthly rates. The only downside is less flexibility. Most quality hosts offer 30+ day money-back guarantees, reducing the risk of annual commitment."
   - question: "Why do hosting prices double at renewal?"
     answer: "Promotional pricing is a customer acquisition strategy. Hosting companies offer deep discounts to new customers, then charge standard rates at renewal. This is industry practice. Always factor in renewal price when comparing providers."
+author: marcus
 ---
 
 The hosting industry's biggest open secret: the price you see in the ad is not the price you'll pay in year 2. Promotional intro rates expire, prices jump, and hidden fees add up.
