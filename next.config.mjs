@@ -11,6 +11,7 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // ── Slug/title mismatch fixes (Phase 1) ──────────────────────────────
       {
         source: '/blog/best-hosting-review-2026',
         destination: '/blog/hosting-server-infrastructure-review-2026',
@@ -44,6 +45,54 @@ const nextConfig = {
       {
         source: '/blog/most-reliable-hosting-review',
         destination: '/blog/web-hosting-sla-uptime-analysis-2026',
+        permanent: true,
+      },
+
+      // ── Cluster A: Hostinger Review → hostinger-review-2026 ─────────────
+      {
+        source: '/blog/hostinger-honest-review',
+        destination: '/blog/hostinger-review-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/hostinger-pros-cons-2026',
+        destination: '/blog/hostinger-review-2026',
+        permanent: true,
+      },
+
+      // ── Cluster B: Cloudways Review → cloudways-review-2026 ─────────────
+      {
+        source: '/blog/cloudways-review-worth-it',
+        destination: '/blog/cloudways-review-2026',
+        permanent: true,
+      },
+
+      // ── Cluster C: WP Engine Review → wp-engine-review-2026 ─────────────
+      {
+        source: '/blog/wpengine-review-worth-it',
+        destination: '/blog/wp-engine-review-2026',
+        permanent: true,
+      },
+
+      // ── Cluster D: Best WordPress Hosting → best-wordpress-hosting-2026 ──
+      {
+        source: '/blog/best-wordpress-hosting-review',
+        destination: '/blog/best-wordpress-hosting-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/wordpress-hosting-reviews-2026',
+        destination: '/blog/best-wordpress-hosting-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/top-rated-wordpress-hosting',
+        destination: '/blog/best-wordpress-hosting-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/managed-wordpress-hosting-reviews',
+        destination: '/blog/best-wordpress-hosting-2026',
         permanent: true,
       },
     ]

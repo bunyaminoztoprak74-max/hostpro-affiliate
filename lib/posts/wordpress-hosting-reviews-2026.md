@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "WordPress Hosting Reviews 2026: All 10 Hosts Compared on WordPress-Specific Metrics"
 excerpt: "We tested WordPress on 10 hosts using identical setups: same theme, same plugins, same content. This review goes beyond TTFB to measure WP admin speed, cache hit rates, WooCommerce checkout times, and plugin compatibility for every major provider."
 tags: ["wordpress hosting reviews 2026", "best wordpress hosting", "wordpress hosting comparison", "wp hosting review"]

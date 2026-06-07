@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Is WP Engine Worth It in 2026? Honest Review After 12 Months Testing"
 excerpt: "Is WP Engine worth the premium price in 2026? After 12 months of real testing, we break down exactly what you get for $20/month and whether it justifies the cost."
 tags: ["is wp engine worth it 2026", "wp engine review 2026", "wp engine honest review", "wp engine worth the price"]

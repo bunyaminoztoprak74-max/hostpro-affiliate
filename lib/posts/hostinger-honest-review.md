@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Hostinger Honest Review 2026: What 6 Months of Real Testing Revealed"
 excerpt: "An honest Hostinger review based on 6 months of real testing — including things they don't advertise. Real speed data, real uptime logs, and an honest verdict."
 tags: ["hostinger honest review 2026", "hostinger review 2026", "hostinger review", "is hostinger good"]

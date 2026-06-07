@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Is Cloudways Worth It in 2026? Honest Review After Real Testing"
 excerpt: "Is Cloudways worth the cost in 2026? We tested Cloudways on DigitalOcean and Google Cloud for 6 months. Here's what developers and agencies need to know."
 tags: ["is cloudways worth it 2026", "cloudways review 2026", "cloudways honest review", "cloudways worth it"]
