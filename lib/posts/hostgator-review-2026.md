@@ -1,7 +1,7 @@
 ---
-title: "SiteGround Review 2026 - Performance & WordPress Optimization"
-excerpt: "Complete SiteGround review with real speed tests, uptime data, support quality & pricing analysis for 2026."
-tags: ["siteground", "siteground review 2026", "siteground wordpress", "siteground hosting"]
+title: "HostGator Review 2026 - Reliable Budget Hosting Option"
+excerpt: "HostGator hosting review: speed tests, uptime data, support quality & honest pricing breakdown."
+tags: ["hostgator", "hostgator review", "hostgator hosting", "hostgator performance"]
 date: "2026-06-18"
 lastModified: "2026-06-18"
 category: "Review"

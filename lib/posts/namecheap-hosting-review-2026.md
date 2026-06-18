@@ -1,7 +1,7 @@
 ---
-title: "SiteGround Review 2026 - Performance & WordPress Optimization"
-excerpt: "Complete SiteGround review with real speed tests, uptime data, support quality & pricing analysis for 2026."
-tags: ["siteground", "siteground review 2026", "siteground wordpress", "siteground hosting"]
+title: "Namecheap Hosting Review 2026 - Best Budget Web Hosting"
+excerpt: "Honest Namecheap hosting review: speed, uptime, support quality & pricing for budget-conscious users."
+tags: ["namecheap hosting", "namecheap review", "cheapest hosting", "namecheap performance"]
 date: "2026-06-18"
 lastModified: "2026-06-18"
 category: "Review"

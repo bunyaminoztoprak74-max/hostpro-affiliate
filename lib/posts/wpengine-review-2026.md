@@ -1,7 +1,7 @@
 ---
-title: "SiteGround Review 2026 - Performance & WordPress Optimization"
-excerpt: "Complete SiteGround review with real speed tests, uptime data, support quality & pricing analysis for 2026."
-tags: ["siteground", "siteground review 2026", "siteground wordpress", "siteground hosting"]
+title: "WP Engine Review 2026 - Premium Managed WordPress Hosting"
+excerpt: "In-depth WP Engine review covering managed WordPress features, performance, pricing & target audience."
+tags: ["wp engine", "wp engine review", "managed wordpress hosting", "wp engine performance"]
 date: "2026-06-18"
 lastModified: "2026-06-18"
 category: "Review"

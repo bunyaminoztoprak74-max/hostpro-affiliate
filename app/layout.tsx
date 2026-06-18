@@ -30,10 +30,10 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
   title: {
-    default: 'HostPro Reviews — Best Web Hosting Compared',
+    default: 'Web Hosting Reviews 2026 - Tested & Unbiased Provider Comparisons',
     template: '%s | HostPro Reviews',
   },
-  description: 'Unbiased web hosting reviews, comparisons, and tutorials. Find the best hosting for your blog or business in 2026.',
+  description: 'Expert-tested reviews of leading web hosting providers. Compare performance, price & support to find your perfect host.',
   keywords: ['web hosting', 'best web hosting', 'hosting review', 'hostinger review', 'bluehost review'],
   openGraph: {
     type: 'website',

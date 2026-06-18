@@ -1,6 +1,6 @@
 ---
-title: "Hostinger Review 2026: Is It Really the Best Budget Host?"
-excerpt: "We've been running live sites on Hostinger for 6 months. Real speed tests, uptime data, and an honest verdict on whether it's worth your money in 2026."
+title: "Hostinger Review 2026 - Pros, Cons & Real Performance Test"
+excerpt: "Honest Hostinger review. We tested speed, uptime, support & pricing. See if Hostinger is right for you and get real performance data."
 tags: ["hostinger", "hostinger review 2026", "budget web hosting", "cheap shared hosting"]
 date: "2026-05-18"
 lastModified: "2026-05-20"
