@@ -3,7 +3,7 @@ title: "Hosting Speed Comparison 2026: TTFB Results from 5 Global Locations"
 excerpt: "The most thorough hosting speed comparison for 2026. Real TTFB measurements from Washington DC, London, Frankfurt, Singapore, and Sydney across 10 major providers."
 tags: ["hosting speed comparison 2026", "web hosting speed comparison", "fastest hosting 2026", "hosting performance comparison"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

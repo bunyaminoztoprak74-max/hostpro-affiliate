@@ -3,7 +3,7 @@ title: "WordPress Hosting Uptime Test 2026: 12 Months of Real Monitoring Data"
 excerpt: "We monitored 10 WordPress hosting providers for 12 months with 5-minute uptime checks. Here's the complete uptime test data — including which hosts failed us at the worst times."
 tags: ["wordpress hosting uptime test 2026", "wordpress hosting uptime", "best uptime wordpress hosting", "hosting reliability 2026"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

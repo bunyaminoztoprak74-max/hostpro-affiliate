@@ -3,7 +3,7 @@ title: "Hosting Support Comparison 2026: We Tested Every Host's Support Team"
 excerpt: "We submitted 30+ support tickets across 10 web hosts to compare response times, resolution quality, and WordPress knowledge. Here are the 2026 support rankings."
 tags: ["hosting support comparison 2026", "web hosting support quality", "best hosting customer support", "hosting support review 2026"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

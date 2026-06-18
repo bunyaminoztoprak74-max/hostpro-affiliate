@@ -3,7 +3,7 @@ title: "How to Start a Blog in 2026 and Make Money (Step-by-Step)"
 excerpt: "Step-by-step guide to starting a profitable blog in 2026. No technical skills needed — pick a niche, set up hosting, and publish your first post today."
 tags: ["start a blog 2026", "how to blog", "blogging for beginners", "make money blogging"]
 date: "2026-04-28"
-lastModified: "2026-05-20"
+lastModified: "2026-06-18"
 category: "Tutorial"
 readTime: "12 min read"
 categoryColor: "bg-green-100 text-green-700"

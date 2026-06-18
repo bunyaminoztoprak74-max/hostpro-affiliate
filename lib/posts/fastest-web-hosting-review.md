@@ -3,7 +3,7 @@ title: "Fastest Web Hosting by Budget Tier 2026: Best Speed Under $5, $15, $35/M
 excerpt: "Speed rankings aren't useful without price context. We ranked the fastest web hosting at each price tier — budget under $5/month, mid-range $5-20/month, and managed $20-50/month — using real TTFB data."
 tags: ["fastest budget web hosting 2026", "fastest hosting under $5", "fastest managed hosting 2026", "hosting speed by price tier", "best value hosting speed"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

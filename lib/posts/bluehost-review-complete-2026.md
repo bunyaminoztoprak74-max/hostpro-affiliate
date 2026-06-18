@@ -18,6 +18,7 @@ faq:
   - question: "Is there a money-back guarantee?"
     answer: "Most providers offer 30–60 day money-back guarantees. Check the current offer on their website."
 author: marcus
+noindex: true
 ---
 
 ## Quick Overview

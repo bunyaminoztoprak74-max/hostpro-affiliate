@@ -20,6 +20,7 @@ faq:
   - question: "How often is the scorecard updated?"
     answer: "Our scorecard is updated every 6 months with fresh test data. Hosting performance, pricing, and features change frequently — a scorecard older than 12 months may not reflect the current product."
 author: marcus
+noindex: true
 ---
 
 A scorecard approach cuts through marketing copy and gives you an at-a-glance comparison of every major hosting provider. We grade 10 specific criteria, each based on measurable test data, to identify where hosts excel and where they fall short.

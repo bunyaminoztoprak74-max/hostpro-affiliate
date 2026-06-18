@@ -18,6 +18,7 @@ faq:
   - question: "Can I host non-WordPress sites on WP Engine?"
     answer: "No. WP Engine is designed exclusively for WordPress. If you need to host a non-WordPress application (such as Laravel, Node.js, or a static site), consider Cloudways, which supports multiple platforms."
 author: marcus
+noindex: true
 ---
 
 WP Engine is one of the most recognized names in managed WordPress hosting. At $20+/month, it's significantly more expensive than shared hosting — so the question is simple: does the extra cost buy you enough extra value?

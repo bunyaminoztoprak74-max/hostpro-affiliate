@@ -3,7 +3,7 @@ title: "Hosting Price Comparison 2026: True Costs Including Renewal Rates"
 excerpt: "The honest web hosting price comparison for 2026 — including renewal rates, hidden fees, and 3-year total costs. See what you'll actually pay before you commit."
 tags: ["hosting price comparison 2026", "web hosting pricing", "hosting cost comparison", "cheapest web hosting 2026"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

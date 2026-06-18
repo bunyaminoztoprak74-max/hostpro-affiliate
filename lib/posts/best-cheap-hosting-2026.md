@@ -3,7 +3,7 @@ title: "Best Cheap Web Hosting 2026 (Under $3/Month, Tested)"
 excerpt: "We tested every budget web hosting provider to find the ones that are cheap AND reliable. Top picks under $3/month with real speed and uptime data for 2026."
 tags: ["cheap web hosting", "budget hosting 2026", "affordable web hosting", "hosting under 3 dollars"]
 date: "2026-05-16"
-lastModified: "2026-05-20"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "7 min read"
 categoryColor: "bg-green-100 text-green-700"

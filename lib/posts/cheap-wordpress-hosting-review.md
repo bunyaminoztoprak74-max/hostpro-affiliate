@@ -3,7 +3,7 @@ title: "Cheap WordPress Hosting Review 2026: Best Budget WP Hosts Tested"
 excerpt: "Need cheap WordPress hosting that actually works? We tested budget WP hosts under $5/month and found the best performers. Real speed tests, real uptime data."
 tags: ["cheap wordpress hosting review 2026", "cheap wordpress hosting", "budget wordpress hosting", "affordable wordpress hosting"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-18"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

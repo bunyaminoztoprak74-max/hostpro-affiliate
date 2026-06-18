@@ -18,8 +18,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const host = getHostBySlug(slug)
   if (!host) return { title: 'Review Not Found' }
 
-  const title = `${host.name} Review 2026: Is It Worth It? (Honest Verdict)`
-  const description = `${host.name} review: we tested speed (${host.speed}), uptime (${host.uptime}), and support. Honest pros, cons, and pricing breakdown before you buy.`
+  const titleMap: Record<string, string> = {
+    hostinger:  `Hostinger Review 2026: Best Budget Host? From ${host.price}/mo (Tested)`,
+    bluehost:   `Bluehost Review 2026: Is the WordPress.org Pick Worth It? (Honest)`,
+    wpengine:   `WP Engine Review 2026: Is Premium Managed WordPress Worth $20/mo?`,
+    cloudways:  `Cloudways Review 2026: Best Managed Cloud Hosting? Real Tests`,
+    siteground: `SiteGround Review 2026: Premium Shared Hosting Worth the Price?`,
+    kinsta:     `Kinsta Review 2026: Fastest WordPress Hosting — Worth the Cost?`,
+    dreamhost:  `DreamHost Review 2026: Good Hosting or Overhyped? (Real Tests)`,
+    godaddy:    `GoDaddy Hosting Review 2026: Good or Overhyped? Honest Verdict`,
+    hostgator:  `HostGator Review 2026: Reliable Budget Hosting? (Tested)`,
+    namecheap:  `Namecheap Hosting Review 2026: Best Budget Choice? Honest Test`,
+    a2hosting:  `A2 Hosting Review 2026: Is Turbo Hosting Worth the Price?`,
+  }
+  const descMap: Record<string, string> = {
+    hostinger:  `Hostinger review 2026: from ${host.price}/mo with NVMe SSDs. We tested ${host.uptime} uptime & ${host.speed} speed over 6 months. Honest pros, cons & pricing.`,
+    bluehost:   `Bluehost review 2026: from ${host.price}/mo. Real uptime (${host.uptime}), speed (${host.speed}) & support test. Is the WordPress.org recommended host worth it?`,
+    wpengine:   `WP Engine review 2026: starts at ${host.price}/mo. We tested ${host.uptime} uptime & ${host.speed} speed. Is premium managed WordPress hosting worth the premium?`,
+    cloudways:  `Cloudways review 2026: managed cloud from ${host.price}/mo. Real ${host.uptime} uptime & ${host.speed} speed benchmarks on DigitalOcean, AWS & Vultr. Is it worth it?`,
+    siteground: `SiteGround review 2026: from ${host.price}/mo. Tested ${host.uptime} uptime & ${host.speed} speed. Is premium shared hosting still worth the price?`,
+    kinsta:     `Kinsta review 2026: from ${host.price}/mo. We tested ${host.uptime} uptime & ${host.speed} speed. Full breakdown of features, pricing & who it's actually for.`,
+    dreamhost:  `DreamHost review 2026: from ${host.price}/mo. Honest ${host.uptime} uptime & ${host.speed} speed test. Full features, pricing & verdict — is it worth it?`,
+    godaddy:    `GoDaddy hosting review 2026: from ${host.price}/mo. We tested ${host.uptime} uptime & ${host.speed} speed. Honest pros, cons & whether to avoid it.`,
+    hostgator:  `HostGator review 2026: from ${host.price}/mo. Tested ${host.uptime} uptime & ${host.speed} speed. Honest verdict on budget hosting — is it still worth it?`,
+    namecheap:  `Namecheap hosting review 2026: from ${host.price}/mo. Tested ${host.uptime} uptime & ${host.speed} speed. Best budget pick or just cheap?`,
+    a2hosting:  `A2 Hosting review 2026: from ${host.price}/mo. Tested Turbo speed (${host.speed}) & ${host.uptime} uptime. Is the speed premium worth paying for?`,
+  }
+  const title = titleMap[slug] ?? `${host.name} Review 2026: Is It Worth It? (Honest Verdict)`
+  const description = descMap[slug] ?? `${host.name} review: we tested speed (${host.speed}), uptime (${host.uptime}), and support. Honest pros, cons, and pricing breakdown before you buy.`
 
   return {
     title,
