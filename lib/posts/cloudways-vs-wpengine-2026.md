@@ -16,13 +16,13 @@ faq:
     answer: "Neither Cloudways nor WP Engine includes email hosting. Both require a third-party email provider such as Google Workspace ($6/user/month) or Zoho Mail for professional email addresses."
   - question: "Which has better customer support: Cloudways or WP Engine?"
     answer: "Both offer excellent 24/7 support. WP Engine averages 2-minute chat response with WordPress-specialist agents. Cloudways averages 3 minutes with strong server-level expertise. WP Engine has an edge for purely WordPress issues; Cloudways is better for server-level and multi-app questions."
-author: marcus
   - question: "Which is faster — Cloudways or WP Engine?"
     answer: "Both are fast, but WP Engine edges ahead on raw performance with an average TTFB of ~148ms vs Cloudways at ~180–220ms (varies by cloud provider). However, Cloudways on DigitalOcean Premium offers similar speeds at 40–60% lower cost."
   - question: "Which is better for developers — Cloudways or WP Engine?"
     answer: "Cloudways is more developer-friendly: you get SSH access, Git deployment, WP-CLI, Composer, and the flexibility to choose your cloud provider. WP Engine also has developer tools (staging, Git) but restricts some plugins and has a more controlled environment."
   - question: "Can I cancel Cloudways or WP Engine at any time?"
     answer: "Both offer monthly billing with no contracts. Cloudways is pay-as-you-go — you can cancel any time with no penalties. WP Engine offers monthly plans but annual plans get discounts. Neither locks you into long-term commitments."
+author: marcus
 ---
 
 Cloudways and WP Engine are two of the best managed hosting platforms available in 2026. Both deliver exceptional performance and support — but they're built for different users. This comparison will tell you exactly which one is right for your situation.

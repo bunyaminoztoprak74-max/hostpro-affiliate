@@ -17,13 +17,13 @@ faq:
     answer: "Yes. Hostinger offers a 30-day money-back guarantee on all shared hosting plans. If you're not satisfied, you can request a full refund within 30 days of purchase."
   - question: "Is Hostinger good for WordPress?"
     answer: "Yes. Hostinger uses LiteSpeed web servers and NVMe SSD storage, which deliver fast WordPress performance. Their hPanel includes a one-click WordPress installer, free SSL, and automatic weekly backups."
-author: marcus
   - question: "What happens to my Hostinger price after renewal?"
     answer: "Hostinger introductory pricing starts at $2.99/month, but renewal rates are higher — typically $6.99–$8.99/month for the Single plan and $8.99/month for Premium. Always factor in the renewal cost. Even at renewal prices, Hostinger remains cheaper than most competitors."
   - question: "Does Hostinger offer free site migration?"
     answer: "Yes — Hostinger offers one free website migration for new customers. Their team handles the migration from your old host. For multiple sites, additional migrations are charged at a small fee."
   - question: "Is Hostinger good for beginners in 2026?"
     answer: "Hostinger is one of the best hosting providers for beginners. Their hPanel dashboard is intuitive, the AI website builder is included free, and the 1-click WordPress installer makes setup simple. 24/7 live chat support is available even on the cheapest plan."
+author: marcus
 ---
 
 Hostinger is everywhere in 2026. With prices starting at $2.99/month and aggressive marketing, it's easy to be skeptical. Is it actually good, or just cheap? We've been running real sites on Hostinger for 6 months — here's what we found.
