@@ -3,6 +3,7 @@ import { getAllPosts, getAllCategories } from '@/lib/posts'
 import { getAllComparisonSlugs } from '@/lib/comparisons'
 import { getAllTutorialSlugs } from '@/lib/tutorials'
 import { getAllAuthorSlugs } from '@/lib/authors'
+import { getAllHostSlugs } from '@/lib/hosts'
 
 const BASE_URL = 'https://hostproreviews.com'
 
@@ -57,5 +58,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }))
 
-  return [...staticRoutes, ...postRoutes, ...categoryRoutes, ...comparisonRoutes, ...tutorialRoutes, ...authorRoutes]
-}
+  const reviewRoutes: MetadataRoute.Sitemap = getAllHostSlugs().map((slug)
