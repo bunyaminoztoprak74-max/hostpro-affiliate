@@ -3,6 +3,7 @@ import { getAllPosts, getAllCategories } from '@/lib/posts'
 import { getAllComparisonSlugs } from '@/lib/comparisons'
 import { getAllTutorialSlugs } from '@/lib/tutorials'
 import { getAllAuthorSlugs } from '@/lib/authors'
+import { getAllHostSlugs } from '@/lib/hosts'
 
 const BASE_URL = 'https://hostproreviews.com'
 
@@ -17,10 +18,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/quiz`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/tutorials`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/review`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE_URL}/benchmarks`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/category`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE_URL}/disclosure`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
   ]
+
+  const reviewRoutes: MetadataRoute.Sitemap = getAllHostSlugs().map((slug) => ({
+    url: `${BASE_URL}/review/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }))
 
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
@@ -57,5 +66,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }))
 
-  return [...staticRoutes, ...postRoutes, ...categoryRoutes, ...comparisonRoutes, ...tutorialRoutes, ...authorRoutes]
+  return [
+    ...staticRoutes,
+    ...reviewRoutes,
+    ...postRoutes,
+    ...categoryRoutes,
+    ...comparisonRoutes,
+    ...tutorialRoutes,
+    ...authorRoutes,
+  ]
 }
