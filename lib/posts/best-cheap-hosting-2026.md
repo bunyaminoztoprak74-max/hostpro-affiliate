@@ -7,6 +7,7 @@ lastModified: "2026-06-18"
 category: "Review"
 readTime: "7 min read"
 categoryColor: "bg-green-100 text-green-700"
+rating: 4.8
 faq:
   - question: "What is the cheapest reliable web hosting in 2026?"
     answer: "Hostinger's Single plan at $2.99/month is the cheapest reliable hosting we tested. It delivers 99.97% uptime, 168ms average TTFB, NVMe SSD storage, and LiteSpeed servers — making it the best value in budget hosting."
@@ -148,4 +149,4 @@ If you specifically want a WordPress-recommended host, go with **Bluehost**. If 
 - [web hosting ratings 2026: every host scored](/blog/web-hosting-rating-2026)
 - [third-party hosting ratings: Trustpilot data](/blog/hosting-provider-ratings)
 - [best web hosting for small business 2026](/blog/small-business-hosting-reviews)
-- [Hostinger vs Bluehost 2026: which budget host wins?](/blog/hostinger-vs-bluehost)
+- [Hostinger vs Bluehost 2026: which budget host wins?](/blog/hostinger-v

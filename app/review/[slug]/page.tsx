@@ -138,6 +138,20 @@ export default async function ReviewPage({ params }: Props) {
       '@type': 'Product',
       name: `${host.name} Web Hosting`,
       url: host.affiliateUrl,
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: host.rating,
+        bestRating: 5,
+        worstRating: 1,
+        reviewCount: 1,
+      },
+      offers: {
+        '@type': 'Offer',
+        price: host.price.replace('$', ''),
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        url: host.affiliateUrl,
+      },
     },
     reviewRating: {
       '@type': 'Rating',

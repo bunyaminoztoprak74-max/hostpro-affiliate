@@ -65,7 +65,19 @@ export function generateReviewSchema(post: {
     datePublished: post.date,
     author: LEAD_AUTHOR,
     publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
-    itemReviewed: { '@type': 'Product', name: itemName },
+    itemReviewed: {
+      '@type': 'Product',
+      name: itemName,
+      ...(post.rating != null && {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: post.rating,
+          bestRating: 5,
+          worstRating: 1,
+          reviewCount: 1,
+        },
+      }),
+    },
     ...(post.rating != null && {
       reviewRating: {
         '@type': 'Rating',
