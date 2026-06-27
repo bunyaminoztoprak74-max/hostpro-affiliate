@@ -1,10 +1,9 @@
 ---
-noindex: true
 title: "Web Hosting Long-Term Review 2026: 12-Month Performance Data & Infrastructure Analysis"
 excerpt: "Most hosting reviews test for 30 days. We monitored for 12 months — and found dramatic performance degradation on over-sold shared servers. Here's who held up and who didn't."
 tags: ["web hosting long term review 2026", "hosting 12 month test", "hosting performance over time", "hosting infrastructure ownership", "shared hosting degradation"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-27"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

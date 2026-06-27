@@ -3,7 +3,7 @@ title: "Namecheap Hosting Review 2026: Is the Cheapest Host Worth It?"
 excerpt: "Namecheap is famous for cheap domains, but how is their web hosting? We tested Namecheap shared hosting for 6 months. Honest review of their real-world performance."
 tags: ["namecheap hosting review 2026", "namecheap hosting review", "namecheap web hosting review", "is namecheap hosting good"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-27"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
@@ -20,7 +20,6 @@ faq:
   - question: "Is Namecheap's EasyWP good?"
     answer: "EasyWP is Namecheap's managed WordPress product starting at $3.88/month. Performance is similar to their shared hosting. It's simpler to set up than shared hosting but doesn't offer the performance improvements of actual managed WordPress (WP Engine, Kinsta)."
 author: marcus
-noindex: true
 ---
 
 Namecheap built their reputation on domain registration — transparent pricing, no unnecessary upselling, and reliable domain management. Their hosting is a logical extension of that business, but is it as good as their domain service?

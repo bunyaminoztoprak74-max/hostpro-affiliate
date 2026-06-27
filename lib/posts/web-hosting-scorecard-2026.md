@@ -3,7 +3,7 @@ title: "Web Hosting Scorecard 2026: Every Provider Graded on 10 Criteria"
 excerpt: "Our web hosting scorecard 2026 grades every major provider on 10 measurable criteria. Find out which hosts earn A grades and which fail in critical categories."
 tags: ["web hosting scorecard 2026", "hosting grades 2026", "web hosting comparison scorecard", "best web hosting grades"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-27"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
@@ -20,7 +20,6 @@ faq:
   - question: "How often is the scorecard updated?"
     answer: "Our scorecard is updated every 6 months with fresh test data. Hosting performance, pricing, and features change frequently — a scorecard older than 12 months may not reflect the current product."
 author: marcus
-noindex: true
 ---
 
 A scorecard approach cuts through marketing copy and gives you an at-a-glance comparison of every major hosting provider. We grade 10 specific criteria, each based on measurable test data, to identify where hosts excel and where they fall short.

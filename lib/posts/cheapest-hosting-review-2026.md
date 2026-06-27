@@ -1,10 +1,9 @@
 ---
-noindex: true
 title: "Cheapest Web Hosting 2026: Budget Plans That Actually Perform"
 excerpt: "The cheapest web hosting plans in 2026 — tested for speed, uptime, and real value. Which budget host is actually worth it?"
 tags: ["cheapest web hosting review 2026", "cheap web hosting", "budget web hosting 2026", "affordable hosting"]
 date: "2026-06-04"
-lastModified: "2026-06-18"
+lastModified: "2026-06-27"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

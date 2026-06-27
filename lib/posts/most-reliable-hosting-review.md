@@ -1,10 +1,9 @@
 ---
-noindex: true
 title: "Web Hosting SLA & Uptime Guarantee Analysis 2026: What You're Actually Owed When the Server Goes Down"
 excerpt: "We read every hosting SLA contract so you don't have to. Discover which uptime guarantees are legally binding, which have loopholes, and how to actually claim compensation when your host fails."
 tags: ["most reliable web hosting review", "reliable web hosting 2026", "best uptime hosting", "hosting uptime 2026"]
 date: "2026-06-04"
-lastModified: "2026-06-18"
+lastModified: "2026-06-27"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

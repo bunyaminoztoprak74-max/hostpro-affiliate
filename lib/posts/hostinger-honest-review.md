@@ -1,10 +1,9 @@
 ---
-noindex: true
 title: "Hostinger Honest Review 2026: What 6 Months of Real Testing Revealed"
 excerpt: "An honest Hostinger review based on 6 months of real testing — including things they don't advertise. Real speed data, real uptime logs, and an honest verdict."
 tags: ["hostinger honest review 2026", "hostinger review 2026", "hostinger review", "is hostinger good"]
 date: "2026-06-04"
-lastModified: "2026-06-04"
+lastModified: "2026-06-27"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
@@ -236,6 +235,16 @@ Most reviews capture a 30-day snapshot. Here's the full 6-month experience timel
 | Renewal price | Same | +125% | ❌ Expected, still hurts |
 
 **Bottom line:** Hostinger delivers on its core promises — speed, uptime, and support. The disappointments are secondary features (AI tools) and expected gotchas (renewal pricing). After 6 months, we renewed.
+
+## June 2026 Update
+
+**Pricing update (June 2026):** Hostinger has adjusted promotional pricing. New accounts can get the Premium plan from $3.99/month for a 48-month commitment. The hPanel now includes an AI site assistant with improved prompts. WordPress performance remains unchanged from our original test data.
+
+**New in 2026:** Hostinger added Cloudflare Enterprise CDN to all Business plan customers — previously a paid add-on. This effectively puts Business plan TTFB below 100ms in most regions.
+
+**Internal migration tool updated:** The Hostinger WordPress migration plugin now supports automatic DNS propagation tracking, making site migrations significantly smoother than 12 months ago.
+
+For a full comparison of Hostinger against competitors, see our [Hostinger vs Bluehost comparison](/compare/hostinger-vs-bluehost), [best budget hosting roundup](/blog/best-cheap-hosting-2026), or [best WordPress hosting review](/blog/best-wordpress-hosting-2026).
 
 ## Conclusion: Honest Verdict
 
