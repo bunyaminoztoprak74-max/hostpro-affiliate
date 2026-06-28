@@ -61,23 +61,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`min-h-screen flex flex-col ${inter.className}`}>
+        {/* Google Analytics 4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3MKF850LDJ"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3MKF850LDJ');
+          `}
+        </Script>
         <Script
           id="schema-website"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateWebsiteSchema()) }}
-        />
-        <Script
-          id="schema-organization"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <Navbar />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
-      </body>
-    </html>
-  )
-}
-
