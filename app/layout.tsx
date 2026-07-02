@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://hostproreviews.com',
+    url: 'https://www.hostproreviews.com',
     siteName: 'HostPro Reviews',
   },
   twitter: {

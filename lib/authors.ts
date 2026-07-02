@@ -18,7 +18,7 @@ export const AUTHORS: Author[] = [
     bio: 'Marcus founded HostPro Reviews after spending 18 months testing web hosting providers across three continents. He has personally migrated over 60 websites between hosts, evaluated 30+ hosting providers across shared, cloud, VPS, managed, and reseller categories, and published 80+ independent reviews since 2022. His methodology uses automated uptime monitoring across 3 global server locations, standardized GTmetrix and Core Web Vitals benchmarks, and live support response-time tracking — never marketing claims. Marcus holds a degree in Computer Engineering and has worked as a full-stack developer for e-commerce, media, and SaaS companies. He has tested reseller hosting platforms, WHM/cPanel environments, and WHMCS billing setups extensively for agencies evaluating white-label hosting income streams. All pricing and feature data is re-verified monthly; articles carry a lastModified timestamp reflecting each verification date. Last methodology review: July 2026.',
     expertise: ['Shared Hosting', 'Cloud Hosting', 'WordPress Hosting', 'Reseller Hosting', 'Performance Testing', 'SEO', 'Server Administration', 'WHM/cPanel'],
     avatar: 'https://ui-avatars.com/api/?name=Marcus+Webb&background=4f46e5&color=fff&size=200&bold=true',
-    website: 'https://hostproreviews.com',
+    website: 'https://www.hostproreviews.com',
   },
   {
     slug: 'sarah',

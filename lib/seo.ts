@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://hostproreviews.com'
+export const SITE_URL = 'https://www.hostproreviews.com'
 export const SITE_NAME = 'HostPro Reviews'
 export const SITE_DESCRIPTION = 'Unbiased web hosting reviews, comparisons, and tutorials.'
 
@@ -6,9 +6,9 @@ export const SITE_DESCRIPTION = 'Unbiased web hosting reviews, comparisons, and 
 export const LEAD_AUTHOR = {
   '@type': 'Person',
   name: 'Marcus Webb',
-  url: `https://hostproreviews.com/author/marcus`,
+  url: `https://www.hostproreviews.com/author/marcus`,
   jobTitle: 'Lead Reviewer & Founder',
-  worksFor: { '@type': 'Organization', name: 'HostPro Reviews', url: 'https://hostproreviews.com' },
+  worksFor: { '@type': 'Organization', name: 'HostPro Reviews', url: 'https://www.hostproreviews.com' },
 }
 
 export interface FAQItem {

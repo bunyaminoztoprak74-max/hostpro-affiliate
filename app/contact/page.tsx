@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Us | HostPro Reviews',
     description: 'Reach the HostPro Reviews editorial team.',
-    url: 'https://hostproreviews.com/contact',
+    url: 'https://www.hostproreviews.com/contact',
   },
 };
 

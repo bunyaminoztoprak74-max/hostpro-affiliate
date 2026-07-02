@@ -5,7 +5,7 @@ import { getAllTutorialSlugs } from '@/lib/tutorials'
 import { getAllAuthorSlugs } from '@/lib/authors'
 import { getAllHostSlugs } from '@/lib/hosts'
 
-const BASE_URL = 'https://hostproreviews.com'
+const BASE_URL = 'https://www.hostproreviews.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts()

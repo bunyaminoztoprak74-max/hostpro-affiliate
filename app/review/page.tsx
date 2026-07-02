@@ -5,7 +5,7 @@ import { hosts } from '@/lib/hosts'
 export const metadata: Metadata = {
   title: 'Web Hosting Reviews 2026 — Tested & Compared',
   description: 'Independent web hosting reviews for Hostinger, Bluehost, Cloudways, WP Engine, SiteGround, and more. Real speed and uptime data from 6 months of testing.',
-  alternates: { canonical: 'https://hostproreviews.com/review' },
+  alternates: { canonical: 'https://www.hostproreviews.com/review' },
 }
 
 function StarRating({ rating }: { rating: number }) {
