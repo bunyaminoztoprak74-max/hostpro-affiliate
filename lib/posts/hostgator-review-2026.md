@@ -26,6 +26,9 @@ HostGator was a budget hosting staple for years. Acquired by EIG (now Newfold Di
 
 **Bottom line:** HostGator is adequate but not competitive in 2026. Shared hosting TTFB (389ms) is among the slowest we've tested. [Hostinger](/blog/hostinger-review-2026) offers better performance at a lower price. [SiteGround](/blog/siteground-review-2026) offers better performance for serious WordPress sites at similar renewal pricing. HostGator is a reasonable fallback if you have existing accounts, but we wouldn't recommend starting there.
 
+> **Looking for better value?** In our testing, [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) consistently outperformed this host on speed and price — plans from $2.99/month with NVMe storage and LiteSpeed caching. See our [full Hostinger review](/blog/hostinger-review-2026).
+
+
 ## HostGator Plans & Pricing 2026
 
 ### Shared Hosting

@@ -3,7 +3,7 @@ title: "Hostinger Review 2026: Is It the Best Budget Host? (Real Tests)"
 excerpt: "We ran Hostinger for 6 months on live WordPress sites. Here are the real speed, uptime, and support results — plus honest pros, cons & pricing."
 tags: ["hostinger", "hostinger review 2026", "budget web hosting", "cheap shared hosting"]
 date: "2026-05-18"
-lastModified: "2026-06-18"
+lastModified: "2026-07-02"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
@@ -35,6 +35,8 @@ Hostinger is everywhere in 2026. With prices starting at $2.99/month and aggress
 Hostinger is a Lithuanian web hosting company founded in 2004. It now hosts over 3 million websites worldwide and has become one of the fastest-growing hosting providers globally.
 
 ## Pricing Plans
+
+*Prices re-verified July 2026. Hostinger runs frequent promotions — the entry price below reflects the current 48-month promotional rate; renewal rates are higher, so check the renewal column before committing.*
 
 | Plan | Price (Intro) | Renewal | Sites | Storage |
 |------|--------------|---------|-------|---------|

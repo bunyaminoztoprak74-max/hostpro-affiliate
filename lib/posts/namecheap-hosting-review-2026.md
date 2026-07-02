@@ -26,6 +26,9 @@ Namecheap built its reputation as one of the cheapest domain registrars. Its hos
 
 **Bottom line:** Namecheap hosting is fine for small, low-traffic sites — particularly if you already manage domains there. It's not the best choice for serious WordPress performance. [Hostinger](/blog/hostinger-review-2026) and [SiteGround](/blog/siteground-review-2026) both offer better speed at competitive prices.
 
+> **Looking for better value?** In our testing, [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) consistently outperformed this host on speed and price — plans from $2.99/month with NVMe storage and LiteSpeed caching. See our [full Hostinger review](/blog/hostinger-review-2026).
+
+
 ## Namecheap Hosting Plans 2026
 
 | Plan | Promo Price | Renewal | Storage | Sites |

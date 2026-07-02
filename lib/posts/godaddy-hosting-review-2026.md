@@ -26,6 +26,9 @@ GoDaddy is the world's largest domain registrar and one of the most recognized n
 
 **Bottom line:** GoDaddy hosting is not where we'd recommend most users spend their money in 2026. Performance trails competitors, support quality is inconsistent, and upsell pressure is aggressive. Better options exist at every price point — [Hostinger](/blog/hostinger-review-2026) for budget, [SiteGround](/blog/siteground-review-2026) for reliability.
 
+> **Looking for better value?** In our testing, [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) consistently outperformed this host on speed and price — plans from $2.99/month with NVMe storage and LiteSpeed caching. See our [full Hostinger review](/blog/hostinger-review-2026).
+
+
 ## GoDaddy Hosting Plans 2026
 
 ### Shared Web Hosting
