@@ -1,6 +1,6 @@
 ---
 title: "Kinsta Review 2026: Google Cloud WordPress Hosting Worth $35/Month?"
-excerpt: "Kinsta runs WordPress on Google Cloud C2 VMs and charges premium prices. We tested performance, developer tools, and support for 90 days. Is it worth it over WP Engine or Cloudways?"
+excerpt: "Kinsta runs WordPress on Google Cloud C2 VMs and charges premium prices. We tested performance, developer tools, and support for 90 days."
 tags: ["kinsta review 2026", "kinsta wordpress hosting", "kinsta vs wp engine", "kinsta performance 2026", "kinsta pricing"]
 date: "2026-06-18"
 lastModified: "2026-07-02"

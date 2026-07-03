@@ -1,6 +1,6 @@
 ---
 title: "Namecheap Hosting Review 2026: Is the Cheapest Host Worth It?"
-excerpt: "Namecheap is famous for cheap domains, but how is their web hosting? We tested Namecheap shared hosting for 6 months. Honest review of their real-world performance."
+excerpt: "Namecheap is famous for cheap domains, but how is their web hosting? We tested Namecheap shared hosting for 6 months."
 tags: ["namecheap hosting review 2026", "namecheap hosting review", "namecheap web hosting review", "is namecheap hosting good"]
 date: "2026-06-04"
 lastModified: "2026-06-27"

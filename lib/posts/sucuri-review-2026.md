@@ -1,6 +1,6 @@
 ---
 title: "Sucuri Review 2026: Is It the Best Website Security Service?"
-excerpt: "Sucuri protects hundreds of thousands of websites with its WAF, CDN, and malware removal guarantee. We tested it for 60 days — here's the honest verdict on pricing, performance, and whether it's worth it."
+excerpt: "Sucuri protects hundreds of thousands of websites with its WAF, CDN, and malware removal guarantee."
 tags: ["sucuri", "website security", "WAF", "malware removal", "DDoS protection", "sucuri review 2026"]
 date: "2026-06-27"
 lastModified: "2026-06-27"

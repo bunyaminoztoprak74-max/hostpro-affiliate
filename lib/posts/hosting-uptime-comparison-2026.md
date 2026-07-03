@@ -1,6 +1,6 @@
 ---
 title: "Hosting Uptime Comparison 2026: 12-Month Monitoring Data for 10 Providers"
-excerpt: "Which web hosts actually deliver on uptime promises? Our 12-month monitoring data reveals who achieves 99.99% uptime and who falls short — with actual incident logs."
+excerpt: "Which web hosts actually deliver on uptime promises? Our 12-month monitoring data reveals who achieves 99.99% uptime and who falls short — with actual incident."
 tags: ["hosting uptime comparison 2026", "web hosting uptime", "best uptime hosting", "hosting reliability comparison"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

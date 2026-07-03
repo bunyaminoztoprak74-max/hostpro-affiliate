@@ -1,6 +1,6 @@
 ---
 title: "WP Engine Review 2026: Is the Premium Price Worth It?"
-excerpt: "WP Engine is one of the most expensive managed WordPress hosts. But does premium pricing translate to premium performance? After 90 days of real-world testing, here's our verdict."
+excerpt: "WP Engine is one of the most expensive managed WordPress hosts. But does premium pricing translate to premium performance?"
 tags: ["wp engine review 2026", "wp engine wordpress hosting", "wp engine vs kinsta", "managed wordpress hosting 2026", "wp engine performance"]
 date: "2026-06-18"
 lastModified: "2026-06-28"

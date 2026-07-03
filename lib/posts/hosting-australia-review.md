@@ -1,6 +1,6 @@
 ---
 title: "Best Web Hosting Australia Review 2026: Fastest Hosts for Australian Sites"
-excerpt: "Australian websites need hosting with Sydney data centers or strong CDN presence. We reviewed the best web hosting for Australian sites in 2026 with real Sydney speed tests."
+excerpt: "Australian websites need hosting with Sydney data centers or strong CDN presence. We reviewed the best web hosting for Australian sites in 2026 with real."
 tags: ["best web hosting australia review 2026", "australian web hosting", "hosting australia 2026", "web hosting sydney"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

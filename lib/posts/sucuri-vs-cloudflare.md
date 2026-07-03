@@ -1,6 +1,6 @@
 ---
 title: "Sucuri vs Cloudflare 2026: Which Is Better for Your Website Security?"
-excerpt: "Sucuri and Cloudflare both protect websites — but they solve different problems at different price points. We compare WAF, malware removal, CDN, pricing, and real-world performance."
+excerpt: "Sucuri and Cloudflare both protect websites — but they solve different problems at different price points."
 tags: ["sucuri", "cloudflare", "website security", "WAF", "CDN", "sucuri vs cloudflare"]
 date: "2026-06-27"
 lastModified: "2026-06-27"

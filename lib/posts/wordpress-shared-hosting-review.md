@@ -1,6 +1,6 @@
 ---
 title: "WordPress Shared Hosting Review 2026: Is Shared Hosting Good Enough?"
-excerpt: "Is shared hosting good enough for WordPress in 2026? We tested 8 providers with real WordPress sites. The results show a dramatic gap between the best and worst shared hosts."
+excerpt: "Is shared hosting good enough for WordPress in 2026? We tested 8 providers with real WordPress sites."
 tags: ["wordpress shared hosting review", "shared wordpress hosting 2026", "best shared hosting wordpress", "wordpress hosting review"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

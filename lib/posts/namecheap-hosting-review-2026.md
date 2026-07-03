@@ -1,6 +1,6 @@
 ---
 title: "Namecheap Hosting Review 2026: Best Budget Web Hosting?"
-excerpt: "Namecheap is famous for cheap domains — but how does its web hosting stack up in 2026? We tested performance, support, and value over 60 days. Here's the honest verdict."
+excerpt: "Namecheap is famous for cheap domains — but how does its web hosting stack up in 2026? We tested performance, support, and value over 60 days."
 tags: ["namecheap hosting review 2026", "namecheap web hosting", "namecheap wordpress hosting", "best budget hosting 2026", "namecheap vs hostinger"]
 date: "2026-06-18"
 lastModified: "2026-06-28"

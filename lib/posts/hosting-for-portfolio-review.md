@@ -1,6 +1,6 @@
 ---
 title: "Best Hosting for Portfolio Sites 2026: Show Your Work, Not Your Loading Spinner"
-excerpt: "Portfolio sites need fast image loading, reliable uptime, and a professional appearance. We reviewed the best hosting for portfolios in 2026 — for photographers, designers, and freelancers."
+excerpt: "Portfolio sites need fast image loading, reliable uptime, and a professional appearance."
 tags: ["best hosting for portfolio sites 2026", "portfolio hosting 2026", "hosting for portfolio", "best portfolio website hosting"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

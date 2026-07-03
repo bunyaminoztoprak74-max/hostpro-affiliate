@@ -1,6 +1,6 @@
 ---
 title: "Honest Web Hosting Reviews 2026: The Real Costs Hosts Don't Advertise"
-excerpt: "Honest hosting reviews require honest math. We expose renewal traps, forced upsells, and hidden fees so you know what a host actually costs over 3 years — not just the promo price."
+excerpt: "Honest hosting reviews require honest math. We expose renewal traps, forced upsells, and hidden fees so you know what a host actually costs over 3 years — not."
 tags: ["web hosting hidden costs 2026", "hosting renewal price increase", "web hosting upsells", "hosting true cost", "honest hosting review 2026"]
 date: "2026-06-04"
 lastModified: "2026-06-27"

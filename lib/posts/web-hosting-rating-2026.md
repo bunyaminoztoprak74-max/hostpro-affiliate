@@ -1,6 +1,6 @@
 ---
 title: "Web Hosting Rating 2026: Every Major Host Scored and Ranked"
-excerpt: "Our comprehensive web hosting rating system scores every major provider on speed, uptime, features, support, and value. See the complete 2026 ratings before you buy."
+excerpt: "Our comprehensive web hosting rating system scores every major provider on speed, uptime, features, support, and value."
 tags: ["web hosting rating 2026", "hosting rating", "web hosting scores", "best rated hosting 2026"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

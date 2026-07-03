@@ -1,6 +1,6 @@
 ---
 title: "Best Hosting for Nonprofits 2026: Affordable Hosting for Charitable Organizations"
-excerpt: "Nonprofit organizations need reliable, affordable web hosting with good support. We reviewed the best hosting options for nonprofits in 2026, including discounts and special programs."
+excerpt: "Nonprofit organizations need reliable, affordable web hosting with good support. We reviewed the best hosting options for nonprofits in 2026, including."
 tags: ["best hosting for nonprofits 2026", "nonprofit web hosting", "charity hosting 2026", "hosting for nonprofit organizations"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

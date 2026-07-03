@@ -1,6 +1,6 @@
 ---
 title: "Web Hosting Reviews for Small Business 2026: What Actually Matters"
-excerpt: "Small business hosting needs differ from personal blogs. We reviewed 8 hosts on uptime, support, e-commerce features, and business-critical reliability for 2026."
+excerpt: "Small business hosting needs differ from personal blogs. We reviewed 8 hosts on uptime, support, e-commerce features, and business-critical reliability for."
 tags: ["web hosting reviews for small business", "small business hosting 2026", "business web hosting", "hosting for small business"]
 date: "2026-06-04"
 lastModified: "2026-06-18"

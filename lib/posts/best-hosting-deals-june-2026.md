@@ -1,6 +1,6 @@
 ---
 title: "Best Web Hosting Deals June 2026: Biggest Discounts Right Now"
-excerpt: "Hostinger at $2.69/month, Cloudways 30% off, SiteGround 83% off GrowBig, IONOS at $1/month. Here are the biggest verified web hosting promotions available in June 2026."
+excerpt: "Hostinger at $2.69/month, Cloudways 30% off, SiteGround 83% off GrowBig, IONOS at $1/month."
 tags: ["web hosting deals june 2026", "hosting discounts 2026", "hostinger coupon 2026", "cloudways promo code 2026", "siteground discount 2026"]
 date: "2026-06-28"
 lastModified: "2026-06-28"

@@ -1,6 +1,6 @@
 ---
 title: "Independent Web Hosting Reviews 2026: How We Test (And How You Can Verify)"
-excerpt: "What makes a hosting review independent? We break down our testing protocol, the exact tools we use, and how to run your own verification tests before a money-back window closes."
+excerpt: "What makes a hosting review independent? We break down our testing protocol, the exact tools we use, and how to run your own verification tests before a."
 tags: ["how to test web hosting", "hosting testing methodology 2026", "DIY hosting test", "verify hosting performance", "web hosting TTFB test guide"]
 date: "2026-06-04"
 lastModified: "2026-06-27"
