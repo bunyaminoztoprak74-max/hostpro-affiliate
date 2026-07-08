@@ -30,11 +30,11 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Web Hosting Reviews 2026 - Tested & Unbiased Provider Comparisons',
+    default: 'Web Hosting Reviews 2026 — 12 Hosts Tested for Uptime, Speed & Real Price',
     template: '%s | HostPro Reviews',
   },
-  description: 'Expert-tested reviews of leading web hosting providers. Compare performance, price & support to find your perfect host.',
-  keywords: ['web hosting', 'best web hosting', 'hosting review', 'hostinger review', 'bluehost review'],
+  description: 'We tested 12 web hosts for 6 months: real uptime data, TTFB, support speed, and renewal costs. Hostinger leads at $2.99/mo. Compare all hosts before you buy.',
+  keywords: ['web hosting reviews 2026', 'best web hosting', 'hosting comparison', 'hostinger review', 'siteground review', 'web hosting comparison'],
   openGraph: {
     type: 'website',
     locale: 'en_US',
