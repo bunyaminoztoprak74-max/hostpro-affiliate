@@ -1,6 +1,6 @@
 ---
-title: "Best WordPress Hosting 2026: Top Picks After 90 Days of Testing"
-excerpt: "The best WordPress hosting providers in 2026, tested for 90 days. Ranked by speed, uptime, ease of use and real value — not affiliate commissions."
+title: "Best WordPress Hosting 2026: 7 Hosts Tested for 90 Days (Speed + Uptime Data)"
+excerpt: "We tested 7 WordPress hosts for 90 days: Kinsta, WP Engine, Cloudways, Hostinger, SiteGround, Cloudflare, and Contabo. Ranked by real TTFB, uptime logs, and true cost-per-site."
 tags: ["best wordpress hosting", "managed wordpress hosting", "wordpress hosting 2026", "wp hosting comparison"]
 date: "2026-05-19"
 lastModified: "2026-06-30"

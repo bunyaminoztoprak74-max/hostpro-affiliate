@@ -1,6 +1,6 @@
 ---
-title: "Hostinger Review 2026: Is It the Best Budget Host? (Real Tests)"
-excerpt: "We ran Hostinger for 6 months on live WordPress sites. Here are the real speed, uptime, and support results — plus honest pros, cons & pricing."
+title: "Hostinger Review 2026: 99.97% Uptime & $2.99/mo Tested for 6 Months (Verdict)"
+excerpt: "We ran Hostinger on 3 live WordPress sites for 6 months: 99.97% uptime, 180ms average TTFB, and $2.99/mo intro price. Here's the full honest breakdown including renewal costs."
 tags: ["hostinger", "hostinger review 2026", "budget web hosting", "cheap shared hosting"]
 date: "2026-05-18"
 lastModified: "2026-07-02"
