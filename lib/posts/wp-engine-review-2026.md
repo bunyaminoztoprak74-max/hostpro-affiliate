@@ -1,6 +1,6 @@
 ---
-title: "WP Engine Review 2026: Premium Managed WordPress Hosting Tested"
-excerpt: "WP Engine costs more than shared hosting — but is the premium worth it? We tested speed, uptime, support, and features over 90 days. Honest verdict inside."
+title: "WP Engine Review 2026: Is $20/mo Managed WordPress Worth It? (Tested)"
+excerpt: "WP Engine tested for 90 days: 152ms TTFB, 99.99% uptime, expert-only support. Is the $20/month starting price worth it vs Kinsta and Cloudways? Honest data inside."
 tags: ["wp engine", "managed wordpress hosting", "wordpress hosting 2026", "woocommerce hosting"]
 date: "2026-05-12"
 lastModified: "2026-06-27"

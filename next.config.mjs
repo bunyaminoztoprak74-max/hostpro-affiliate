@@ -73,6 +73,11 @@ const nextConfig = {
         destination: '/blog/wp-engine-review-2026',
         permanent: true,
       },
+      {
+        source: '/blog/wpengine-review-2026',
+        destination: '/blog/wp-engine-review-2026',
+        permanent: true,
+      },
 
       // ── Cluster D: Best WordPress Hosting → best-wordpress-hosting-2026 ──
       {
