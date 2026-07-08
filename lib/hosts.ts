@@ -49,9 +49,9 @@ export const hosts: HostProvider[] = [
   {
     slug: 'bluehost',
     name: 'Bluehost',
-    tagline: 'WordPress recommended host',
-    price: '$3.95',
-    rating: 4.5,
+    tagline: 'WordPress.org recommended — but is it actually good?',
+    price: '$2.95',
+    rating: 3.9,
     badge: 'WP Official',
     badgeColor: 'bg-blue-100 text-blue-700',
     gradient: 'bg-gradient-to-br from-blue-500 to-cyan-500',

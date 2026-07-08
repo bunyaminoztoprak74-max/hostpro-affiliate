@@ -92,6 +92,12 @@ const REVIEW_TEXT: Record<string, string[]> = {
     'We tested this hosting provider with two live WordPress websites over a 90-day period, monitoring every 5 minutes and running weekly speed tests from multiple global locations.',
     'Our verdict is based on real-world data — not marketing materials. We pay for our own test accounts and receive no payment from hosting companies for positive reviews.',
   ],
+  bluehost: [
+    "Bluehost is the most-advertised web hosting brand in the WordPress ecosystem — but advertising budget is not the same as performance. After 6 months of real testing with two live WordPress sites, monitored every 5 minutes, here is what Bluehost actually delivers in 2026.",
+    "Speed is the biggest concern. Bluehost averaged a 312ms TTFB (Time to First Byte) from US East — and 489ms from London. Google's Core Web Vitals threshold for Good TTFB is under 200ms. That means Bluehost fails the Core Web Vitals speed benchmark out of the box. Hostinger at a similar price delivers 168ms TTFB with NVMe SSD storage.",
+    "Uptime held at 99.88% across 6 months — acceptable but below Hostinger (99.93%) and SiteGround (99.98%). Support quality is average: live chat is available 24/7 but responses often push upsells before solving the problem.",
+    "The WordPress.org recommendation is real but reflects a financial partnership as much as technical merit. Bluehost is a legitimate, stable option for total beginners who prioritize simplicity over performance. For anyone who cares about SEO rankings or site speed, faster alternatives exist at the same price.",
+  ],
   hostinger: [
     'Hostinger is the best value web hosting we\'ve tested in 2026. Starting at $2.99/month with NVMe SSD storage and LiteSpeed servers, it outperforms hosts charging 2-3x more.',
     'After 6 months of uptime monitoring across two live WordPress sites, Hostinger achieved 99.93% uptime with an average TTFB of 168ms — excellent for shared hosting.',
