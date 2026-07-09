@@ -24,17 +24,17 @@ faq:
   - question: "Does Hostinger offer free site migration?"
     answer: "Yes — Hostinger offers one free website migration per account for new customers. Their team handles the transfer from your old host. In our test (migrating from Bluehost), the migration took 18 hours and completed without downtime. Additional migrations cost a small fee."
   - question: "Is Hostinger good for beginners in 2026?"
-    answer: "Hostinger is one of the best choices for beginners. hPanel is cleaner than cPanel, the AI website builder is included, 1-click WordPress installs in under 2 minutes, and 24/7 live chat support averages 4-minute response times. The Hostinger Academy also has hundreds of tutorials. We would rank it #1 for beginner-friendliness among budget hosts."
+    answer: "Hostinger is one of the best choices for beginners. hPanel is cleaner than cPanel, the AI website builder is included, 1-click WordPress installs in under 2 minutes, and 24/7 live chat support averages 4-minute response times. The Hostinger Academy also has hundreds of tutorials. We'd rank it #1 for beginner-friendliness among budget hosts."
   - question: "How does Hostinger compare to SiteGround?"
     answer: "Hostinger wins on price (significantly cheaper). SiteGround wins on uptime (99.99% vs 99.97%), support response time (2 min vs 4 min), and staging environments. For most users on a budget, Hostinger's price advantage is decisive. SiteGround is worth the premium if you need guaranteed uptime SLAs or professional staging workflows."
   - question: "Does Hostinger throttle resources on shared hosting?"
     answer: "Like all shared hosts, Hostinger applies resource limits. In our testing, we saw CPU throttling kick in at sustained high load (400+ concurrent users) on the Premium plan. Normal WordPress traffic handles fine — we saw no throttling at 100 concurrent users. If you regularly exceed 500 concurrent visitors, upgrade to Cloud Startup or VPS."
   - question: "Is Hostinger's email hosting any good?"
-    answer: "Decent for basic use. Hostinger includes email hosting on all plans with webmail access via Roundcube. Deliverability was good in our tests — spam score averaging 0.8/10. The interface is dated compared to Google Workspace, but for a no-extra-cost included feature, it works. We would recommend Hostinger's email for transactional mail; for professional use, add Google Workspace ($6/user/month)."
+    answer: "Decent for basic use. Hostinger includes email hosting on all plans with webmail access via Roundcube. Deliverability was good in our tests — spam score averaging 0.8/10. The interface is dated compared to Google Workspace, but for a no-extra-cost included feature, it works. We'd recommend Hostinger's email for transactional mail; for professional use, add Google Workspace ($6/user/month)."
   - question: "Can I run multiple websites on Hostinger?"
     answer: "The Single plan allows 1 website. The Premium plan allows 100 websites with 100 GB NVMe storage — excellent value for managing multiple sites. The Business plan (200 sites, 200 GB) adds daily backups and priority support. For agencies or developers managing many client sites, Premium is the sweet spot at $3.99/month intro pricing."
   - question: "Does Hostinger offer a free SSL certificate?"
-    answer: "Yes — every Hostinger plan includes a free Let's Encrypt SSL certificate, auto-renewed every 90 days. Installation is one-click from hPanel. All plans also include unlimited bandwidth. The only caveat: Let's Encrypt SSLs aren't accepted by some enterprise clients who require Extended Validation (EV) certificates — for that, you would need a paid SSL."
+    answer: "Yes — every Hostinger plan includes a free Let's Encrypt SSL certificate, auto-renewed every 90 days. Installation is one-click from hPanel. All plans also include unlimited bandwidth. The only caveat: Let's Encrypt SSLs aren't accepted by some enterprise clients who require Extended Validation (EV) certificates — for that, you'd need a paid SSL."
 author: marcus
 ---
 
@@ -92,7 +92,7 @@ Hostinger's custom-built hPanel is one of the cleanest hosting dashboards availa
 WordPress installs in under 2 minutes. Hostinger also includes an AI website builder and AI content generation tools — useful for getting a site up fast.
 
 ### Email Hosting
-All plans include free email hosting. You can create professional email addresses like hello@yourdomain.com directly from hPanel.
+All plans include free email hosting. You can create professional email addresses like `hello@yourdomain.com` directly from hPanel.
 
 ### Free Weekly Backups
 The Premium plan includes weekly automated backups. The Business plan upgrades this to daily backups. Restoring a backup takes one click.
@@ -238,7 +238,7 @@ The process was hands-off — Hostinger's team handled everything. We just provi
 
 ## Final Verdict
 
-Hostinger earns its reputation as the best budget host in 2026. The combination of NVMe storage, LiteSpeed server, fast support, and low pricing is hard to match. After 6 months of real-world testing, we would confidently recommend it to anyone starting a website or looking to switch from an underperforming host.
+Hostinger earns its reputation as the best budget host in 2026. The combination of NVMe storage, LiteSpeed server, fast support, and low pricing is hard to match. After 6 months of real-world testing, we'd confidently recommend it to anyone starting a website or looking to switch from an underperforming host.
 
 **Rating: 4.8/5**
 

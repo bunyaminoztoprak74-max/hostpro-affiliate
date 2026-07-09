@@ -77,7 +77,7 @@ export function getAllPosts(): PostMeta[] {
       const fullPath = path.join(postsDirectory, fileName)
       const fileContents = fs.readFileSync(fullPath, 'utf8')
       const { data } = matter(fileContents)
-      return { slug, ...data } as PostMeta
+      return { slug, author: 'marcus', ...data } as PostMeta
     })
     .filter((post) => !post.noindex)
     .sort((a, b) => (a.date < b.date ? 1 : -1))
@@ -134,5 +134,5 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const processedContent = await remark().use(remarkHtml).process(content)
   const contentHtml = addHeadingIds(processedContent.toString())
 
-  return { slug, contentHtml, toc, ...data } as Post
+  return { slug, author: 'marcus', contentHtml, toc, ...data } as Post
 }
