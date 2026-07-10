@@ -274,7 +274,7 @@ For a site earning $200/day, estimate 2 significant incidents per year:
 
 **WooCommerce performance improvement:** WP Engine's PlatformPlus architecture now supports Redis-backed persistent object caching on all plans — previously a Growth plan+ feature. WooCommerce stores on the Startup plan will see improved cart and checkout performance.
 
-See also: [WP Engine vs Cloudways comparison](/compare/cloudways-vs-wpengine) | [Full WP Engine review](/blog/wpengine-review-2026) | [Best managed WordPress hosting roundup](/blog/best-wordpress-hosting-2026)
+See also: [WP Engine vs Cloudways comparison](/compare/cloudways-vs-wpengine) | [Full WP Engine review](/blog/wp-engine-review-2026) | [Best managed WordPress hosting roundup](/blog/best-wordpress-hosting-2026)
 
 ## Conclusion: Is WP Engine Worth It?
 
