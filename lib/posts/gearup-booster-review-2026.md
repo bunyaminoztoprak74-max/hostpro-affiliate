@@ -73,7 +73,7 @@ Manual node selection lets you specify which GearUP server to route through — 
 
 The annual plan at $3.99/month ($47.88/year) is reasonably priced for what it delivers. The 3-day free trial lets you test results on your specific ISP and game server combination before committing.
 
-[**Try GearUP Booster Free for 3 Days →**](https://www.jdoqocy.com/click-101761537-7804601)
+[**Try GearUP Booster Free for 3 Days →**](https://www.jdoqocy.com/click-101761537-17235979)
 
 ## Who Should Use GearUP Booster?
 
@@ -83,4 +83,4 @@ The annual plan at $3.99/month ($47.88/year) is reasonably priced for what it de
 
 **Verdict: 4.1/5** — GearUP Booster delivers real, measurable ping improvements for cross-region play and notably reduces packet loss. The annual plan at $3.99/month is reasonable. The main caveat: results depend entirely on your ISP and target server — use the 3-day trial to measure your specific improvement before buying.
 
-[**Start GearUP Free Trial →**](https://www.jdoqocy.com/click-101761537-7804601)
+[**Start GearUP Free Trial →**](https://www.jdoqocy.com/click-101761537-17235979)
