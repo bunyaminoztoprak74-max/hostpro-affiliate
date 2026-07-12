@@ -58,7 +58,7 @@ Every paid Sucuri plan includes:
 
 All plans include **unlimited malware removal** — one of the best value propositions in website security. Competitors like SiteLock charge per cleanup incident.
 
-[Get Sucuri — Starting at $199.99/year →](https://www.anrdoezrs.net/click-101761541-13942202)
+[Get Sucuri — Starting at $199.99/year →](https://www.anrdoezrs.net/click-101761537-13942202)
 
 ## Sucuri WAF: How Good Is It?
 
@@ -152,7 +152,7 @@ Sucuri earns a **4.6/5**. The combination of DNS-level WAF, global CDN, continuo
 
 If you're running a business site, e-commerce store, or any site that can't afford to be hacked and offline, Sucuri is the most complete "peace of mind" security solution available.
 
-[Get Sucuri Security — Starting at $199.99/year →](https://www.anrdoezrs.net/click-101761541-13942202)
+[Get Sucuri Security — Starting at $199.99/year →](https://www.anrdoezrs.net/click-101761537-13942202)
 
 ---
 

@@ -49,7 +49,7 @@ Large endpoint scans can be noticeable on budget shared hosting. Schedule them d
 
 Wordfence Free is the obvious first layer for a small hobby site. Paid Wordfence improves firewall-rule timing and support. Sucuri costs more but packages edge protection, CDN and repeated cleanup, making the comparison less about plugin price and more about the cost of incident response.
 
-[Check Sucuri plans →](https://www.anrdoezrs.net/click-101761541-13942202?sid=sucuri-vs-wordfence-2026)
+[Check Sucuri plans →](https://www.anrdoezrs.net/click-101761537-13942202?sid=sucuri-vs-wordfence-2026)
 
 For implementation choices, see our [Sucuri review](/blog/sucuri-review-2026), [security plugin roundup](/blog/best-wordpress-security-solutions) and [hacked-site recovery guide](/blog/how-to-clean-hacked-wordpress-site).
 

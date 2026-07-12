@@ -28,7 +28,7 @@ author: james
 
 A backup strategy only matters the day you need it — and by then it's too late to discover your only copy lived on the same server that just got hacked or wiped. We compared the leading WordPress backup plugins, security-platform backups, and the built-in backup systems from major hosts to figure out what actually constitutes a safe 2026 backup setup.
 
-**Bottom line:** No single backup source is enough on its own. The safest setup pairs your host's built-in backups with an independent, off-site backup plugin or security platform. For most WordPress sites, UpdraftPlus (free) or BlogVault (from $89/year) plus your host's native backups covers the 3-2-1 rule. For sites that already need a WAF and malware protection, [Sucuri](https://www.anrdoezrs.net/click-101761541-13942202) bundles automated off-site backups into its security plans.
+**Bottom line:** No single backup source is enough on its own. The safest setup pairs your host's built-in backups with an independent, off-site backup plugin or security platform. For most WordPress sites, UpdraftPlus (free) or BlogVault (from $89/year) plus your host's native backups covers the 3-2-1 rule. For sites that already need a WAF and malware protection, [Sucuri](https://www.anrdoezrs.net/click-101761537-13942202) bundles automated off-site backups into its security plans.
 
 ## Why Host-Only Backups Aren't Enough
 
@@ -75,11 +75,11 @@ CodeGuard backs up any website, not just WordPress — including static HTML sit
 
 ### Sucuri — Best When You Need Security AND Backups Together
 
-If your site handles customer data, e-commerce transactions, or has been compromised before, backups alone aren't the priority — you also need a Web Application Firewall (WAF) and malware removal. [Sucuri](https://www.anrdoezrs.net/click-101761541-13942202) bundles automated backups (configurable from every 6 hours up to monthly, with up to 90 days of rollback history) into the same platform as its WAF, CDN, and unlimited malware removal, starting at $199.99/year. Because Sucuri sits at the DNS/CDN layer, its backups are inherently off-site from your hosting account — satisfying the 3-2-1 rule without a separate plugin.
+If your site handles customer data, e-commerce transactions, or has been compromised before, backups alone aren't the priority — you also need a Web Application Firewall (WAF) and malware removal. [Sucuri](https://www.anrdoezrs.net/click-101761537-13942202) bundles automated backups (configurable from every 6 hours up to monthly, with up to 90 days of rollback history) into the same platform as its WAF, CDN, and unlimited malware removal, starting at $199.99/year. Because Sucuri sits at the DNS/CDN layer, its backups are inherently off-site from your hosting account — satisfying the 3-2-1 rule without a separate plugin.
 
 Read our full [Sucuri Review 2026](/blog/sucuri-review-2026) for a complete breakdown of the WAF and malware-removal side, or see [Sucuri vs Cloudflare](/blog/sucuri-vs-cloudflare) if you're deciding between a security-first or CDN-first approach.
 
-> **Need backups and malware protection in one platform?** [Get Sucuri — plans from $199.99/year →](https://www.anrdoezrs.net/click-101761541-13942202) Unlimited malware removal and configurable automated backups are included on every tier.
+> **Need backups and malware protection in one platform?** [Get Sucuri — plans from $199.99/year →](https://www.anrdoezrs.net/click-101761537-13942202) Unlimited malware removal and configurable automated backups are included on every tier.
 
 ### Built-In Host Backups: What You Actually Get
 
@@ -138,6 +138,6 @@ For related hardening steps beyond backups, see our guides on [how to protect yo
 
 The best website backup solution in 2026 isn't a single product — it's a layered strategy. Start with your host's built-in backups as a convenience layer, then add an independent, off-site backup through UpdraftPlus, BlogVault, or a bundled security platform like Sucuri depending on your site's complexity and risk profile. If you're choosing a host from scratch, prioritize ones with strong built-in retention like [SiteGround](/blog/siteground-review-2026), and pair any host with at least one off-site backup method regardless of what's included.
 
-> **Ready to close the gap in your backup strategy?** [Get Sucuri for combined backup + security →](https://www.anrdoezrs.net/click-101761541-13942202) or start with the free [UpdraftPlus](https://wordpress.org/plugins/updraftplus/) plugin today. For hosting with the strongest built-in backup policy we've tested, see our [SiteGround Review 2026](/blog/siteground-review-2026).
+> **Ready to close the gap in your backup strategy?** [Get Sucuri for combined backup + security →](https://www.anrdoezrs.net/click-101761537-13942202) or start with the free [UpdraftPlus](https://wordpress.org/plugins/updraftplus/) plugin today. For hosting with the strongest built-in backup policy we've tested, see our [SiteGround Review 2026](/blog/siteground-review-2026).
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*

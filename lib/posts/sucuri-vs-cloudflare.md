@@ -92,7 +92,7 @@ This is not a close comparison. Cloudflare provides zero malware services at any
 
 Sucuri handles all three. The unlimited malware removal included in the $199.99/year Basic plan is effectively a security insurance policy. Professional malware cleanup services typically charge $300–$500 per incident.
 
-[Get Sucuri with Unlimited Malware Removal →](https://www.anrdoezrs.net/click-101761541-13942202)
+[Get Sucuri with Unlimited Malware Removal →](https://www.anrdoezrs.net/click-101761537-13942202)
 
 ## Pricing Reality Check
 
@@ -133,7 +133,7 @@ For pure security peace of mind — especially the malware removal guarantee —
 
 If budget is your primary constraint and you're comfortable managing your own security, Cloudflare Free is excellent — just understand it doesn't include any malware services.
 
-[Get Sucuri Security →](https://www.anrdoezrs.net/click-101761541-13942202)
+[Get Sucuri Security →](https://www.anrdoezrs.net/click-101761537-13942202)
 
 ---
 

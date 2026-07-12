@@ -37,7 +37,7 @@ A verified clean backup from before the intrusion is usually safer than editing 
 
 Business-critical stores, memberships and repeatedly reinfected sites warrant specialist help. Sucuri's platform includes malware-removal requests alongside its WAF, which can reduce exposure while remediation is underway.
 
-[Request Sucuri malware cleanup →](https://www.anrdoezrs.net/click-101761541-13942202?sid=how-to-clean-hacked-wordpress-site)
+[Request Sucuri malware cleanup →](https://www.anrdoezrs.net/click-101761537-13942202?sid=how-to-clean-hacked-wordpress-site)
 
 ## 5. Close the Entry Point
 

@@ -128,7 +128,7 @@ For the vast majority of websites, Let's Encrypt is the correct choice. Free, tr
 
 SSL encrypts data in transit — it does not protect against malware, hacking, or DDoS. For comprehensive website security, combine SSL with:
 
-- **WAF:** [Sucuri](https://www.anrdoezrs.net/click-101761541-13942202) blocks SQL injection, XSS, and bots before reaching your server — starting at $199.99/year
+- **WAF:** [Sucuri](https://www.anrdoezrs.net/click-101761537-13942202) blocks SQL injection, XSS, and bots before reaching your server — starting at $199.99/year
 - **Malware scanning:** Automated scans for injected malware or backdoors
 - **WordPress security plugin:** Wordfence or iThemes Security
 
@@ -150,4 +150,4 @@ See our [best website security services review](/blog/best-website-security-serv
 - Enterprise → DigiCert OV or EV ($175–300/year)
 - Multiple subdomains → Sectigo Wildcard ($60/year)
 
-[**Protect Your Site with Sucuri WAF →**](https://www.anrdoezrs.net/click-101761541-13942202) | [Best Security Services →](/blog/best-website-security-services) | [Hostinger with Free SSL →](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Protect Your Site with Sucuri WAF →**](https://www.anrdoezrs.net/click-101761537-13942202) | [Best Security Services →](/blog/best-website-security-services) | [Hostinger with Free SSL →](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
