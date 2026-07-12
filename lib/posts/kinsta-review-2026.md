@@ -1,9 +1,9 @@
 ---
-title: "Kinsta Review 2026: 90-Day Google Cloud Test — 110ms TTFB, $35/mo Verdict"
-excerpt: "Kinsta runs WordPress on Google Cloud C2 with 110ms global TTFB and 99.99% uptime in our 90-day test. MyKinsta is the best hosting dashboard we've used. Here's exactly who should pay $35/mo — and who shouldn't."
+title: "Kinsta Review 2026: Pros, Cons & 90-Day Test"
+excerpt: "Is Kinsta worth the premium in 2026? Our 90-day review covers WordPress speed, uptime, MyKinsta, support, pricing, pros, cons and cheaper alternatives."
 tags: ["kinsta review 2026", "kinsta wordpress hosting", "kinsta vs wp engine", "kinsta performance 2026", "kinsta pricing"]
 date: "2026-06-18"
-lastModified: "2026-07-02"
+lastModified: "2026-07-12"
 category: "Review"
 readTime: "12 min read"
 categoryColor: "bg-blue-100 text-blue-700"

@@ -1,9 +1,9 @@
 ---
-title: "Hostinger Review 2026: 99.97% Uptime & 168ms TTFB in Our 6-Month Test — Honest Verdict"
-excerpt: "We ran Hostinger on 3 live WordPress sites for 6 months: 99.97% uptime, 168ms average TTFB (US), 180ms globally, and $2.99/mo intro price. Here's the full honest breakdown — performance data, renewal costs, WooCommerce results, and who should (and shouldn't) use it."
+title: "Hostinger Review 2026: Pros, Cons & 6-Month Test"
+excerpt: "Is Hostinger worth it in 2026? See our 6-month uptime and speed results, renewal-cost warning, WordPress performance, pros, cons and final verdict."
 tags: ["hostinger", "hostinger review 2026", "budget web hosting", "cheap shared hosting", "best web hosting 2026"]
 date: "2026-05-18"
-lastModified: "2026-07-09"
+lastModified: "2026-07-12"
 category: "Review"
 readTime: "14 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
