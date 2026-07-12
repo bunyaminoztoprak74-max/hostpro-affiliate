@@ -23,6 +23,7 @@ const redirectedPostSlugs = new Set([
   'wordpress-hosting-reviews-2026',
   'top-rated-wordpress-hosting',
   'managed-wordpress-hosting-reviews',
+  'best-wordpress-security-plugins-2026',
 ])
 
 export interface FAQItem {

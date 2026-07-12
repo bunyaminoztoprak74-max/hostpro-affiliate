@@ -182,4 +182,4 @@ Yes. Sucuri has a free WordPress plugin and the full platform works with any Wor
 - [Best WordPress Security Solutions 2026](/blog/best-wordpress-security-solutions)
 - [How to Protect Your Website from Malware](/blog/how-to-protect-website-from-malware)
 - [Best WordPress Hosting 2026](/blog/best-wordpress-hosting-2026)
-For alternatives and implementation guidance, see [Sucuri vs Wordfence](/blog/sucuri-vs-wordfence-2026), our [best WordPress security plugins](/blog/best-wordpress-security-plugins-2026), and the [hacked WordPress recovery guide](/blog/how-to-clean-hacked-wordpress-site).
+For alternatives and implementation guidance, see [Sucuri vs Wordfence](/blog/sucuri-vs-wordfence-2026), our [best WordPress security plugins](/blog/best-wordpress-security-solutions), and the [hacked WordPress recovery guide](/blog/how-to-clean-hacked-wordpress-site).

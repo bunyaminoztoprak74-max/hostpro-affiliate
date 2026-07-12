@@ -51,5 +51,5 @@ Wordfence Free is the obvious first layer for a small hobby site. Paid Wordfence
 
 [Check Sucuri plans →](https://www.anrdoezrs.net/click-101761541-13942202?sid=sucuri-vs-wordfence-2026)
 
-For implementation choices, see our [Sucuri review](/blog/sucuri-review-2026), [security plugin roundup](/blog/best-wordpress-security-plugins-2026) and [hacked-site recovery guide](/blog/how-to-clean-hacked-wordpress-site).
+For implementation choices, see our [Sucuri review](/blog/sucuri-review-2026), [security plugin roundup](/blog/best-wordpress-security-solutions) and [hacked-site recovery guide](/blog/how-to-clean-hacked-wordpress-site).
 

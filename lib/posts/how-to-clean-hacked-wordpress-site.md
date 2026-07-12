@@ -60,5 +60,5 @@ After cleanup, confirm that malicious URLs return appropriate status codes and u
 - Restore a backup in a test environment every quarter.
 - Monitor file changes, uptime, DNS and administrator events.
 
-Compare protection layers in our [best WordPress security plugins](/blog/best-wordpress-security-plugins-2026) and read the [full Sucuri review](/blog/sucuri-review-2026).
+Compare protection layers in our [best WordPress security plugins](/blog/best-wordpress-security-solutions) and read the [full Sucuri review](/blog/sucuri-review-2026).
 

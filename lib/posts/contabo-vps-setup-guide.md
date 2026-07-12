@@ -41,7 +41,7 @@ Use the provider firewall and an operating-system firewall for layered protectio
 
 ## 5. Add Brute-Force and Application Protection
 
-Install a rate-limiting or banning tool such as Fail2ban and review its logs. For WordPress, place a maintained WAF in front of the server, keep plugins minimal and protect the administrator route with strong authentication. Our [WordPress security guide](/blog/best-wordpress-security-plugins-2026) compares options.
+Install a rate-limiting or banning tool such as Fail2ban and review its logs. For WordPress, place a maintained WAF in front of the server, keep plugins minimal and protect the administrator route with strong authentication. Our [WordPress security guide](/blog/best-wordpress-security-solutions) compares options.
 
 ## 6. Build Backups You Can Restore
 

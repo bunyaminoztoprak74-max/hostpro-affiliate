@@ -11,6 +11,11 @@ const nextConfig = {
 
   async redirects() {
     return [
+      {
+        source: '/blog/best-wordpress-security-plugins-2026',
+        destination: '/blog/best-wordpress-security-solutions',
+        permanent: true,
+      },
       // ── Slug/title mismatch fixes (Phase 1) ──────────────────────────────
       {
         source: '/blog/best-hosting-review-2026',
