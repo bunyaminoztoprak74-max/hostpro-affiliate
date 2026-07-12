@@ -153,13 +153,6 @@ export default async function ReviewPage({ params }: Props) {
         worstRating: 1,
         reviewCount: 1,
       },
-      offers: {
-        '@type': 'Offer',
-        price: host.price.replace('$', ''),
-        priceCurrency: 'USD',
-        availability: 'https://schema.org/InStock',
-        url: host.affiliateUrl,
-      },
     },
     reviewRating: {
       '@type': 'Rating',
