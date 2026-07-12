@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { getAllPosts, getAllCategories } from '@/lib/posts'
+import { categoryToSlug, getAllPosts, getAllCategories } from '@/lib/posts'
 import { getAllComparisonSlugs } from '@/lib/comparisons'
 import { getAllTutorialSlugs } from '@/lib/tutorials'
 import { getAllAuthorSlugs } from '@/lib/authors'
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   const categoryRoutes: MetadataRoute.Sitemap = categories.map(({ category }) => ({
-    url: `${BASE_URL}/category/${category.toLowerCase()}`,
+    url: `${BASE_URL}/category/${categoryToSlug(category)}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.7,

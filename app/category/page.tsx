@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getAllCategories } from '@/lib/posts'
+import { categoryToSlug, getAllCategories } from '@/lib/posts'
 import type { Metadata } from 'next'
 import { SITE_URL } from '@/lib/seo'
 
@@ -64,7 +64,7 @@ export default function CategoryIndexPage() {
           return (
             <Link
               key={category}
-              href={`/category/${category.toLowerCase()}`}
+              href={`/category/${categoryToSlug(category)}`}
               className={`block rounded-2xl border p-6 hover:shadow-md transition-all group ${meta.bgColor}`}
             >
               <div className="text-4xl mb-4">{meta.emoji}</div>

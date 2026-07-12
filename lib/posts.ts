@@ -105,6 +105,14 @@ export function getAllTags(): string[] {
   return Array.from(tagSet)
 }
 
+export function categoryToSlug(category: string): string {
+  return category
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
 export function getRelatedPosts(currentSlug: string, tags: string[] = [], limit = 3): PostMeta[] {
   const all = getAllPosts().filter((p) => p.slug !== currentSlug)
   if (tags.length === 0) return all.slice(0, limit)

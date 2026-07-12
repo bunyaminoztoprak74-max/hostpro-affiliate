@@ -1,4 +1,4 @@
-import { getAllCategories, getPostsByCategory } from '@/lib/posts'
+import { categoryToSlug, getAllCategories, getPostsByCategory } from '@/lib/posts'
 import { notFound } from 'next/navigation'
 import BlogCard from '@/components/BlogCard'
 import Link from 'next/link'
@@ -11,22 +11,29 @@ interface Props {
 
 export async function generateStaticParams() {
   const categories = getAllCategories()
-  return categories.map(({ category }) => ({ category: category.toLowerCase() }))
+  return categories.map(({ category }) => ({ category: categoryToSlug(category) }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params
-  const cap = category.charAt(0).toUpperCase() + category.slice(1)
+  const cap = getAllCategories().find(
+    ({ category: name }) => categoryToSlug(name) === category
+  )?.category
+  if (!cap) return { title: 'Category Not Found' }
   return {
     title: `${cap} — Web Hosting Articles | HostPro Reviews`,
-    description: `Browse all ${cap} articles. Independent, tested hosting ${category.toLowerCase()}s from HostPro Reviews.`,
+    description: `Browse all ${cap} articles from HostPro Reviews.`,
     alternates: { canonical: `${SITE_URL}/category/${category}` },
   }
 }
 
 export default async function CategoryPage({ params }: Props) {
   const { category } = await params
-  const cap = category.charAt(0).toUpperCase() + category.slice(1)
+  const cap = getAllCategories().find(
+    ({ category: name }) => categoryToSlug(name) === category
+  )?.category
+
+  if (!cap) notFound()
   const posts = getPostsByCategory(cap)
 
   if (posts.length === 0) notFound()
