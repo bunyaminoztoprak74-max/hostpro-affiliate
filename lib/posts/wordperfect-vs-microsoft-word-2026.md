@@ -26,7 +26,7 @@ WordPerfect remains relevant because Reveal Codes exposes formatting instruction
 
 Choose WordPerfect when an existing practice depends on WPD templates, Reveal Codes and validated macros. Choose Word when documents circulate among clients, courts and teams using Microsoft 365. Conversion can shift pagination, equations, indexes and graphics, so archive originals and validate final PDFs.
 
-[Visit WordPerfect](https://www.wordperfect.com/) | [Visit Microsoft Word](https://www.microsoft.com/microsoft-365/word)
+[View WordPerfect offers →](https://www.jdoqocy.com/click-101761537-17254962?sid=wordperfect-vs-microsoft-word-2026) | [Visit Microsoft Word](https://www.microsoft.com/microsoft-365/word)
 
 ## Verdict
 

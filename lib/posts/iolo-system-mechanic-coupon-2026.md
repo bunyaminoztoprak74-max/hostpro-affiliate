@@ -26,7 +26,7 @@ The safest System Mechanic discount is the promotion shown by Iolo at checkout. 
 5. Compare the offer with the free trial before purchasing.
 6. Save the receipt and cancellation instructions.
 
-[Check Iolo's current official offer](https://www.iolo.com/)
+[Check the current System Mechanic offer →](https://www.jdoqocy.com/click-101761537-15733311?sid=iolo-system-mechanic-coupon-2026)
 
 The site currently promotes System Mechanic Ultimate Defense as an all-in-one Windows optimization and security suite, but offers can change without notice. We do not publish an unverified coupon string as “working.” If an affiliate code such as `af50iolo` is supplied, confirm it visibly changes the final total before payment.
 
