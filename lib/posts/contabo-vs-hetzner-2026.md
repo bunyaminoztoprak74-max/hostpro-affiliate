@@ -55,7 +55,7 @@ Hetzner Cloud provides a polished console, API, snapshots, networks and straight
 - Pick Hetzner for production apps, CI runners and workloads that value compute consistency.
 - Pick managed hosting if you cannot maintain and secure a Linux server yourself.
 
-[Check Contabo availability →](https://www.dpbolvw.net/click-101761541-13796481?sid=contabo-vs-hetzner-2026)
+[Check Contabo availability →](https://www.dpbolvw.net/click-101761537-13796481?sid=contabo-vs-hetzner-2026)
 
 Read our [full Contabo review](/blog/contabo-review-2026) and [VPS comparison](/blog/best-vps-hosting-2026) before choosing.
 

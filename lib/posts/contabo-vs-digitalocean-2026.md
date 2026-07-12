@@ -49,7 +49,7 @@ For WordPress, both require server administration. Install a maintained stack, r
 - DigitalOcean: SaaS products, agency infrastructure, API-driven deployments and managed data services.
 - Managed WordPress: business owners who want support to own the server layer.
 
-[See current Contabo plans →](https://www.dpbolvw.net/click-101761541-13796481?sid=contabo-vs-digitalocean-2026)
+[See current Contabo plans →](https://www.dpbolvw.net/click-101761537-13796481?sid=contabo-vs-digitalocean-2026)
 
 Also see our [Contabo review](/blog/contabo-review-2026) and [cheap VPS roundup](/blog/best-cheap-vps-hosting-2026).
 

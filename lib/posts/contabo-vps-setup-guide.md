@@ -25,7 +25,7 @@ A new VPS is not production-ready. Before installing WordPress or an application
 
 Choose the region closest to most visitors, select a supported Ubuntu LTS release and store the initial credentials in a password manager. Review our [Contabo review](/blog/contabo-review-2026) before ordering.
 
-[View Contabo VPS plans →](https://www.dpbolvw.net/click-101761541-13796481?sid=contabo-vps-setup-guide)
+[View Contabo VPS plans →](https://www.dpbolvw.net/click-101761537-13796481?sid=contabo-vps-setup-guide)
 
 ## 2. Patch Before Installing Applications
 
