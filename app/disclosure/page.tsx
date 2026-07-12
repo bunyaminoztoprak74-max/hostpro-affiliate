@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Affiliate Disclosure',
   description: 'Affiliate disclosure for HostPro Reviews — how we earn commissions and maintain editorial independence.',
   robots: { index: true, follow: true },
+  alternates: { canonical: 'https://www.hostproreviews.com/disclosure' },
 }
 
 export default function DisclosurePage() {

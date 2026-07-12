@@ -1,10 +1,12 @@
 import { getAllPosts } from '@/lib/posts'
 import BlogCard from '@/components/BlogCard'
 import type { Metadata } from 'next'
+import { SITE_URL } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Reviews & Comparisons',
   description: 'Honest web hosting reviews, comparisons, and tutorials to help you choose the best host for your needs.',
+  alternates: { canonical: `${SITE_URL}/blog` },
 }
 
 export default function BlogPage() {
@@ -36,4 +38,3 @@ export default function BlogPage() {
     </div>
   )
 }
-

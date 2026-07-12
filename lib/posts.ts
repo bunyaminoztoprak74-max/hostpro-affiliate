@@ -6,6 +6,25 @@ import remarkHtml from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'lib/posts')
 
+const redirectedPostSlugs = new Set([
+  'best-hosting-review-2026',
+  'cheapest-hosting-review-2026',
+  'best-rated-web-hosting',
+  'honest-web-hosting-reviews-2026',
+  'independent-hosting-reviews-2026',
+  'unbiased-web-hosting-reviews',
+  'most-reliable-hosting-review',
+  'hostinger-honest-review',
+  'hostinger-pros-cons-2026',
+  'cloudways-review-worth-it',
+  'wpengine-review-worth-it',
+  'wpengine-review-2026',
+  'best-wordpress-hosting-review',
+  'wordpress-hosting-reviews-2026',
+  'top-rated-wordpress-hosting',
+  'managed-wordpress-hosting-reviews',
+])
+
 export interface FAQItem {
   question: string
   answer: string
@@ -79,7 +98,7 @@ export function getAllPosts(): PostMeta[] {
       const { data } = matter(fileContents)
       return { slug, author: 'marcus', ...data } as PostMeta
     })
-    .filter((post) => !post.noindex)
+    .filter((post) => !post.noindex && !redirectedPostSlugs.has(post.slug))
     .sort((a, b) => (a.date < b.date ? 1 : -1))
 }
 

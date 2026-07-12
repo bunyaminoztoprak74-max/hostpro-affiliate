@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for HostPro Reviews — how we collect, use, and protect your data.',
   robots: { index: true, follow: true },
+  alternates: { canonical: 'https://www.hostproreviews.com/privacy' },
 }
 
 export default function PrivacyPage() {

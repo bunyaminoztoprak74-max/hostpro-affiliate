@@ -2,6 +2,11 @@ import HostingCard from '@/components/HostingCard'
 import BlogCard from '@/components/BlogCard'
 import Link from 'next/link'
 import EmailCapture from '@/components/EmailCapture'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.hostproreviews.com/' },
+}
 
 const hostingPlans = [
   {
