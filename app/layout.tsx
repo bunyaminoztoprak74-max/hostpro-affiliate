@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import AffiliateClickTracker from '@/components/AffiliateClickTracker'
 import Script from 'next/script'
 import { generateWebsiteSchema, SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/seo'
 
@@ -73,6 +74,7 @@ export default function RootLayout({
             __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3MKF850LDJ');",
           }}
         />
+        <AffiliateClickTracker />
         <Script
           id="schema-website"
           type="application/ld+json"
