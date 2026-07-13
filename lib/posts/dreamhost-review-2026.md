@@ -106,7 +106,7 @@ Unlike most hosts that lock you into annual contracts or charge excessive monthl
 DreamHost is vocally pro-privacy. They have challenged government data requests in court and offer free WHOIS privacy. If data rights matter to you, DreamHost's stance is consistent and documented.
 
 ### 4. Custom Panel
-DreamHost uses its own control panel rather than cPanel. It's modern and clean, but requires a learning curve if you're used to cPanel. Some developers find cPanel familiarity valuable — in which case [A2 Hosting](/blog/a2hosting-review-2026) or SiteGround may suit better.
+DreamHost uses its own control panel rather than cPanel. It's modern and clean, but requires a learning curve if you're used to cPanel. Some developers find cPanel familiarity valuable — in which case [A2 Hosting](/blog/a2-hosting-review-2026) or SiteGround may suit better.
 
 ## Who Should Use DreamHost
 

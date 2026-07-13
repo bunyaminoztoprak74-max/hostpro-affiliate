@@ -88,6 +88,37 @@ function addHeadingIds(html: string): string {
   })
 }
 
+const affiliateHosts = new Set([
+  'a2hosting.com',
+  'anrdoezrs.net',
+  'bluehost.com',
+  'cloudways.com',
+  'contabo.com',
+  'dpbolvw.net',
+  'dreamhost.com',
+  'hostinger.com',
+  'jdoqocy.com',
+  'kinsta.com',
+  'siteground.com',
+  'wpengine.com',
+])
+
+function addExternalLinkAttributes(html: string): string {
+  return html.replace(/<a href="(https?:\/\/[^"#]+)"([^>]*)>/gi, (match, href, attributes) => {
+    try {
+      const hostname = new URL(href).hostname.replace(/^www\./, '')
+      const isAffiliate = affiliateHosts.has(hostname)
+      const rel = isAffiliate ? 'sponsored noopener noreferrer' : 'noopener noreferrer'
+      const cleanAttributes = String(attributes)
+        .replace(/\srel="[^"]*"/gi, '')
+        .replace(/\starget="[^"]*"/gi, '')
+      return `<a href="${href}"${cleanAttributes} target="_blank" rel="${rel}">`
+    } catch {
+      return match
+    }
+  })
+}
+
 export function getAllPosts(): PostMeta[] {
   const fileNames = fs.readdirSync(postsDirectory)
   return fileNames
@@ -160,7 +191,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const toc = extractTOC(content)
 
   const processedContent = await remark().use(remarkHtml).process(content)
-  const contentHtml = addHeadingIds(processedContent.toString())
+  const contentHtml = addExternalLinkAttributes(addHeadingIds(processedContent.toString()))
 
   return { slug, author: 'marcus', contentHtml, toc, ...data } as Post
 }

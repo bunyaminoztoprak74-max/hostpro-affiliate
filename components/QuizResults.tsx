@@ -2,6 +2,7 @@
 
 import type { QuizResult } from '@/lib/quiz-engine'
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 
 interface Props {
   results: QuizResult[]
@@ -306,18 +307,18 @@ export default function QuizResults({ results, onRetake }: Props) {
           <div className="mt-8 bg-gray-50 rounded-2xl p-6 text-center">
             <p className="text-gray-600 text-sm mb-3">Want to dig deeper before deciding?</p>
             <div className="flex justify-center gap-3 flex-wrap">
-              <a
-                href={`/compare/${winner.host.id}-vs-${runnerUps[0]?.host.id}`}
+              <Link
+                href={`/review/${winner.host.id}`}
                 className="inline-flex items-center gap-1 px-4 py-2 border border-gray-200 rounded-xl text-sm font-semibold text-gray-700 hover:border-indigo-300 hover:text-indigo-700 transition-colors bg-white"
               >
-                Compare top picks →
-              </a>
-              <a
-                href="/review"
+                Read winner review →
+              </Link>
+              <Link
+                href="/compare"
                 className="inline-flex items-center gap-1 px-4 py-2 border border-gray-200 rounded-xl text-sm font-semibold text-gray-700 hover:border-indigo-300 hover:text-indigo-700 transition-colors bg-white"
               >
-                Read full reviews →
-              </a>
+                Browse comparisons →
+              </Link>
             </div>
           </div>
 

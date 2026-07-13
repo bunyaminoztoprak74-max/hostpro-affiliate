@@ -187,7 +187,7 @@ export default function HomePage() {
               Best Web Hosting in 2026
             </h2>
             <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-              Hand-picked after months of real testing. These are the hosts we'd use ourselves.
+              Hand-picked after months of real testing. These are the hosts we&apos;d use ourselves.
             </p>
           </div>
 

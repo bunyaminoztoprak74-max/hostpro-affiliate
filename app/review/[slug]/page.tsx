@@ -1,9 +1,8 @@
 import { getHostBySlug, getAllHostSlugs, hosts } from '@/lib/hosts'
-import { generateBreadcrumbSchema, SITE_URL, SITE_NAME } from '@/lib/seo'
+import { generateBreadcrumbSchema, SITE_URL, SITE_NAME, LEAD_AUTHOR } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -140,19 +139,12 @@ export default async function ReviewPage({ params }: Props) {
     name: `${host.name} Review 2026`,
     description: `${host.name} review with real speed and uptime data.`,
     datePublished: '2026-05-20',
-    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    author: LEAD_AUTHOR,
     publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
     itemReviewed: {
       '@type': 'Product',
       name: `${host.name} Web Hosting`,
-      url: host.affiliateUrl,
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: host.rating,
-        bestRating: 5,
-        worstRating: 1,
-        reviewCount: 1,
-      },
+      url: `${SITE_URL}/review/${slug}`,
     },
     reviewRating: {
       '@type': 'Rating',
@@ -192,9 +184,9 @@ export default async function ReviewPage({ params }: Props) {
 
   return (
     <>
-      <Script id="schema-review" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-      <Script id="schema-breadcrumb" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <Script id="schema-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script id="schema-review" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+      <script id="schema-breadcrumb" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script id="schema-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
       <div className={`${host.gradient} text-white py-16`}>
@@ -362,25 +354,23 @@ export default async function ReviewPage({ params }: Props) {
               </div>
             </section>
 
-            {/* Related comparisons */}
+            {/* Related hosting reviews */}
             <section>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Compare {host.name}</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Alternatives to {host.name}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {relatedHosts.map((other) => {
-                  const slugs = [slug, other.slug].sort()
-                  const compareSlug = `${slugs[0]}-vs-${slugs[1]}`
                   return (
                     <Link
                       key={other.slug}
-                      href={`/compare/${compareSlug}`}
+                      href={`/review/${other.slug}`}
                       className="flex items-center gap-3 bg-indigo-50 rounded-xl p-4 hover:bg-indigo-100 transition-colors group"
                     >
                       <span className="text-2xl">{other.emoji}</span>
                       <div className="flex-1 min-w-0">
                         <div className="text-sm font-semibold text-gray-900 group-hover:text-indigo-700 truncate">
-                          vs {other.name}
+                          {other.name} review
                         </div>
-                        <div className="text-xs text-gray-400">Compare →</div>
+                        <div className="text-xs text-gray-400">View alternative →</div>
                       </div>
                     </Link>
                   )

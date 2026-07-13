@@ -4,7 +4,6 @@ import { getAuthorBySlug } from '@/lib/authors'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import TableOfContents from '@/components/TableOfContents'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 import EmailCapture from '@/components/EmailCapture'
@@ -109,7 +108,7 @@ export default async function TutorialPage({ params }: Props) {
   return (
     <>
       {schemas.map((schema, i) => (
-        <Script
+        <script
           key={i}
           id={`schema-tutorial-${i}`}
           type="application/ld+json"

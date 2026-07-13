@@ -2,7 +2,6 @@ import { getComparisonBySlug, getAllComparisonSlugs } from '@/lib/comparisons'
 import { generateFAQSchema, generateBreadcrumbSchema, SITE_URL, SITE_NAME } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import Link from 'next/link'
 import ComparisonHero from '@/components/ComparisonHero'
 import PricingBlock from '@/components/PricingBlock'
@@ -95,7 +94,7 @@ export default async function ComparisonPage({ params }: Props) {
   return (
     <>
       {schemas.map((schema, i) => (
-        <Script
+        <script
           key={i}
           id={`schema-compare-${i}`}
           type="application/ld+json"

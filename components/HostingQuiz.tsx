@@ -3,7 +3,7 @@
 import { useState, useCallback } from 'react'
 import QuizResults from './QuizResults'
 import { calculateResults } from '@/lib/quiz-engine'
-import type { QuizAnswers, WebsiteType, BudgetRange, TrafficLevel, TechLevel, Priority } from '@/lib/quiz-data'
+import type { QuizAnswers } from '@/lib/quiz-data'
 import type { QuizResult } from '@/lib/quiz-engine'
 
 // ── Step definitions ────────────────────────────────────────────────

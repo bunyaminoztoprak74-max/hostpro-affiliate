@@ -4,7 +4,6 @@ import { SITE_URL, SITE_NAME } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import BlogCard from '@/components/BlogCard'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 
@@ -54,7 +53,7 @@ export default async function AuthorPage({ params }: Props) {
 
   return (
     <>
-      <Script
+      <script
         id="schema-person"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}

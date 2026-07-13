@@ -50,11 +50,12 @@ export default function AboutPage() {
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Our Team</h2>
       <div className="bg-gray-50 rounded-xl p-6 mb-6">
         <div className="flex items-start gap-4">
-          <img
-            src="https://ui-avatars.com/api/?name=Marcus+Webb&background=4f46e5&color=fff&size=80&bold=true"
-            alt="Marcus Webb"
-            className="w-16 h-16 rounded-full"
-          />
+          <div
+            className="w-16 h-16 rounded-full bg-indigo-600 text-white grid place-items-center font-bold text-lg flex-shrink-0"
+            aria-hidden="true"
+          >
+            MW
+          </div>
           <div>
             <h3 className="font-bold text-gray-900 text-lg">Marcus Webb</h3>
             <p className="text-indigo-600 font-medium text-sm mb-2">Lead Reviewer & Founder</p>

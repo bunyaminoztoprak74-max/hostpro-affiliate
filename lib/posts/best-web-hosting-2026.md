@@ -148,7 +148,7 @@ Once you've chosen a host, secure your site. The fastest hosting in the world is
 
 ## Related Reading: Individual Host Reviews
 
-- [A2 Hosting review 2026: Turbo plan speed data](/blog/a2hosting-review-2026)
+- [A2 Hosting review 2026: Turbo plan speed data](/blog/a2-hosting-review-2026)
 - [Bluehost review 2026: honest performance assessment](/blog/bluehost-review-2026)
 - [DreamHost review 2026: veteran host, real uptime data](/blog/dreamhost-review-2026)
 - [SiteGround review 2026: 12-month honest assessment](/blog/siteground-review-2026)

@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { BENCHMARKS, type HostBenchmark } from '@/lib/benchmarks'
+import { BENCHMARKS } from '@/lib/benchmarks'
 
 type SortKey = 'speedScore' | 'ttfb' | 'loadTime' | 'uptime' | 'supportScore' | 'valueScore' | 'priceScore'
 type SortDir = 'asc' | 'desc'
@@ -22,12 +22,6 @@ function loadColor(ms: number): string {
 function uptimeColor(pct: number): string {
   if (pct >= 99.95) return 'text-green-700 bg-green-50 border-green-200'
   if (pct >= 99.9) return 'text-yellow-700 bg-yellow-50 border-yellow-200'
-  return 'text-red-700 bg-red-50 border-red-200'
-}
-
-function scoreColor(score: number): string {
-  if (score >= 85) return 'text-green-700 bg-green-50 border-green-200'
-  if (score >= 65) return 'text-yellow-700 bg-yellow-50 border-yellow-200'
   return 'text-red-700 bg-red-50 border-red-200'
 }
 

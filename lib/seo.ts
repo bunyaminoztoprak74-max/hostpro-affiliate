@@ -57,6 +57,7 @@ export function generateReviewSchema(post: {
   rating?: number
 }) {
   const itemName = post.title.replace(/ Review.*$/i, '').trim()
+  const ratingScale = post.rating != null && post.rating > 5 ? 10 : 5
   return {
     '@context': 'https://schema.org',
     '@type': 'Review',
@@ -68,22 +69,13 @@ export function generateReviewSchema(post: {
     itemReviewed: {
       '@type': 'Product',
       name: itemName,
-      ...(post.rating != null && {
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: post.rating,
-          bestRating: 5,
-          worstRating: 1,
-          reviewCount: 1,
-        },
-      }),
     },
     ...(post.rating != null && {
       reviewRating: {
         '@type': 'Rating',
         ratingValue: post.rating,
-        bestRating: 5,
-        worstRating: 1,
+        bestRating: ratingScale,
+        worstRating: 0,
       },
     }),
     url: `${SITE_URL}/blog/${post.slug}`,
@@ -122,10 +114,5 @@ export function generateWebsiteSchema() {
     name: SITE_NAME,
     url: SITE_URL,
     description: SITE_DESCRIPTION,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/blog?q={search_term_string}` },
-      'query-input': 'required name=search_term_string',
-    },
   }
 }

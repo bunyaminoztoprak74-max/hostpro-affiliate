@@ -256,7 +256,7 @@ Hostinger earns its reputation as the best budget host in 2026. The combination 
 
 ## Related Reading: Compare Hostinger Against Alternatives
 
-- [A2 Hosting review 2026: faster alternative?](/blog/a2hosting-review-2026)
+- [A2 Hosting review 2026: faster alternative?](/blog/a2-hosting-review-2026)
 - [Bluehost review 2026: popular beginner alternative](/blog/bluehost-review-2026)
 - [SiteGround review 2026: premium shared hosting](/blog/siteground-review-2026)
 - [best hosting for beginners 2026](/blog/hosting-for-beginners-review)

@@ -11,7 +11,6 @@ import { getAuthorBySlug } from '@/lib/authors'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import TableOfContents from '@/components/TableOfContents'
 import FAQSection from '@/components/FAQSection'
 import RelatedPosts from '@/components/RelatedPosts'
@@ -101,7 +100,7 @@ export default async function PostPage({ params }: Props) {
   return (
     <>
       {schemas.map((schema, i) => (
-        <Script
+        <script
           key={i}
           id={`schema-${i}`}
           type="application/ld+json"

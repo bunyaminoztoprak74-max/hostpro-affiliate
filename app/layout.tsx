@@ -30,6 +30,7 @@ const organizationSchema = {
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Web Hosting Reviews 2026 — 12 Hosts Tested for Uptime, Speed & Real Price',
     template: '%s | HostPro Reviews',
@@ -41,9 +42,11 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.hostproreviews.com',
     siteName: 'HostPro Reviews',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'HostPro Reviews' }],
   },
   twitter: {
     card: 'summary_large_image',
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
@@ -75,12 +78,12 @@ export default function RootLayout({
           }}
         />
         <AffiliateClickTracker />
-        <Script
+        <script
           id="schema-website"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(generateWebsiteSchema()) }}
         />
-        <Script
+        <script
           id="schema-organization"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

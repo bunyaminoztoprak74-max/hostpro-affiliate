@@ -4,8 +4,9 @@ import { getAllComparisonSlugs } from '@/lib/comparisons'
 import { getAllTutorialSlugs } from '@/lib/tutorials'
 import { getAllAuthorSlugs } from '@/lib/authors'
 import { getAllHostSlugs } from '@/lib/hosts'
+import { SITE_URL } from '@/lib/seo'
 
-const BASE_URL = 'https://www.hostproreviews.com'
+const BASE_URL = SITE_URL
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts()
