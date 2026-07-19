@@ -32,7 +32,7 @@ Choose WordPerfect when an existing practice depends on WPD templates, Reveal Co
 
 If you need perpetual-license or discounted business software rather than a Microsoft 365 subscription, compare the exact edition, device count, region and activation terms before checkout. DirectDeals lists Microsoft and business software licenses, while Ashampoo Office is a lower-cost desktop-suite alternative. Neither should be treated as a drop-in replacement until you test your most complex DOCX files, macros and collaboration workflow.
 
-[Browse current software offers at DirectDeals →](https://www.jdoqocy.com/click-101761537-15734925?sid=wordperfect-vs-microsoft-word-2026-directdeals)
+[Browse current software offers at DirectDeals →](https://www.jdoqocy.com/click-101761537-11130823?sid=wordperfect-vs-microsoft-word-2026-directdeals)
 
 [Check the current Ashampoo Office offer →](https://www.dpbolvw.net/click-101761537-14380008-1715276045000?sid=wordperfect-vs-microsoft-word-2026-ashampoo)
 
