@@ -44,6 +44,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['/logo.png'],
   },
+  alternates: {
+    types: {
+      'application/rss+xml': [
+        { url: '/affiliate-products.rss', title: 'HostPro Reviews — CJ Affiliate Product Updates' },
+      ],
+    },
+  },
   robots: {
     index: true,
     follow: true,

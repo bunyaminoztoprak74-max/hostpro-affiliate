@@ -26,31 +26,6 @@ const redirectedPostSlugs = new Set([
   'best-wordpress-security-plugins-2026',
 ])
 
-const topicExcludedPostSlugs = new Set([
-  'abelssoft-pc-fresh-review-2026',
-  'abelssoft-review-2026',
-  'aomei-backupper-review-2026',
-  'best-password-manager-2026',
-  'best-pc-cleaner-software-2026',
-  'best-vpn-for-remote-work-2026',
-  'coreldraw-vs-adobe-illustrator-2026',
-  'corel-software-review-2026',
-  'gearup-booster-review-2026',
-  'gearup-vs-exitlag-2026',
-  'iolo-system-mechanic-coupon-2026',
-  'iolo-system-mechanic-review-2026',
-  'iolo-vs-ccleaner-2026',
-  'nordpass-vs-lastpass-2026',
-  'nordvpn-vs-surfshark-2026',
-  'proton-pass-vs-nordpass-2026',
-  'proton-vpn-review-2026',
-  'wordperfect-vs-microsoft-word-2026',
-])
-
-export function isTopicExcludedPost(slug: string): boolean {
-  return topicExcludedPostSlugs.has(slug)
-}
-
 export interface FAQItem {
   question: string
   answer: string
@@ -124,6 +99,7 @@ const affiliateHosts = new Set([
   'hostinger.com',
   'jdoqocy.com',
   'kinsta.com',
+  'kqzyfj.com',
   'siteground.com',
   'wpengine.com',
 ])
@@ -155,7 +131,7 @@ export function getAllPosts(): PostMeta[] {
       const { data } = matter(fileContents)
       return { slug, author: 'marcus', ...data } as PostMeta
     })
-    .filter((post) => !post.noindex && !redirectedPostSlugs.has(post.slug) && !isTopicExcludedPost(post.slug))
+    .filter((post) => !post.noindex && !redirectedPostSlugs.has(post.slug))
     .sort((a, b) => (a.date < b.date ? 1 : -1))
 }
 
@@ -209,9 +185,6 @@ export function getRelatedPosts(currentSlug: string, tags: string[] = [], limit 
 }
 
 export async function getPostBySlug(slug: string): Promise<Post> {
-  if (isTopicExcludedPost(slug)) {
-    throw new Error('Post excluded from the hosting topic')
-  }
   const fullPath = path.join(postsDirectory, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
