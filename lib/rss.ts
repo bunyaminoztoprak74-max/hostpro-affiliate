@@ -18,7 +18,7 @@ function stripHtml(value: string): string {
 }
 
 function getCjImageUrl(post: Post): string | null {
-  const links = [...post.contentHtml.matchAll(/href="(https?:\/\/[^"]+)"/gi)]
+  const links = [...post.contentHtml.matchAll(/href="(https?:\/\/[^\"]+)"/gi)]
   for (const match of links) {
     try {
       const url = new URL(match[1].replace(/&amp;/g, '&'))
@@ -55,7 +55,13 @@ export async function createRssFeed(options: {
   const items = entries
     .slice(0, 100)
     .map(({ post, imageUrl }) => {
-      const url = `${SITE_URL}/blog/${post.slug}`
+      const canonicalUrl = `${SITE_URL}/blog/${post.slug}`
+      const trackedUrl = new URL(canonicalUrl)
+      trackedUrl.searchParams.set('utm_source', 'rss')
+      trackedUrl.searchParams.set('utm_medium', 'syndication')
+      trackedUrl.searchParams.set('utm_campaign', 'cj_affiliate_feed')
+      trackedUrl.searchParams.set('utm_content', post.slug)
+      const url = trackedUrl.toString()
       const published = new Date(post.date).toUTCString()
       const updated = new Date(post.lastModified ?? post.date).toUTCString()
       const summary = stripHtml(post.excerpt)
@@ -64,8 +70,8 @@ export async function createRssFeed(options: {
         '<item>',
         `<title>${escapeXml(post.title)}</title>`,
         `<link>${escapeXml(url)}</link>`,
-        `<guid isPermaLink="true">${escapeXml(url)}</guid>`,
-        `<description><![CDATA[<p><img src="${imageUrl}" alt="${escapeXml(post.title)}"/></p><p>${escapeXml(summary)}</p><p>Affiliate disclosure: we may earn a commission from qualifying purchases.</p>]]></description>`,
+        `<guid isPermaLink="true">${escapeXml(canonicalUrl)}</guid>`,
+        `<description><![CDATA[<p><a href="${url}"><img src="${imageUrl}" alt="${escapeXml(post.title)}"/></a></p><p>${escapeXml(summary)}</p><p><a href="${url}">Read the full review and check the current offer</a></p><p>Affiliate disclosure: we may earn a commission from qualifying purchases.</p>]]></description>`,
         `<category>${escapeXml(post.category)}</category>`,
         `<pubDate>${published}</pubDate>`,
         `<atom:updated>${updated}</atom:updated>`,
