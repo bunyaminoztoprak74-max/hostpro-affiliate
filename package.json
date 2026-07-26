@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "cj:search": "node scripts/cj-link-search.mjs"
+    "cj:search": "node scripts/cj-link-search.mjs",
+    "indexnow:submit": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
