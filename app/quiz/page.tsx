@@ -54,7 +54,7 @@ export default function QuizPage() {
           {[
             { emoji: '🔒', label: 'No email needed', sub: 'Completely anonymous' },
             { emoji: '⚡', label: 'Instant results', sub: 'Under 60 seconds' },
-            { emoji: '🧪', label: 'Real testing', sub: '6 months of data' },
+            { emoji: '📋', label: 'Research criteria', sub: 'Pricing, terms & evidence' },
           ].map((item) => (
             <div key={item.label} className="bg-white rounded-xl border border-gray-100 p-4">
               <div className="text-2xl mb-1">{item.emoji}</div>
@@ -66,7 +66,7 @@ export default function QuizPage() {
 
         <p className="text-center text-xs text-gray-400 mt-6">
           Affiliate disclosure: We may earn a commission if you purchase through our links at no extra cost to you.
-          Our quiz results are based on real testing and are not influenced by affiliate partnerships.
+          Quiz results use our published comparison criteria and are not sold to affiliate partners.
         </p>
       </div>
     </div>

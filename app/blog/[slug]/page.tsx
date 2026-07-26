@@ -16,16 +16,8 @@ import FAQSection from '@/components/FAQSection'
 import RelatedPosts from '@/components/RelatedPosts'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 import EmailCapture from '@/components/EmailCapture'
-import BenchmarkTable from '@/components/BenchmarkTable'
 import AuthorBox from '@/components/AuthorBox'
 import ReviewMethodology from '@/components/ReviewMethodology'
-
-const BENCHMARK_MAP: Record<string, string | 'all'> = {
-  'hostinger-review-2026': 'hostinger',
-  'cloudways-review-2026': 'cloudways',
-  'wp-engine-review-2026': 'wpengine',
-  'best-web-hosting-2026': 'all',
-}
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -184,14 +176,6 @@ export default async function PostPage({ params }: Props) {
               dangerouslySetInnerHTML={{ __html: post.contentHtml }}
             />
 
-            {/* Benchmark table for review/roundup posts */}
-            {BENCHMARK_MAP[post.slug] && (
-              <BenchmarkTable
-                hostSlug={BENCHMARK_MAP[post.slug] !== 'all' ? (BENCHMARK_MAP[post.slug] as string) : undefined}
-                showAll={BENCHMARK_MAP[post.slug] === 'all'}
-              />
-            )}
-
             {/* FAQ */}
             <FAQSection faqs={faqs} />
 
@@ -216,22 +200,17 @@ export default async function PostPage({ params }: Props) {
               {/* Top Pick CTA */}
               <div className="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl p-6 text-white">
                 <div className="text-3xl mb-3">🏆</div>
-                <h3 className="font-bold text-lg mb-2">Our #1 Pick</h3>
+                <h3 className="font-bold text-lg mb-2">Review Current Terms</h3>
                 <p className="text-indigo-200 text-sm mb-4">
-                  Hostinger offers the best price-to-performance ratio in 2026.
+                  Compare Hostinger&apos;s current introductory term, renewal price, and plan limits.
                 </p>
-                <div className="text-2xl font-extrabold mb-1">
-                  $2.99
-                  <span className="text-sm font-normal text-indigo-300">/mo</span>
-                </div>
-                <p className="text-xs text-indigo-300 mb-4">75% off — limited time</p>
                 <a
                   href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="block w-full text-center bg-white text-indigo-700 font-bold py-3 rounded-xl hover:bg-yellow-50 transition-colors"
                 >
-                  Get This Deal →
+                  Check Current Terms →
                 </a>
               </div>
 

@@ -4,10 +4,10 @@ import { SITE_URL, SITE_NAME } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'About HostPro Reviews — Our Team & Testing Methodology',
-  description: 'HostPro Reviews is an independent web hosting review site. We purchase hosting plans at retail price, test them for 3–6 months, and publish honest, data-driven reviews.',
+  description: 'How HostPro Reviews checks hosting pricing, renewal terms, product documentation, support policies, and independently published performance evidence.',
   openGraph: {
     title: 'About HostPro Reviews',
-    description: 'Independent web hosting reviews based on real testing. No sponsored rankings. We buy our own plans.',
+    description: 'Web hosting research with transparent sources, pricing checks, renewal warnings, and affiliate disclosure.',
     url: `${SITE_URL}/about`,
     siteName: SITE_NAME,
   },
@@ -19,9 +19,9 @@ export default function AboutPage() {
       <h1 className="text-3xl font-bold text-gray-900 mb-6">About HostPro Reviews</h1>
 
       <p className="text-lg text-gray-700 mb-6">
-        HostPro Reviews is an independent web hosting review website. We purchase hosting plans at
-        retail prices — no free plans, no sponsorships — test them for a minimum of 3 months using
-        standardised benchmarks, and publish our honest findings.
+        HostPro Reviews is a web hosting research and comparison website. We check official plan
+        documentation, current checkout terms, renewal pricing, support policies, and independent
+        performance publications before updating a commercial page.
       </p>
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Our Mission</h2>
@@ -31,20 +31,19 @@ export default function AboutPage() {
         data-driven analysis we wished existed when we were choosing our own hosting.
       </p>
       <p className="text-gray-700 mb-6">
-        Every review on this site is based on real testing. We use automated uptime monitoring
-        (UptimeRobot), standardised speed benchmarks (GTmetrix, Pingdom), and direct support
-        interaction to evaluate each provider. We disclose our affiliate relationships clearly on
-        every page that contains them.
+        We distinguish editorial research from hands-on testing. A page may describe a hands-on test
+        only when it identifies the plan, setup, location, dates, tools, and evidence needed to
+        understand the result. Affiliate relationships are disclosed on every commercial page.
       </p>
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How We Test</h2>
       <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
-        <li><strong>Minimum 3 months of live testing</strong> per provider before publishing a verdict</li>
-        <li><strong>Uptime monitoring</strong> via UptimeRobot (5-minute checks, 24/7)</li>
-        <li><strong>Speed benchmarks</strong> via GTmetrix from multiple global locations monthly</li>
-        <li><strong>Support testing</strong> via 3+ real support tickets per provider</li>
-        <li><strong>Anonymous purchase</strong> — we pay retail prices so results reflect real customer experience</li>
-        <li><strong>Annual re-testing</strong> — reviews updated when significant infrastructure or pricing changes occur</li>
+        <li><strong>Pricing checks</strong> include introductory term, billing duration, and renewal rate</li>
+        <li><strong>Feature checks</strong> use provider documentation and current plan pages</li>
+        <li><strong>Performance claims</strong> name the source and methodology</li>
+        <li><strong>Hands-on claims</strong> require a documented plan, setup, date, tools, and evidence</li>
+        <li><strong>Corrections</strong> are applied when a plan, policy, or cited source changes</li>
+        <li><strong>Affiliate disclosure</strong> appears before commercial recommendations</li>
       </ul>
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Our Team</h2>
@@ -60,10 +59,9 @@ export default function AboutPage() {
             <h3 className="font-bold text-gray-900 text-lg">Marcus Webb</h3>
             <p className="text-indigo-600 font-medium text-sm mb-2">Lead Reviewer & Founder</p>
             <p className="text-gray-600 text-sm">
-              Marcus founded HostPro Reviews after spending 18 months testing web hosting providers
-              across three continents. He has personally migrated over 40 websites between hosts and
-              holds a degree in Computer Engineering. He tests each provider for a minimum of 3 months
-              before publishing a verdict.
+              Marcus coordinates HostPro Reviews&apos; hosting research, pricing verification, source
+              review, and editorial updates. Published pages separate documented provider facts,
+              attributed third-party evidence, and editorial judgment.
             </p>
           </div>
         </div>

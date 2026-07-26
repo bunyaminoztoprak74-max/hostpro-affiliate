@@ -142,7 +142,7 @@ If you've done everything above and your site still takes over 2 seconds to load
 **Upgrade options:**
 
 - **Hostinger Business plan** — NVMe SSD, LiteSpeed, 99.97% uptime, ~$6/mo on renewal
-- **[Cloudways](/blog/cloudways-review-2026)** — Managed cloud, 142ms TTFB in our tests, starts at $11/mo
+- **[Cloudways](/blog/cloudways-review-2026)** — Managed cloud hosting; verify current plan pricing, resources, and independently documented performance evidence
 - **[WP Engine](/compare/cloudways-vs-wpengine)** — Fully managed WordPress, EverCache technology, 165ms TTFB
 
 See our [full benchmark comparison](/blog/best-web-hosting-2026) to compare hosts side-by-side.

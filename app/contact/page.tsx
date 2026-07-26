@@ -30,9 +30,9 @@ export default function ContactPage() {
               <p className="font-semibold text-gray-900">Marcus Webb</p>
               <p className="text-sm text-gray-500 mb-2">Lead Reviewer &amp; Editor-in-Chief</p>
               <p className="text-sm text-gray-600">
-                Marcus has been testing web hosting services since 2017. Every hosting recommendation
-                on this site is based on hands-on testing using real WordPress installations — not
-                vendor-supplied data.
+                Marcus coordinates research into hosting pricing, renewal terms, plan limits, and
+                publicly documented performance evidence. Material claims are attributed and corrected
+                when better evidence becomes available.
               </p>
             </div>
           </div>
@@ -82,17 +82,17 @@ export default function ContactPage() {
           <div>
             <h3 className="font-medium text-gray-900">How do you test hosting providers?</h3>
             <p className="text-sm text-gray-600 mt-1">
-              We sign up and pay for plans ourselves, install fresh WordPress sites, and run uptime
-              monitoring for a minimum of 60 days before publishing a review. Load time is measured
-              using GTmetrix and Google PageSpeed Insights.
+              We verify current plan pages, renewal terms, documented limits, support policies, and
+              attributable third-party evidence. Hands-on results are described as such only when the
+              test setup and date are documented.
             </p>
           </div>
           <div>
             <h3 className="font-medium text-gray-900">Do hosts pay to be featured?</h3>
             <p className="text-sm text-gray-600 mt-1">
-              No. Rankings are based solely on our test results. We earn commission when readers
-              sign up through our affiliate links — this never affects our ratings. Hosts we rate
-              poorly are still listed honestly.
+              No. Providers cannot buy a positive verdict. We may earn a commission when readers
+              use an affiliate link, but commercial relationships do not change our stated research
+              criteria or correction policy.
             </p>
           </div>
           <div>

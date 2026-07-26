@@ -72,7 +72,7 @@ export default function AffiliateCTA({ host1, host2, winner, winnerReason }: Pro
 
         <p className="text-indigo-300/60 text-xs mt-8 max-w-xl mx-auto">
           Affiliate disclosure: We earn a commission if you purchase through our links, at no extra
-          cost to you. Our recommendations remain independent and based on real testing.
+          cost to you. Our recommendations remain independent and follow our published research policy.
         </p>
       </div>
     </section>

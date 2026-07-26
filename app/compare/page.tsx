@@ -23,8 +23,8 @@ export default function ComparePage() {
         <span className="badge bg-indigo-100 text-indigo-700 mb-4">Comparisons</span>
         <h1 className="text-4xl font-extrabold text-gray-900 mt-3">Hosting Comparisons</h1>
         <p className="text-gray-500 mt-4 text-lg max-w-2xl">
-          We test hosts head-to-head so you don&apos;t have to. Every comparison is based on real
-          data — speed tests, uptime monitoring, and live support chats.
+          Compare hosting providers head-to-head using pricing, renewal terms, plan limits,
+          support policies, and attributable evidence.
         </p>
       </div>
 

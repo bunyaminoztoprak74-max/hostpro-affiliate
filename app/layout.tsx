@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
@@ -26,15 +25,13 @@ const organizationSchema = {
   },
 }
 
-const inter = Inter({ subsets: ['latin'], display: 'swap' })
-
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Web Hosting Reviews 2026 — 12 Hosts Tested for Uptime, Speed & Real Price',
+    default: 'Web Hosting Reviews 2026: Pricing, Terms & Tradeoffs',
     template: '%s | HostPro Reviews',
   },
-  description: 'We tested 12 web hosts for 6 months: real uptime data, TTFB, support speed, and renewal costs. Hostinger leads at $2.99/mo. Compare all hosts before you buy.',
+  description: 'Compare web hosting plans by introductory and renewal pricing, features, support terms, ownership tradeoffs, and independently published benchmarks.',
   keywords: ['web hosting reviews 2026', 'best web hosting', 'hosting comparison', 'hostinger review', 'siteground review', 'web hosting comparison'],
   openGraph: {
     type: 'website',
@@ -66,7 +63,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen flex flex-col ${inter.className}`}>
+      <body className="min-h-screen flex flex-col font-sans">
         {/* Google Analytics 4 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3MKF850LDJ"
