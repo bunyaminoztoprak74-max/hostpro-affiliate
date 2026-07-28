@@ -140,6 +140,12 @@ This method is common with Cloudways, which provides a public IP for each server
 
 **SiteGround:** SiteGround provides nameservers in your welcome email and in **Client Area → Websites → [your site] → DNS Settings**.
 
+## Need a Separate Domain Registrar?
+
+Keeping the registrar separate from the host can make future migrations easier and reduce dependence on one provider. Dynadot is now one of the domain registrars available through our affiliate network. Compare first-year and renewal pricing, WHOIS privacy, transfer fees, DNS controls and account-security options before registering.
+
+[Search current domain availability at Dynadot →](https://www.dpbolvw.net/click-101761537-12589508-1673418767000?sid=connect-domain-to-hosting-dynadot)
+
 ## Troubleshooting
 
 **Domain shows "This site can't be reached":**

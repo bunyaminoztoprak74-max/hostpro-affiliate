@@ -17,6 +17,8 @@ const CJ_HOSTS = new Set([
 ])
 
 const CJ_PARTNERS: Record<string, string> = {
+  '12589508': 'Dynadot',
+  '12644849': 'Paragon Backup & Recovery',
   '13756265': 'NordVPN',
   '13796481': 'Contabo',
   '13942202': 'Sucuri',
@@ -29,12 +31,47 @@ const CJ_PARTNERS: Record<string, string> = {
   '15178367': 'iubenda',
   '15734925': 'DirectDeals',
   '17175455': 'Drecov',
+  '17226848': 'Hostinger',
+  '15748555': 'Hostinger WordPress',
+  '15753162': 'Hostinger WooCommerce',
   '15273272': 'NordPass',
   '15402688': 'Abelssoft',
   '15438547': 'Surfshark',
   '15733311': 'System Mechanic',
   '17235979': 'GearUP Booster',
   '17254962': 'CorelDRAW',
+}
+
+const HOSTINGER_CJ_LINKS = {
+  general: 'https://www.dpbolvw.net/click-101761537-17226848-1767728255000',
+  wordpress: 'https://www.anrdoezrs.net/click-101761537-15748555-1747102455000',
+  ecommerce: 'https://www.kqzyfj.com/click-101761537-15753162-1747102516000',
+}
+
+function hostingerCjUrl(pagePath: string, position: number) {
+  const normalized = pagePath.toLowerCase()
+  const base =
+    normalized.includes('woocommerce') || normalized.includes('ecommerce')
+      ? HOSTINGER_CJ_LINKS.ecommerce
+      : normalized.includes('wordpress')
+        ? HOSTINGER_CJ_LINKS.wordpress
+        : HOSTINGER_CJ_LINKS.general
+  const slug = normalized.split('/').filter(Boolean).join('-') || 'homepage'
+  return `${base}?sid=${encodeURIComponent(`${slug}-hostinger-${position + 1}`)}`
+}
+
+function rewriteLegacyHostingerLinks(root: ParentNode) {
+  const anchors = root.querySelectorAll<HTMLAnchorElement>('a[href*="hostinger.com"]')
+  anchors.forEach((anchor, index) => {
+    try {
+      const url = new URL(anchor.href)
+      if (!url.hostname.endsWith('hostinger.com') || !url.searchParams.has('REFERRALCODE')) return
+      anchor.href = hostingerCjUrl(window.location.pathname, index)
+      anchor.rel = 'noopener noreferrer sponsored'
+    } catch {
+      // Ignore malformed third-party links.
+    }
+  })
 }
 
 function affiliateDetails(url: URL) {
@@ -82,6 +119,16 @@ export default function AffiliateClickTracker() {
       )
     }
 
+    rewriteLegacyHostingerLinks(document)
+    const observer = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        for (const node of mutation.addedNodes) {
+          if (node instanceof Element) rewriteLegacyHostingerLinks(node)
+        }
+      }
+    })
+    observer.observe(document.body, { childList: true, subtree: true })
+
     const trackClick = (event: MouseEvent) => {
       const element = event.target
       if (!(element instanceof Element)) return
@@ -128,7 +175,10 @@ export default function AffiliateClickTracker() {
     }
 
     document.addEventListener('click', trackClick, true)
-    return () => document.removeEventListener('click', trackClick, true)
+    return () => {
+      observer.disconnect()
+      document.removeEventListener('click', trackClick, true)
+    }
   }, [])
 
   return null
