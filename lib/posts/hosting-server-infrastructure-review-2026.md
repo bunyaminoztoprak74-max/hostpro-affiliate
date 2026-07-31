@@ -173,7 +173,7 @@ A2 Hosting markets themselves as the fastest shared hosting provider and invests
 
 **Best for:** Speed-conscious users on a budget, developers who want server-level optimization without cloud complexity.
 
-[**Get A2 Hosting →**](https://www.a2hosting.com) | [Full A2 Hosting Review →](/review/a2hosting)
+[**Get A2 Hosting →**](https://www.a2hosting.com) | [Full A2 Hosting Review →](/review/a2-hosting)
 
 ---
 

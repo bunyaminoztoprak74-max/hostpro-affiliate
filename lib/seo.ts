@@ -56,7 +56,30 @@ export function generateReviewSchema(post: {
   slug: string
   rating?: number
 }) {
-  return generateArticleSchema(post)
+  const itemName = post.title.replace(/ Review.*$/i, '').trim()
+  const ratingScale = post.rating != null && post.rating > 5 ? 10 : 5
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    name: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    author: LEAD_AUTHOR,
+    publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    itemReviewed: {
+      '@type': 'Product',
+      name: itemName,
+    },
+    ...(post.rating != null && {
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: post.rating,
+        bestRating: ratingScale,
+        worstRating: 0,
+      },
+    }),
+    url: `${SITE_URL}/blog/${post.slug}`,
+  }
 }
 
 export function generateFAQSchema(faqs: FAQItem[]) {

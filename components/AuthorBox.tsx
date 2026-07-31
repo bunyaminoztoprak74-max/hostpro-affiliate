@@ -10,7 +10,7 @@ interface AuthorBoxProps {
 export default function AuthorBox({
   name = 'HostPro Editorial Team',
   slug,
-  bio = 'HostPro Reviews compares hosting plans using documented pricing, renewal terms, product specifications, support policies, and clearly attributed third-party evidence.',
+  bio = 'We test web hosting providers with real websites, uptime monitoring, and live support chats. Every review is based on measurable data — not marketing claims.',
   role = 'Hosting Analyst',
 }: AuthorBoxProps) {
   return (

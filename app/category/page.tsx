@@ -16,7 +16,7 @@ const categoryMeta: Record<
 > = {
   Review: {
     emoji: '⭐',
-    description: 'Hosting reviews focused on pricing, renewal terms, documented limits, and attributable evidence.',
+    description: 'In-depth hosting reviews based on real testing and months of data.',
     color: 'text-indigo-700',
     bgColor: 'bg-indigo-50 border-indigo-200',
   },

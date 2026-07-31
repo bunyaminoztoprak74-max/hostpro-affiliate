@@ -107,18 +107,6 @@ function affiliateDetails(url: URL) {
 
 export default function AffiliateClickTracker() {
   useEffect(() => {
-    const pageParams = new URLSearchParams(window.location.search)
-    if (
-      pageParams.get('utm_source') === 'rss' &&
-      pageParams.get('utm_medium') === 'syndication'
-    ) {
-      sessionStorage.setItem('hostpro_affiliate_source', 'rss')
-      sessionStorage.setItem(
-        'hostpro_rss_content',
-        pageParams.get('utm_content') ?? window.location.pathname.split('/').filter(Boolean).pop() ?? 'rss'
-      )
-    }
-
     rewriteLegacyHostingerLinks(document)
     const observer = new MutationObserver((mutations) => {
       for (const mutation of mutations) {
@@ -143,18 +131,6 @@ export default function AffiliateClickTracker() {
         return
       }
 
-      const isRssVisit = sessionStorage.getItem('hostpro_affiliate_source') === 'rss'
-      const isCjLink = CJ_HOSTS.has(url.hostname)
-      if (isRssVisit && isCjLink) {
-        const rssContent = sessionStorage.getItem('hostpro_rss_content') ?? 'rss'
-        const currentSid = url.searchParams.get('sid')
-        const rssSid = currentSid && currentSid !== 'not_set'
-          ? `${currentSid.replace(/-rss$/, '')}-rss`
-          : `${rssContent}-rss`
-        url.searchParams.set('sid', rssSid.slice(0, 100))
-        anchor.href = url.href
-      }
-
       const affiliate = affiliateDetails(url)
       if (!affiliate || typeof window.gtag !== 'function') return
 
@@ -166,10 +142,6 @@ export default function AffiliateClickTracker() {
         link_url: url.href,
         link_text: (anchor.textContent ?? '').trim().replace(/\s+/g, ' ').slice(0, 100),
         page_path: window.location.pathname,
-        traffic_source: isRssVisit ? 'rss' : 'website',
-        rss_content: isRssVisit
-          ? sessionStorage.getItem('hostpro_rss_content') ?? 'rss'
-          : 'not_applicable',
         transport_type: 'beacon',
       })
     }

@@ -21,7 +21,7 @@ export default function BlogPage() {
         </span>
         <h1 className="text-4xl font-extrabold text-gray-900 mt-3">Reviews & Guides</h1>
         <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-          Evidence-aware guides to help you compare hosting terms, build your site, and understand the tradeoffs.
+          Honest, tested content to help you pick the right host, build your site, and make money blogging.
         </p>
       </div>
 

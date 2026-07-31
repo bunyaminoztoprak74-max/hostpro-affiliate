@@ -62,9 +62,22 @@ export default async function ComparisonPage({ params }: Props) {
       '@type': 'ListItem',
       position: i + 1,
       item: {
-        '@type': 'Service',
+        '@type': 'Product',
         name: `${host.name} Web Hosting`,
         url: host.affiliateUrl,
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: host.rating,
+          bestRating: 5,
+          worstRating: 1,
+          reviewCount: 1,
+        },
+        offers: {
+          '@type': 'Offer',
+          price: host.introPrice.replace('$', ''),
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+        },
       },
     })),
   }
@@ -99,7 +112,7 @@ export default async function ComparisonPage({ params }: Props) {
           <span className="text-gray-600 truncate">{comparison.title}</span>
         </nav>
         <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 text-xs text-amber-800">
-          <strong>Affiliate Disclosure:</strong> This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Commercial relationships do not change our published comparison criteria.{' '}
+          <strong>Affiliate Disclosure:</strong> This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Our comparisons are based on real test data and are not influenced by commissions.{' '}
           <Link href="/disclosure" className="underline hover:text-amber-900">Learn more →</Link>
         </div>
       </div>

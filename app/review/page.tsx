@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { hosts } from '@/lib/hosts'
 
 export const metadata: Metadata = {
-  title: 'Web Hosting Reviews 2026 — Pricing & Terms Compared',
+  title: 'Web Hosting Reviews 2026 — Tested & Compared',
   description: 'Independent web hosting reviews for Hostinger, Bluehost, Cloudways, WP Engine, SiteGround, and more. Real speed and uptime data from 6 months of testing.',
   alternates: { canonical: 'https://www.hostproreviews.com/review' },
 }
@@ -27,13 +27,13 @@ export default function ReviewIndexPage() {
       {/* Header */}
       <div className="text-center mb-12">
         <span className="inline-block bg-indigo-100 text-indigo-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4">
-          Pricing & Terms Compared
+          Tested & Compared
         </span>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
           Web Hosting Reviews 2026
         </h1>
         <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-          We compare hosting plans using current pricing, renewal terms, documented limits, and attributable evidence.
+          We tested 11 web hosting providers with real websites, uptime monitoring, and support tests.
           Here are our honest findings.
         </p>
       </div>

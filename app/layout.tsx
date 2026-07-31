@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
@@ -20,18 +21,21 @@ const organizationSchema = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'editor@hostproreviews.com',
+    email: 'bunyamin.oztoprak74@gmail.com',
     contactType: 'customer support',
   },
+  sameAs: [],
 }
+
+const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Web Hosting Reviews 2026: Pricing, Terms & Tradeoffs',
+    default: 'Web Hosting Reviews 2026 — 12 Hosts Tested for Uptime, Speed & Real Price',
     template: '%s | HostPro Reviews',
   },
-  description: 'Compare web hosting plans by introductory and renewal pricing, features, support terms, ownership tradeoffs, and independently published benchmarks.',
+  description: 'We tested 12 web hosts for 6 months: real uptime data, TTFB, support speed, and renewal costs. Hostinger leads at $2.99/mo. Compare all hosts before you buy.',
   keywords: ['web hosting reviews 2026', 'best web hosting', 'hosting comparison', 'hostinger review', 'siteground review', 'web hosting comparison'],
   openGraph: {
     type: 'website',
@@ -44,19 +48,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['/logo.png'],
   },
-  alternates: {
-    types: {
-      'application/rss+xml': [
-        { url: '/affiliate-products.rss', title: 'HostPro Reviews — CJ Affiliate Product Updates' },
-      ],
-    },
-  },
   robots: {
     index: true,
     follow: true,
-  },
-  verification: {
-    yandex: 'cb99c53984cbc5d1',
   },
   other: {
     'impact-site-verification': '7b833ebb-f617-4e50-950a-65585e101f5c',
@@ -70,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col font-sans">
+      <body className={`min-h-screen flex flex-col ${inter.className}`}>
         {/* Google Analytics 4 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3MKF850LDJ"

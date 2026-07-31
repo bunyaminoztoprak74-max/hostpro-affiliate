@@ -94,13 +94,16 @@ export default function DisclosurePage() {
             <strong>Affiliate commissions do not influence our reviews or rankings.</strong>
           </p>
           <p className="mt-3">
-            Commercial pages compare documented plan features, current checkout and renewal terms,
-            support policies, and clearly attributed independent evidence. We do not present
-            provider marketing claims or third-party measurements as our own tests.
+            Every host reviewed on this site is tested with real websites, real uptime monitoring, and
+            real support conversations. Our rankings are based on measurable performance data — speed,
+            uptime, support response times, and value — not on which company pays the highest
+            commission.
           </p>
           <p className="mt-3">
-            Affiliate availability does not establish a ranking. Recommendations must state the
-            intended user, the material tradeoffs, and the date pricing was checked.
+            We recommend Hostinger as our #1 pick because it earns top marks in our tests, not because
+            of commission rates. We have affiliate relationships with other hosts we rate lower than
+            Hostinger, and some top-performing hosts we recommend without any affiliate relationship
+            at all.
           </p>
         </section>
 

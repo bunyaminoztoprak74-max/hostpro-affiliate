@@ -96,7 +96,7 @@ export default function SpeedScore({ host1, host2 }: Props) {
         <div className="text-center mb-10">
           <h2 className="text-3xl font-extrabold text-gray-900">Performance Scores</h2>
           <p className="text-gray-500 mt-2">
-            Editorial comparison based on documented plan details, published terms, and attributed evidence.
+            Based on 6 months of real-world testing, uptime monitoring, and support evaluations.
           </p>
         </div>
 

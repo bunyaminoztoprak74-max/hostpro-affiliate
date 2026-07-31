@@ -6,15 +6,15 @@ export default function ReviewMethodology() {
         <div>
           <h3 className="font-bold text-gray-900 mb-2 text-base">How We Test Web Hosting</h3>
           <p className="text-sm text-gray-600 leading-relaxed mb-3">
-            We compare official plan documentation, current checkout terms, renewal pricing,
-            support policies, and independently published performance evidence. A page describes
-            hands-on testing only when the setup, date, plan, and reproducible evidence are documented.
+            Every host we review is tested with <strong>real live websites</strong> — not synthetic benchmarks.
+            We pay for our own hosting accounts, never accept sponsored placements, and run each test
+            for a minimum of 90 days before publishing.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { icon: '📡', label: 'Reliability', detail: 'SLA + evidence' },
-              { icon: '⚡', label: 'Performance', detail: 'Source + method' },
-              { icon: '💬', label: 'Support', detail: 'Published terms' },
+              { icon: '📡', label: 'Uptime', detail: '5-min monitoring' },
+              { icon: '⚡', label: 'Speed', detail: '5 global locations' },
+              { icon: '💬', label: 'Support', detail: '10 test chats' },
               { icon: '💰', label: 'Pricing', detail: 'Intro + renewal' },
             ].map(({ icon, label, detail }) => (
               <div key={label} className="bg-white rounded-xl p-3 text-center border border-blue-100">
