@@ -1,4 +1,22 @@
-import { getComparisonBySlug, getAllComparisonSlugs } from '@/lib/comparisons'
+import { getComparisonBySlug, getAllComparisonSlugs, isIndexableComparison } from '@/lib/comparisons'
+
+// Maps a host slug to its dedicated full-review blog post slug, when one exists.
+// Used to cross-link comparison pages (well-crawled) into individual review posts
+// (many of which are under-linked and stuck in "discovered, not indexed").
+const HOST_REVIEW_SLUGS: Record<string, string> = {
+  hostinger: 'hostinger-review-2026',
+  bluehost: 'bluehost-review-2026',
+  cloudways: 'cloudways-review-2026',
+  wpengine: 'wp-engine-review-2026',
+  siteground: 'siteground-review-2026',
+  dreamhost: 'dreamhost-review-2026',
+  godaddy: 'godaddy-hosting-review-2026',
+  hostgator: 'hostgator-review-2026',
+  kinsta: 'kinsta-review-2026',
+  namecheap: 'namecheap-hosting-review-2026',
+  a2hosting: 'a2-hosting-review-2026',
+  servebolt: 'servebolt-review-2026',
+}
 import { generateFAQSchema, generateBreadcrumbSchema, SITE_URL, SITE_NAME } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -27,6 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: comparison.metaTitle,
     description: comparison.metaDescription,
+    ...(!isIndexableComparison(slug) && { robots: { index: false, follow: true } }),
     openGraph: {
       title: comparison.metaTitle,
       description: comparison.metaDescription,
@@ -138,7 +157,21 @@ export default async function ComparisonPage({ params }: Props) {
           </h2>
           <div className="space-y-6">
             <ProsConsCard host={host1} />
+            {HOST_REVIEW_SLUGS[host1.slug] && (
+              <p className="text-sm text-center -mt-3">
+                <Link href={`/blog/${HOST_REVIEW_SLUGS[host1.slug]}`} className="font-medium text-indigo-600 hover:underline">
+                  Read the full {host1.name} review →
+                </Link>
+              </p>
+            )}
             <ProsConsCard host={host2} />
+            {HOST_REVIEW_SLUGS[host2.slug] && (
+              <p className="text-sm text-center -mt-3">
+                <Link href={`/blog/${HOST_REVIEW_SLUGS[host2.slug]}`} className="font-medium text-indigo-600 hover:underline">
+                  Read the full {host2.name} review →
+                </Link>
+              </p>
+            )}
           </div>
         </div>
       </section>
