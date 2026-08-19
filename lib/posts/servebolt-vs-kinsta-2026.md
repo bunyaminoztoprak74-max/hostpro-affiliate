@@ -36,6 +36,7 @@ Servebolt and Kinsta are both premium managed WordPress hosts built on high-perf
 | Visit/traffic caps | No — resource-based | Yes — 25,000 visits/mo on Starter |
 | Full staging | Higher plans only | All plans |
 | Dashboard | Technical, developer-oriented | MyKinsta — best-in-class UX |
+| PHP workers | Uncapped on all plans | Capped by plan (2 workers on Starter) |
 | Infrastructure | Custom-tuned stack | Google Cloud C2 |
 | Best for | High-traffic WooCommerce, publishers | Agencies, general WordPress, mixed portfolios |
 
