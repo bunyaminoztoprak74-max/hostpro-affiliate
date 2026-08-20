@@ -58,7 +58,7 @@ Sucuri is the most complete WordPress security solution available. It operates a
 **What Sucuri does that WordPress plugins can't:**
 A WordPress security plugin can only block attacks after they reach your server. Sucuri's DNS-level WAF stops them before they arrive — consuming no WordPress resources and blocking attacks even if WordPress itself is compromised.
 
-[Check current Sucuri plans →](https://www.anrdoezrs.net/click-101761537-13942202?sid=wordpress-security-services-top)
+[Check current Sucuri plans →](https://www.anrdoezrs.net/click-101761541-13942202?sid=wordpress-security-services-top)
 
 ### 2. Wordfence Premium — Best WordPress Security Plugin
 
@@ -137,12 +137,12 @@ Add your site to Cloudflare's free plan for CDN acceleration and basic DDoS prot
 - Cloudflare Free (CDN + DDoS)
 
 **$199.99/year — Our recommendation:**
-- [Sucuri Basic](https://www.anrdoezrs.net/click-101761537-13942202?sid=wordpress-security-services-mid-basic) (DNS-level WAF + CDN + unlimited malware removal + blacklist monitoring)
+- [Sucuri Basic](https://www.anrdoezrs.net/click-101761541-13942202?sid=wordpress-security-services-mid-basic) (DNS-level WAF + CDN + unlimited malware removal + blacklist monitoring)
 - WP 2FA (free)
 - UpdraftPlus free (weekly backups)
 
 **$300+/year — Complete protection:**
-- [Sucuri Pro](https://www.anrdoezrs.net/click-101761537-13942202?sid=wordpress-security-services-mid-pro) (faster malware SLA, better for e-commerce)
+- [Sucuri Pro](https://www.anrdoezrs.net/click-101761541-13942202?sid=wordpress-security-services-mid-pro) (faster malware SLA, better for e-commerce)
 - Cloudflare Free for DNS
 - MalCare for additional scanning layer
 
@@ -152,7 +152,7 @@ Without a security service: you discover the hack (possibly days or weeks late),
 
 With Sucuri: you receive an alert, open a support ticket, and Sucuri's security team handles cleanup, hardening, and Google blacklist removal. Typical resolution time: 5–12 hours depending on plan.
 
-[Protect your WordPress site with Sucuri →](https://www.anrdoezrs.net/click-101761537-13942202?sid=wordpress-security-services-bottom)
+[Protect your WordPress site with Sucuri →](https://www.anrdoezrs.net/click-101761541-13942202?sid=wordpress-security-services-bottom)
 
 ---
 
