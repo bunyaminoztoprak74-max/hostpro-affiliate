@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Iolo System Mechanic Review 2026: Does It Actually Speed Up Your PC?"
 excerpt: "Iolo System Mechanic claims to clean junk, fix errors, and speed up your PC. After testing it on a 3-year-old Windows 11 machine, here's the honest verdict."
 tags: ["iolo system mechanic review", "system mechanic 2026", "pc optimization software", "best pc cleaner 2026", "pc tune up software"]

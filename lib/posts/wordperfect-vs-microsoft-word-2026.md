@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "WordPerfect vs Microsoft Word 2026: Which Office Editor Fits?"
 excerpt: "WordPerfect and Microsoft Word compared for legal formatting, collaboration, compatibility, automation and licensing."
 tags: ["wordperfect vs microsoft word", "word processor comparison", "legal documents"]

@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Proton Pass vs NordPass 2026: Which Is Better?"
 excerpt: "Proton Pass and NordPass compared for encryption, passkeys, email aliases, sharing, recovery, free plans and ecosystem value."
 tags: ["proton pass vs nordpass", "proton pass review", "nordpass comparison", "password manager 2026"]

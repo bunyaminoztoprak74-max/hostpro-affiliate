@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Abelssoft PC Fresh Review 2026: Useful Windows Tuning or Hype?"
 excerpt: "PC Fresh reviewed for startup optimization, service tuning, privacy settings, usability, safety and value."
 tags: ["pc fresh review", "abelssoft pc fresh", "windows optimizer"]

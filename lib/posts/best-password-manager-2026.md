@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Best Password Manager 2026: 7 Secure Options Compared"
 excerpt: "The best password managers compared for security, passkeys, family sharing, business controls, recovery and value."
 tags: ["best password manager 2026", "password manager", "passkey manager"]

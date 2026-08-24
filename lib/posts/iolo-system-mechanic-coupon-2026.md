@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Iolo System Mechanic Coupon 2026: Current Deals and Renewal Tips"
 excerpt: "How to find a legitimate System Mechanic discount, verify the checkout total, understand renewal terms and avoid fake coupon sites."
 tags: ["system mechanic coupon", "iolo coupon 2026", "system mechanic deal"]

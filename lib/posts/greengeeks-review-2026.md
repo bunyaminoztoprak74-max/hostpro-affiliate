@@ -3,7 +3,7 @@ title: "GreenGeeks Review 2026: Eco-Friendly Hosting Tested (Performance vs. Pri
 excerpt: "GreenGeeks offsets 300% of the energy it consumes with renewable energy credits. But does going green mean compromising on speed? We tested their shared, VPS, and WordPress hosting for 45 days. Spoiler: you don't have to choose."
 tags: ["greengeeks", "greengeeks review 2026", "eco hosting", "green web hosting 2026", "wordpress hosting"]
 date: "2026-08-22"
-lastModified: "2026-08-22"
+lastModified: "2026-08-24"
 category: "Review"
 readTime: "10 min read"
 categoryColor: "bg-green-100 text-green-700"
@@ -146,6 +146,10 @@ GreenGeeks is one of the best value shared hosting providers in 2026, and the on
 The catch, as with all shared hosts, is renewal pricing. Budget for the higher renewal rate from the start.
 
 **[View GreenGeeks current plans →](https://www.greengeeks.com)**
+
+> **Comparing options?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) starts at $2.99/month with similar shared-hosting performance, or see [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month if you want cloud infrastructure instead of shared.
+
+*Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*
 
 ## Related Reviews
 

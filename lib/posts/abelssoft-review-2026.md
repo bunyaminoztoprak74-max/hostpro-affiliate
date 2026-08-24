@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "Abelssoft Review 2026: Is This German Software Suite Worth Buying?"
 excerpt: "Abelssoft makes 30+ Windows optimization tools including WashAndGo, EverDoc, and SSD Fresh. We tested the most popular ones to see if they actually work."
 tags: ["abelssoft", "pc-optimization", "windows-software", "abelssoft-review", "washAndGo"]
