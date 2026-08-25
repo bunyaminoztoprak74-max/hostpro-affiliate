@@ -62,6 +62,8 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-xs">
           <p>&copy; {new Date().getFullYear()} HostProReviews. All rights reserved.</p>
           <div className="flex gap-4 mt-2 md:mt-0">
+            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link>
           </div>

@@ -294,3 +294,4 @@ The most important advice: don't choose based on the lowest intro price. Look at
 - [Core Web Vitals test: which hosts pass Google's SEO bar](/blog/web-hosting-performance-test)
 - [WordPress admin speed test: which hosts feel fastest](/blog/wordpress-hosting-speed-test)
 - [uptime comparison: 12 months of monitoring data](/blog/hosting-uptime-comparison-2026)
+- [best dedicated server hosting 2026: when to move off shared infrastructure](/blog/best-dedicated-server-hosting-2026)

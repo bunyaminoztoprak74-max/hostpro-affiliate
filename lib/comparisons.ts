@@ -493,22 +493,28 @@ export const comparisons: Comparison[] = [
       { category: 'Features', label: 'Free Managed Migration', host1Value: true, host2Value: false, winner: 1 },
       { category: 'Support', label: 'WordPress Expertise', host1Value: 'Performance specialists', host2Value: 'WP specialists', winner: 'tie' },
       { category: 'Support', label: 'Independent Benchmark Ranking', host1Value: 'Top Tier (4 yrs running)', host2Value: 'Top-rated', winner: 'tie' },
+      { category: 'Performance', label: 'PHP Worker Limits', host1Value: 'Unlimited on all plans', host2Value: 'Capped by plan tier', winner: 1 },
+      { category: 'Pricing', label: 'Sites on Entry/Pro Plan', host1Value: '5 sites (Pro)', host2Value: '1 site (Startup)', winner: 1 },
     ],
     faqs: [
       {
         question: 'Is Servebolt better than WP Engine?',
-        answer: 'It depends on what you value. Servebolt averages faster raw page loads in independent benchmarks (190ms vs 248ms) and includes unlimited RAM on every plan. WP Engine offers a more complete WordPress ecosystem — free Genesis themes, deep staging tools, and a larger WordPress-specialist support team — for a lower entry price of $20/month vs Servebolt\'s $99/month.',
+        answer: 'It depends on what you value. Servebolt averages faster raw page loads in independent benchmarks (190ms vs 248ms) and includes unlimited RAM and PHP workers on every plan. WP Engine offers a more complete WordPress ecosystem — free Genesis themes, deep staging tools, and a larger WordPress-specialist support team — for a lower entry price of $20/month vs Servebolt\'s $99/month.',
       },
       {
         question: 'Why is Servebolt more expensive than WP Engine at entry level?',
-        answer: 'Servebolt\'s Pro plan is priced higher because it includes unlimited RAM and is positioned toward performance-critical sites (WooCommerce, high-traffic publishers) rather than entry-level WordPress blogs. WP Engine\'s cheaper Startup plan targets smaller sites and scales price up as you add sites, storage, or visits.',
+        answer: 'Servebolt\'s Pro plan is priced higher because it includes unlimited RAM and PHP workers and is positioned toward performance-critical sites (WooCommerce, high-traffic publishers) rather than entry-level WordPress blogs. WP Engine\'s cheaper Startup plan targets smaller sites, caps PHP workers at that tier, and scales price up as you add sites, storage, or visits.',
       },
       {
         question: 'Does WP Engine or Servebolt have better uptime?',
         answer: 'Both are strong — WP Engine reports 99.99% uptime and Servebolt reports 99.98%. The difference is negligible for the vast majority of sites and unlikely to be the deciding factor between the two.',
       },
+      {
+        question: 'Which gives more value for multi-site agencies, WP Engine or Servebolt?',
+        answer: 'Servebolt\'s Pro plan includes 5 sites for $99/month, while WP Engine\'s comparable entry tier (Startup) covers just 1 site at $20/month — you need WP Engine\'s Professional plan ($40/month, 3 sites) or Growth plan ($77/month, 10 sites) to match. For agencies managing several small-to-medium WordPress sites, Servebolt\'s per-site cost can work out lower once you account for uncapped PHP workers and unlimited RAM removing the need for plan upgrades as traffic grows.',
+      },
     ],
-    lastUpdated: '2026-07-31',
+    lastUpdated: '2026-08-25',
   },
   {
     slug: 'servebolt-vs-cloudways',

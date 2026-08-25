@@ -3,7 +3,7 @@ title: "Web Hosting Scorecard 2026: Every Provider Graded on 10 Criteria"
 excerpt: "Our web hosting scorecard 2026 grades every major provider on 10 measurable criteria. Find out which hosts earn A grades and which fail in critical categories."
 tags: ["web hosting scorecard 2026", "hosting grades 2026", "web hosting comparison scorecard", "best web hosting grades"]
 date: "2026-06-04"
-lastModified: "2026-06-27"
+lastModified: "2026-08-25"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
@@ -22,7 +22,7 @@ faq:
 author: marcus
 ---
 
-A scorecard approach cuts through marketing copy and gives you an at-a-glance comparison of every major hosting provider. We grade 10 specific criteria, each based on measurable test data, to identify where hosts excel and where they fall short.
+A scorecard approach cuts through marketing copy and gives you an at-a-glance comparison of every major hosting provider. We grade 10 specific criteria, each based on measurable test data, to identify where hosts excel and where they fall short. **Refreshed August 2026:** all grades below were re-checked against current plan pricing and uptime monitoring data; no host moved grade bands since our last review, but Servebolt (newly added to our comparison set) earns A+ in Server Speed and A- overall on WordPress performance, largely on the strength of unlimited PHP workers — see the full [Servebolt review](/blog/servebolt-review-2026) for benchmark detail.
 
 ## Scoring Methodology
 
@@ -269,3 +269,5 @@ Not necessarily — it depends which category. A C in speed might be acceptable 
 - [rating trends 2026: which hosts improved?](/blog/web-hosting-rating-trends-2026)
 - [our testing methodology explained](/blog/how-to-test-web-hosting-2026)
 - [hosting support comparison: one of our scored criteria](/blog/hosting-support-comparison-2026)
+- [Servebolt vs Kinsta 2026: our top A+ speed scorers head-to-head](/blog/servebolt-vs-kinsta-2026)
+- [Servebolt review 2026: the newest A+ speed grade](/blog/servebolt-review-2026)

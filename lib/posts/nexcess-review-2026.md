@@ -1,6 +1,6 @@
 ---
 title: "Nexcess Review 2026: Managed WooCommerce & WordPress Hosting Deep Dive"
-excerpt: "Nexcess (owned by Liquid Web since 2019) is built specifically for WooCommerce and WordPress at scale. Starting at $21/month, they target stores that have outgrown shared hosting. We tested their Spark and Maker plans for 45 days with a real WooCommerce store. Here's the full picture."
+excerpt: "Nexcess, owned by Liquid Web, is built for WooCommerce and WordPress at scale. We tested their Spark and Maker plans for 45 days with a real store."
 tags: ["nexcess", "nexcess review 2026", "managed woocommerce hosting", "nexcess woocommerce 2026", "wordpress hosting 2026"]
 date: "2026-07-10"
 lastModified: "2026-08-24"

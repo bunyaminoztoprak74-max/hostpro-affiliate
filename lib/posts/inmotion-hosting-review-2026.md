@@ -1,6 +1,6 @@
 ---
 title: "InMotion Hosting Review 2026: Business Hosting Tested (Speed, Support & Value)"
-excerpt: "InMotion Hosting has been around since 2001 and targets small-to-medium businesses with US-based support and a 90-day money-back guarantee. We ran their Business shared and VPS plans through 45 days of testing. Here's how they hold up in 2026."
+excerpt: "InMotion Hosting targets small businesses with US-based support and a 90-day guarantee. We ran their Business and VPS plans through 45 days of tests."
 tags: ["inmotion hosting", "inmotion hosting review 2026", "business hosting 2026", "vps hosting", "wordpress hosting 2026"]
 date: "2026-08-22"
 lastModified: "2026-08-24"
@@ -148,4 +148,4 @@ For global audiences or high-traffic sites, look elsewhere. For a reliable US bu
 
 ## Related Reviews
 
-Compare InMotion against other hosts we've tested: [best web hosting 2026](/blog/best-web-hosting-2026), [Hostinger review](/blog/hostinger-review-2026), [Bluehost review](/blog/bluehost-review-2026), [GreenGeeks review](/blog/greengeeks-review-2026), [best cheap hosting](/blog/best-cheap-hosting-2026), [hosting speed comparison](/blog/hosting-speed-comparison-2026), and [best VPS hosting](/blog/best-vps-hosting-2026) if you outgrow shared hosting.
+Compare InMotion against other hosts we've tested: [best web hosting 2026](/blog/best-web-hosting-2026), [Hostinger review](/blog/hostinger-review-2026), [Bluehost review](/blog/bluehost-review-2026), [GreenGeeks review](/blog/greengeeks-review-2026), [best cheap hosting](/blog/best-cheap-hosting-2026), [hosting speed comparison](/blog/hosting-speed-comparison-2026), and [best VPS hosting](/blog/best-vps-hosting-2026) if you outgrow shared hosting. If your traffic has outgrown VPS entirely, see our [best dedicated server hosting 2026](/blog/best-dedicated-server-hosting-2026) comparison, where InMotion's fully managed plans are also ranked.

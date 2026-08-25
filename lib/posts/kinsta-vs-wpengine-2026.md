@@ -1,6 +1,6 @@
 ---
 title: "Kinsta vs WP Engine 2026: Google Cloud vs Enterprise Managed WordPress"
-excerpt: "Kinsta vs WP Engine 2026: 110ms vs 130ms TTFB, $35 vs $20/mo starting price, MyKinsta vs proprietary dashboards. Which managed WordPress host actually wins for your site?"
+excerpt: "Kinsta vs WP Engine 2026: 110ms vs 130ms TTFB, $35 vs $20/mo starting price, MyKinsta vs proprietary dashboards. Which managed WordPress host actually wins."
 tags: ["kinsta vs wp engine", "managed wordpress hosting comparison", "kinsta vs wpengine 2026", "best managed wordpress hosting"]
 date: "2026-07-10"
 lastModified: "2026-08-24"

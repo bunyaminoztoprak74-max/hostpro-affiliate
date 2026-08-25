@@ -1,6 +1,6 @@
 ---
 title: "Best Domain Registrars 2026: Where to Buy Your Domain (Tested)"
-excerpt: "We compared 6 domain registrars on renewal pricing, transfer fees, DNS speed, and WHOIS privacy. Here's where to actually buy your domain in 2026 — and which ones to avoid at renewal."
+excerpt: "We compared 6 domain registrars on renewal pricing, transfer fees, DNS speed, and WHOIS privacy — here's where to actually buy your domain in 2026."
 tags: ["best domain registrars 2026", "domain registration", "cheap domain names", "whois privacy", "domain transfer", "dns hosting"]
 date: "2026-08-24"
 lastModified: "2026-08-24"
