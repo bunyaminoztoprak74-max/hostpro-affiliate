@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
+import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'lib/posts')
@@ -190,7 +191,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
 
   const toc = extractTOC(content)
 
-  const processedContent = await remark().use(remarkHtml).process(content)
+  const processedContent = await remark().use(remarkGfm).use(remarkHtml).process(content)
   const contentHtml = addExternalLinkAttributes(addHeadingIds(processedContent.toString()))
 
   return { slug, author: 'marcus', contentHtml, toc, ...data } as Post
