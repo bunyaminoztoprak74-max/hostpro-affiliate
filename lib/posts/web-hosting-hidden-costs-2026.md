@@ -1,9 +1,9 @@
 ---
-title: "Web Hosting Hidden Costs 2026: Renewal Traps, Upsells & What You'll Actually Pay"
+title: "Web Hosting Hidden Costs 2026: Renewal Traps & Upsells"
 excerpt: "Every host looks cheap on page 1. We tracked every upsell, renewal spike, and contract trap across 8 providers so you know the real 3-year cost before you sign."
 tags: ["web hosting hidden costs 2026", "hosting renewal price increase", "web hosting upsells", "hosting true cost", "honest hosting review 2026"]
 date: "2026-06-04"
-lastModified: "2026-08-25"
+lastModified: "2026-08-27"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

@@ -1,9 +1,9 @@
 ---
-title: "Web Hosting Total Cost of Ownership 2026: What You'll Actually Pay Over 3 Years"
+title: "Web Hosting TCO 2026: 3-Year Cost Breakdown"
 excerpt: "Intro prices are fiction. We calculated the real 3-year total cost of every budget hosting plan — including renewal markups, domain renewals, SSL upsells, and."
 tags: ["cheapest web hosting review 2026", "cheap web hosting", "budget web hosting 2026", "affordable hosting"]
 date: "2026-06-04"
-lastModified: "2026-06-18"
+lastModified: "2026-08-27"
 category: "Review"
 readTime: "8 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"

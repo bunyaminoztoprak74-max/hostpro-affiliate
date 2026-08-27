@@ -1,9 +1,9 @@
 ---
-title: "GreenGeeks Review 2026: Eco-Friendly Hosting Tested (Performance vs. Principles)"
+title: "GreenGeeks Review 2026: Eco-Friendly Hosting Tested"
 excerpt: "GreenGeeks offsets 300% of the energy it consumes with renewable credits. We tested their shared, VPS, and WordPress hosting for 45 days."
 tags: ["greengeeks", "greengeeks review 2026", "eco hosting", "green web hosting 2026", "wordpress hosting"]
 date: "2026-08-22"
-lastModified: "2026-08-24"
+lastModified: "2026-08-27"
 category: "Review"
 readTime: "10 min read"
 categoryColor: "bg-green-100 text-green-700"

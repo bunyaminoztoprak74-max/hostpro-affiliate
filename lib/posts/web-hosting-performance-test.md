@@ -1,9 +1,9 @@
 ---
-title: "Web Hosting Core Web Vitals Test 2026: Which Hosts Pass Google's SEO Performance Standards"
+title: "Core Web Vitals Hosting Test 2026: Which Hosts Pass"
 excerpt: "Google uses Core Web Vitals as ranking signals. We measured LCP, CLS, and INP on identical WordPress sites across 10 hosts."
 tags: ["web hosting core web vitals 2026", "hosting google ranking performance", "LCP hosting test", "core web vitals hosting comparison", "hosting SEO performance"]
 date: "2026-06-04"
-lastModified: "2026-06-18"
+lastModified: "2026-08-27"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
