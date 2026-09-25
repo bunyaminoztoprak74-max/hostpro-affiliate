@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "Proton VPN Review 2026: Free vs Plus, Pros & Cons"
 excerpt: "Proton VPN reviewed for privacy, free-plan limits, paid features, device support and value. See who should choose Proton VPN in 2026."
 tags: ["proton vpn review 2026", "proton vpn", "proton vpn free vs plus", "privacy vpn"]

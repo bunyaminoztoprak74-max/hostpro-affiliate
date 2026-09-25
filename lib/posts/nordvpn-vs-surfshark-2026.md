@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "NordVPN vs Surfshark 2026: Which VPN Is Actually Worth Your Money?"
 excerpt: "NordVPN and Surfshark dominate the VPN market in 2026. We compared speed, streaming, pricing, and security to find which deserves your subscription."
 tags: ["nordvpn", "surfshark", "nordvpn-vs-surfshark", "best-vpn-2026", "vpn-comparison"]

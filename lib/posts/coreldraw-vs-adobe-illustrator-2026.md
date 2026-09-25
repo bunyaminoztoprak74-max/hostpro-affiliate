@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "CorelDRAW vs Adobe Illustrator 2026: Which Vector App Wins?"
 excerpt: "CorelDRAW and Illustrator compared for vector design, print production, platform support, AI features, pricing and licensing in 2026."
 tags: ["coreldraw vs illustrator", "vector design software", "graphic design 2026", "coreldraw review", "illustrator alternative"]

@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "Corel Software Review 2026: CorelDRAW, Painter & WordPerfect — Still Worth It?"
 excerpt: "Corel makes CorelDRAW (vector graphics), Corel Painter (digital art), and WordPerfect. In 2026, how do they stack up against Adobe and Microsoft?"
 tags: ["corel", "coreldraw", "corel-painter", "corel-review-2026", "vector-graphics-software"]

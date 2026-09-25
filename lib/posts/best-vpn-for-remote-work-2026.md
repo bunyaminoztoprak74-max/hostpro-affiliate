@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "Best VPN for Remote Work 2026: 6 Services Compared"
 excerpt: "Remote-work VPNs ranked for speed, reliability, device support, public Wi-Fi safety and business administration."
 tags: ["best vpn for remote work", "work from home vpn", "business vpn"]

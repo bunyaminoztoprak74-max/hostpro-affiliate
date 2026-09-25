@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "Iolo System Mechanic vs CCleaner 2026: Which PC Cleaner Actually Works?"
 excerpt: "System Mechanic and CCleaner are the two biggest names in PC optimization. We ran both on the same aging Windows 11 laptop to compare results."
 tags: ["iolo", "system-mechanic", "ccleaner", "iolo-vs-ccleaner", "pc-cleaner-2026"]

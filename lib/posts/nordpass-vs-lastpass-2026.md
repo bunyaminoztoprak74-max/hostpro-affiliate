@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "NordPass vs LastPass 2026: Which Password Manager Is Safer?"
 excerpt: "NordPass and LastPass compared on encryption design, breach history, passkeys, sharing, recovery and value."
 tags: ["nordpass vs lastpass", "password manager comparison", "best password manager"]

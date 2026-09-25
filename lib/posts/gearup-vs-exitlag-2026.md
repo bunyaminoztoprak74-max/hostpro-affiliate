@@ -1,5 +1,4 @@
 ---
-noindex: true
 title: "GearUP Booster vs ExitLag 2026: Which Game Booster Actually Reduces Lag?"
 excerpt: "GearUP Booster and ExitLag compared on routing technology, supported games, pricing, and real-world latency testing for 2026."
 tags: ["gearup vs exitlag", "gearup booster review", "exitlag review", "game booster comparison", "reduce gaming lag 2026"]
