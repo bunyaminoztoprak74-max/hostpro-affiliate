@@ -20,9 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ({ category: name }) => categoryToSlug(name) === category
   )?.category
   if (!cap) return { title: 'Category Not Found' }
+  const postCount = getPostsByCategory(cap).length
   return {
     title: `${cap} — Web Hosting Articles | HostPro Reviews`,
     description: `Browse all ${cap} articles from HostPro Reviews.`,
+    ...(postCount < 3 && { robots: { index: false, follow: true } }),
     alternates: { canonical: `${SITE_URL}/category/${category}` },
   }
 }

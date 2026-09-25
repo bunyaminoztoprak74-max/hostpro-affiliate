@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { categoryToSlug, getAllPosts, getAllCategories } from '@/lib/posts'
-import { getAllComparisonSlugs } from '@/lib/comparisons'
-import { getAllTutorialSlugs } from '@/lib/tutorials'
+import { getIndexableComparisonSlugs, getComparisonBySlug } from '@/lib/comparisons'
+import { getAllTutorials } from '@/lib/tutorials'
 import { getAllAuthorSlugs } from '@/lib/authors'
 import { getAllHostSlugs } from '@/lib/hosts'
 import { SITE_URL } from '@/lib/seo'
@@ -10,24 +10,25 @@ const BASE_URL = SITE_URL
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts()
-  const categories = getAllCategories()
+  const categories = getAllCategories().filter(({ count }) => count >= 3)
 
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
-    { url: `${BASE_URL}/compare`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${BASE_URL}/quiz`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE_URL}/tutorials`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${BASE_URL}/review`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
-    { url: `${BASE_URL}/benchmarks`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/category`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE_URL}/disclosure`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE_URL}/`, changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${BASE_URL}/blog`, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${BASE_URL}/compare`, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/quiz`, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/tutorials`, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/review`, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE_URL}/benchmarks`, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE_URL}/category`, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE_URL}/about`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${BASE_URL}/contact`, changeFrequency: 'yearly', priority: 0.4 },
+    { url: `${BASE_URL}/privacy`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE_URL}/disclosure`, changeFrequency: 'yearly', priority: 0.3 },
   ]
 
   const reviewRoutes: MetadataRoute.Sitemap = getAllHostSlugs().map((slug) => ({
     url: `${BASE_URL}/review/${slug}`,
-    lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.9,
   }))
@@ -41,31 +42,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const categoryRoutes: MetadataRoute.Sitemap = categories.map(({ category }) => ({
     url: `${BASE_URL}/category/${categoryToSlug(category)}`,
-    lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.7,
   }))
 
-  const comparisonRoutes: MetadataRoute.Sitemap = getAllComparisonSlugs().map((slug) => ({
+  const comparisonRoutes: MetadataRoute.Sitemap = getIndexableComparisonSlugs().map((slug) => ({
     url: `${BASE_URL}/compare/${slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(getComparisonBySlug(slug)?.lastUpdated ?? '2026-01-01'),
     changeFrequency: 'monthly' as const,
     priority: 0.85,
   }))
 
-  const tutorialRoutes: MetadataRoute.Sitemap = getAllTutorialSlugs().map((slug) => ({
-    url: `${BASE_URL}/tutorials/${slug}`,
-    lastModified: new Date(),
+  const tutorialRoutes: MetadataRoute.Sitemap = getAllTutorials().map((tutorial) => ({
+    url: `${BASE_URL}/tutorials/${tutorial.slug}`,
+    lastModified: new Date(tutorial.lastModified ?? tutorial.date),
     changeFrequency: 'monthly' as const,
     priority: 0.75,
   }))
 
-  const authorRoutes: MetadataRoute.Sitemap = getAllAuthorSlugs().map((slug) => ({
-    url: `${BASE_URL}/author/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.65,
-  }))
+  const authorRoutes: MetadataRoute.Sitemap = getAllAuthorSlugs()
+    .filter((slug) => posts.filter((post) => (post.author ?? 'marcus') === slug).length >= 2)
+    .map((slug) => ({
+      url: `${BASE_URL}/author/${slug}`,
+      changeFrequency: 'weekly' as const,
+      priority: 0.65,
+    }))
 
   return [
     ...staticRoutes,

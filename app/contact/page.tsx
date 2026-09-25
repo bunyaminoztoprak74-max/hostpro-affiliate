@@ -1,12 +1,14 @@
 import { Metadata } from 'next';
+import { SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Contact Us | HostPro Reviews',
+  alternates: { canonical: `${SITE_URL}/contact` },
   description: 'Get in touch with the HostPro Reviews team. Questions about our hosting recommendations, affiliate disclosures, or partnership enquiries.',
   openGraph: {
     title: 'Contact Us | HostPro Reviews',
     description: 'Reach the HostPro Reviews editorial team.',
-    url: 'https://www.hostproreviews.com/contact',
+    url: `${SITE_URL}/contact`,
   },
 };
 

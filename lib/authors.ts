@@ -12,6 +12,15 @@ export interface Author {
 
 export const AUTHORS: Author[] = [
   {
+    slug: 'hostpro-team',
+    name: 'HostPro Editorial Team',
+    role: 'Editorial Team',
+    bio: 'The HostPro Editorial Team researches software and online services using documented feature checks, pricing verification, and hands-on evaluation. Team-authored articles are reviewed for accuracy and updated when products or terms materially change.',
+    expertise: ['Software Reviews', 'Pricing Research', 'Product Comparisons', 'Editorial Review'],
+    avatar: 'HT',
+    website: 'https://www.hostproreviews.com',
+  },
+  {
     slug: 'marcus',
     name: 'Marcus Webb',
     role: 'Lead Reviewer & Founder',

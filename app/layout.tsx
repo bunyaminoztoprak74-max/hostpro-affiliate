@@ -21,10 +21,9 @@ const organizationSchema = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'bunyamin.oztoprak74@gmail.com',
+    email: 'editor@hostproreviews.com',
     contactType: 'customer support',
   },
-  sameAs: [],
 }
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
@@ -51,6 +50,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  verification: {
+    yandex: 'cb99c53984cbc5d1',
   },
   other: {
     'impact-site-verification': '7b833ebb-f617-4e50-950a-65585e101f5c',

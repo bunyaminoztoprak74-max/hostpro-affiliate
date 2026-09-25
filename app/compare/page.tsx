@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { allComparisons as comparisons } from '@/lib/comparisons'
+import { comparisons } from '@/lib/comparisons'
 import { SITE_URL } from '@/lib/seo'
 
 export const metadata: Metadata = {

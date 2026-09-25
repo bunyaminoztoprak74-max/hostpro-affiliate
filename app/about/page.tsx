@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { SITE_URL, SITE_NAME } from '@/lib/seo'
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/about` },
   title: 'About HostPro Reviews — Our Team & Testing Methodology',
   description: 'HostPro Reviews is an independent web hosting review site. We purchase hosting plans at retail price, test them for 3–6 months, and publish honest, data-driven reviews.',
   openGraph: {

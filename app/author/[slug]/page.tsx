@@ -17,9 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const author = getAuthorBySlug(slug)
   if (!author) return { title: 'Author Not Found' }
+  const postCount = getAllPosts().filter((post) => (post.author ?? 'marcus') === slug).length
   return {
     title: `${author.name} — ${author.role} | ${SITE_NAME}`,
     description: author.bio,
+    ...(postCount < 2 && { robots: { index: false, follow: true } }),
     alternates: { canonical: `${SITE_URL}/author/${slug}` },
     openGraph: {
       title: `${author.name} — ${author.role}`,

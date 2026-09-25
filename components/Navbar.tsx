@@ -23,6 +23,9 @@ export default function Navbar() {
             <Link href="/blog" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Reviews</Link>
             <Link href="/compare" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Compare</Link>
             <Link href="/tutorials" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Tutorials</Link>
+            <Link href="/quickstart" className="inline-flex items-center gap-1 text-indigo-600 hover:text-indigo-800 font-semibold transition-colors">
+              🚀 Launch Kit
+            </Link>
             <Link href="/benchmarks" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Benchmarks</Link>
             <Link href="/quiz" className="inline-flex items-center gap-1.5 text-indigo-600 hover:text-indigo-800 font-semibold transition-colors">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />

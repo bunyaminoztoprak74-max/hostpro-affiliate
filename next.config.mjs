@@ -12,6 +12,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/blog/a2hosting-review-2026',
+        destination: '/blog/a2-hosting-review-2026',
+        permanent: true,
+      },
+      {
         source: '/blog/best-wordpress-security-plugins-2026',
         destination: '/blog/best-wordpress-security-solutions',
         permanent: true,
