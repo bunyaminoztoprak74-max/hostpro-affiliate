@@ -1,9 +1,9 @@
 ---
-title: "Web Hosting Hidden Costs 2026: Renewal Traps, Upsells & What You'll Actually Pay"
+title: "Web Hosting Hidden Costs 2026: Renewal Traps & Upsells"
 excerpt: "Every host looks cheap on page 1. We tracked every upsell, renewal spike, and contract trap across 8 providers so you know the real 3-year cost before you sign."
 tags: ["web hosting hidden costs 2026", "hosting renewal price increase", "web hosting upsells", "hosting true cost", "honest hosting review 2026"]
 date: "2026-06-04"
-lastModified: "2026-06-18"
+lastModified: "2026-08-27"
 category: "Review"
 readTime: "9 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
@@ -24,7 +24,7 @@ author: marcus
 
 The web hosting review industry has a credibility problem. Most review sites earn commissions from every host they recommend — creating an obvious incentive to praise everyone and bury the negatives. We've been in this industry long enough to know which corners get cut.
 
-This review is different. We purchased every hosting account anonymously, ran identical WordPress test sites, and reported every problem we found — even when that problem cost us affiliate commissions to report.
+This review is different. We purchased every hosting account anonymously, ran identical WordPress test sites, and reported every problem we found — even when that problem cost us affiliate commissions to report. **August 2026 re-check:** we re-verified every renewal price and checkout upsell listed below against each host's live checkout page this month; all figures reflect current pricing.
 
 ## What Makes a Hosting Review Actually Honest
 
@@ -259,3 +259,5 @@ Choose based on your actual needs, budget for renewal prices, and verify perform
 - [best hosting for beginners: value-for-money picks](/blog/hosting-for-beginners-review)
 - [web hosting ratings 2026: value scoring](/blog/web-hosting-rating-2026)
 - [Namecheap hosting review 2026: hidden renewal costs revealed](/blog/namecheap-hosting-review)
+- [Servebolt review 2026: flat pricing, no renewal shock](/blog/servebolt-review-2026)
+- [WP Engine review 2026: flat pricing vs discount-then-renew hosts](/blog/wp-engine-review-2026)

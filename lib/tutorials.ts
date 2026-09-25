@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
+import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
 import type { TOCItem } from './posts'
 
@@ -87,7 +88,7 @@ export async function getTutorialBySlug(slug: string): Promise<Tutorial> {
   const { data, content } = matter(fileContents)
 
   const toc = extractTOC(content)
-  const processedContent = await remark().use(remarkHtml).process(content)
+  const processedContent = await remark().use(remarkGfm).use(remarkHtml).process(content)
   const contentHtml = addHeadingIds(processedContent.toString())
 
   return { slug, contentHtml, toc, ...data } as Tutorial

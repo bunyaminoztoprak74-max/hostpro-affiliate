@@ -1,6 +1,7 @@
 ---
+noindex: true
 title: "GearUP Booster Review 2026: Does This Gaming VPN Actually Reduce Ping?"
-excerpt: "GearUP Booster claims to reduce lag, fix packet loss, and optimize routing for online gaming. We tested it on League of Legends, Valorant, and PUBG to see if it actually works."
+excerpt: "GearUP Booster claims to reduce lag and optimize routing for online gaming. We tested it on League of Legends, Valorant, and PUBG to find out."
 tags: ["gearup", "gearup-booster", "gaming-vpn", "reduce-ping", "gearup-review-2026"]
 date: "2026-07-11"
 lastModified: "2026-07-11"

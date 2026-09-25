@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: "AOMEI Backupper Review 2026: Pros, Cons & Best Uses"
 excerpt: "AOMEI Backupper reviewed for Windows system, disk and file backups, cloning, scheduled jobs, restore media and self-managed server use."
 tags: ["aomei backupper review 2026", "windows backup software", "disk cloning software", "aomei backupper"]
