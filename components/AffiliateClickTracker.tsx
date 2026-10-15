@@ -39,6 +39,7 @@ const CJ_PARTNERS: Record<string, string> = {
   '15438547': 'Surfshark',
   '15733311': 'System Mechanic',
   '17235979': 'GearUP Booster',
+  '17273877': 'ExitLag',
   '17254962': 'CorelDRAW',
 }
 
