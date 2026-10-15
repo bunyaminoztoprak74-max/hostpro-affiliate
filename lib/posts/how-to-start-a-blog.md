@@ -64,7 +64,7 @@ Hostinger gives you everything you need for $2.99/month:
 - 1-click WordPress install
 - 24/7 support
 
-[Get Hostinger — 75% Off Today](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Get Hostinger — 75% Off Today](https://www.dpbolvw.net/click-101761537-17226848)
 
 ### How to Buy Hosting (Step-by-Step):
 
@@ -156,7 +156,7 @@ Starting a blog takes consistency, not genius. Write useful content, build links
 
 Ready to start? Get your hosting and domain from Hostinger today:
 
-[Start Your Blog with Hostinger — $2.99/month](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Start Your Blog with Hostinger — $2.99/month](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 

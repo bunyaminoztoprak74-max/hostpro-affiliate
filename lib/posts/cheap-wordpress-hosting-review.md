@@ -87,7 +87,7 @@ The WordPress manager in hPanel lets you manage multiple WordPress installations
 
 **Limitation at $2.99/month:** Single plan allows only 1 website. For multiple WordPress installs, the Premium plan ($3.99/month) allows 100 sites — still cheap.
 
-[**Get Hostinger WordPress Hosting →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger WordPress Hosting →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -255,4 +255,4 @@ If budget WordPress hosting isn't right for your use case, check our [Hosting fo
 
 **Avoid HostGator and GoDaddy** — slow Apache infrastructure with no LiteSpeed benefits, poor uptime, and aggressive upselling. There are better options at every price point.
 
-[**Get Hostinger WordPress Hosting →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get SiteGround →**](https://www.siteground.com) | [Compare WordPress Hosts →](/compare/hostinger-vs-bluehost)
+[**Get Hostinger WordPress Hosting →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get SiteGround →**](https://www.siteground.com) | [Compare WordPress Hosts →](/compare/hostinger-vs-bluehost)

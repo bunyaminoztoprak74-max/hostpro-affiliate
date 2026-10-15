@@ -41,7 +41,7 @@ export default function DisclosurePage() {
               {
                 name: 'Hostinger',
                 program: 'Hostinger Affiliate Program',
-                link: 'https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU',
+                link: 'https://www.dpbolvw.net/click-101761537-17226848',
                 note: 'Referral code: OFMBZTOPRZSU',
               },
               {

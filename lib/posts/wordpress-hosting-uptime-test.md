@@ -284,7 +284,7 @@ Uptime monitoring tools only detect HTTP response failures. But WordPress has it
 
 The uptime difference between SiteGround and HostGator is 9.6 hours per year. If your WordPress site generates any revenue, investing in reliable hosting pays for itself quickly.
 
-[**Get SiteGround →**](https://www.siteground.com) | [**Get WP Engine →**](https://wpengine.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get SiteGround →**](https://www.siteground.com) | [**Get WP Engine →**](https://wpengine.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 <!-- related-reading -->
 

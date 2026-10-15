@@ -38,7 +38,7 @@ Hostinger is our top pick for value hosting in 2026. At $2.99/month, it offers N
 
 ## Step 1: Sign Up for Hostinger
 
-1. Go to [hostinger.com](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+1. Go to [hostinger.com](https://www.dpbolvw.net/click-101761537-17226848)
 2. Click **Get Started** or **Add to Cart** on your chosen plan
 3. Create an account with email + password or sign in with Google
 4. Complete the checkout process
@@ -203,4 +203,4 @@ Use the All-in-One WP Migration plugin — see our [complete migration guide](/t
 
 ---
 
-**Get started with Hostinger today.** [Premium Web Hosting at $2.99/month](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) includes free domain, 100 GB NVMe SSD, and 100 website slots — the best value we've tested.
+**Get started with Hostinger today.** [Premium Web Hosting at $2.99/month](https://www.dpbolvw.net/click-101761537-17226848) includes free domain, 100 GB NVMe SSD, and 100 website slots — the best value we've tested.

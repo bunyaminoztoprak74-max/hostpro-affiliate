@@ -171,4 +171,4 @@ Connecting a domain is a one-time task. Once it's done, your domain is permanent
 
 ---
 
-**Ready to get started?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) makes domain connection automatic when you purchase both domain and hosting together — the fastest way to get online.
+**Ready to get started?** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) makes domain connection automatic when you purchase both domain and hosting together — the fastest way to get online.

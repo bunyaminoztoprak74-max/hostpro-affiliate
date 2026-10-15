@@ -84,7 +84,7 @@ For pre-revenue startups and early MVPs, Hostinger Business ($5.99/month) provid
 
 **Upgrade path:** Hostinger → SiteGround → Cloudways → WP Engine as your startup scales.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -266,7 +266,7 @@ Yes, once traffic grows beyond a few thousand monthly visitors. Cloudways offers
 
 Start cheap, prove the model, then invest in infrastructure proportional to your revenue. Don't over-invest in hosting before you have traction. Do invest before you have major public exposure.
 
-[**Start Lean with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Scale with Cloudways →**](https://www.cloudways.com/en/?id=2170350) | [**Manage with WP Engine →**](https://wpengine.com)
+[**Start Lean with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Scale with Cloudways →**](https://www.cloudways.com/en/?id=2170350) | [**Manage with WP Engine →**](https://wpengine.com)
 
 <!-- related-reading -->
 

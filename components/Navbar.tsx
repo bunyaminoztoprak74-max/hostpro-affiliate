@@ -32,7 +32,7 @@ export default function Navbar() {
               Find My Host
             </Link>
             <a
-              href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
+              href="https://www.dpbolvw.net/click-101761537-17226848"
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="btn-primary text-sm py-2 px-4"
@@ -64,7 +64,7 @@ export default function Navbar() {
             <Link href="/tutorials" className="block px-3 py-2 text-gray-600 hover:text-indigo-600 font-medium">Tutorials</Link>
             <Link href="/benchmarks" className="block px-3 py-2 text-gray-600 hover:text-indigo-600 font-medium">Benchmarks</Link>
             <a
-              href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
+              href="https://www.dpbolvw.net/click-101761537-17226848"
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="block btn-primary text-sm text-center"

@@ -36,7 +36,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Top Picks</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">
+                <a href="https://www.dpbolvw.net/click-101761537-17226848" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">
                   Hostinger →
                 </a>
               </li>

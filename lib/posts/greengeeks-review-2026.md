@@ -147,7 +147,7 @@ The catch, as with all shared hosts, is renewal pricing. Budget for the higher r
 
 **[View GreenGeeks current plans →](https://www.greengeeks.com)**
 
-> **Comparing options?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) starts at $2.99/month with similar shared-hosting performance, or see [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month if you want cloud infrastructure instead of shared.
+> **Comparing options?** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) starts at $2.99/month with similar shared-hosting performance, or see [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month if you want cloud infrastructure instead of shared.
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*
 

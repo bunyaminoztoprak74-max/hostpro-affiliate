@@ -105,7 +105,7 @@ Hostinger Business runs WooCommerce stores with up to ~500 products and 5,000 mo
 **Support quality for business:**
 Average 3-minute response time, 87% first-contact resolution. Critical for businesses that can't wait hours for hosting issues to be resolved.
 
-[**Get Hostinger Business →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger Business →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -191,7 +191,7 @@ For most businesses, Hostinger's included email or SiteGround's Google Workspace
 
 ## Our Business Hosting Recommendations Summary
 
-**Under $6/month budget:** [Hostinger Business](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) — best value business hosting, passes Core Web Vitals, daily backups
+**Under $6/month budget:** [Hostinger Business](https://www.dpbolvw.net/click-101761537-17226848) — best value business hosting, passes Core Web Vitals, daily backups
 
 **Premium reliability:** [SiteGround Business](https://www.siteground.com) — fastest and most reliable traditional shared hosting, best for performance-critical business sites
 

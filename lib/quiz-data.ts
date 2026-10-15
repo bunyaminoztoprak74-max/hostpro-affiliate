@@ -49,7 +49,7 @@ export const hostProfiles: HostProfile[] = [
     emoji: '🚀',
     tagline: 'Best value for money',
     price: '$2.99/mo',
-    affiliateUrl: 'https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU',
+    affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17226848',
     badge: '#1 Budget Pick',
     badgeColor: 'bg-yellow-400 text-yellow-900',
     gradient: 'from-indigo-500 to-purple-600',

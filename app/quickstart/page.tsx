@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 export default function QuickstartPage() {
-  const hostingerUrl = "https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU"
+  const hostingerUrl = "https://www.dpbolvw.net/click-101761537-17226848"
   const contaboUrl = "https://www.tkqlhce.com/click-101761537-17083152-1755508711000"
 
   return (

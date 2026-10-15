@@ -74,7 +74,7 @@ The CDN makes a significant difference — always enable it.
 
 **Best for:** Photographers with large portfolios, client proof galleries, photographers running multiple websites
 
-[**Get Hostinger for Photography →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger for Photography →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -212,7 +212,7 @@ As of August 2026, Hostinger's Premium plan remains the best value at $3.99/mont
 
 Your photography website is your primary marketing tool. Fast, reliable hosting ensures clients can view your work when they want to — and that their galleries are protected by daily backups.
 
-[**Get Photography Hosting with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get DreamHost →**](https://www.dreamhost.com) | [**Get SiteGround →**](https://www.siteground.com)
+[**Get Photography Hosting with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get DreamHost →**](https://www.dreamhost.com) | [**Get SiteGround →**](https://www.siteground.com)
 
 <!-- related-reading -->
 

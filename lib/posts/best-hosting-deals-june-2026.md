@@ -56,7 +56,7 @@ Hostinger's TTFB of 221ms sits just above Google's "Good" threshold — not as f
 
 **Current promotion:** Up to 75% off on annual plans. Business plan at $3.99/month on 12-month term, or $2.69/month locked in on 48 months.
 
-[Get Hostinger Business →](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Get Hostinger Business →](https://www.dpbolvw.net/click-101761537-17226848)
 
 ## 2. SiteGround GrowBig — Best Performance Deal
 

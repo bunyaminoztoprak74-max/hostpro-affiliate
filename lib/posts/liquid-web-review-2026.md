@@ -137,7 +137,7 @@ For everyone else, Hostinger or Cloudways offer 80% of the capability at 20% of 
 
 **[Check Liquid Web's current plans →](https://www.liquidweb.com)**
 
-> **80% of the capability at 20% of the price:** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) from $2.99/month or [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month, both reviewed in full.
+> **80% of the capability at 20% of the price:** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) from $2.99/month or [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month, both reviewed in full.
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*
 

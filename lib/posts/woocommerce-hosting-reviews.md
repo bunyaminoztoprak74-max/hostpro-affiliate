@@ -166,7 +166,7 @@ Hostinger's Business plan ($5.99/month) is the most affordable option that meets
 
 **Limitation:** Shared server resources mean large traffic spikes can cause performance degradation. Plan for this with Cloudflare CDN (free) to reduce server load for product images.
 
-[**Get Hostinger Business →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger Business →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -251,7 +251,7 @@ WooCommerce: more control, lower total cost at scale, requires hosting managemen
 
 **Developer WooCommerce:** Cloudways — best flexibility and scaling for technical teams managing WooCommerce infrastructure.
 
-[**Get WP Engine →**](https://wpengine.com) | [**Get Kinsta →**](https://kinsta.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Compare →](/compare/hostinger-vs-bluehost)
+[**Get WP Engine →**](https://wpengine.com) | [**Get Kinsta →**](https://kinsta.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Compare →](/compare/hostinger-vs-bluehost)
 
 <!-- related-reading -->
 

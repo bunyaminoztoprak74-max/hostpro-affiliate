@@ -42,6 +42,8 @@ const CJ_PARTNERS: Record<string, string> = {
   '17254962': 'CorelDRAW',
 }
 
+const HOSTINGER_CJ_LINK_IDS = new Set(['17226848', '15748555', '15753162'])
+
 const HOSTINGER_CJ_LINKS = {
   general: 'https://www.dpbolvw.net/click-101761537-17226848-1767728255000',
   wordpress: 'https://www.anrdoezrs.net/click-101761537-15748555-1747102455000',
@@ -61,10 +63,21 @@ function hostingerCjUrl(pagePath: string, position: number) {
 }
 
 function rewriteLegacyHostingerLinks(root: ParentNode) {
-  const anchors = root.querySelectorAll<HTMLAnchorElement>('a[href*="hostinger.com"]')
+  const anchors = root.querySelectorAll<HTMLAnchorElement>('a[href*="hostinger.com"], a[href*="click-101761537-"]')
   anchors.forEach((anchor, index) => {
     try {
       const url = new URL(anchor.href)
+      if (CJ_HOSTS.has(url.hostname)) {
+        // Hostinger CJ links are now hard-coded in the source; only add the per-page sid for reporting.
+        const linkId = url.pathname.match(/\/click-\d+-(\d+)/)?.[1]
+        if (linkId && HOSTINGER_CJ_LINK_IDS.has(linkId) && !url.searchParams.has('sid')) {
+          const slug = window.location.pathname.toLowerCase().split('/').filter(Boolean).join('-') || 'homepage'
+          url.searchParams.set('sid', `${slug}-hostinger-${index + 1}`.slice(0, 100))
+          anchor.href = url.href
+          anchor.rel = 'noopener noreferrer sponsored'
+        }
+        return
+      }
       if (!url.hostname.endsWith('hostinger.com') || !url.searchParams.has('REFERRALCODE')) return
       anchor.href = hostingerCjUrl(window.location.pathname, index)
       anchor.rel = 'noopener noreferrer sponsored'

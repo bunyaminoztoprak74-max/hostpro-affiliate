@@ -71,7 +71,7 @@ Hostinger's Premium plan is the best shared hosting value in 2026. LiteSpeed web
 
 **Limitation:** Weekly backups (not daily) on the Premium plan — daily backups require Business plan ($4.99/month)
 
-[**Get Hostinger Premium →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger Premium →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -207,7 +207,7 @@ For most websites — even established ones with good traffic — quality shared
 
 ## Our Pick
 
-**For most users:** [Hostinger Premium](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) — best balance of performance, features, and price. 168ms TTFB, 100 sites, LiteSpeed, and the lowest long-term cost in our test.
+**For most users:** [Hostinger Premium](https://www.dpbolvw.net/click-101761537-17226848) — best balance of performance, features, and price. 168ms TTFB, 100 sites, LiteSpeed, and the lowest long-term cost in our test.
 
 **For performance-first users:** [SiteGround GrowBig](https://www.siteground.com) — fastest and most reliable with excellent support, worth the higher price for sites where performance directly impacts revenue.
 

@@ -287,7 +287,7 @@ At 20 plugins (realistic for a typical WordPress site), Bluehost breaks the 500m
 
 **Avoid Bluehost, HostGator, and GoDaddy** if WordPress speed matters — their Apache/standard-SSD infrastructure consistently delivers sub-optimal performance in every test we've run.
 
-[**Get Kinsta →**](https://kinsta.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Kinsta →**](https://kinsta.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 [See Full Benchmarks →](/benchmarks) | [Compare Hosts →](/compare/hostinger-vs-bluehost)
 

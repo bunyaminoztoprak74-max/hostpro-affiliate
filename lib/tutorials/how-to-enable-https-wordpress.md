@@ -258,4 +258,4 @@ Really Simple SSL is the most popular WordPress HTTPS plugin with 5M+ active ins
 | Elementor | Occasionally breaks | Regenerate CSS after SSL switch in Elementor settings |
 | Divi Builder | Cached HTTP styles | Purge Divi static CSS after switching |
 
-**Choosing a host with automatic SSL?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU), [Cloudways](https://www.cloudways.com/en/?id=2170350), and [Kinsta](https://kinsta.com) all auto-provision and auto-renew SSL certificates for every domain you add.
+**Choosing a host with automatic SSL?** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848), [Cloudways](https://www.cloudways.com/en/?id=2170350), and [Kinsta](https://kinsta.com) all auto-provision and auto-renew SSL certificates for every domain you add.

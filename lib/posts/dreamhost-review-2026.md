@@ -148,6 +148,6 @@ DreamHost earns **4.3/5**. It's one of the most trustworthy independent hosts in
 
 > **Ready to try DreamHost?** [Visit DreamHost →](https://www.dreamhost.com) and start with Shared Unlimited for a personal site, or DreamPress if you need managed WordPress. Still deciding? Compare it in our [Hostinger vs Bluehost](/compare/hostinger-vs-bluehost) and [Best Cheap Hosting 2026](/blog/best-cheap-hosting-2026) guides.
 
-> **Want managed WordPress with a proven affiliate-tracked deal?** Compare DreamPress against [Cloudways](https://www.cloudways.com/en/?id=2170350) (from $14/month, pay-as-you-grow) or [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) (from $2.99/month) before you commit.
+> **Want managed WordPress with a proven affiliate-tracked deal?** Compare DreamPress against [Cloudways](https://www.cloudways.com/en/?id=2170350) (from $14/month, pay-as-you-grow) or [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) (from $2.99/month) before you commit.
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*

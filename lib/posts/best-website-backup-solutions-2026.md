@@ -65,7 +65,7 @@ UpdraftPlus is installed on more than 3 million WordPress sites, making it the m
 
 Premium ($70/year for 2 sites) adds incremental backups (so you're not re-uploading your entire site every time), a site-migration tool, and priority support. For a personal blog or small business site, the free tier is genuinely enough as long as you connect it to off-site cloud storage rather than leaving backups on your server.
 
-**Pair well with:** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) or [SiteGround](/blog/siteground-review-2026) shared plans, where host backups are limited but a free plugin closes the gap cheaply.
+**Pair well with:** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) or [SiteGround](/blog/siteground-review-2026) shared plans, where host backups are limited but a free plugin closes the gap cheaply.
 
 ### BlogVault — Best for WooCommerce and Agencies
 

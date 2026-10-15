@@ -83,7 +83,7 @@ Hostinger's Single plan at $2.99/month is the best cheap hosting option in 2026.
 
 **Best for:** First website, personal blogs, testing projects
 
-[**Get Hostinger Single Plan →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger Single Plan →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -254,7 +254,7 @@ For the absolute minimum spend, **Namecheap** at $1.98/month works but comes wit
 
 Avoid HostGator at any price. The worst performance in our test group isn't worth the few dollars saved annually.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get DreamHost →**](https://www.dreamhost.com) | [**Get Namecheap →**](https://www.namecheap.com)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get DreamHost →**](https://www.dreamhost.com) | [**Get Namecheap →**](https://www.namecheap.com)
 
 <!-- related-reading -->
 

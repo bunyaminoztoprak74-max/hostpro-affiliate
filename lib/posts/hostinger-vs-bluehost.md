@@ -98,7 +98,7 @@ Both hosts offer 1-click WordPress installation, but the experience differs in i
 - Bloggers and small business owners who want speed
 - Users outside the US wanting good global performance
 
-[Get Hostinger — 75% off today](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Get Hostinger — 75% off today](https://www.dpbolvw.net/click-101761537-17226848)
 
 ## Who Should Choose Bluehost?
 

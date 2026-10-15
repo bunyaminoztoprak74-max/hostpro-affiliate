@@ -164,7 +164,7 @@ Hostinger's LiteSpeed Cache for WordPress (LSCache) is a genuinely excellent cac
 
 **Best WordPress use case:** Bloggers, small businesses, multiple WordPress sites on a budget
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -314,6 +314,6 @@ We don't just review the winners. Here's how the remaining hosts performed on Wo
 
 **Avoid for WordPress:** HostGator and GoDaddy — slow Apache servers and generic hosting setups without WordPress optimization.
 
-[**Get WP Engine →**](https://wpengine.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get WP Engine →**](https://wpengine.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 [Compare WordPress Hosts →](/compare/hostinger-vs-bluehost) | [Best WordPress Hosting 2026 →](/blog/best-wordpress-hosting-2026)

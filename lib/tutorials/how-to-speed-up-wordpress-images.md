@@ -176,4 +176,4 @@ wp media regenerate --only-missing
 
 ---
 
-**For maximum image performance**, combine image optimization with a fast host like [Cloudways](https://www.cloudways.com/en/?id=2170350) which includes Cloudflare Enterprise CDN, or [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) with NVMe SSD storage for fast disk I/O.
+**For maximum image performance**, combine image optimization with a fast host like [Cloudways](https://www.cloudways.com/en/?id=2170350) which includes Cloudflare Enterprise CDN, or [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) with NVMe SSD storage for fast disk I/O.

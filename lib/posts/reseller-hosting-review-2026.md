@@ -77,7 +77,7 @@ Hostinger's reseller model is different from traditional WHM/cPanel reselling �
 
 **Best for:** Web designers and agencies who manage client WordPress sites and want the easiest management experience at the lowest cost.
 
-[**Get Hostinger for Agencies →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger for Agencies →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -239,7 +239,7 @@ No license is needed in most jurisdictions. You'll need to handle basic business
 
 ## Our Recommendations
 
-**Best overall for agencies:** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) — fastest performance, easiest management, lowest cost to start
+**Best overall for agencies:** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) — fastest performance, easiest management, lowest cost to start
 
 **Best traditional WHM reseller:** A2 Hosting — free WHMCS, full WHM/cPanel, solid performance
 

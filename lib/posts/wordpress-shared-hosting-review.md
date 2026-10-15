@@ -100,7 +100,7 @@ Hostinger's Premium plan delivers 168ms TTFB on 100 WordPress sites for $3.99/mo
 
 **Limitation:** 100GB NVMe is generous, but the Single plan's 1-site limit requires upgrading to Premium for most use cases.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -258,7 +258,7 @@ Shared WordPress hosting in 2026 is dramatically better than it was 5 years ago.
 
 **The real decision:** Not "shared vs managed" but "which shared host?" The gap between Hostinger (168ms TTFB) and HostGator (389ms TTFB) on shared hosting is massive — bigger than the gap between the best shared and entry managed hosting.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get SiteGround →**](https://www.siteground.com) | [Best WordPress Hosting →](/blog/best-wordpress-hosting-2026)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get SiteGround →**](https://www.siteground.com) | [Best WordPress Hosting →](/blog/best-wordpress-hosting-2026)
 
 <!-- related-reading -->
 

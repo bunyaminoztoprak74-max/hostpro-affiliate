@@ -228,7 +228,7 @@ Hostinger Premium 5-year estimate: ~$495. SiteGround GrowBig 5-year estimate: ~$
 
 **Hidden fee winner (most transparent):** Hostinger and SiteGround — no surprise pre-selected add-ons.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get SiteGround →**](https://www.siteground.com) | [**Get WP Engine →**](https://wpengine.com) | [Compare →](/compare/hostinger-vs-bluehost)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get SiteGround →**](https://www.siteground.com) | [**Get WP Engine →**](https://wpengine.com) | [Compare →](/compare/hostinger-vs-bluehost)
 
 <!-- related-reading -->
 

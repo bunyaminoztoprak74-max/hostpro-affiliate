@@ -103,7 +103,7 @@ Hostinger offers UK and EU server locations across their plans, making them an e
 
 **Pricing:** Premium plan at £2.99-3.99/month (equivalent) — the best value proposition for UK sites needing solid performance.
 
-[**Get Hostinger UK →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger UK →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -253,7 +253,7 @@ For managed WordPress, **WP Engine** and **Kinsta** both offer London servers wi
 
 The key decision: if you use a quality CDN (free with most top hosts), server location matters less. If you want maximum UK performance without CDN dependency, select a host with an actual UK data center.
 
-[**Get SiteGround UK →**](https://www.siteground.com) | [**Get Hostinger UK →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get WP Engine UK →**](https://wpengine.com)
+[**Get SiteGround UK →**](https://www.siteground.com) | [**Get Hostinger UK →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get WP Engine UK →**](https://wpengine.com)
 
 <!-- related-reading -->
 

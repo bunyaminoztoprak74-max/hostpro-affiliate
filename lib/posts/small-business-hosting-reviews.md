@@ -92,7 +92,7 @@ Hostinger's Business plan at $5.99/month delivers NVMe SSD performance, 200GB st
 
 **Where it falls short vs. SiteGround:** Slightly lower uptime (99.97% vs 99.99%) and the renewal price is lower, making it better long-term value.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Review →](/review/hostinger)
 
 ---
 
@@ -211,7 +211,7 @@ For revenue-critical e-commerce or high-traffic sites, **WP Engine** provides ma
 
 Don't let your business website sit on slow, unreliable hosting. The cost of upgrading is a few extra dollars per month. The cost of downtime is customers who can't find you.
 
-[**Get SiteGround →**](https://www.siteground.com) | [Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Compare →](/compare/hostinger-vs-bluehost)
+[**Get SiteGround →**](https://www.siteground.com) | [Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Compare →](/compare/hostinger-vs-bluehost)
 
 <!-- related-reading -->
 

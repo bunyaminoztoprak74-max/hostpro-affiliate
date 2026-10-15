@@ -147,4 +147,4 @@ You need to import the demo content. Most premium themes include an importer. Wi
 
 ---
 
-**Using Hostinger?** Hostinger's hPanel includes an AI website builder that can generate a complete themed site in minutes. [Check it out](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) alongside manual theme options.
+**Using Hostinger?** Hostinger's hPanel includes an AI website builder that can generate a complete themed site in minutes. [Check it out](https://www.dpbolvw.net/click-101761537-17226848) alongside manual theme options.

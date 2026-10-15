@@ -146,7 +146,7 @@ For new online stores under 50 orders/day, Hostinger Business at $5.99/month pro
 
 **Upgrade when:** Traffic exceeds 25,000 visits/month or orders exceed 100/day consistently.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -269,7 +269,7 @@ Industry research on checkout speed and conversion rates is well-established:
 
 **Avoid for ecommerce:** Bluehost and HostGator — slow checkout speeds (3-4x slower than top picks) and inadequate traffic spike handling directly cost you sales.
 
-[**Get WP Engine →**](https://wpengine.com) | [**Get Kinsta →**](https://kinsta.com) | [**Get Hostinger Business →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get WP Engine →**](https://wpengine.com) | [**Get Kinsta →**](https://kinsta.com) | [**Get Hostinger Business →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 <!-- related-reading -->
 

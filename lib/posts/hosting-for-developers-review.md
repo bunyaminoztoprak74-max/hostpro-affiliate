@@ -209,7 +209,7 @@ Hostinger provides SSH, WP-CLI, Git, and staging on all plans — unusual for bu
 
 **Best for:** Budget-conscious developers, freelancers managing multiple small client sites, early-stage agency work.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -289,7 +289,7 @@ Yes — Cloudways remains one of the top developer-focused managed cloud platfor
 
 **Best budget developer option:** Hostinger — SSH, WP-CLI, Git, staging at $3.99/month.
 
-[**Get Cloudways →**](https://www.cloudways.com/en/?id=2170350) | [**Get WP Engine →**](https://wpengine.com) | [**Get Kinsta →**](https://kinsta.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Cloudways →**](https://www.cloudways.com/en/?id=2170350) | [**Get WP Engine →**](https://wpengine.com) | [**Get Kinsta →**](https://kinsta.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 <!-- related-reading -->
 

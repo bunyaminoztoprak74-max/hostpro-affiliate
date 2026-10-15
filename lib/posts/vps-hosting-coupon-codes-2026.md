@@ -37,7 +37,7 @@ VPS coupon sites are full of expired codes and copy-pasted "SAVE20" strings that
 
 Prices and promo terms change without notice — always confirm the final total on the checkout page before entering payment details, and treat any code that isn't accepted automatically as unverified.
 
-[**See current Hostinger pricing →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Try Cloudways free for 3 days →**](https://www.anrdoezrs.net/click-101761541-13942202)
+[**See current Hostinger pricing →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Try Cloudways free for 3 days →**](https://www.anrdoezrs.net/click-101761541-13942202)
 
 ## Why So Many "VPS Coupon" Sites Publish Fake Codes
 

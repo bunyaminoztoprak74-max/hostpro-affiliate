@@ -202,7 +202,7 @@ Basic email hosting is included with shared hosting plans. For professional emai
 
 **Rating: 3.7/5** — Below average for hosting, excellent for domain registration.
 
-[**Get Namecheap (Domains) →**](https://www.namecheap.com) | [Better Hosting: Hostinger →](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Best Cheap Hosting 2026 →](/blog/web-hosting-total-cost-of-ownership-2026)
+[**Get Namecheap (Domains) →**](https://www.namecheap.com) | [Better Hosting: Hostinger →](https://www.dpbolvw.net/click-101761537-17226848) | [Best Cheap Hosting 2026 →](/blog/web-hosting-total-cost-of-ownership-2026)
 
 <!-- related-reading -->
 

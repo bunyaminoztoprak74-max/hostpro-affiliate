@@ -46,7 +46,7 @@ For beginners building their first website, we recommend **Hostinger** ($2.99/mo
 - AI website builder option
 - 24/7 support
 
-[Get started with Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Get started with Hostinger](https://www.dpbolvw.net/click-101761537-17226848)
 
 **Other excellent options:**
 - **Bluehost** — WordPress.org recommended, great for beginners
@@ -261,4 +261,4 @@ Before announcing your site:
 
 ---
 
-**Ready to start?** [Get Hostinger at $2.99/month](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) — includes free domain, free SSL, 1-click WordPress, and their AI website builder. Best value for your first site.
+**Ready to start?** [Get Hostinger at $2.99/month](https://www.dpbolvw.net/click-101761537-17226848) — includes free domain, free SSL, 1-click WordPress, and their AI website builder. Best value for your first site.

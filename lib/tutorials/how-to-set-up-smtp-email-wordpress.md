@@ -191,4 +191,4 @@ Cloudways blocks PHP mail by default. SMTP is the required solution. Follow the 
 
 ---
 
-**Hosting on Hostinger?** Hostinger includes email hosting with business hosting plans — you can create `you@yourdomain.com` addresses directly in hPanel. For other providers, [Hostinger Business](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) starts at $3.99/month with email included.
+**Hosting on Hostinger?** Hostinger includes email hosting with business hosting plans — you can create `you@yourdomain.com` addresses directly in hPanel. For other providers, [Hostinger Business](https://www.dpbolvw.net/click-101761537-17226848) starts at $3.99/month with email included.

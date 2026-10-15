@@ -202,7 +202,7 @@ Bluehost's 312ms TTFB, 99.93% uptime, and aggressive checkout upselling make it 
 **Rating: 3.9/5** — Below average for the price. Not recommended.
 
 **Alternatives we prefer:**
-- [**Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) (better performance, lower renewal price)
+- [**Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) (better performance, lower renewal price)
 - [**SiteGround →**](https://www.siteground.com) (better performance, daily backups)
 - [**DreamHost →**](https://www.dreamhost.com) (similar pricing, better privacy features)
 
@@ -228,6 +228,6 @@ Bluehost's 312ms TTFB, 99.93% uptime, and aggressive checkout upselling make it 
 - [DreamHost review 2026: privacy-focused alternative to Bluehost](/blog/dreamhost-review-2026)
 - [Hostinger vs Bluehost 2026: head-to-head comparison](/blog/hostinger-vs-bluehost)
 
-> **Considering Bluehost anyway?** [Visit Bluehost →](https://www.bluehost.com) for the official WordPress.org pick, or see why we rate [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) higher on speed and renewal pricing in our [Hostinger vs Bluehost comparison](/compare/hostinger-vs-bluehost).
+> **Considering Bluehost anyway?** [Visit Bluehost →](https://www.bluehost.com) for the official WordPress.org pick, or see why we rate [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) higher on speed and renewal pricing in our [Hostinger vs Bluehost comparison](/compare/hostinger-vs-bluehost).
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*

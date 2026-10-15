@@ -57,7 +57,7 @@ Hostinger is the clear winner for most people. The price is unbeatable, the perf
 - No monthly billing on the cheapest plan
 - Some advanced features locked to higher tiers
 
-[Get Hostinger — 75% off today](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Get Hostinger — 75% off today](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -161,6 +161,6 @@ Once you've chosen a host, secure your site. The fastest hosting in the world is
 - [hosting provider Trustpilot ratings 2026](/blog/hosting-provider-ratings)
 - [web hosting ratings 2026: every major host scored](/blog/web-hosting-rating-2026)
 
-> **Ready to pick a host?** [Get Hostinger — our #1 overall pick, from $2.99/month →](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) Need managed cloud instead? [Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2170350)
+> **Ready to pick a host?** [Get Hostinger — our #1 overall pick, from $2.99/month →](https://www.dpbolvw.net/click-101761537-17226848) Need managed cloud instead? [Try Cloudways free for 3 days →](https://www.cloudways.com/en/?id=2170350)
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*

@@ -136,4 +136,4 @@ Deactivate and delete plugins you don't actively use. Every active plugin adds l
 
 ---
 
-**New to WordPress?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) includes AI tools and tutorials to get your WordPress site running fast. Starts at $2.99/month with 1-click WordPress installation.
+**New to WordPress?** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) includes AI tools and tutorials to get your WordPress site running fast. Starts at $2.99/month with 1-click WordPress installation.

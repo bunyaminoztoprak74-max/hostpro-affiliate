@@ -258,4 +258,4 @@ Or install the **Child Theme Configurator** plugin which creates child themes fr
 
 ---
 
-**Need a premium WordPress theme worth customizing?** Paired with [Hostinger's fast NVMe servers](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU), even complex custom themes load quickly. Starts at $2.99/month.
+**Need a premium WordPress theme worth customizing?** Paired with [Hostinger's fast NVMe servers](https://www.dpbolvw.net/click-101761537-17226848), even complex custom themes load quickly. Starts at $2.99/month.

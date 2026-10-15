@@ -100,7 +100,7 @@ Hostinger's 2-minute 18-second average response is the fastest in our test group
 
 **Hostinger support rating:** 9.3/10
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -233,7 +233,7 @@ Current AI support bots can handle basic questions effectively. For complex Word
 
 For business-critical WordPress sites, choose a host where support can actually solve your problem quickly. WP Engine, Kinsta, SiteGround, and Hostinger all deliver this consistently.
 
-[**Get WP Engine →**](https://wpengine.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get SiteGround →**](https://www.siteground.com)
+[**Get WP Engine →**](https://wpengine.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get SiteGround →**](https://www.siteground.com)
 
 <!-- related-reading -->
 

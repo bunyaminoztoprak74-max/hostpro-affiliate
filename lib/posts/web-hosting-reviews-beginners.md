@@ -76,7 +76,7 @@ Hostinger wins for beginners because of their hPanel dashboard. Unlike the tradi
 
 **Perfect beginner experience:** You can have a WordPress site running in under 30 minutes with Hostinger's guided setup.
 
-[**Start with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Start with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -233,7 +233,7 @@ If WordPress simplicity is your top priority, Bluehost is a solid second choice.
 
 Start simple. Get your site live. Upgrade later only when you need to.
 
-[**Get Started with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Read: How to Start a Blog →](/blog/how-to-start-a-blog)
+[**Get Started with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Read: How to Start a Blog →](/blog/how-to-start-a-blog)
 
 <!-- related-reading -->
 

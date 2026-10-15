@@ -70,7 +70,7 @@ Hostinger's NVMe SSD storage is the key differentiator for portfolio sites. Imag
 
 **Image performance test:** A 20-image photography gallery (2MB images, optimized) loaded in 1.24s on Hostinger with their CDN enabled.
 
-[**Get Hostinger for Portfolio →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger for Portfolio →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -189,7 +189,7 @@ Yes, but it requires rebuilding your portfolio. The content can be exported but 
 
 Your portfolio represents your professional quality. Don't let slow hosting undermine the work you're showcasing. The difference between Hostinger ($3.99/month) and a slow budget host ($1.98/month) is $2/month — and it's worth every penny for the professional impression it creates.
 
-[**Get Portfolio Hosting with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get SiteGround →**](https://www.siteground.com) | [**Get DreamHost →**](https://www.dreamhost.com)
+[**Get Portfolio Hosting with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get SiteGround →**](https://www.siteground.com) | [**Get DreamHost →**](https://www.dreamhost.com)
 
 <!-- related-reading -->
 

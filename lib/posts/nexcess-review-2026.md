@@ -151,6 +151,6 @@ At $21/month for the entry plan, it's accessible to stores that have moved past 
 
 **[See Nexcess managed WooCommerce plans →](https://www.nexcess.net)**
 
-> **Starting smaller?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) supports WooCommerce from $2.99/month, or scale into [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month as your store grows.
+> **Starting smaller?** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) supports WooCommerce from $2.99/month, or scale into [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month as your store grows.
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*

@@ -110,7 +110,7 @@ Hostinger earns high ratings across all categories with particular strength in v
 | Value | 9.8/10 | Best price/performance ratio |
 | **Overall** | **9.1/10** | **Best value hosting** |
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -290,4 +290,4 @@ The 2026 best-rated web hosting rankings are clear:
 
 The bottom of our ratings — HostGator (6.2/10) and GoDaddy (5.8/10) — consistently underperform across every measured dimension. There's no use case in 2026 where these providers represent the best choice.
 
-[**#1 Rated WP Engine →**](https://wpengine.com) | [**#3 Rated SiteGround →**](https://www.siteground.com) | [**#4 Rated Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**#1 Rated WP Engine →**](https://wpengine.com) | [**#3 Rated SiteGround →**](https://www.siteground.com) | [**#4 Rated Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)

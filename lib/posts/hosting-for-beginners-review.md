@@ -87,7 +87,7 @@ Hostinger wins for beginners because their hPanel was designed from scratch to b
 - Free domain registration is included in the setup flow
 - SSL activates automatically — no configuration needed
 
-[**Start with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Start with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -285,7 +285,7 @@ Don't install more. Every plugin adds load time.
 
 Don't overthink hosting. Choose Hostinger or SiteGround, install WordPress, and start creating. The most important thing is getting your website live.
 
-[**Start Your First Website with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Try SiteGround →**](https://www.siteground.com) | [How to Start a Blog →](/blog/how-to-start-a-blog)
+[**Start Your First Website with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Try SiteGround →**](https://www.siteground.com) | [How to Start a Blog →](/blog/how-to-start-a-blog)
 
 <!-- related-reading -->
 

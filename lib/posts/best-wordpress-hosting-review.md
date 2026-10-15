@@ -201,7 +201,7 @@ Hostinger's LiteSpeed web server with integrated LiteSpeed Cache for WordPress d
 
 **Best WordPress use case:** Personal WordPress blogs, multiple niche sites, small businesses, WordPress users who want performance without managed hosting prices.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Hostinger Review →](/blog/hostinger-honest-review)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Hostinger Review →](/blog/hostinger-honest-review)
 
 ---
 
@@ -330,6 +330,6 @@ We deliberately introduced a vulnerable plugin on each test site and measured de
 
 **Avoid for WordPress:** HostGator (389ms TTFB, failing Core Web Vitals) and GoDaddy (412ms TTFB, highest annual downtime in our test group).
 
-[**Get WP Engine →**](https://wpengine.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get Kinsta →**](https://kinsta.com)
+[**Get WP Engine →**](https://wpengine.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get Kinsta →**](https://kinsta.com)
 
 [Compare WordPress Hosts →](/compare/hostinger-vs-bluehost) | [WordPress Speed Test →](/blog/wordpress-hosting-speed-test) | [WordPress Benchmarks →](/benchmarks)

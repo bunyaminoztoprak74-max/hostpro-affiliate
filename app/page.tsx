@@ -25,7 +25,7 @@ const hostingPlans = [
       '99.9% uptime guarantee',
       '24/7 customer support',
     ],
-    affiliateUrl: 'https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU',
+    affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17226848',
   },
   {
     name: 'Bluehost',

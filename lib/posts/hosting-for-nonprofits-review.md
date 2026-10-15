@@ -102,7 +102,7 @@ Hostinger doesn't have a formal nonprofit program, but their promotional rates a
 - GiveWP free: $0
 - Stripe processing: 2.9% + 30¢ per donation (industry standard)
 
-[**Get Hostinger for Nonprofits →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Hostinger for Nonprofits →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -217,7 +217,7 @@ Google Workspace for Nonprofits provides Gmail with your domain for free (up to 
 
 Nonprofits deserve reliable, professional hosting just as much as any for-profit business. The good news: quality hosting for nonprofits is available for $3-7/month — a fraction of the impact budget.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [**Get DreamHost →**](https://www.dreamhost.com) | [**Get SiteGround →**](https://www.siteground.com)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [**Get DreamHost →**](https://www.dreamhost.com) | [**Get SiteGround →**](https://www.siteground.com)
 
 <!-- related-reading -->
 

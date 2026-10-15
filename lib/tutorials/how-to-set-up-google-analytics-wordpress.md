@@ -208,4 +208,4 @@ Set up manual event tracking for:
 
 ---
 
-**Already tracking your site's performance?** Pair Google Analytics with a fast host to ensure the site you're measuring delivers good experiences. [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) starts at $2.99/month and includes everything you need to launch.
+**Already tracking your site's performance?** Pair Google Analytics with a fast host to ensure the site you're measuring delivers good experiences. [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) starts at $2.99/month and includes everything you need to launch.

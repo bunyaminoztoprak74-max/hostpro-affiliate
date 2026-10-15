@@ -142,7 +142,7 @@ For global audiences or high-traffic sites, look elsewhere. For a reliable US bu
 
 **[See InMotion's current business plans →](https://www.inmotionhosting.com)**
 
-> **Looking for a lower-cost alternative?** [Hostinger](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) delivers comparable shared hosting from $2.99/month, or upgrade to [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month for cloud-grade performance.
+> **Looking for a lower-cost alternative?** [Hostinger](https://www.dpbolvw.net/click-101761537-17226848) delivers comparable shared hosting from $2.99/month, or upgrade to [Cloudways](https://www.cloudways.com/en/?id=2170350) from $14/month for cloud-grade performance.
 
 *Disclosure: This review may contain affiliate links. See our [affiliate disclosure](/disclosure).*
 

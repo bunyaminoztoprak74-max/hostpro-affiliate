@@ -74,7 +74,7 @@ Hostinger earned its ranking. The NVMe SSD + LiteSpeed combination delivers real
 
 **Our honest take:** Worth it for the price. We'd still recommend it.
 
-[**Try Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Try Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -247,7 +247,7 @@ The honest truth: **Hostinger and SiteGround are genuinely excellent in 2026.** 
 
 Choose based on your actual needs, budget for renewal prices, and verify performance with tools like GTmetrix before your money-back period expires.
 
-[**Start with Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [See Full Comparison →](/compare/hostinger-vs-bluehost)
+[**Start with Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [See Full Comparison →](/compare/hostinger-vs-bluehost)
 
 <!-- related-reading -->
 

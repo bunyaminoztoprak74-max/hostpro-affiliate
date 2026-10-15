@@ -126,7 +126,7 @@ Hostinger doesn't have a Sydney data center, but their global CDN includes Austr
 
 **For Australian audiences on a budget:** Hostinger with CDN enabled is a solid choice at $3.99/month — dramatically cheaper than local Australian hosting with comparable performance.
 
-[**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU) | [Full Review →](/review/hostinger)
+[**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848) | [Full Review →](/review/hostinger)
 
 ---
 
@@ -229,7 +229,7 @@ For accepting payments from Australian customers: Stripe (accepts AUD, ideal), P
 
 **Local Australian alternative:** VentraIP or Crucial for purely Australian audiences who prefer local company support.
 
-[**Get Cloudways (Sydney) →**](https://www.cloudways.com/en/?id=2170350) | [**Get Kinsta (Sydney) →**](https://kinsta.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[**Get Cloudways (Sydney) →**](https://www.cloudways.com/en/?id=2170350) | [**Get Kinsta (Sydney) →**](https://kinsta.com) | [**Get SiteGround →**](https://www.siteground.com) | [**Get Hostinger →**](https://www.dpbolvw.net/click-101761537-17226848)
 
 <!-- related-reading -->
 
