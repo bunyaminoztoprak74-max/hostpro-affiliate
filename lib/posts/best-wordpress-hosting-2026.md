@@ -48,7 +48,7 @@ Hostinger may not have the official WordPress.org endorsement, but in our tests 
 
 **Best for:** Bloggers, small business sites, WooCommerce stores under 5,000 monthly orders
 
-[Get Hostinger — 75% off](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Get Hostinger — 75% off](https://www.dpbolvw.net/click-101761537-17226848)
 
 ---
 
@@ -156,7 +156,7 @@ When you outgrow shared hosting, **Cloudways** (starting at $11/mo) is the logic
 
 If WordPress is your livelihood and you want the best possible tooling and support, **WP Engine** is worth every dollar.
 
-[Start with Hostinger — 75% off today](https://www.hostinger.com/web-hosting?REFERRALCODE=OFMBZTOPRZSU)
+[Start with Hostinger — 75% off today](https://www.dpbolvw.net/click-101761537-17226848)
 
 ## June 2026 WordPress Hosting Prices (Verified)
 
@@ -195,4 +195,4 @@ If WordPress is your livelihood and you want the best possible tooling and suppo
 - [WordPress admin speed test 2026](/blog/wordpress-hosting-speed-test)
 - [WordPress hosting uptime test: 12 months of real data](/blog/wordpress-hosting-uptime-test)
 - [Kinsta review 2026: premium managed WordPress tested](/blog/kinsta-review-2026)
-- [SiteGround review 2026: best for managed shared WP?](/blog/siteground-r
+- [SiteGround review 2026: best for managed shared WP?](/blog/siteground-review-2026)

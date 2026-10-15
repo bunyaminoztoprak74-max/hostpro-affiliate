@@ -100,7 +100,9 @@ const affiliateHosts = new Set([
   'hostinger.com',
   'jdoqocy.com',
   'kinsta.com',
+  'kqzyfj.com',
   'siteground.com',
+  'tkqlhce.com',
   'wpengine.com',
 ])
 

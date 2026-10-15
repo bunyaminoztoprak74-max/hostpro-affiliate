@@ -17,6 +17,27 @@ const HOST_REVIEW_SLUGS: Record<string, string> = {
   a2hosting: 'a2-hosting-review-2026',
   servebolt: 'servebolt-review-2026',
 }
+// Extra internal links for the Servebolt cluster (compare pages <-> reviews/comparison posts).
+const RELATED_LINKS: Record<string, { href: string; label: string }[]> = {
+  'servebolt-vs-kinsta': [
+    { href: '/blog/servebolt-vs-kinsta-2026', label: 'Servebolt vs Kinsta for WooCommerce: uncached performance deep dive' },
+    { href: '/blog/servebolt-review-2026', label: 'Servebolt review: pricing, benchmarks and who it suits' },
+    { href: '/compare/servebolt-vs-wpengine', label: 'Servebolt vs WP Engine' },
+    { href: '/compare/servebolt-vs-cloudways', label: 'Servebolt vs Cloudways' },
+  ],
+  'servebolt-vs-wpengine': [
+    { href: '/blog/servebolt-review-2026', label: 'Servebolt review: pricing, benchmarks and who it suits' },
+    { href: '/compare/servebolt-vs-kinsta', label: 'Servebolt vs Kinsta' },
+    { href: '/blog/servebolt-vs-kinsta-2026', label: 'Servebolt vs Kinsta for WooCommerce' },
+    { href: '/blog/wp-engine-review-2026', label: 'WP Engine review' },
+  ],
+  'servebolt-vs-cloudways': [
+    { href: '/blog/servebolt-review-2026', label: 'Servebolt review: pricing, benchmarks and who it suits' },
+    { href: '/compare/servebolt-vs-kinsta', label: 'Servebolt vs Kinsta' },
+    { href: '/compare/servebolt-vs-wpengine', label: 'Servebolt vs WP Engine' },
+    { href: '/blog/cloudways-review-2026', label: 'Cloudways review' },
+  ],
+}
 import { generateFAQSchema, generateBreadcrumbSchema, SITE_URL, SITE_NAME } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -191,6 +212,23 @@ export default async function ComparisonPage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {RELATED_LINKS[slug] && (
+        <section className="py-8 bg-white">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-3">Related Servebolt guides</h2>
+            <ul className="space-y-2 text-sm">
+              {RELATED_LINKS[slug].map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="font-medium text-indigo-600 hover:underline">
+                    {item.label} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       <AffiliateCTA host1={host1} host2={host2} winner={winner} winnerReason={winnerReason} />
 
