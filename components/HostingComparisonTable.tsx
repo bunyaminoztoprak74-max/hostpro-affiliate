@@ -105,7 +105,7 @@ export default function HostingComparisonTable({ rows, host1Name, host2Name, win
         </div>
 
         <p className="text-xs text-gray-400 mt-4 text-center">
-          ✦ indicates the winner for that metric. Data based on real-world testing, updated {new Date().getFullYear()}.
+          ✦ indicates the winner for that metric. Based on published vendor information and third-party sources; not HostProReviews lab tests. Verify details with each vendor.
         </p>
       </div>
     </section>

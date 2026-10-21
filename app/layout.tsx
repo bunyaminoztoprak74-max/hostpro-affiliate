@@ -31,11 +31,11 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' })
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Web Hosting Reviews 2026 — 12 Hosts Tested for Uptime, Speed & Real Price',
+    default: 'HostPro Reviews: Independent Hosting & Software Reviews (2026)',
     template: '%s | HostPro Reviews',
   },
-  description: 'We tested 12 web hosts for 6 months: real uptime data, TTFB, support speed, and renewal costs. Hostinger leads at $2.99/mo. Compare all hosts before you buy.',
-  keywords: ['web hosting reviews 2026', 'best web hosting', 'hosting comparison', 'hostinger review', 'siteground review', 'web hosting comparison'],
+  description: 'Independent reviews and comparisons of web hosting, WordPress hosting, gaming network boosters, PC utilities and creative software. See who each product suits and check current pricing with each vendor.',
+  keywords: ['web hosting reviews', 'wordpress hosting', 'hosting comparison', 'software reviews', 'game booster comparison'],
   openGraph: {
     type: 'website',
     locale: 'en_US',

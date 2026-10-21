@@ -5,6 +5,9 @@ import EmailCapture from '@/components/EmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  title: { absolute: 'HostPro Reviews: Independent Hosting & Software Reviews (2026)' },
+  description:
+    'Independent reviews and comparisons of web hosting, WordPress hosting, gaming network boosters, PC utilities and creative software. See who each product suits, pricing context and our affiliate disclosure.',
   alternates: { canonical: 'https://www.hostproreviews.com/' },
 }
 
@@ -14,7 +17,7 @@ const hostingPlans = [
     tagline: 'Best value for beginners',
     price: '$2.99',
     rating: 4.8,
-    badge: '#1 Pick',
+    badge: 'Top Pick',
     badgeColor: 'bg-yellow-400 text-yellow-900',
     gradient: 'bg-gradient-to-br from-indigo-500 to-purple-600',
     emoji: '🚀',
@@ -48,7 +51,7 @@ const hostingPlans = [
   {
     name: 'WP Engine',
     tagline: 'Best managed WordPress hosting',
-    price: '$20',
+    price: '$28',
     rating: 4.7,
     badge: 'Premium',
     badgeColor: 'bg-purple-100 text-purple-700',
@@ -85,39 +88,111 @@ const hostingPlans = [
 
 const recentPosts = [
   {
-    slug: 'hostinger-review-2026',
-    title: 'Hostinger Review 2026: Is It Really the Best Budget Host?',
-    excerpt: "We've been running live sites on Hostinger for 6 months. Here's what we actually found — the good, the bad, and whether it's worth your money.",
-    date: 'May 18, 2026',
-    category: 'Review',
-    readTime: '9 min read',
+    slug: 'gearup-vs-exitlag-2026',
+    title: 'GearUP Booster vs ExitLag 2026: Which Is Better for Gaming?',
+    excerpt: 'A quick verdict, then routing, platforms, ease of use, pricing and free trials compared, and why results depend on your ISP and game server.',
+    date: 'July 12, 2026',
+    category: 'Comparison',
+    readTime: '10 min read',
     categoryColor: 'bg-indigo-100 text-indigo-700',
+  },
+  {
+    slug: 'servebolt-review-2026',
+    title: "Servebolt Review 2026: ReviewSignal Benchmarks, Pricing & Who It's For",
+    excerpt: 'What Review Signal reported for Servebolt, current pricing, strengths, weaknesses and who should pay for premium managed WordPress hosting.',
+    date: 'July 2, 2026',
+    category: 'Review',
+    readTime: '11 min read',
+    categoryColor: 'bg-blue-100 text-blue-700',
+  },
+  {
+    slug: 'corel-software-review-2026',
+    title: 'Corel Software Review 2026: Painter, CorelDRAW & WordPerfect',
+    excerpt: 'Which Corel product suits painters, designers and photographers, with alternatives for each and notes on licensing.',
+    date: 'July 11, 2026',
+    category: 'Software Reviews',
+    readTime: '9 min read',
+    categoryColor: 'bg-red-100 text-red-700',
+  },
+  {
+    slug: 'abelssoft-review-2026',
+    title: 'Abelssoft Review 2026: Is It Safe and Worth Buying?',
+    excerpt: 'What Abelssoft tools such as WashAndGo, SSD Fresh and PC Fresh do, how to use them safely, and the free Windows alternatives.',
+    date: 'July 11, 2026',
+    category: 'Software Reviews',
+    readTime: '7 min read',
+    categoryColor: 'bg-blue-100 text-blue-700',
   },
   {
     slug: 'best-wordpress-hosting-2026',
     title: 'Best WordPress Hosting 2026: Top Picks for Every Budget',
-    excerpt: 'From $2.99/month shared hosting to $20/month managed WordPress — we tested every tier to find the best WordPress host for your budget.',
+    excerpt: 'A use-case guide to managed, cloud and shared WordPress hosting, from budget plans to premium managed platforms.',
     date: 'May 19, 2026',
     category: 'Review',
     readTime: '10 min read',
     categoryColor: 'bg-purple-100 text-purple-700',
   },
   {
-    slug: 'best-cheap-hosting-2026',
-    title: 'Best Cheap Web Hosting 2026 (Under $3/Month, Tested)',
-    excerpt: "We tested every budget host to find the ones that are actually cheap AND good. No compromises on speed or uptime required.",
-    date: 'May 16, 2026',
+    slug: 'hostinger-review-2026',
+    title: 'Hostinger Review 2026: Pros, Cons & Verdict',
+    excerpt: 'Who Hostinger suits, what to check before you buy and how it compares with other budget hosts.',
+    date: 'May 18, 2026',
     category: 'Review',
-    readTime: '7 min read',
-    categoryColor: 'bg-green-100 text-green-700',
+    readTime: '9 min read',
+    categoryColor: 'bg-indigo-100 text-indigo-700',
   },
 ]
 
-const stats = [
-  { value: '12+', label: 'Hosts Tested' },
-  { value: '6', label: 'Months of Testing' },
-  { value: '50K+', label: 'Monthly Readers' },
-  { value: '100%', label: 'Independent Reviews' },
+const topics = [
+  {
+    emoji: '🖥️',
+    title: 'Web & WordPress Hosting',
+    desc: 'Shared, cloud and managed WordPress hosts compared by use case.',
+    links: [
+      { href: '/blog/best-wordpress-hosting-2026', label: 'Best WordPress hosting' },
+      { href: '/blog/servebolt-review-2026', label: 'Servebolt review' },
+      { href: '/blog/servebolt-vs-kinsta-2026', label: 'Servebolt vs Kinsta' },
+      { href: '/compare/servebolt-vs-wpengine', label: 'Servebolt vs WP Engine' },
+    ],
+  },
+  {
+    emoji: '🎮',
+    title: 'Gaming Optimization',
+    desc: 'Game boosters and network tools, with advice on testing them yourself.',
+    links: [
+      { href: '/blog/gearup-vs-exitlag-2026', label: 'GearUP vs ExitLag' },
+      { href: '/blog/gearup-booster-review-2026', label: 'GearUP Booster review' },
+    ],
+  },
+  {
+    emoji: '🧹',
+    title: 'PC & Software Optimization',
+    desc: 'Windows cleaners and tuning tools, and when the free built-in options are enough.',
+    links: [
+      { href: '/blog/abelssoft-review-2026', label: 'Abelssoft review' },
+      { href: '/blog/abelssoft-pc-fresh-review-2026', label: 'Abelssoft PC Fresh review' },
+      { href: '/blog/best-pc-cleaner-software-2026', label: 'Best PC cleaner software' },
+    ],
+  },
+  {
+    emoji: '🎨',
+    title: 'Creative Software',
+    desc: 'Painting, vector design and office software, with alternatives.',
+    links: [
+      { href: '/blog/corel-software-review-2026', label: 'Corel software review' },
+      { href: '/blog/coreldraw-vs-adobe-illustrator-2026', label: 'CorelDRAW vs Illustrator' },
+    ],
+  },
+  {
+    emoji: '🔒',
+    title: 'WordPress Security',
+    desc: 'Security plugins and services, from firewalls to malware cleanup.',
+    links: [
+      { href: '/blog/best-wordpress-security-solutions', label: 'Best WordPress security services' },
+      { href: '/blog/sucuri-review-2026', label: 'Sucuri review' },
+      { href: '/blog/best-website-security-services', label: 'Website security services' },
+    ],
+  },
 ]
 
 export default function HomePage() {
@@ -133,18 +208,18 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-medium mb-6">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            Updated for 2026 — Fresh Testing Results
+            Independent reviews, updated for 2026
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-            Find the Best Web Hosting
+            Independent Hosting &amp; Software Reviews
             <br />
             <span className="text-yellow-300">Without the Guesswork</span>
           </h1>
 
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-            We test every host ourselves — speed, uptime, support, and value.
-            Real reviews, honest comparisons, no fluff.
+            Compare web hosting, WordPress security, gaming network boosters, PC utilities and creative software.
+            We explain who each product suits, where to verify claims and where affiliate links exist.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -164,14 +239,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Bar */}
-      <section className="bg-gray-900 text-white py-8">
+      {/* What we cover */}
+      <section id="topics" className="bg-white py-16 border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {stats.map((stat) => (
-              <div key={stat.label}>
-                <div className="text-3xl font-extrabold text-indigo-400">{stat.value}</div>
-                <div className="text-gray-400 text-sm mt-1">{stat.label}</div>
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-extrabold text-gray-900">What We Review</h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
+              HostPro Reviews publishes independent reviews and comparisons in five areas. Start with the topic that matches your decision.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {topics.map((topic) => (
+              <div key={topic.title} className="card p-6">
+                <div className="text-3xl mb-3">{topic.emoji}</div>
+                <h3 className="font-bold text-gray-900 mb-1">{topic.title}</h3>
+                <p className="text-gray-500 text-sm mb-4">{topic.desc}</p>
+                <ul className="space-y-1.5 text-sm">
+                  {topic.links.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-indigo-600 font-medium hover:underline">
+                        {link.label} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -184,10 +275,10 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="badge bg-indigo-100 text-indigo-700 mb-4">Our Top Picks</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-3">
-              Best Web Hosting in 2026
+              Web Hosting Shortlist for 2026
             </h2>
             <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-              Hand-picked after months of real testing. These are the hosts we&apos;d use ourselves.
+              Our editorial shortlist of well-known hosts, based on published features, pricing and third-party information. Check current terms with each provider.
             </p>
           </div>
 
@@ -208,7 +299,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <h2 className="text-3xl font-extrabold mb-4">Not Sure Which to Pick?</h2>
           <p className="text-indigo-200 text-lg mb-8">
-            Read our in-depth comparisons to see exactly which host wins for your use case.
+            Read our comparisons to see which host fits your use case, then test it yourself with a trial or guarantee.
           </p>
           <Link
             href="/blog/hostinger-vs-bluehost"
@@ -224,8 +315,8 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <span className="badge bg-purple-100 text-purple-700 mb-3">Latest Articles</span>
-              <h2 className="text-3xl font-extrabold text-gray-900 mt-2">Fresh From the Blog</h2>
+              <span className="badge bg-purple-100 text-purple-700 mb-3">Featured Guides</span>
+              <h2 className="text-3xl font-extrabold text-gray-900 mt-2">Popular Reviews &amp; Comparisons</h2>
             </div>
             <Link href="/blog" className="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors hidden sm:block">
               View all →
@@ -254,14 +345,14 @@ export default function HomePage() {
       {/* Trust Section */}
       <section className="py-16 bg-gray-50 border-t border-gray-100">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Trust Us?</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">How We Work</h2>
           <p className="text-gray-500 max-w-2xl mx-auto mb-10">
-            Every hosting provider on this site has been tested by our team. We measure real-world page load speed,
-            uptime, support response times, and value for money — not marketing claims.
+            We summarise vendor information and third-party sources, say clearly which is which, and tell you what to test yourself.
+            We do not present third-party benchmarks as our own tests. Read our <Link href="/about" className="text-indigo-600 hover:underline">About page</Link> and <Link href="/disclosure" className="text-indigo-600 hover:underline">affiliate disclosure</Link>.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
             {[
-              { icon: '🧪', title: 'Real Testing', desc: 'We sign up, test, and monitor every host ourselves for months.' },
+              { icon: '🔎', title: 'Sources Labelled', desc: 'Vendor claims, third-party data and our own analysis are kept separate.' },
               { icon: '💸', title: 'Full Disclosure', desc: 'We earn commissions, but it never influences our ratings or recommendations.' },
               { icon: '🔄', title: 'Always Updated', desc: 'Reviews are updated regularly to reflect current pricing and features.' },
             ].map((item) => (

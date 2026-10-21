@@ -1,6 +1,6 @@
 export const SITE_URL = 'https://www.hostproreviews.com'
 export const SITE_NAME = 'HostPro Reviews'
-export const SITE_DESCRIPTION = 'Unbiased web hosting reviews, comparisons, and tutorials.'
+export const SITE_DESCRIPTION = 'Independent reviews and comparisons of web hosting, software and online performance tools.'
 
 // Lead author entity — used in Article and Review schema for E-E-A-T
 export const LEAD_AUTHOR = {
