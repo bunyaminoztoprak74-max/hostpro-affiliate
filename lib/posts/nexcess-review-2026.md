@@ -19,7 +19,7 @@ faq:
 metaDescription: "Nexcess review 2026: managed WooCommerce hosting, auto-scaling, automated plugin testing, staging on all plans. Pricing from $21/month. Compared with WP Engine and Kinsta."
 ---
 
-# Nexcess Review 2026: The WooCommerce Host Built for Growth
+## Nexcess Review 2026: The WooCommerce Host Built for Growth
 
 Most hosting companies offer WooCommerce hosting. Nexcess was built specifically for it.
 

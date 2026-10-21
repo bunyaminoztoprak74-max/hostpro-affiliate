@@ -40,7 +40,7 @@
     @apply text-gray-900 font-semibold;
   }
   .prose-custom table {
-    @apply w-full border-collapse mb-6;
+    @apply block w-full max-w-full overflow-x-auto border-collapse mb-6;
   }
   .prose-custom th {
     @apply bg-indigo-50 text-indigo-700 font-semibold px-4 py-3 text-left border border-indigo-100;

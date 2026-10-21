@@ -1,4 +1,4 @@
-import { getAuthorBySlug, getAllAuthorSlugs } from '@/lib/authors'
+import { getAuthorBySlug, getAllAuthorSlugs, TEAM_SLUG } from '@/lib/authors'
 import { getAllPosts } from '@/lib/posts'
 import { SITE_URL, SITE_NAME } from '@/lib/seo'
 import { notFound } from 'next/navigation'
@@ -18,14 +18,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const author = getAuthorBySlug(slug)
   if (!author) return { title: 'Author Not Found' }
   const postCount = getAllPosts().filter((post) => (post.author ?? 'hostpro-team') === slug).length
+  const isTeam = slug === TEAM_SLUG
+  const pageTitle = isTeam ? 'Editorial Team and Articles' : `${author.name} — ${author.role}`
+  const pageDescription = isTeam
+    ? 'Meet the HostPro Reviews Editorial Team and browse its hosting, security and software reviews, comparisons and guides.'
+    : author.bio
   return {
-    title: `${author.name} — ${author.role} | ${SITE_NAME}`,
-    description: author.bio,
+    title: pageTitle,
+    description: pageDescription,
     ...(postCount < 2 && { robots: { index: false, follow: true } }),
     alternates: { canonical: `${SITE_URL}/author/${slug}` },
     openGraph: {
-      title: `${author.name} — ${author.role}`,
-      description: author.bio,
+      title: pageTitle,
+      description: pageDescription,
       url: `${SITE_URL}/author/${slug}`,
       siteName: SITE_NAME,
     },

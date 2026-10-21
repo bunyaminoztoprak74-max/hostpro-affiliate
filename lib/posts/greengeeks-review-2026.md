@@ -21,7 +21,7 @@ faq:
 metaDescription: "GreenGeeks review 2026: eco-friendly hosting plans, features, pricing from $2.95/month, and who it suits. Is green hosting worth it?"
 ---
 
-# GreenGeeks Review 2026: Eco-Friendly Hosting Without Eco-Friendly Compromises
+## GreenGeeks Review 2026: Eco-Friendly Hosting Without Eco-Friendly Compromises
 
 The pitch is simple: host your website, save the planet.
 

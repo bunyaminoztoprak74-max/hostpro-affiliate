@@ -22,7 +22,7 @@ faq:
   - question: "Does Kinsta work with Elementor and page builders?"
     answer: "Yes — Kinsta has no plugin restrictions, so Elementor, Divi, Beaver Builder, and all other page builders work fully. Kinsta's Redis object caching and C2 infrastructure help counteract the performance overhead of visual builders. That said, heavy Elementor sites (100+ widgets per page) will still benefit more from Kinsta's APM tool to identify bottlenecks than from hosting alone."
   - question: "Is Kinsta good for membership sites?"
-    answer: "Kinsta is an excellent choice for membership sites (MemberPress, LearnDash, WooCommerce Memberships). Membership sites have a high proportion of logged-in traffic — users who bypass full-page cache and hit the server directly. Kinsta's C2 VMs and Redis object caching handle this far better than shared hosts or budget managed hosting. The Starter plan's 25,000 monthly visits cap counts all visits including logged-in members, so active communities should budget for Business 1 (100,000 visits/month)."
+    answer: "Kinsta is an excellent choice for membership sites (MemberPress, LearnDash, WooCommerce Memberships). Membership sites have a high proportion of logged-in traffic — users who bypass full-page cache and hit the server directly. Kinsta's C2 VMs and Redis object caching handle this far better than shared hosts or budget managed hosting. Kinsta bases plan limits on bandwidth or visits depending on the plan, so check how logged-in member traffic counts against the limits on its current pricing page."
   - question: "How does Kinsta's CDN compare to Cloudflare?"
     answer: "Kinsta provides free Cloudflare CDN integration on all plans — it uses Cloudflare's network of 260+ edge locations. This is the same Cloudflare network available as a standalone product, not a proprietary alternative. You do not need a separate Cloudflare account; Kinsta manages the integration automatically. If you have an existing Cloudflare account with advanced rules, you can use that instead — Kinsta supports both configurations."
   - question: "Has Kinsta's pricing changed as of August 2026?"
@@ -92,7 +92,7 @@ Create multiple environments (staging, dev, QA) per site. Each environment is is
 
 Kinsta's support is consistently excellent:
 - **WordPress expertise:** All agents have deep WordPress knowledge including multisite, WooCommerce, and headless setups
-- **Hack fix guarantee:** If your site is hacked, Kinsta fixes it for free
+- **Hack fix:** Kinsta states it offers free malware removal for sites hosted with it
 
 The only limitation: no phone support. Some agencies with non-technical clients prefer phone support availability — in which case WP Engine's phone escalation option is relevant.
 
@@ -137,7 +137,7 @@ Security is comprehensive and included in all plans:
 | --------- | --------- |
 | DDoS protection | Cloudflare network-level filtering |
 | Malware scanning | Daily automated scans |
-| Hack fix guarantee | Free malware removal if compromised |
+| Malware removal | Free while hosted with Kinsta (per Kinsta) |
 | IP blocking | Block IPs directly in MyKinsta |
 | Two-factor authentication | Enforced on MyKinsta account |
 | GeoIP blocking | Block traffic by country |
