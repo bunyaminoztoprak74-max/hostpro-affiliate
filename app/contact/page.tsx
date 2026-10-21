@@ -26,15 +26,14 @@ export default function ContactPage() {
         <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
           <div className="flex items-start gap-4">
             <div className="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl flex-shrink-0">
-              M
+              HP
             </div>
             <div>
-              <p className="font-semibold text-gray-900">Marcus Webb</p>
-              <p className="text-sm text-gray-500 mb-2">Lead Reviewer &amp; Editor-in-Chief</p>
+              <p className="font-semibold text-gray-900">HostPro Reviews Editorial Team</p>
+              <p className="text-sm text-gray-500 mb-2">Editorial Team</p>
               <p className="text-sm text-gray-600">
-                Marcus has been testing web hosting services since 2017. Every hosting recommendation
-                on this site is based on hands-on testing using real WordPress installations — not
-                vendor-supplied data.
+                Our editorial team researches providers using published plans, pricing, and
+                documentation, and labels vendor claims and third-party data as such.
               </p>
             </div>
           </div>
@@ -92,7 +91,7 @@ export default function ContactPage() {
           <div>
             <h3 className="font-medium text-gray-900">Do hosts pay to be featured?</h3>
             <p className="text-sm text-gray-600 mt-1">
-              No. Rankings are based solely on our test results. We earn commission when readers
+              No. Rankings are editorial and are not for sale. We earn commission when readers
               sign up through our affiliate links — this never affects our ratings. Hosts we rate
               poorly are still listed honestly.
             </p>
@@ -101,7 +100,7 @@ export default function ContactPage() {
             <h3 className="font-medium text-gray-900">Can I request a host review?</h3>
             <p className="text-sm text-gray-600 mt-1">
               Yes — email us the host name and why you&apos;d like it reviewed. We add promising
-              suggestions to our testing queue.
+              suggestions to our review queue.
             </p>
           </div>
         </div>

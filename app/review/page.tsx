@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { hosts } from '@/lib/hosts'
 
 export const metadata: Metadata = {
-  title: 'Web Hosting Reviews 2026 — Tested & Compared',
-  description: 'Independent web hosting reviews for Hostinger, Bluehost, Cloudways, WP Engine, SiteGround, and more. Real speed and uptime data from 6 months of testing.',
+  title: 'Web Hosting Reviews 2026 — Reviewed & Compared',
+  description: 'Independent web hosting reviews for Hostinger, Bluehost, Cloudways, WP Engine, SiteGround, and more. Editorial reviews based on published plans, pricing, and features.',
   alternates: { canonical: 'https://www.hostproreviews.com/review' },
 }
 
@@ -27,14 +27,14 @@ export default function ReviewIndexPage() {
       {/* Header */}
       <div className="text-center mb-12">
         <span className="inline-block bg-indigo-100 text-indigo-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4">
-          Tested & Compared
+          Reviewed & Compared
         </span>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
           Web Hosting Reviews 2026
         </h1>
         <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-          We tested 11 web hosting providers with real websites, uptime monitoring, and support tests.
-          Here are our honest findings.
+          Editorial reviews of 11 web hosting providers based on published plans, pricing, and features.
+          Ratings are our editorial opinion, not lab test scores.
         </p>
       </div>
 
@@ -72,12 +72,8 @@ export default function ReviewIndexPage() {
                 {/* Stats */}
                 <div className="hidden md:flex items-center gap-6 flex-1 text-sm">
                   <div className="text-center">
-                    <div className="font-bold text-gray-900">{host.uptime}</div>
-                    <div className="text-gray-400 text-xs">Uptime</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="font-bold text-gray-900">{host.speed}</div>
-                    <div className="text-gray-400 text-xs">Speed</div>
+                    <div className="font-bold text-gray-900">{host.support}</div>
+                    <div className="text-gray-400 text-xs">Support</div>
                   </div>
                   <div className="text-center">
                     <div className="font-bold text-gray-900">{host.price}/mo</div>

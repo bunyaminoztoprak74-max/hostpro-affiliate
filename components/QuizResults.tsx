@@ -187,8 +187,8 @@ function WinnerCard({ result }: { result: QuizResult }) {
         {/* Quick stats */}
         <div className="grid grid-cols-3 gap-3 mb-6">
           {[
-            { label: 'Uptime', value: host.uptime },
-            { label: 'Speed', value: host.speed },
+            { label: 'Price', value: host.price },
+            { label: 'Editorial rating', value: `${host.rating}/5` },
             { label: 'Support', value: host.support.includes('Phone') ? 'Chat + Phone' : '24/7 Chat' },
           ].map(({ label, value }) => (
             <div key={label} className="bg-gray-50 rounded-xl p-3 text-center">

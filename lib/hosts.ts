@@ -12,8 +12,6 @@ export interface HostProvider {
   affiliateUrl: string
   pros: string[]
   cons: string[]
-  speed: string
-  uptime: string
   support: string
 }
 
@@ -28,7 +26,7 @@ export const hosts: HostProvider[] = [
     badgeColor: 'bg-yellow-400 text-yellow-900',
     gradient: 'bg-gradient-to-br from-indigo-500 to-purple-600',
     emoji: '🚀',
-    features: ['100 GB NVMe SSD', 'Free domain 1 year', 'Free SSL', '99.9% uptime', '24/7 support'],
+    features: ['100 GB NVMe SSD', 'Free domain 1 year', 'Free SSL', '99.9% uptime guarantee (vendor claim)', '24/7 support'],
     affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17226848',
     pros: [
       'Extremely affordable starting price',
@@ -42,8 +40,6 @@ export const hosts: HostProvider[] = [
       'Renewal prices are higher than intro rates',
       'Support speed varies during peak hours',
     ],
-    speed: '400ms avg',
-    uptime: '99.93%',
     support: '24/7 Live Chat',
   },
   {
@@ -70,8 +66,6 @@ export const hosts: HostProvider[] = [
       'Performance can be inconsistent',
       'Renewal prices significantly higher',
     ],
-    speed: '650ms avg',
-    uptime: '99.88%',
     support: '24/7 Live Chat + Phone',
   },
   {
@@ -98,8 +92,6 @@ export const hosts: HostProvider[] = [
       'WordPress-only (no other CMS)',
       'Some popular plugins are blocked',
     ],
-    speed: '130ms avg',
-    uptime: '99.99%',
     support: '24/7 Live Chat + Phone',
   },
   {
@@ -126,8 +118,6 @@ export const hosts: HostProvider[] = [
       'More complex setup for beginners',
       'No domain registration service',
     ],
-    speed: '185ms avg',
-    uptime: '99.97%',
     support: '24/7 Live Chat + Phone',
   },
   {
@@ -154,8 +144,6 @@ export const hosts: HostProvider[] = [
       'Renewal prices are very high ($14.99+/mo)',
       'No Windows hosting',
     ],
-    speed: '390ms avg',
-    uptime: '99.99%',
     support: '24/7 Live Chat + Phone',
   },
   {
@@ -182,8 +170,6 @@ export const hosts: HostProvider[] = [
       'No phone support (chat and email only)',
       'Performance can be inconsistent',
     ],
-    speed: '500ms avg',
-    uptime: '99.95%',
     support: '24/7 Live Chat + Email',
   },
   {
@@ -211,8 +197,6 @@ export const hosts: HostProvider[] = [
       'SSL is only free for the first year',
       'Renewal prices are very high',
     ],
-    speed: '780ms avg',
-    uptime: '99.88%',
     support: '24/7 Phone + Chat',
   },
   {
@@ -240,8 +224,6 @@ export const hosts: HostProvider[] = [
       'Renewal rates significantly higher',
       'Owned by EIG (affects quality consistency)',
     ],
-    speed: '700ms avg',
-    uptime: '99.90%',
     support: '24/7 Phone + Chat',
   },
   {
@@ -268,8 +250,6 @@ export const hosts: HostProvider[] = [
       'WordPress-only hosting',
       'Strict plugin restrictions',
     ],
-    speed: '150ms avg',
-    uptime: '99.99%',
     support: '24/7 Live Chat (Experts Only)',
   },
   {
@@ -296,8 +276,6 @@ export const hosts: HostProvider[] = [
       'Performance is below average',
       'Not ideal for high-traffic or dynamic sites',
     ],
-    speed: '620ms avg',
-    uptime: '99.90%',
     support: '24/7 Live Chat',
   },
   {
@@ -324,8 +302,6 @@ export const hosts: HostProvider[] = [
       'Support quality is inconsistent',
       'Renewal rates are high',
     ],
-    speed: '350ms avg',
-    uptime: '99.93%',
     support: '24/7 Live Chat + Phone',
   },
 ]

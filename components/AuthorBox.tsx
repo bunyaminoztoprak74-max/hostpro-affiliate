@@ -8,10 +8,10 @@ interface AuthorBoxProps {
 }
 
 export default function AuthorBox({
-  name = 'HostPro Editorial Team',
+  name = 'HostPro Reviews Editorial Team',
   slug,
-  bio = 'We test web hosting providers with real websites, uptime monitoring, and live support chats. Every review is based on measurable data — not marketing claims.',
-  role = 'Hosting Analyst',
+  bio = 'We research hosting and software using published product documentation, pricing pages, and cited third-party sources. Where we have not tested something ourselves, we say so.',
+  role = 'Editorial Team',
 }: AuthorBoxProps) {
   return (
     <div className="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-2xl p-5 mt-10">

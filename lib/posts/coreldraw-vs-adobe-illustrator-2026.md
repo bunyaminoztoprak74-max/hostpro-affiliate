@@ -8,7 +8,7 @@ category: "Comparison"
 readTime: "11 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
 rating: 4.2
-author: marcus
+author: hostpro-team
 faq:
   - question: "Is CorelDRAW better than Illustrator?"
     answer: "Neither wins universally — it depends on your workflow. CorelDRAW is excellent for signage, engraving, and print production shops, and it offers a perpetual-license option that Illustrator does not. Illustrator wins for agency-standard workflows, tight integration with Photoshop and InDesign, and situations where clients or collaborators already work in Adobe formats natively."

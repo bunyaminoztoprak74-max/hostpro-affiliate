@@ -11,6 +11,10 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // Removed unverifiable author personas → editorial team page
+      { source: '/author/marcus', destination: '/author/hostpro-team', permanent: true },
+      { source: '/author/sarah', destination: '/author/hostpro-team', permanent: true },
+      { source: '/author/james', destination: '/author/hostpro-team', permanent: true },
       {
         source: '/blog/a2hosting-review-2026',
         destination: '/blog/a2-hosting-review-2026',

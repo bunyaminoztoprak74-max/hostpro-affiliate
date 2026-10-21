@@ -23,8 +23,6 @@ export interface HostProfile {
   badgeColor: string
   gradient: string
   rating: number
-  uptime: string
-  speed: string
   support: string
   scores: {
     websiteType: Record<WebsiteType, number>
@@ -54,8 +52,6 @@ export const hostProfiles: HostProfile[] = [
     badgeColor: 'bg-yellow-400 text-yellow-900',
     gradient: 'from-indigo-500 to-purple-600',
     rating: 4.8,
-    uptime: '99.93%',
-    speed: '400ms avg',
     support: '24/7 Live Chat',
     scores: {
       websiteType: { blog: 9, business: 7, ecommerce: 6, portfolio: 9, agency: 5 },
@@ -67,7 +63,7 @@ export const hostProfiles: HostProfile[] = [
     reasonMap: {
       websiteType: {
         blog: 'NVMe SSD and LiteSpeed servers keep your blog loading fast — ideal for growing your readership.',
-        business: 'Reliable shared hosting with strong uptime and hPanel makes managing a business site effortless.',
+        business: 'Budget shared hosting with a simple hPanel makes managing a small business site approachable.',
         ecommerce: 'Handles lightweight WooCommerce stores well, though high-volume shops should consider cloud hosting.',
         portfolio: 'Fast, affordable, and simple — everything a portfolio needs without paying for resources you won\'t use.',
         agency: 'Premium plans support 100+ sites, making it workable for small agencies with budget-conscious clients.',
@@ -80,7 +76,7 @@ export const hostProfiles: HostProfile[] = [
       },
       traffic: {
         new_site: 'New sites get a free domain, SSL, and fast NVMe storage — everything you need to launch confidently.',
-        small: 'Handles up to 10K monthly visitors comfortably with consistent 99.93% uptime and fast response times.',
+        small: 'Handles up to 10K monthly visitors comfortably on a budget-friendly shared plan.',
         medium: 'Consider Hostinger Cloud or upgrading to managed hosting for reliable performance at this traffic level.',
         large: 'At 100K+ visitors, managed cloud hosting like Cloudways will serve you significantly better.',
       },
@@ -90,8 +86,8 @@ export const hostProfiles: HostProfile[] = [
         developer: 'Limited compared to full cloud platforms — Cloudways is the better fit if you need infrastructure control.',
       },
       priority: {
-        speed: 'NVMe SSD and LiteSpeed servers deliver 382ms average load times — fast for any shared hosting plan.',
-        price: 'Best price-to-performance ratio of any web host we\'ve tested at any budget level.',
+        speed: 'NVMe SSD storage and LiteSpeed servers are listed on its plans.',
+        price: 'Among the lowest listed starting prices for the features included.',
         support: '24/7 live chat covers most issues quickly, though premium managed hosts offer deeper expertise.',
         features: 'Free domain, SSL, AI website builder, and weekly backups — a strong feature set at the price.',
       },
@@ -108,8 +104,6 @@ export const hostProfiles: HostProfile[] = [
     badgeColor: 'bg-blue-100 text-blue-700',
     gradient: 'from-blue-500 to-cyan-500',
     rating: 4.5,
-    uptime: '99.88%',
-    speed: '650ms avg',
     support: '24/7 Live Chat + Phone',
     scores: {
       websiteType: { blog: 8, business: 7, ecommerce: 6, portfolio: 7, agency: 5 },
@@ -133,8 +127,8 @@ export const hostProfiles: HostProfile[] = [
         premium: 'Higher budgets are better invested in managed WordPress hosting like WP Engine.',
       },
       traffic: {
-        new_site: 'Easy WordPress setup and reliable uptime make it ideal for new site owners with no experience.',
-        small: 'Handles up to 10K visitors reliably with 99.9% uptime and solid WordPress compatibility.',
+        new_site: 'Easy WordPress setup makes it approachable for new site owners with no experience.',
+        small: 'A common choice for sites of this size, with solid WordPress compatibility.',
         medium: 'May struggle under sustained traffic — managed WordPress hosting is safer at this scale.',
         large: 'Not recommended for 100K+ monthly visitors without significant caching and CDN setup.',
       },
@@ -144,7 +138,7 @@ export const hostProfiles: HostProfile[] = [
         developer: 'Limited developer tooling — Cloudways or WP Engine better support developer-focused workflows.',
       },
       priority: {
-        speed: 'Average 650ms load times are acceptable but noticeably slower than NVMe or cloud-based hosts.',
+        speed: 'Shared hosting plans; compare independent benchmarks if raw speed matters.',
         price: 'Competitive intro pricing — just factor in the renewal rate jump before committing long-term.',
         support: '24/7 phone and live chat support is a genuine advantage, especially for non-technical users.',
         features: 'Free domain, SSL, and CodeGuard basic backup provide a solid baseline feature set.',
@@ -162,8 +156,6 @@ export const hostProfiles: HostProfile[] = [
     badgeColor: 'bg-teal-100 text-teal-700',
     gradient: 'from-teal-500 to-cyan-600',
     rating: 4.7,
-    uptime: '99.97%',
-    speed: '300ms avg',
     support: '24/7 Live Chat + Phone',
     scores: {
       websiteType: { blog: 6, business: 8, ecommerce: 9, portfolio: 5, agency: 10 },
@@ -216,8 +208,6 @@ export const hostProfiles: HostProfile[] = [
     badgeColor: 'bg-purple-100 text-purple-700',
     gradient: 'from-pink-500 to-rose-500',
     rating: 4.7,
-    uptime: '99.99%',
-    speed: '250ms avg',
     support: '24/7 Live Chat + Phone',
     scores: {
       websiteType: { blog: 7, business: 8, ecommerce: 9, portfolio: 5, agency: 9 },
@@ -229,8 +219,8 @@ export const hostProfiles: HostProfile[] = [
     reasonMap: {
       websiteType: {
         blog: 'Premium WordPress performance for serious bloggers who can\'t afford downtime or slow load times.',
-        business: 'Enterprise-grade reliability with 99.99% uptime — your business site will never let visitors down.',
-        ecommerce: 'Mission-critical performance for e-commerce — every 100ms faster directly improves conversion rates.',
+        business: 'WP Engine lists a 99.99% uptime SLA on its Business and higher plans (vendor claim).',
+        ecommerce: 'Managed WordPress hosting positioned for revenue-driving sites such as e-commerce.',
         portfolio: 'Significantly more than a portfolio needs — Hostinger is a better value choice for showcases.',
         agency: 'Industry standard for WordPress agencies — Genesis themes, staging, and scalable site management.',
       },
@@ -242,8 +232,8 @@ export const hostProfiles: HostProfile[] = [
       },
       traffic: {
         new_site: 'Premium infrastructure for a new site — cost-effective alternatives exist while traffic is still low.',
-        small: 'Delivers elite performance at this level, though managed cloud offers similar speed at lower cost.',
-        medium: 'WP Engine handles this traffic comfortably with outstanding speed and 99.99% uptime.',
+        small: 'Positioned as a premium option at this level, though managed cloud can cost less.',
+        medium: 'WP Engine is positioned for sites with this level of traffic.',
         large: 'Purpose-built for high-traffic scale — the platform that major WordPress publishers rely on.',
       },
       techLevel: {
@@ -252,8 +242,8 @@ export const hostProfiles: HostProfile[] = [
         developer: 'Git push deployment, staging environments, and PHP version control built into every plan.',
       },
       priority: {
-        speed: '248ms average load time — the fastest managed WordPress host in our 6-month independent testing.',
-        price: 'Premium at $20/mo, but the ROI in speed, uptime, and reduced developer time justifies it.',
+        speed: 'Managed WordPress platform with caching and CDN included; we have not run our own speed tests.',
+        price: 'Premium pricing; it can make sense if managed tooling saves you developer time.',
         support: 'WordPress-specialist support team available 24/7 — expert help, not generic hosting agents.',
         features: 'Genesis themes, staging, daily backups, CDN, and developer tools all included in every plan.',
       },

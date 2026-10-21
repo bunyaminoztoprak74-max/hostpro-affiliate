@@ -7,7 +7,7 @@ lastModified: "2026-10-21"
 category: "Review"
 readTime: "7 min read"
 categoryColor: "bg-green-100 text-green-700"
-author: marcus
+author: hostpro-team
 faq:
   - question: "Is PC Fresh safe?"
     answer: "It can be used conservatively, but any system-tuning change carries risk. Review each recommendation and create a restore point first."

@@ -16,16 +16,8 @@ import FAQSection from '@/components/FAQSection'
 import RelatedPosts from '@/components/RelatedPosts'
 import BreadcrumbNav from '@/components/BreadcrumbNav'
 import EmailCapture from '@/components/EmailCapture'
-import BenchmarkTable from '@/components/BenchmarkTable'
 import AuthorBox from '@/components/AuthorBox'
 import ReviewMethodology from '@/components/ReviewMethodology'
-
-const BENCHMARK_MAP: Record<string, string | 'all'> = {
-  'hostinger-review-2026': 'hostinger',
-  'cloudways-review-2026': 'cloudways',
-  'wp-engine-review-2026': 'wpengine',
-  'best-web-hosting-2026': 'all',
-}
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -77,14 +69,17 @@ export default async function PostPage({ params }: Props) {
   }
 
   const isReview = post.category === 'Review'
+  // Review/Rating schema only for single-product reviews, where the visible page shows the same editorial rating.
+  const isSingleProductReview =
+    isReview && /\breview\b/i.test(post.title) && !/\b(best|vs\.?|top|compared|comparison|reviews|ratings)\b/i.test(post.title)
   const faqs = post.faq ?? []
   const relatedPosts = getRelatedPosts(post.slug, post.tags ?? [])
 
   // Resolve full author data from slug stored in frontmatter
-  const authorSlug = post.author ?? 'marcus'
+  const authorSlug = post.author ?? 'hostpro-team'
   const authorData = getAuthorBySlug(authorSlug)
 
-  const mainSchema = isReview
+  const mainSchema = isSingleProductReview
     ? generateReviewSchema({ ...post, rating: post.rating })
     : generateArticleSchema(post)
 
@@ -129,9 +124,9 @@ export default async function PostPage({ params }: Props) {
                   {post.category}
                 </span>
                 <span className="text-gray-400 text-sm">{post.readTime}</span>
-                {post.rating != null && (
+                {isSingleProductReview && post.rating != null && (
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-amber-600">
-                    ★ {post.rating}/5
+                    ★ {post.rating}/5 editorial rating
                   </span>
                 )}
               </div>
@@ -184,20 +179,12 @@ export default async function PostPage({ params }: Props) {
               dangerouslySetInnerHTML={{ __html: post.contentHtml }}
             />
 
-            {/* Benchmark table for review/roundup posts */}
-            {BENCHMARK_MAP[post.slug] && (
-              <BenchmarkTable
-                hostSlug={BENCHMARK_MAP[post.slug] !== 'all' ? (BENCHMARK_MAP[post.slug] as string) : undefined}
-                showAll={BENCHMARK_MAP[post.slug] === 'all'}
-              />
-            )}
-
             {/* FAQ */}
             <FAQSection faqs={faqs} />
 
             {/* Author box — resolved from authors.ts by slug */}
             <AuthorBox
-              name={authorData?.name ?? 'Marcus Webb'}
+              name={authorData?.name ?? 'HostPro Reviews Editorial Team'}
               slug={authorSlug}
               bio={authorData?.bio}
               role={authorData?.role ?? (isReview ? 'Hosting Analyst' : 'Content Writer')}

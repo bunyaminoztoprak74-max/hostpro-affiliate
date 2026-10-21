@@ -8,7 +8,7 @@ category: "Comparison"
 readTime: "10 min read"
 categoryColor: "bg-indigo-100 text-indigo-700"
 rating: 4.0
-author: marcus
+author: hostpro-team
 faq:
   - question: "Which is better, GearUP Booster or ExitLag?"
     answer: "Neither wins on every connection. GearUP Booster is the stronger pick if you want one ecosystem that spans PC, mobile and a router-based option for consoles. ExitLag is the more straightforward pick for PC players who want to see and change the route in use. Both reduce ping only when your ISP's default route to the game server is inefficient, so use each free trial on your own game and server before paying."

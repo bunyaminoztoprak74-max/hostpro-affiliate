@@ -18,7 +18,7 @@ faq:
     answer: "Check what is included before paying. SiteLock is often bundled or upsold by hosting companies, and tiers differ in scanning and malware removal. If your host includes it, compare it with other options rather than assuming it covers cleanup."
   - question: "What is the best security option for WordPress?"
     answer: "WordPress sites have extra options, including plugin firewalls and vulnerability-mitigation tools. See our best WordPress security services guide for WordPress-specific recommendations."
-author: marcus
+author: hostpro-team
 ---
 
 > **Affiliate disclosure:** This page contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. [Read our full disclosure →](/disclosure)

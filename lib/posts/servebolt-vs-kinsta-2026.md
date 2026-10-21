@@ -8,7 +8,7 @@ category: "Comparison"
 readTime: "9 min read"
 categoryColor: "bg-blue-100 text-blue-700"
 rating: 4.5
-author: marcus
+author: hostpro-team
 faq:
   - question: "Is Servebolt faster than Kinsta?"
     answer: "We have not run our own head-to-head speed tests, so we do not claim one is faster. Servebolt has appeared in Review Signal's independent WordPress hosting benchmarks from 2020 to 2023 and earned Top Tier recognition in those editions, but Servebolt is not listed among the 2026 participants and Kinsta is not listed there either, so there is no current third-party head-to-head to quote. Servebolt's design focus is uncached, dynamic requests; Kinsta leans on Google Cloud infrastructure and caching. Test your own site on each free trial or money-back window before deciding."

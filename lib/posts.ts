@@ -131,7 +131,7 @@ export function getAllPosts(): PostMeta[] {
       const fullPath = path.join(postsDirectory, fileName)
       const fileContents = fs.readFileSync(fullPath, 'utf8')
       const { data } = matter(fileContents)
-      return { slug, author: 'marcus', ...data } as PostMeta
+      return { slug, ...data, author: 'hostpro-team' } as PostMeta
     })
     .filter((post) => !post.noindex && !redirectedPostSlugs.has(post.slug))
     .sort((a, b) => (a.date < b.date ? 1 : -1))
@@ -196,5 +196,5 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const processedContent = await remark().use(remarkGfm).use(remarkHtml).process(content)
   const contentHtml = addExternalLinkAttributes(addHeadingIds(processedContent.toString()))
 
-  return { slug, author: 'marcus', contentHtml, toc, ...data } as Post
+  return { slug, contentHtml, toc, ...data, author: 'hostpro-team' } as Post
 }

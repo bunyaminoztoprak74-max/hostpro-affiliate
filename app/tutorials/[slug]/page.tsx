@@ -101,7 +101,7 @@ export default async function TutorialPage({ params }: Props) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/tutorials/${slug}` },
   }
 
-  const authorData = getAuthorBySlug('marcus')
+  const authorData = getAuthorBySlug('hostpro-team')
 
   const schemas: object[] = [breadcrumbSchema, articleSchema, ...(howToSchema ? [howToSchema] : [])]
 
@@ -178,10 +178,10 @@ export default async function TutorialPage({ params }: Props) {
 
             {/* Author box */}
             <AuthorBox
-              name={authorData?.name ?? 'Marcus Webb'}
-              slug="marcus"
+              name={authorData?.name ?? 'HostPro Reviews Editorial Team'}
+              slug="hostpro-team"
               bio={authorData?.bio}
-              role={authorData?.role ?? 'Lead Reviewer & Founder'}
+              role={authorData?.role ?? 'Editorial Team'}
             />
 
             {/* Email capture */}

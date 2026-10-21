@@ -19,7 +19,7 @@ faq:
     answer: "SiteGround is known for live chat support aimed at a broad audience. Servebolt lists online chat on all plans and positions its team as engineers, with a customer base that skews towards developers and agencies. We have not measured response times, so ask a real technical question during each trial."
   - question: "Can I migrate from SiteGround to Servebolt later?"
     answer: "Yes, and it is a common path: start on a lower-cost host and move once checkout speed becomes a bottleneck. Servebolt's pricing page lists free, fully managed migrations. Ask what is included for your setup before you switch."
-author: marcus
+author: hostpro-team
 ---
 
 Servebolt and SiteGround both market themselves on speed, but they're built for different customers. Servebolt targets high-traffic WordPress and WooCommerce sites willing to pay a premium for dynamic-request performance. SiteGround targets a much broader range of sites — from small blogs to growing stores — with a more accessible price and a more complete dashboard.

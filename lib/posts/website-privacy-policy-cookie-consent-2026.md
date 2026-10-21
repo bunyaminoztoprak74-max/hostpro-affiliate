@@ -3,11 +3,11 @@ title: "Website Privacy Policy & Cookie Consent Guide 2026"
 excerpt: "A practical 2026 guide to privacy policies, cookie consent, analytics disclosures and compliance tools for websites and WordPress."
 tags: ["website privacy policy", "cookie consent", "GDPR website", "privacy compliance", "iubenda"]
 date: "2026-07-14"
-lastModified: "2026-07-14"
+lastModified: "2026-10-21"
 category: "Website Security"
 readTime: "9 min read"
 categoryColor: "bg-blue-100 text-blue-700"
-author: marcus
+author: hostpro-team
 faq:
   - question: "Does every website need a privacy policy?"
     answer: "A privacy notice is generally needed when a site collects or receives personal data, including through contact forms, analytics, advertising, accounts or payments. Exact obligations depend on the business, users and applicable laws."

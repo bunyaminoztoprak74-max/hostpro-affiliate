@@ -61,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   const authorRoutes: MetadataRoute.Sitemap = getAllAuthorSlugs()
-    .filter((slug) => posts.filter((post) => (post.author ?? 'marcus') === slug).length >= 2)
+    .filter((slug) => posts.filter((post) => (post.author ?? 'hostpro-team') === slug).length >= 2)
     .map((slug) => ({
       url: `${BASE_URL}/author/${slug}`,
       changeFrequency: 'weekly' as const,

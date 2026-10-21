@@ -20,7 +20,7 @@ faq:
     answer: "No tool makes a site 100% secure. Most compromises involve preventable issues such as outdated plugins, weak or reused passwords and missing two-factor authentication. Layering updates, a firewall, backups and monitoring lowers risk but does not remove it."
   - question: "How much does WordPress security cost?"
     answer: "From free (a free plugin plus a free CDN plan) to several hundred dollars per year or more for managed platforms. Prices and plans change, so check each vendor's pricing page. On its signup page in October 2026, Sucuri listed its Basic platform plan at $229 per year."
-author: marcus
+author: hostpro-team
 ---
 
 > **Affiliate disclosure:** This page contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. [Read our full disclosure →](/disclosure)

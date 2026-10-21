@@ -45,7 +45,6 @@ import Link from 'next/link'
 import ComparisonHero from '@/components/ComparisonHero'
 import PricingBlock from '@/components/PricingBlock'
 import HostingComparisonTable from '@/components/HostingComparisonTable'
-import SpeedScore from '@/components/SpeedScore'
 import ProsConsCard from '@/components/ProsConsCard'
 import AffiliateCTA from '@/components/AffiliateCTA'
 import FAQSection from '@/components/FAQSection'
@@ -104,20 +103,6 @@ export default async function ComparisonPage({ params }: Props) {
       item: {
         '@type': 'Product',
         name: `${host.name} Web Hosting`,
-        url: host.affiliateUrl,
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: host.rating,
-          bestRating: 5,
-          worstRating: 1,
-          reviewCount: 1,
-        },
-        offers: {
-          '@type': 'Offer',
-          price: host.introPrice.replace('$', ''),
-          priceCurrency: 'USD',
-          availability: 'https://schema.org/InStock',
-        },
       },
     })),
   }
@@ -167,8 +152,6 @@ export default async function ComparisonPage({ params }: Props) {
         host2Name={host2.name}
         winner={winner}
       />
-
-      <SpeedScore host1={host1} host2={host2} />
 
       {/* Pros & Cons */}
       <section className="py-16 bg-white">

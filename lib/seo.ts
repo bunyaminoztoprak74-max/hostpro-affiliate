@@ -2,13 +2,11 @@ export const SITE_URL = 'https://www.hostproreviews.com'
 export const SITE_NAME = 'HostPro Reviews'
 export const SITE_DESCRIPTION = 'Independent reviews and comparisons of web hosting, software and online performance tools.'
 
-// Lead author entity — used in Article and Review schema for E-E-A-T
+// Author entity — the editorial team (no individual personas are claimed)
 export const LEAD_AUTHOR = {
-  '@type': 'Person',
-  name: 'Marcus Webb',
-  url: `https://www.hostproreviews.com/author/marcus`,
-  jobTitle: 'Lead Reviewer & Founder',
-  worksFor: { '@type': 'Organization', name: 'HostPro Reviews', url: 'https://www.hostproreviews.com' },
+  '@type': 'Organization',
+  name: 'HostPro Reviews Editorial Team',
+  url: 'https://www.hostproreviews.com/author/hostpro-team',
 }
 
 export interface FAQItem {

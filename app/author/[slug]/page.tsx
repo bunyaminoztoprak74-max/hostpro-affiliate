@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const author = getAuthorBySlug(slug)
   if (!author) return { title: 'Author Not Found' }
-  const postCount = getAllPosts().filter((post) => (post.author ?? 'marcus') === slug).length
+  const postCount = getAllPosts().filter((post) => (post.author ?? 'hostpro-team') === slug).length
   return {
     title: `${author.name} — ${author.role} | ${SITE_NAME}`,
     description: author.bio,
@@ -41,13 +41,12 @@ export default async function AuthorPage({ params }: Props) {
   const author = getAuthorBySlug(slug)
   if (!author) notFound()
 
-  const posts = getAllPosts().filter((p) => (p.author ?? 'marcus') === slug)
+  const posts = getAllPosts().filter((p) => (p.author ?? 'hostpro-team') === slug)
 
   const personSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
+    '@type': 'Organization',
     name: author.name,
-    jobTitle: author.role,
     description: author.bio,
     url: `${SITE_URL}/author/${slug}`,
     worksFor: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },

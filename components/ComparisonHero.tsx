@@ -52,7 +52,7 @@ export default function ComparisonHero({ comparison }: Props) {
             </div>
             <div className="text-amber-400 text-sm font-semibold mb-4">
               {'★'.repeat(Math.round(host1.rating))}{' '}
-              <span className={winner === 1 ? 'text-gray-500' : 'text-white/50'}>{host1.rating}/5</span>
+              <span className={winner === 1 ? 'text-gray-500' : 'text-white/50'}>{host1.rating}/5 editorial rating</span>
             </div>
             <a
               href={host1.affiliateUrl}
@@ -105,7 +105,7 @@ export default function ComparisonHero({ comparison }: Props) {
             </div>
             <div className="text-amber-400 text-sm font-semibold mb-4">
               {'★'.repeat(Math.round(host2.rating))}{' '}
-              <span className={winner === 2 ? 'text-gray-500' : 'text-white/50'}>{host2.rating}/5</span>
+              <span className={winner === 2 ? 'text-gray-500' : 'text-white/50'}>{host2.rating}/5 editorial rating</span>
             </div>
             <a
               href={host2.affiliateUrl}

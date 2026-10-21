@@ -7,7 +7,7 @@ lastModified: "2026-07-12"
 category: "Roundup"
 readTime: "11 min read"
 categoryColor: "bg-purple-100 text-purple-700"
-author: marcus
+author: hostpro-team
 faq:
   - question: "What is the best WordPress security plugin?"
     answer: "Wordfence is the strongest free all-round plugin, while Sucuri is our paid choice for cloud firewall protection and included cleanup."

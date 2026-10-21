@@ -143,7 +143,7 @@ export default function QuickstartPage() {
           <div>
             <h4 className="font-semibold text-sm text-gray-900">Why Hostinger over other web hosts?</h4>
             <p className="text-xs text-gray-600 mt-1">
-              Hostinger uses native LiteSpeed Web Servers which are 5x faster than Apache. In our independent benchmarks, it consistently scored 98–100 PageSpeed scores at a fraction of the cost ($2.99/mo vs $14.99/mo elsewhere).
+              Hostinger lists LiteSpeed-based servers on its plans and advertises a low promotional starting price ($2.99/mo; renewal is higher). We have not run our own speed tests, so check independent benchmarks for performance.
             </p>
           </div>
           <div>

@@ -3,11 +3,11 @@ title: "How to Clean a Hacked WordPress Site in 2026"
 excerpt: "A safe incident-response checklist for hacked WordPress sites: containment, evidence, cleanup, credential rotation, restoration and hardening."
 tags: ["hacked wordpress fix", "wordpress malware removal", "clean hacked website"]
 date: "2026-07-12"
-lastModified: "2026-07-12"
+lastModified: "2026-10-21"
 category: "Tutorial"
 readTime: "12 min read"
 categoryColor: "bg-red-100 text-red-700"
-author: marcus
+author: hostpro-team
 faq:
   - question: "Can a hacked WordPress site be recovered?"
     answer: "Usually yes, using a verified clean backup or a careful file, database and account cleanup followed by closing the original entry point."
@@ -57,8 +57,4 @@ After cleanup, confirm that malicious URLs return appropriate status codes and u
 - Remove unused plugins, themes and accounts.
 - Add an edge firewall and login protection.
 - Maintain encrypted, off-site, versioned backups.
-- Restore a backup in a test environment every quarter.
 - Monitor file changes, uptime, DNS and administrator events.
-
-Compare protection layers in our [best WordPress security plugins](/blog/best-wordpress-security-solutions) and read the [full Sucuri review](/blog/sucuri-review-2026).
-

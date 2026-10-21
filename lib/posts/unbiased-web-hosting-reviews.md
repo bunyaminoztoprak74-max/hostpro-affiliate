@@ -19,7 +19,7 @@ faq:
     answer: "We record TTFB measurements monthly from the same test location using the same tools. Plotting these over 12 months reveals trends. Stable hosts maintain TTFB within ±20ms. Degrading hosts show a consistent upward trend in TTFB and increasing downtime incidents as more accounts are added to shared servers."
   - question: "Should I be concerned about a hosting company being acquired?"
     answer: "Yes. Acquisitions typically lead to infrastructure consolidation and cost-cutting. Bluehost, HostGator, Domain.com, and several others are all owned by Newfold Digital (formerly EIG). The acquisition history of a host is a strong signal about its long-term trajectory. Independent hosts like Kinsta, Cloudways, and SiteGround have maintained better quality than conglomerate-owned alternatives."
-author: marcus
+author: hostpro-team
 ---
 
 Finding an unbiased web hosting review is harder than it should be. The hosting affiliate industry is worth billions of dollars, and many review sites earn hundreds of dollars per referral. This financial incentive shapes what gets written.
@@ -237,7 +237,7 @@ This is the data most reviews don't show — performance measured monthly across
 
 ## Conclusion
 
-Read more on our testing process in [How to Test Web Hosting 2026](/blog/how-to-test-web-hosting-2026) and [Web Hosting Performance Test](/blog/web-hosting-performance-test).
+Read more on our testing process in [How to Test Web Hosting Yourself: DIY Testing Guide + Our 2026 Methodology](/blog/how-to-test-web-hosting-2026) and [Core Web Vitals and Hosting 2026: How Your Host Affects Your Score](/blog/web-hosting-performance-test).
 
 Our unbiased 12-month testing reaches clear conclusions: **Hostinger and SiteGround deliver the best value in shared hosting. WP Engine and Kinsta lead managed hosting.** The bottom performers — HostGator, GoDaddy — should be avoided for new projects.
 
