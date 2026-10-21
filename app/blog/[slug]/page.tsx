@@ -205,20 +205,16 @@ export default async function PostPage({ params }: Props) {
                 <div className="text-3xl mb-3">🏆</div>
                 <h3 className="font-bold text-lg mb-2">Our #1 Pick</h3>
                 <p className="text-indigo-200 text-sm mb-4">
-                  Hostinger offers the best price-to-performance ratio in 2026.
+                  Hostinger is our top editorial pick for budget-friendly hosting.
                 </p>
-                <div className="text-2xl font-extrabold mb-1">
-                  $2.99
-                  <span className="text-sm font-normal text-indigo-300">/mo</span>
-                </div>
-                <p className="text-xs text-indigo-300 mb-4">75% off — limited time</p>
+                <p className="text-xs text-indigo-300 mb-4">Promotional and renewal prices change — check the current offer.</p>
                 <a
                   href="https://www.dpbolvw.net/click-101761537-17226848"
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="block w-full text-center bg-white text-indigo-700 font-bold py-3 rounded-xl hover:bg-yellow-50 transition-colors"
                 >
-                  Get This Deal →
+                  Check Current Hostinger Pricing →
                 </a>
               </div>
 

@@ -2,10 +2,10 @@
 const SUBSCRIBE_URL = 'https://hostproreviews.beehiiv.com/subscribe'
 
 const CHEAT_SHEET_ITEMS = [
-  '11 hosts ranked by speed, uptime & price',
+  'Compare hosting features, pricing and use cases',
   'Renewal price traps to avoid',
   'Best host for WordPress, WooCommerce & agencies',
-  'Exclusive discount codes for 2026',
+  'Where to check current hosting offers',
 ]
 
 interface Props {
@@ -24,7 +24,7 @@ export default function EmailCapture({ variant = 'default' }: Props) {
           2026 Hosting Comparison Cheat Sheet
         </h3>
         <p className="text-xs text-gray-500 mb-3 leading-snug">
-          11 hosts ranked side-by-side. Renewal prices, discount codes, and our top picks — one page.
+          Compare hosting features, renewal pricing and use cases in one page.
         </p>
         <a
           href={SUBSCRIBE_URL}
@@ -34,7 +34,7 @@ export default function EmailCapture({ variant = 'default' }: Props) {
         >
           Get It Free →
         </a>
-        <p className="text-center text-xs text-gray-400 mt-2">Join 2,400+ readers · No spam</p>
+        <p className="text-center text-xs text-gray-400 mt-2">Get hosting and software insights · No spam</p>
       </div>
     )
   }
@@ -65,7 +65,7 @@ export default function EmailCapture({ variant = 'default' }: Props) {
             >
               Get the Free Cheat Sheet →
             </a>
-            <p className="text-xs text-gray-400 mt-2">Free · Join 2,400+ readers · Unsubscribe anytime</p>
+            <p className="text-xs text-gray-400 mt-2">Free · Unsubscribe anytime</p>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ export default function EmailCapture({ variant = 'default' }: Props) {
         <p className="text-indigo-300 text-xs font-bold uppercase tracking-widest mb-2">Free Download</p>
         <h3 className="text-2xl font-extrabold mb-2">2026 Hosting Comparison Cheat Sheet</h3>
         <p className="text-indigo-200 text-sm leading-relaxed mb-6">
-          Everything you need to pick the right host — on one page. Trusted by 2,400+ readers.
+          A practical checklist for choosing a host — features, renewal pricing and use cases on one page.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-7 text-left">
           {CHEAT_SHEET_ITEMS.map((item) => (
