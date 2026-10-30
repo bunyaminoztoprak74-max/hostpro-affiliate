@@ -114,6 +114,26 @@ const nextConfig = {
         destination: '/blog/best-wordpress-hosting-2026',
         permanent: true,
       },
+      {
+        source: '/vps',
+        destination: 'https://www.dpbolvw.net/click-101761537-17226848',
+        permanent: false,
+      },
+      {
+        source: '/hostinger',
+        destination: 'https://www.dpbolvw.net/click-101761537-17226848',
+        permanent: false,
+      },
+      {
+        source: '/vault',
+        destination: 'https://www.jdoqocy.com/click-101761537-15273272-1655403815000',
+        permanent: false,
+      },
+      {
+        source: '/proton',
+        destination: 'https://www.kqzyfj.com/click-101761537-15831601-1774304322000',
+        permanent: false,
+      },
     ]
   },
 };
