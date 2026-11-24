@@ -45,7 +45,7 @@ const RELATED_LINKS: Record<string, { href: string; label: string }[]> = {
     { href: '/blog/best-wordpress-hosting-2026', label: 'Best WordPress Hosting 2026: 7 hosts compared' },
   ],
 }
-import { generateFAQSchema, generateBreadcrumbSchema, SITE_URL, SITE_NAME } from '@/lib/seo'
+import { generateFAQSchema, generateBreadcrumbSchema, SITE_URL, SITE_NAME, LEAD_AUTHOR } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -104,14 +104,39 @@ export default async function ComparisonPage({ params }: Props) {
     '@type': 'ItemList',
     name: comparison.title,
     description: comparison.metaDescription,
-    itemListElement: [host1, host2].map((host, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      item: {
-        '@type': 'Product',
-        name: `${host.name} Web Hosting`,
-      },
-    })),
+    itemListElement: [host1, host2].map((host, i) => {
+      const numericPrice = host.introPrice.replace(/[^0-9.]/g, '')
+      return {
+        '@type': 'ListItem',
+        position: i + 1,
+        item: {
+          '@type': 'Product',
+          name: `${host.name} Web Hosting`,
+          description: host.tagline,
+          url: `${SITE_URL}/compare/${slug}`,
+          ...(numericPrice && {
+            offers: {
+              '@type': 'Offer',
+              price: numericPrice,
+              priceCurrency: 'USD',
+              availability: 'https://schema.org/OnlineOnly',
+              url: `${SITE_URL}/compare/${slug}`,
+            },
+          }),
+          review: {
+            '@type': 'Review',
+            author: LEAD_AUTHOR,
+            datePublished: comparison.lastUpdated,
+            reviewRating: {
+              '@type': 'Rating',
+              ratingValue: host.rating,
+              bestRating: 5,
+              worstRating: 1,
+            },
+          },
+        },
+      }
+    }),
   }
 
   const faqSchema = generateFAQSchema(faqs)
