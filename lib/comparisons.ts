@@ -140,7 +140,7 @@ const CLOUDWAYS: ComparisonHost = {
 const WPENGINE: ComparisonHost = {
   name: 'WP Engine',
   slug: 'wpengine',
-  affiliateUrl: 'https://wpengine.com',
+  affiliateUrl: 'https://wpengine.com?via=hostproreviews',
   tagline: 'Premium managed WordPress',
   badge: 'Premium WP',
   badgeColor: 'bg-purple-100 text-purple-700',
@@ -222,8 +222,8 @@ export const comparisons: Comparison[] = [
   {
     slug: 'hostinger-vs-bluehost',
     title: 'Hostinger vs Bluehost 2026',
-    metaTitle: 'Hostinger vs Bluehost 2026: Which Is Better for Your Site?',
-    metaDescription: 'Hostinger vs Bluehost: an editorial comparison of price, storage, support, and features before you buy.',
+    metaTitle: 'Hostinger vs Bluehost 2026: $2.99 vs $3.95 — Renewal & Value',
+    metaDescription: 'Hostinger ($2.99/mo, 100 GB NVMe, $8.99 renewal) vs Bluehost ($3.95/mo, 50 GB SSD, $13.99 renewal). Side-by-side features, support & honest verdict.',
     host1: HOSTINGER,
     host2: BLUEHOST,
     winner: 1,

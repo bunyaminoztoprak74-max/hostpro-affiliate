@@ -79,7 +79,7 @@ export const hosts: HostProvider[] = [
     gradient: 'bg-gradient-to-br from-pink-500 to-rose-500',
     emoji: '⚡',
     features: ['Managed WordPress', 'Daily backups', 'Global CDN', 'Staging environment', 'Expert support'],
-    affiliateUrl: 'https://wpengine.com',
+    affiliateUrl: 'https://wpengine.com?via=hostproreviews',
     pros: [
       'Excellent speed and performance',
       'Developer-friendly tools and staging',

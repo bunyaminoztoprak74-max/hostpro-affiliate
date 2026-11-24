@@ -37,6 +37,13 @@ const RELATED_LINKS: Record<string, { href: string; label: string }[]> = {
     { href: '/compare/servebolt-vs-wpengine', label: 'Servebolt vs WP Engine' },
     { href: '/blog/cloudways-review-2026', label: 'Cloudways review' },
   ],
+  'hostinger-vs-bluehost': [
+    { href: '/blog/hostinger-vs-bluehost', label: 'Hostinger vs Bluehost 2026: Full editorial breakdown' },
+    { href: '/blog/hostinger-review-2026', label: 'Hostinger review 2026: pricing, hPanel & renewals' },
+    { href: '/blog/bluehost-review-2026', label: 'Bluehost review 2026: pros, cons & alternatives' },
+    { href: '/blog/siteground-review-2026', label: 'SiteGround review 2026: staging, support & renewal price' },
+    { href: '/blog/best-wordpress-hosting-2026', label: 'Best WordPress Hosting 2026: 7 hosts compared' },
+  ],
 }
 import { generateFAQSchema, generateBreadcrumbSchema, SITE_URL, SITE_NAME } from '@/lib/seo'
 import { notFound } from 'next/navigation'
@@ -199,7 +206,7 @@ export default async function ComparisonPage({ params }: Props) {
       {RELATED_LINKS[slug] && (
         <section className="py-8 bg-white">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-xl font-bold text-gray-900 mb-3">Related Servebolt guides</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-3">Related hosting guides</h2>
             <ul className="space-y-2 text-sm">
               {RELATED_LINKS[slug].map((item) => (
                 <li key={item.href}>

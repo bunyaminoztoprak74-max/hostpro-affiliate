@@ -64,7 +64,7 @@ const hostingPlans = [
       'Staging environment',
       'Expert 24/7 support',
     ],
-    affiliateUrl: 'https://wpengine.com',
+    affiliateUrl: 'https://wpengine.com?via=hostproreviews',
   },
   {
     name: 'Cloudways',
