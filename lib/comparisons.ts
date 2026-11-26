@@ -48,7 +48,7 @@ export interface Comparison {
 const HOSTINGER: ComparisonHost = {
   name: 'Hostinger',
   slug: 'hostinger',
-  affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17226848',
+  affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17112430',
   tagline: 'Best value for money',
   badge: '#1 Budget Pick',
   badgeColor: 'bg-yellow-400 text-yellow-900',

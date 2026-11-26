@@ -27,7 +27,7 @@ export const hosts: HostProvider[] = [
     gradient: 'bg-gradient-to-br from-indigo-500 to-purple-600',
     emoji: '🚀',
     features: ['100 GB NVMe SSD', 'Free domain 1 year', 'Free SSL', '99.9% uptime guarantee (vendor claim)', '24/7 support'],
-    affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17226848',
+    affiliateUrl: 'https://www.dpbolvw.net/click-101761537-17112430',
     pros: [
       'Extremely affordable starting price',
       'Fast NVMe SSD storage',

@@ -20,6 +20,7 @@ const CJ_PARTNERS: Record<string, string> = {
   '12589508': 'Dynadot',
   '12644849': 'Paragon Backup & Recovery',
   '13756265': 'NordVPN',
+  '13795051': 'NordVPN',
   '13796481': 'Contabo',
   '13942202': 'Sucuri',
   '13288049': 'The SSL Store',
@@ -31,6 +32,8 @@ const CJ_PARTNERS: Record<string, string> = {
   '15178367': 'iubenda',
   '15734925': 'DirectDeals',
   '17175455': 'Drecov',
+  '17061251': 'Hostinger Free Trial',
+  '17112430': 'Hostinger',
   '17226848': 'Hostinger',
   '15748555': 'Hostinger WordPress',
   '15753162': 'Hostinger WooCommerce',
@@ -43,10 +46,10 @@ const CJ_PARTNERS: Record<string, string> = {
   '17254962': 'CorelDRAW',
 }
 
-const HOSTINGER_CJ_LINK_IDS = new Set(['17226848', '15748555', '15753162'])
+const HOSTINGER_CJ_LINK_IDS = new Set(['17226848', '17112430', '17061251', '15748555', '15753162'])
 
 const HOSTINGER_CJ_LINKS = {
-  general: 'https://www.dpbolvw.net/click-101761537-17226848-1767728255000',
+  general: 'https://www.dpbolvw.net/click-101761537-17112430',
   wordpress: 'https://www.anrdoezrs.net/click-101761537-15748555-1747102455000',
   ecommerce: 'https://www.kqzyfj.com/click-101761537-15753162-1747102516000',
 }
