@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Verified discounts on ultra-low-latency NVMe Cloud VPS hosting, encrypted password vaults, and Swiss privacy suites for AI agents and trading bots.',
   alternates: {
-    canonical: 'https://hostproreviews.com/deals',
+    canonical: 'https://www.hostproreviews.com/deals',
   },
 };
 
