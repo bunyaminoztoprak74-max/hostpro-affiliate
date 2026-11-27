@@ -116,17 +116,27 @@ const nextConfig = {
       },
       {
         source: '/vps',
-        destination: 'https://www.dpbolvw.net/click-101761537-17226848',
+        destination: 'https://www.dpbolvw.net/click-101761537-17112430',
         permanent: false,
       },
       {
         source: '/hostinger',
-        destination: 'https://www.dpbolvw.net/click-101761537-17226848',
+        destination: 'https://www.dpbolvw.net/click-101761537-17112430',
+        permanent: false,
+      },
+      {
+        source: '/trial',
+        destination: 'https://www.anrdoezrs.net/click-101761537-17061251',
         permanent: false,
       },
       {
         source: '/vault',
-        destination: 'https://www.jdoqocy.com/click-101761537-15273272-1655403815000',
+        destination: 'https://www.jdoqocy.com/click-101761537-17262576',
+        permanent: false,
+      },
+      {
+        source: '/vpn',
+        destination: 'https://www.jdoqocy.com/click-101761537-13795051',
         permanent: false,
       },
       {
